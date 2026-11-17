@@ -40,3 +40,6 @@ course_slides/
 !experiments/visual_report/.openai/
 experiments/visual_report/.openai/*
 !experiments/visual_report/.openai/hosting.json
+# Optional local model-download destination documented for research reproduction
+.model-cache/
+.venv-research/
