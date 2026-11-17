@@ -16,23 +16,28 @@ python3 tools/verify_repository.py
 
 Use Node.js 24 and Python 3. No GPU, external model endpoint, Codex installation or remote training controller is required. `npm ci` uses the committed lockfile; the source runtime is verified against its scoped integrity manifest before Vite builds the single HTML.
 
+Before rendering, `tools/prepare_report_data.py` reconstructs the numerical rows from the 126 curated runs in `data/study_manifest.json`. It checks 506 original files and 252 case rows, then emits per-run/grouped CSVs and a data receipt using only the Python standard library. Descriptor and diversity evidence is read with recorded hashes; drawings and conformers are separate precomputed assets.
+
 The builder excludes local conversation metadata from the published page. `docs/publication-manifest.json` binds the HTML SHA-256 to its evidence cutoff and run count. The repository check verifies result hashes and recomputes grouped means and sample standard deviations without altering original ledgers.
 
 ## Updating reviewed results
 
-1. Preserve the original ledgers and record their source identities.
-2. Rebuild the snapshot with `experiments/visualization_work/prepare_snapshot.py` in a compatible RDKit environment. This regenerates molecular assets; follow it with `build_conformers.py` and `redesign_evidence.py` if refreshing all current structure comparisons.
-3. Reconcile the authored narrative, counts and evidence cutoff with the same results; do not update numbers while retaining unsupported prose.
-4. Build, verify and review changed controls/exports at desktop and mobile widths.
-5. Commit source, data and `docs/` together. Static hosting must serve only the selected presentation artifact, not the research repository root.
+1. Preserve original result/config/search/evaluation files and their identities.
+2. Intentionally update `data/study_manifest.json` when changing the study population; scratch directories are not auto-selected.
+3. Run `python3 tools/prepare_report_data.py` to rebuild browser numerical rows, per-run CSV, grouped CSV and its receipt from those records.
+4. If molecular identities or selected cases change, regenerate chemistry-dependent assets with the scripts in `experiments/visualization_work/` in a compatible RDKit environment; keep provenance and explicit missing-conformer states.
+5. Reconcile the authored findings, counts, selection definitions and evidence cutoff with the same study.
+6. Build and verify, then commit the research inputs, data, source and offline artifact together.
 
-These are maintenance steps, not automatic permission to launch a new experiment or GPU job.
+These are maintenance steps, not permission to launch new training or GPU jobs.
 
-## Hosting
+## Hosting from the research repository
 
-The source repository is private. As of setup, its account's GitHub Pages settings require an upgrade or a public repository. Neither an account purchase nor changing project visibility is authorized by the current setup. The static artifact is ready for a separately approved host or a presentation-only public repository; the research source can remain private.
+The user has authorized making this main research repository public and using GitHub Pages. GitHub currently requests the account owner's email confirmation to finish the visibility change. Once public, choose **Settings → Pages → Source → GitHub Actions** and run **Research pipeline and Pages** once. Subsequent `main` pushes rebuild and deploy automatically.
 
-The Report build workflow builds and verifies on GitHub, then uploads the static presentation as an authenticated Actions artifact. It is a build artifact, not an already deployed online site.
+The workflow uses Node 24 and standard Python, installs the locked browser dependencies, reconstructs data from the source records, verifies the artifact and publishes **only `docs/`** to Pages. The project itself remains a normal code/data/analysis repository. The site URL is `https://zhichao-chang.github.io/chemgpt-rl-study/` after initial deployment succeeds.
+
+The `public` event builds/verifies without attempting deployment until Pages is configured; private pushes likewise only build. No personal token, paid upgrade, GPU server or author's running computer is required. The deployed manifest records the workflow commit and the source-manifest hash.
 
 ## Historical experimental reproducibility
 

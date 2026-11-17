@@ -12,9 +12,16 @@ def main():
   for k in ['terminalReward','auc','top10','meanActions','meanMW','meanTPSA']:
    assert abs(statistics.mean(r[k] for r in rs)-s[k])<1e-12,(s,k)
    assert abs(statistics.stdev(r[k] for r in rs)-s[k+'SD'])<1e-12,(s,k)
+ source_manifest=ROOT/'data/study_manifest.json';sm=json.loads(source_manifest.read_text());receipt=json.loads((ROOT/'data/report_data_receipt.json').read_text())
+ source_hash=hashlib.sha256(source_manifest.read_bytes()).hexdigest()
+ assert receipt['source_manifest_sha256']==source_hash==d['study']['sourceManifestSha256']
+ source_specs=[f for r in sm['runs'] for f in r['files'].values()]+sm['descriptor_evidence']
+ for spec in source_specs:assert hashlib.sha256((ROOT/spec['path']).read_bytes()).hexdigest()==spec['sha256'],spec['path']
+ assert receipt['case_records_checked']==len(d['queries']['cases']['rows'])==252
  mf=json.loads((ROOT/'docs/publication-manifest.json').read_text());html=(ROOT/'docs/index.html').read_bytes()
+ assert mf['source_manifest_sha256']==source_hash
  assert hashlib.sha256(html).hexdigest()==mf['sha256']
  assert not re.search(rb'<meta[^>]+data-app-local-thread[^>]*>',html)
  assert len(json.loads((APP/'src/content/assets/pair_comparisons.json').read_text()))==306
- print(json.dumps({'status':'PASS','source_results':126,'aggregated_groups':len(groups),'molecule_pairs':306,'website_sha256':mf['sha256']}))
+ print(json.dumps({'status':'PASS','source_results':126,'source_files':len(source_specs),'aggregated_groups':len(groups),'molecule_pairs':306,'website_sha256':mf['sha256']}))
 if __name__=='__main__':main()

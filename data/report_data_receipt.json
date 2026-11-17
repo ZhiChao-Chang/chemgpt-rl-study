@@ -1,0 +1,11 @@
+{
+  "schema": "chemgpt-data-build-v1",
+  "selected_runs": 126,
+  "source_files_checked": 506,
+  "seed_groups": 30,
+  "case_records_checked": 252,
+  "max_independent_auc_error": 1.2878587085651816e-14,
+  "source_manifest_sha256": "c8c35fabaada9e2efb6b4bdae5b9180f2fa72b6c35bfafb2a29331a74f96ab76",
+  "numerical_data_sha256": "26861c628e7397ed013fe904db08bb03795ab6f2c5e766bb24f7bf71c628cb59",
+  "operations": "read immutable records; recompute numerics; no training, model loading or cloud jobs"
+}

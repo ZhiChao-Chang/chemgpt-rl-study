@@ -4,8 +4,11 @@
   "evidence_cutoff": "2026-11-15",
   "runs": 126,
   "artifact_path": "index.html",
-  "bytes": 35312256,
-  "sha256": "7409ec2139d92143c129b58310bbafee18d56977c260af94c3cb9211d45633a9",
+  "bytes": 35312523,
+  "sha256": "4a0c7fb92d76069f8f81d754aac1c734c66934291730ac7b02f2187a16a4b1a4",
   "source": "experiments/visual_report",
-  "presentation": "read-only audience view; 3D illustrative conformers only"
+  "presentation": "read-only audience view; 3D illustrative conformers only",
+  "source_commit": null,
+  "source_manifest_sha256": "c8c35fabaada9e2efb6b4bdae5b9180f2fa72b6c35bfafb2a29331a74f96ab76",
+  "data_build_receipt": "data/report_data_receipt.json"
 }

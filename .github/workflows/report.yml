@@ -1,17 +1,16 @@
-name: Report build
+name: Research pipeline and Pages
 on:
   push:
     branches: [main]
-    paths:
-      - 'experiments/visual_report/**'
-      - 'tools/**'
-      - '.github/workflows/report.yml'
+  public:
   workflow_dispatch:
 permissions:
   contents: read
+  pages: write
+  id-token: write
 concurrency:
-  group: report-build
-  cancel-in-progress: true
+  group: research-pages
+  cancel-in-progress: false
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -27,9 +26,9 @@ jobs:
       - name: Install locked presentation dependencies
         run: npm ci
         working-directory: experiments/visual_report
-      - name: Build the standalone report
+      - name: Reconstruct research data and build the report
         run: python3 tools/build_site.py
-      - name: Verify research evidence and artifact
+      - name: Verify source identities, aggregates and website artifact
         run: python3 tools/verify_repository.py
       - name: Save portable static report
         uses: actions/upload-artifact@v7
@@ -38,3 +37,23 @@ jobs:
           path: docs/
           if-no-files-found: error
           retention-days: 7
+      - name: Configure Pages
+        if: github.event.repository.private == false && github.event_name != 'public'
+        uses: actions/configure-pages@v5
+      - name: Upload verified Pages artifact
+        if: github.event.repository.private == false && github.event_name != 'public'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/
+  deploy:
+    if: github.event.repository.private == false && github.event_name != 'public'
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy the verified research report
+        id: deployment
+        uses: actions/deploy-pages@v5

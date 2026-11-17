@@ -2,19 +2,22 @@
 
 <p align="center">
   <strong>Higher generation reward. Better molecular search?</strong><br>
-  A controlled study of policy learning, prior regularization,<br>
-  and molecular-property drift under a fixed evaluation budget.
+  Training code, experimental records and reproducible analyses.<br>
+  An interactive website built from the same research repository.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Access-Private_research-263D4A?style=flat-square" alt="Private research repository">
+  <img src="https://img.shields.io/badge/Project-Code_%C2%B7_Data_%C2%B7_Analysis-263D4A?style=flat-square" alt="Research project: code, data and analysis">
   <img src="https://img.shields.io/badge/Experiments-126_completed-176BB0?style=flat-square" alt="126 completed study runs">
   <img src="https://img.shields.io/badge/Tasks-2_MPO_targets-168266?style=flat-square" alt="Two molecular optimization tasks">
   <img src="https://img.shields.io/badge/Viewer-Interactive_%C2%B7_2D_%2B_3D-6B558A?style=flat-square" alt="Interactive molecular viewer">
 </p>
 
 <p align="center">
-  <a href="https://github.com/ZhiChao-Chang/chemgpt-rl-study/raw/refs/heads/main/docs/index.html"><strong>Download the offline report ↗</strong></a> &nbsp;·&nbsp;
+  <a href="PROJECT.md"><strong>Research project</strong></a> &nbsp;·&nbsp;
+  <a href="experiments/src/study.py">Training code</a> &nbsp;·&nbsp;
+  <a href="data/README.md">Experiment data</a> &nbsp;·&nbsp;
+  <a href="https://zhichao-chang.github.io/chemgpt-rl-study/">Interactive report ↗</a> &nbsp;·&nbsp;
   <a href="#main-findings">Main findings</a> &nbsp;·&nbsp;
   <a href="#study-workflow">Study workflow</a> &nbsp;·&nbsp;
   <a href="#reproduce-the-presentation">Reproduce the presentation</a>
@@ -25,6 +28,20 @@
 **强化学习提高了分子生成奖励，但搜索效率的收益小得多。** 本项目比较同一 ChemGPT 起点下的冻结采样、REINFORCE 和带固定先验 KL 成本的训练，并用长度成本、TPSA 干预和长预算实验检验性质漂移的解释。交互报告使用中文，连接研究问题、方法、总体分布、逐种子结果与具体分子。
 
 This **ME2502 reinforcement-learning final project** separates two questions that are often conflated: what a trained policy usually generates, and what its search history discovers within a fixed number of unique molecular evaluations. All numerical comparisons come from completed experimental ledgers. Molecular scores and illustrative conformers are computational proxies, **not evidence of biological activity, synthesizability or clinical efficacy**.
+
+## Start with the project
+
+This repository contains the **research implementation and evidence**, with a website generated from them. The browser presentation is one output, alongside the original experiment records and analysis programs.
+
+| What you want to inspect | Entry point |
+| :--- | :--- |
+| **Training and scoring implementation** | [REINFORCE / KL / MPO scorer](experiments/src/study.py), [model runtime](experiments/src/model_runtime.py) |
+| **Research design and fixed protocols** | [Project map](PROJECT.md), [core protocol](experiments/contract.json), [extension protocol](experiments/exploration_11h_20261114/contract.json) |
+| **Original experimental records** | [Core runs](experiments/collected_remote/results/main/), [extension runs](experiments/exploration_11h_20261114/collected/results/) |
+| **Reusable numeric data** | [Curated population and data definitions](data/README.md), [per-run CSV](data/run_metrics.csv), [grouped CSV](data/summary_metrics.csv) |
+| **Analysis and checks** | [Core analyses](experiments/evidence/), [extension analyses](experiments/exploration_11h_20261114/evidence/), [repository verifier](tools/verify_repository.py) |
+| **Website source and data reconstruction** | [Report components](experiments/visual_report/src/content/report/), [data pipeline](tools/prepare_report_data.py), [build/deploy workflow](.github/workflows/report.yml) |
+| **Read and reproduce** | [Interactive report](https://zhichao-chang.github.io/chemgpt-rl-study/), [reproduction guide](REPRODUCING.md) |
 
 <table align="center">
   <thead><tr><th>Core comparisons</th><th>Extension runs</th><th>Selected case roles</th><th>Shared-subgraph comparisons</th></tr></thead>
@@ -108,17 +125,17 @@ The six technical development runs are preserved separately and are **not** coun
 
 The report is a self-contained static HTML file with its reviewed data, molecular drawings and viewer dependencies. No model weights, GPU, Python packages or author's running computer are needed by a deployed viewer. WebGL is needed only for the optional 3D window.
 
-With access to this private repository:
+For a local copy of the complete research project:
 
 ```bash
-git clone git@github.com:ZhiChao-Chang/chemgpt-rl-study.git
+git clone https://github.com/ZhiChao-Chang/chemgpt-rl-study.git
 cd chemgpt-rl-study
 python3 -m http.server 8000 --bind 127.0.0.1 --directory docs
 ```
 
 Open **http://127.0.0.1:8000/**, or download `docs/index.html` and open it directly. The HTML is approximately **35 MB** because all reviewed data and molecular comparisons are embedded.
 
-**Online deployment status:** the repository is private. The current GitHub account does not support GitHub Pages on private repositories. No repository has been made public to work around that restriction; the static website is prepared in `docs/` pending an authorized hosting destination.
+The planned Pages address is **https://zhichao-chang.github.io/chemgpt-rl-study/**. GitHub identity confirmation and the initial Pages configuration must complete before this address becomes live. Subsequent `main` pushes rebuild the numeric data from the research records, verify it, and deploy the static report automatically.
 
 ## Reproduce the presentation
 
@@ -134,9 +151,9 @@ python3 tools/build_site.py
 python3 tools/verify_repository.py
 ```
 
-The builder verifies the included browser runtime, produces `docs/index.html`, and writes `docs/publication-manifest.json` with its SHA-256 and evidence cutoff. It does not require Codex, a locally installed plugin or an absolute path on the author's machine.
+The builder first verifies 506 source files and reconstructs the numerical data, then verifies the included browser runtime, produces `docs/index.html`, and writes `docs/publication-manifest.json` with its SHA-256 and evidence cutoff. It does not require Codex, a locally installed plugin or an absolute path on the author's machine.
 
-The **Report build** workflow runs the same build and evidence checks on GitHub and produces a downloadable static-site artifact. It neither retrains the model nor changes the recorded research results.
+The **Research pipeline and Pages** workflow performs `raw records → numerical data → report build → independent checks → Pages deployment` on GitHub. Its artifact includes the originating commit and source-manifest identity. It neither retrains the model nor changes the recorded research results.
 
 ### Research reproducibility
 
@@ -147,7 +164,9 @@ The pretrained model is **`ncfrey/ChemGPT-4.7M`**, revision **`7438a282460b3038e
 ## Repository layout
 
 ```text
-README.md                             Current study entry point
+README.md                             Research project entry point
+PROJECT.md                            Code / protocol / data map
+data/                                 Curated source manifest and derived numeric CSVs
 REPRODUCING.md                        Build, verification and deployment notes
 docs/                                 Portable static report and publication manifest
 tools/                                Repository-local build and evidence checks
@@ -170,4 +189,4 @@ All 108 extension runs passed ledger checks and exact-token replay. The reposito
 
 The study does **not** establish universal KL superiority, clinical usefulness, synthesis feasibility, a new state of the art, or prospective out-of-task generalization. Final course writing, contribution confirmation and presentation rehearsal are separate deliverables from completed experiments.
 
-Course slide downloads, environment caches, credentials, pretrained weights and checkpoints remain local. Third-party code and software retain their applicable rights; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). This is a private research repository, not a blanket open-source license grant.
+Course slide downloads, environment caches, credentials, pretrained weights and checkpoints remain local. Third-party code and software retain their applicable rights; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Public visibility does not relicense third-party assets or grant a blanket license over all repository content.
