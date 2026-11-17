@@ -36,3 +36,7 @@ experiments/visualization_work/before_redesign/
 course_slides/
 # Local session/transcript metadata
 *.session.json
+# Official template runtime binding: {"d1":"DB","r2":null}; no credentials
+!experiments/visual_report/.openai/
+experiments/visual_report/.openai/*
+!experiments/visual_report/.openai/hosting.json
