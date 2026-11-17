@@ -1,0 +1,586 @@
+{
+  "status": "PASS",
+  "checked_runs": 24,
+  "edge_runs": 2,
+  "edge_identities": 2,
+  "max_terminal_mean_absolute_change": 1.8198875636099215e-13,
+  "boundary": "Exact token replay validates recorded protocol. Canonical reread is a counterfactual representation-sensitivity check, not a replacement of original rewards. No samples excluded.",
+  "runs": [
+    {
+      "run": "development/perindopril__frozen__s11",
+      "exact_token_replay": "PASS",
+      "stats": {
+        "search": {
+          "attempts": 513,
+          "original_mean": 0.15091522285772507,
+          "canonical_reread_mean": 0.15091522285772507,
+          "mean_absolute_reward_change": 0.0,
+          "max_absolute_reward_change": 0.0,
+          "original_unique_top10": 0.40242309136187276,
+          "reread_unique_top10": 0.40242309136187276
+        },
+        "evaluation": {
+          "attempts": 128,
+          "original_mean": 0.1391162115330536,
+          "canonical_reread_mean": 0.1391162115330536,
+          "mean_absolute_reward_change": 0.0,
+          "max_absolute_reward_change": 0.0,
+          "original_unique_top10": 0.3570814252638078,
+          "reread_unique_top10": 0.3570814252638078
+        }
+      }
+    },
+    {
+      "run": "development/perindopril__frozen__s17",
+      "exact_token_replay": "PASS",
+      "stats": {
+        "search": {
+          "attempts": 512,
+          "original_mean": 0.14866541108844175,
+          "canonical_reread_mean": 0.14866541108844175,
+          "mean_absolute_reward_change": 0.0,
+          "max_absolute_reward_change": 0.0,
+          "original_unique_top10": 0.4105730824865825,
+          "reread_unique_top10": 0.4105730824865825
+        },
+        "evaluation": {
+          "attempts": 128,
+          "original_mean": 0.13822068598557966,
+          "canonical_reread_mean": 0.13822068598557966,
+          "mean_absolute_reward_change": 0.0,
+          "max_absolute_reward_change": 0.0,
+          "original_unique_top10": 0.35657003529006903,
+          "reread_unique_top10": 0.35657003529006903
+        }
+      }
+    },
+    {
+      "run": "development/perindopril__reinforce__s11",
+      "exact_token_replay": "PASS",
+      "stats": {
+        "search": {
+          "attempts": 513,
+          "original_mean": 0.1413355762946017,
+          "canonical_reread_mean": 0.1413355762946017,
+          "mean_absolute_reward_change": 0.0,
+          "max_absolute_reward_change": 0.0,
+          "original_unique_top10": 0.40791351402465503,
+          "reread_unique_top10": 0.40791351402465503
+        },
+        "evaluation": {
+          "attempts": 128,
+          "original_mean": 0.13546563727362188,
+          "canonical_reread_mean": 0.13546563727362188,
+          "mean_absolute_reward_change": 0.0,
+          "max_absolute_reward_change": 0.0,
+          "original_unique_top10": 0.3446373343218191,
+          "reread_unique_top10": 0.3446373343218191
+        }
+      }
+    },
+    {
+      "run": "development/perindopril__reinforce__s17",
+      "exact_token_replay": "PASS",
+      "stats": {
+        "search": {
+          "attempts": 514,
+          "original_mean": 0.14159504842027645,
+          "canonical_reread_mean": 0.14159504842027645,
+          "mean_absolute_reward_change": 0.0,
+          "max_absolute_reward_change": 0.0,
+          "original_unique_top10": 0.3959691586309227,
+          "reread_unique_top10": 0.3959691586309227
+        },
+        "evaluation": {
+          "attempts": 128,
+          "original_mean": 0.15435425492434732,
+          "canonical_reread_mean": 0.15435425492434732,
+          "mean_absolute_reward_change": 0.0,
+          "max_absolute_reward_change": 0.0,
+          "original_unique_top10": 0.35857811672992457,
+          "reread_unique_top10": 0.35857811672992457
+        }
+      }
+    },
+    {
+      "run": "development/perindopril__reinforce_kl__s11",
+      "exact_token_replay": "PASS",
+      "stats": {
+        "search": {
+          "attempts": 513,
+          "original_mean": 0.14478327659145676,
+          "canonical_reread_mean": 0.14478327659145676,
+          "mean_absolute_reward_change": 0.0,
+          "max_absolute_reward_change": 0.0,
+          "original_unique_top10": 0.4026403828307427,
+          "reread_unique_top10": 0.4026403828307427
+        },
+        "evaluation": {
+          "attempts": 128,
+          "original_mean": 0.1519064952446823,
+          "canonical_reread_mean": 0.1519064952446823,
+          "mean_absolute_reward_change": 0.0,
+          "max_absolute_reward_change": 0.0,
+          "original_unique_top10": 0.37992324291074425,
+          "reread_unique_top10": 0.37992324291074425
+        }
+      }
+    },
+    {
+      "run": "development/perindopril__reinforce_kl__s17",
+      "exact_token_replay": "PASS",
+      "stats": {
+        "search": {
+          "attempts": 512,
+          "original_mean": 0.15388019023228275,
+          "canonical_reread_mean": 0.15388019023228275,
+          "mean_absolute_reward_change": 0.0,
+          "max_absolute_reward_change": 0.0,
+          "original_unique_top10": 0.413278959931256,
+          "reread_unique_top10": 0.413278959931256
+        },
+        "evaluation": {
+          "attempts": 128,
+          "original_mean": 0.1629933871963563,
+          "canonical_reread_mean": 0.1629933871963563,
+          "mean_absolute_reward_change": 0.0,
+          "max_absolute_reward_change": 0.0,
+          "original_unique_top10": 0.37104500490568215,
+          "reread_unique_top10": 0.37104500490568215
+        }
+      }
+    },
+    {
+      "run": "main/fexofenadine__frozen__s2026",
+      "exact_token_replay": "PASS",
+      "stats": {
+        "search": {
+          "attempts": 3005,
+          "original_mean": 0.2236035212222861,
+          "canonical_reread_mean": 0.2236035212222861,
+          "mean_absolute_reward_change": 4.954831730029241e-18,
+          "max_absolute_reward_change": 4.996003610813204e-16,
+          "original_unique_top10": 0.6955263453447202,
+          "reread_unique_top10": 0.6955263453447202
+        },
+        "evaluation": {
+          "attempts": 1024,
+          "original_mean": 0.22877165914772352,
+          "canonical_reread_mean": 0.22877165914772352,
+          "mean_absolute_reward_change": 5.836793404318092e-18,
+          "max_absolute_reward_change": 3.3306690738754696e-16,
+          "original_unique_top10": 0.6737149383043644,
+          "reread_unique_top10": 0.6737149383043644
+        }
+      }
+    },
+    {
+      "run": "main/fexofenadine__frozen__s2027",
+      "exact_token_replay": "PASS",
+      "stats": {
+        "search": {
+          "attempts": 3005,
+          "original_mean": 0.2341671831719331,
+          "canonical_reread_mean": 0.2341671831719331,
+          "mean_absolute_reward_change": 3.5423636812866685e-18,
+          "max_absolute_reward_change": 4.440892098500626e-16,
+          "original_unique_top10": 0.6959687377973873,
+          "reread_unique_top10": 0.6959687377973873
+        },
+        "evaluation": {
+          "attempts": 1024,
+          "original_mean": 0.23040616861217592,
+          "canonical_reread_mean": 0.23040616861217592,
+          "mean_absolute_reward_change": 5.369073949524119e-18,
+          "max_absolute_reward_change": 5.551115123125783e-16,
+          "original_unique_top10": 0.6692140405156952,
+          "reread_unique_top10": 0.6692140405156952
+        }
+      }
+    },
+    {
+      "run": "main/fexofenadine__frozen__s2028",
+      "exact_token_replay": "PASS",
+      "stats": {
+        "search": {
+          "attempts": 3001,
+          "original_mean": 0.23377943663594206,
+          "canonical_reread_mean": 0.23377943663594206,
+          "mean_absolute_reward_change": 4.855205937374601e-18,
+          "max_absolute_reward_change": 4.718447854656915e-16,
+          "original_unique_top10": 0.6907211658589463,
+          "reread_unique_top10": 0.6907211658589463
+        },
+        "evaluation": {
+          "attempts": 1024,
+          "original_mean": 0.2329644970469503,
+          "canonical_reread_mean": 0.23296449704713224,
+          "mean_absolute_reward_change": 1.8198875636099215e-13,
+          "max_absolute_reward_change": 1.8635086190926625e-10,
+          "original_unique_top10": 0.6731444874549526,
+          "reread_unique_top10": 0.6731444874549526
+        }
+      }
+    },
+    {
+      "run": "main/fexofenadine__reinforce__s2026",
+      "exact_token_replay": "PASS",
+      "stats": {
+        "search": {
+          "attempts": 3014,
+          "original_mean": 0.4490466350263317,
+          "canonical_reread_mean": 0.4490466350263317,
+          "mean_absolute_reward_change": 8.313037827462694e-18,
+          "max_absolute_reward_change": 7.771561172376096e-16,
+          "original_unique_top10": 0.7052653997399625,
+          "reread_unique_top10": 0.7052653997399625
+        },
+        "evaluation": {
+          "attempts": 1024,
+          "original_mean": 0.5609897859152754,
+          "canonical_reread_mean": 0.5609897859152754,
+          "mean_absolute_reward_change": 4.924649569876786e-18,
+          "max_absolute_reward_change": 6.106226635438361e-16,
+          "original_unique_top10": 0.7002480579043466,
+          "reread_unique_top10": 0.7002480579043466
+        }
+      }
+    },
+    {
+      "run": "main/fexofenadine__reinforce__s2027",
+      "exact_token_replay": "PASS",
+      "stats": {
+        "search": {
+          "attempts": 3008,
+          "original_mean": 0.42348670306864916,
+          "canonical_reread_mean": 0.42348670306864916,
+          "mean_absolute_reward_change": 1.0010418715535809e-17,
+          "max_absolute_reward_change": 1.7763568394002505e-15,
+          "original_unique_top10": 0.7108668202734594,
+          "reread_unique_top10": 0.7108668202734594
+        },
+        "evaluation": {
+          "attempts": 1024,
+          "original_mean": 0.5422416078191779,
+          "canonical_reread_mean": 0.5422416078191779,
+          "mean_absolute_reward_change": 7.619927418653775e-18,
+          "max_absolute_reward_change": 4.996003610813204e-16,
+          "original_unique_top10": 0.6917887546406681,
+          "reread_unique_top10": 0.6917887546406681
+        }
+      }
+    },
+    {
+      "run": "main/fexofenadine__reinforce__s2028",
+      "exact_token_replay": "PASS",
+      "stats": {
+        "search": {
+          "attempts": 3018,
+          "original_mean": 0.44548170478406923,
+          "canonical_reread_mean": 0.44548170478406934,
+          "mean_absolute_reward_change": 5.331284274005907e-17,
+          "max_absolute_reward_change": 1.3405102457162657e-13,
+          "original_unique_top10": 0.7014110543963761,
+          "reread_unique_top10": 0.7014110543963761
+        },
+        "evaluation": {
+          "attempts": 1024,
+          "original_mean": 0.551215534408633,
+          "canonical_reread_mean": 0.551215534408633,
+          "mean_absolute_reward_change": 7.193850821030773e-18,
+          "max_absolute_reward_change": 8.326672684688674e-16,
+          "original_unique_top10": 0.6953765720762541,
+          "reread_unique_top10": 0.6953765720762541
+        }
+      }
+    },
+    {
+      "run": "main/fexofenadine__reinforce_kl__s2026",
+      "exact_token_replay": "PASS",
+      "stats": {
+        "search": {
+          "attempts": 3005,
+          "original_mean": 0.4153096502908026,
+          "canonical_reread_mean": 0.4153096502908026,
+          "mean_absolute_reward_change": 5.1773983548807225e-18,
+          "max_absolute_reward_change": 6.106226635438361e-16,
+          "original_unique_top10": 0.7048149322332422,
+          "reread_unique_top10": 0.7048149322332422
+        },
+        "evaluation": {
+          "attempts": 1024,
+          "original_mean": 0.5114189276762677,
+          "canonical_reread_mean": 0.5114189276762677,
+          "mean_absolute_reward_change": 4.543537894813469e-18,
+          "max_absolute_reward_change": 3.3306690738754696e-16,
+          "original_unique_top10": 0.6931200075768668,
+          "reread_unique_top10": 0.6931200075768668
+        }
+      }
+    },
+    {
+      "run": "main/fexofenadine__reinforce_kl__s2027",
+      "exact_token_replay": "PASS",
+      "stats": {
+        "search": {
+          "attempts": 3007,
+          "original_mean": 0.4161539923644614,
+          "canonical_reread_mean": 0.4161539923644614,
+          "mean_absolute_reward_change": 5.602703594963623e-18,
+          "max_absolute_reward_change": 7.771561172376096e-16,
+          "original_unique_top10": 0.7251803689842287,
+          "reread_unique_top10": 0.7251803689842287
+        },
+        "evaluation": {
+          "attempts": 1024,
+          "original_mean": 0.5066554090556356,
+          "canonical_reread_mean": 0.5066554090556356,
+          "mean_absolute_reward_change": 5.345804720736085e-18,
+          "max_absolute_reward_change": 5.551115123125783e-16,
+          "original_unique_top10": 0.7043263233808418,
+          "reread_unique_top10": 0.7043263233808418
+        }
+      }
+    },
+    {
+      "run": "main/fexofenadine__reinforce_kl__s2028",
+      "exact_token_replay": "PASS",
+      "stats": {
+        "search": {
+          "attempts": 3007,
+          "original_mean": 0.42267865996724857,
+          "canonical_reread_mean": 0.42267865996724857,
+          "mean_absolute_reward_change": 5.945905308124776e-18,
+          "max_absolute_reward_change": 1.2212453270876722e-15,
+          "original_unique_top10": 0.7156349452517812,
+          "reread_unique_top10": 0.7156349452517812
+        },
+        "evaluation": {
+          "attempts": 1024,
+          "original_mean": 0.512873168551459,
+          "canonical_reread_mean": 0.512873168551459,
+          "mean_absolute_reward_change": 5.39861807511934e-18,
+          "max_absolute_reward_change": 3.885780586188048e-16,
+          "original_unique_top10": 0.7009694410662706,
+          "reread_unique_top10": 0.7009694410662706
+        }
+      }
+    },
+    {
+      "run": "main/osimertinib__frozen__s2026",
+      "exact_token_replay": "PASS",
+      "stats": {
+        "search": {
+          "attempts": 3005,
+          "original_mean": 0.1772032879014873,
+          "canonical_reread_mean": 0.17720328790148726,
+          "mean_absolute_reward_change": 6.82470113306056e-18,
+          "max_absolute_reward_change": 6.661338147750939e-16,
+          "original_unique_top10": 0.7674212342975825,
+          "reread_unique_top10": 0.7674212342975825
+        },
+        "evaluation": {
+          "attempts": 1024,
+          "original_mean": 0.17928103668410927,
+          "canonical_reread_mean": 0.17928103668410925,
+          "mean_absolute_reward_change": 7.411647332531097e-18,
+          "max_absolute_reward_change": 3.885780586188048e-16,
+          "original_unique_top10": 0.7549309250212336,
+          "reread_unique_top10": 0.7549309250212336
+        }
+      }
+    },
+    {
+      "run": "main/osimertinib__frozen__s2027",
+      "exact_token_replay": "PASS",
+      "stats": {
+        "search": {
+          "attempts": 3005,
+          "original_mean": 0.18917024577944982,
+          "canonical_reread_mean": 0.18917024577944982,
+          "mean_absolute_reward_change": 5.7665111352223665e-18,
+          "max_absolute_reward_change": 5.551115123125783e-16,
+          "original_unique_top10": 0.7832896218176741,
+          "reread_unique_top10": 0.7832896218176741
+        },
+        "evaluation": {
+          "attempts": 1024,
+          "original_mean": 0.18240693791364088,
+          "canonical_reread_mean": 0.18240693791364088,
+          "mean_absolute_reward_change": 7.832520218505311e-18,
+          "max_absolute_reward_change": 3.885780586188048e-16,
+          "original_unique_top10": 0.7497043947511199,
+          "reread_unique_top10": 0.7497043947511199
+        }
+      }
+    },
+    {
+      "run": "main/osimertinib__frozen__s2028",
+      "exact_token_replay": "PASS",
+      "stats": {
+        "search": {
+          "attempts": 3001,
+          "original_mean": 0.18706398674110344,
+          "canonical_reread_mean": 0.18706398674110344,
+          "mean_absolute_reward_change": 7.099936085560631e-18,
+          "max_absolute_reward_change": 8.881784197001252e-16,
+          "original_unique_top10": 0.7763622795401576,
+          "reread_unique_top10": 0.7763622795401576
+        },
+        "evaluation": {
+          "attempts": 1024,
+          "original_mean": 0.18873072099536825,
+          "canonical_reread_mean": 0.18873072099537141,
+          "mean_absolute_reward_change": 3.2126832596095775e-15,
+          "max_absolute_reward_change": 3.2808062215131896e-12,
+          "original_unique_top10": 0.7636928052048425,
+          "reread_unique_top10": 0.7636928052048425
+        }
+      }
+    },
+    {
+      "run": "main/osimertinib__reinforce__s2026",
+      "exact_token_replay": "PASS",
+      "stats": {
+        "search": {
+          "attempts": 3007,
+          "original_mean": 0.4501044188148781,
+          "canonical_reread_mean": 0.4501044188148781,
+          "mean_absolute_reward_change": 8.819747059596185e-18,
+          "max_absolute_reward_change": 7.771561172376096e-16,
+          "original_unique_top10": 0.7946125490642705,
+          "reread_unique_top10": 0.7946125490642705
+        },
+        "evaluation": {
+          "attempts": 1024,
+          "original_mean": 0.6225804199825379,
+          "canonical_reread_mean": 0.6225804199825379,
+          "mean_absolute_reward_change": 5.126250841408539e-18,
+          "max_absolute_reward_change": 5.551115123125783e-16,
+          "original_unique_top10": 0.7864959934211324,
+          "reread_unique_top10": 0.7864959934211324
+        }
+      }
+    },
+    {
+      "run": "main/osimertinib__reinforce__s2027",
+      "exact_token_replay": "PASS",
+      "stats": {
+        "search": {
+          "attempts": 3008,
+          "original_mean": 0.45680845774013284,
+          "canonical_reread_mean": 0.45680845775037476,
+          "mean_absolute_reward_change": 1.024196049812648e-11,
+          "max_absolute_reward_change": 3.08077783982914e-08,
+          "original_unique_top10": 0.7886861461632939,
+          "reread_unique_top10": 0.7886861461632939
+        },
+        "evaluation": {
+          "attempts": 1024,
+          "original_mean": 0.6063432119053843,
+          "canonical_reread_mean": 0.6063432119053843,
+          "mean_absolute_reward_change": 9.432850688584967e-18,
+          "max_absolute_reward_change": 9.992007221626409e-16,
+          "original_unique_top10": 0.7833558822449824,
+          "reread_unique_top10": 0.7833558822449824
+        }
+      }
+    },
+    {
+      "run": "main/osimertinib__reinforce__s2028",
+      "exact_token_replay": "PASS",
+      "stats": {
+        "search": {
+          "attempts": 3011,
+          "original_mean": 0.42755994913713846,
+          "canonical_reread_mean": 0.4275599491371386,
+          "mean_absolute_reward_change": 1.9855989569761334e-17,
+          "max_absolute_reward_change": 1.4155343563970746e-15,
+          "original_unique_top10": 0.7754647792925595,
+          "reread_unique_top10": 0.7754647792925595
+        },
+        "evaluation": {
+          "attempts": 1024,
+          "original_mean": 0.5905460649239771,
+          "canonical_reread_mean": 0.5905460649239771,
+          "mean_absolute_reward_change": 1.2222687186638356e-17,
+          "max_absolute_reward_change": 7.771561172376096e-16,
+          "original_unique_top10": 0.7732796397794037,
+          "reread_unique_top10": 0.7732796397794037
+        }
+      }
+    },
+    {
+      "run": "main/osimertinib__reinforce_kl__s2026",
+      "exact_token_replay": "PASS",
+      "stats": {
+        "search": {
+          "attempts": 3007,
+          "original_mean": 0.42614029647069845,
+          "canonical_reread_mean": 0.42614029647069845,
+          "mean_absolute_reward_change": 9.475456072855922e-18,
+          "max_absolute_reward_change": 6.661338147750939e-16,
+          "original_unique_top10": 0.7909663230892565,
+          "reread_unique_top10": 0.7909663230892565
+        },
+        "evaluation": {
+          "attempts": 1024,
+          "original_mean": 0.5952908729608661,
+          "canonical_reread_mean": 0.5952908729608661,
+          "mean_absolute_reward_change": 6.413733476609562e-18,
+          "max_absolute_reward_change": 3.3306690738754696e-16,
+          "original_unique_top10": 0.7917993650478521,
+          "reread_unique_top10": 0.7917993650478521
+        }
+      }
+    },
+    {
+      "run": "main/osimertinib__reinforce_kl__s2027",
+      "exact_token_replay": "PASS",
+      "stats": {
+        "search": {
+          "attempts": 3004,
+          "original_mean": 0.44383515469388385,
+          "canonical_reread_mean": 0.44383515469388385,
+          "mean_absolute_reward_change": 9.557135627008621e-18,
+          "max_absolute_reward_change": 8.881784197001252e-16,
+          "original_unique_top10": 0.8072140848391086,
+          "reread_unique_top10": 0.8072140848391086
+        },
+        "evaluation": {
+          "attempts": 1024,
+          "original_mean": 0.5929042322424154,
+          "canonical_reread_mean": 0.5929042322424154,
+          "mean_absolute_reward_change": 9.96184861353942e-18,
+          "max_absolute_reward_change": 5.551115123125783e-16,
+          "original_unique_top10": 0.7910566787799318,
+          "reread_unique_top10": 0.7910566787799318
+        }
+      }
+    },
+    {
+      "run": "main/osimertinib__reinforce_kl__s2028",
+      "exact_token_replay": "PASS",
+      "stats": {
+        "search": {
+          "attempts": 3009,
+          "original_mean": 0.43599623371910046,
+          "canonical_reread_mean": 0.43599623371910046,
+          "mean_absolute_reward_change": 1.075671492102413e-17,
+          "max_absolute_reward_change": 5.551115123125783e-16,
+          "original_unique_top10": 0.7885834172927647,
+          "reread_unique_top10": 0.7885834172927647
+        },
+        "evaluation": {
+          "attempts": 1024,
+          "original_mean": 0.5892500391984116,
+          "canonical_reread_mean": 0.5892500391984116,
+          "mean_absolute_reward_change": 6.744028556358364e-18,
+          "max_absolute_reward_change": 5.551115123125783e-16,
+          "original_unique_top10": 0.7851127291773373,
+          "reread_unique_top10": 0.7851127291773373
+        }
+      }
+    }
+  ]
+}

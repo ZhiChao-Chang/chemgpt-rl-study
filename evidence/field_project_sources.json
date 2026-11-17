@@ -1,0 +1,117 @@
+{
+  "reviewed_on": "2026-11-04",
+  "purpose": "Field-first molecular generation RL project options; extends evaluation_sources.json E01-E12 with four source families",
+  "sources": [
+    {
+      "id": "F01",
+      "title": "Reinvent 4: Modern AI-driven generative molecule design",
+      "published": "2024",
+      "venue": "Journal of Cheminformatics 16:20",
+      "doi": "10.1186/s13321-024-00812-5",
+      "urls": [
+        "https://doi.org/10.1186/s13321-024-00812-5",
+        "https://github.com/MolecularAI/REINVENT4"
+      ],
+      "locations": [
+        "Paper overview and RL/diversity sections",
+        "official README description and prior models"
+      ],
+      "verified_claims": [
+        "Supports de novo, decoration, linker, scaffold hopping, molecule optimization",
+        "Multi-component scoring and curriculum/RL",
+        "Code Apache-2.0; public priors separately on Zenodo"
+      ],
+      "limits": [
+        "Modern moving README not equal 2024 paper version",
+        "Optional proprietary components are not required evidence for core tasks"
+      ],
+      "license": "Code Apache-2.0; models/data/dependencies separately checked",
+      "execution": "No installation, generation, training, assets download",
+      "accessed": "2026-11-04",
+      "type": "primary_publication_and_author_official_repository"
+    },
+    {
+      "id": "F02",
+      "title": "SynFlowNet: Design of Diverse and Novel Molecules with Synthesis Constraints",
+      "published": "ICLR 2025; first arXiv 2024-05-02",
+      "urls": [
+        "https://arxiv.org/abs/2405.01155",
+        "https://openreview.net/pdf?id=uvHmnahyp1",
+        "https://github.com/mirunacrt/synflownet"
+      ],
+      "locations": [
+        "Paper abstract and MDP description",
+        "official README data/environment/reward"
+      ],
+      "verified_claims": [
+        "Reaction-based GFlowNet action space",
+        "Reaction templates/building blocks/compatibility masks",
+        "User-specified reward; diverse sampling",
+        "Independent retrosynthesis used by original study"
+      ],
+      "limits": [
+        "Template reachability is computational, not wetlab synthesis guarantee",
+        "GFlowNet training objective not synonymous with PPO"
+      ],
+      "license": "Code MIT; catalog and third-party asset rights separate",
+      "execution": "No installation, molecular generation, training or data download",
+      "accessed": "2026-11-04",
+      "type": "primary_publication_and_author_official_repository"
+    },
+    {
+      "id": "F03",
+      "title": "Preference Optimization for Molecular Language Models",
+      "published": "2023-10-18 arXiv:2310.12304; preprint",
+      "urls": [
+        "https://arxiv.org/abs/2310.12304",
+        "https://arxiv.org/html/2310.12304v1",
+        "https://github.com/Harmonic-Discovery/pref-opt-for-mols"
+      ],
+      "locations": [
+        "Paper setup and experimental sections",
+        "official README Preference optimization with DPO"
+      ],
+      "verified_claims": [
+        "Molecular DPO with preference labels",
+        "Official code exposes sample/filter/finetune workflow",
+        "Public filter example supports medchem filter"
+      ],
+      "limits": [
+        "Rule-derived preferences not automatically human labels",
+        "DPO not itself an online environment-interaction method",
+        "Public example does not imply complete end-to-end reproduction"
+      ],
+      "license": "No explicit LICENSE observed at repository root; do not assume reuse grant; paper arXiv perpetual non-exclusive",
+      "execution": "Read only; no source copied into project implementation or executed",
+      "accessed": "2026-11-04",
+      "type": "primary_publication_and_author_official_repository"
+    },
+    {
+      "id": "F04",
+      "title": "POLO: Preference-Guided Multi-Turn Reinforcement Learning for Sample-Efficient Lead Optimization",
+      "published": "KDD 2026",
+      "doi": "10.1145/3770855.3819016",
+      "urls": [
+        "https://github.com/REAL-Lab-NU/POLO",
+        "https://doi.org/10.1145/3770855.3819016"
+      ],
+      "locations": [
+        "Official README first paragraph, Tasks and Data, Citation, licensing"
+      ],
+      "verified_claims": [
+        "PGPO combines trajectory-level PPO and turn-level preference loss",
+        "Preference signal from molecular oracle feedback",
+        "Supports qed/logp/sa/jnk3/drd2 with defined endpoint directions"
+      ],
+      "limits": [
+        "Not equivalent to offline DPO",
+        "Oracle efficiency curves in provided evaluator use stated accounting choices; true stopping budgets need explicit policy"
+      ],
+      "license": "Main repo MIT; verl/RAGEN/model/data terms separately checked",
+      "execution": "Metadata/source review only",
+      "accessed": "2026-11-04",
+      "type": "primary_publication_and_author_official_repository"
+    }
+  ]
+}
+

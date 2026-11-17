@@ -1,0 +1,19 @@
+{
+  "task": "acp-me2502-chemgpt-20261113-01",
+  "remote": "/zzc/260010120/cci_control/acp-tests/acp-me2502-chemgpt-20261113-01",
+  "files": {
+    "contract.json": "030e83dee6dfafa6fff62acdfdd2f4bd3965a8d38702b98ebe5059b0d3ddefba",
+    "src/check_theory.py": "e261d7714c4892fd0c2143856fbe9a6c550638b6d53dbe4310d4c9a26514913e",
+    "src/model_runtime.py": "19927a5bef320cda611ecd9844a79d393038f481706d196d7fe4c7b859dd1a5a",
+    "src/study.py": "a0b13334e6a67390cbc059902305fc3c7145c4fdf6c851e2f6e704d768fafe53"
+  },
+  "model_files": {
+    "tokenizer.json": "fee4dad651e2edb49afb5d6aa3e4fea437e08c740c80b6d1d6e1909ad2b30100",
+    "pytorch_model.bin": "a8a39c5ea1d50c450632e003d21c90f847d815a801934b03a12b02010b74d21b",
+    "README.md": "5732275e9233a8b8ca8f690b6beb624da9ff5b3e7906f7d446a8c6ff45597195",
+    "config.json": "73a9eb113e31b2ac8a6b070469b749dbaa8110f72a197bea7899d93db462e8ba",
+    "tokenizer_config.json": "ee5b5daf3a4f292292f944d06fa34ca00c6f4b18aec68478c55ef223311ee145",
+    "special_tokens_map.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+  },
+  "bootstrap_sha256": "2b18fd9e243b1991e0740ce7f1a2a35d7160ce0974825d3368cbef6e021b820c"
+}

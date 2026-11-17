@@ -1,0 +1,1200 @@
+[
+  {
+    "phase": "kl_dose",
+    "task": "fexofenadine",
+    "seed": 4101,
+    "condition": {
+      "id": "frozen",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "fexofenadine",
+    "seed": 4101,
+    "condition": {
+      "id": "rf",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "fexofenadine",
+    "seed": 4101,
+    "condition": {
+      "id": "kl_001",
+      "beta": 0.01,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "fexofenadine",
+    "seed": 4101,
+    "condition": {
+      "id": "kl_0003",
+      "beta": 0.003,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "fexofenadine",
+    "seed": 4101,
+    "condition": {
+      "id": "kl_003",
+      "beta": 0.03,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "fexofenadine",
+    "seed": 4101,
+    "condition": {
+      "id": "kl_01",
+      "beta": 0.1,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "osimertinib",
+    "seed": 4101,
+    "condition": {
+      "id": "frozen",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "osimertinib",
+    "seed": 4101,
+    "condition": {
+      "id": "rf",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "osimertinib",
+    "seed": 4101,
+    "condition": {
+      "id": "kl_001",
+      "beta": 0.01,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "osimertinib",
+    "seed": 4101,
+    "condition": {
+      "id": "kl_0003",
+      "beta": 0.003,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "osimertinib",
+    "seed": 4101,
+    "condition": {
+      "id": "kl_003",
+      "beta": 0.03,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "osimertinib",
+    "seed": 4101,
+    "condition": {
+      "id": "kl_01",
+      "beta": 0.1,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "fexofenadine",
+    "seed": 4102,
+    "condition": {
+      "id": "frozen",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "fexofenadine",
+    "seed": 4102,
+    "condition": {
+      "id": "rf",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "fexofenadine",
+    "seed": 4102,
+    "condition": {
+      "id": "kl_001",
+      "beta": 0.01,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "fexofenadine",
+    "seed": 4102,
+    "condition": {
+      "id": "kl_0003",
+      "beta": 0.003,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "fexofenadine",
+    "seed": 4102,
+    "condition": {
+      "id": "kl_003",
+      "beta": 0.03,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "fexofenadine",
+    "seed": 4102,
+    "condition": {
+      "id": "kl_01",
+      "beta": 0.1,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "osimertinib",
+    "seed": 4102,
+    "condition": {
+      "id": "frozen",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "osimertinib",
+    "seed": 4102,
+    "condition": {
+      "id": "rf",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "osimertinib",
+    "seed": 4102,
+    "condition": {
+      "id": "kl_001",
+      "beta": 0.01,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "osimertinib",
+    "seed": 4102,
+    "condition": {
+      "id": "kl_0003",
+      "beta": 0.003,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "osimertinib",
+    "seed": 4102,
+    "condition": {
+      "id": "kl_003",
+      "beta": 0.03,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "osimertinib",
+    "seed": 4102,
+    "condition": {
+      "id": "kl_01",
+      "beta": 0.1,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "fexofenadine",
+    "seed": 4103,
+    "condition": {
+      "id": "frozen",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "fexofenadine",
+    "seed": 4103,
+    "condition": {
+      "id": "rf",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "fexofenadine",
+    "seed": 4103,
+    "condition": {
+      "id": "kl_001",
+      "beta": 0.01,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "fexofenadine",
+    "seed": 4103,
+    "condition": {
+      "id": "kl_0003",
+      "beta": 0.003,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "fexofenadine",
+    "seed": 4103,
+    "condition": {
+      "id": "kl_003",
+      "beta": 0.03,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "fexofenadine",
+    "seed": 4103,
+    "condition": {
+      "id": "kl_01",
+      "beta": 0.1,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "osimertinib",
+    "seed": 4103,
+    "condition": {
+      "id": "frozen",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "osimertinib",
+    "seed": 4103,
+    "condition": {
+      "id": "rf",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "osimertinib",
+    "seed": 4103,
+    "condition": {
+      "id": "kl_001",
+      "beta": 0.01,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "osimertinib",
+    "seed": 4103,
+    "condition": {
+      "id": "kl_0003",
+      "beta": 0.003,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "osimertinib",
+    "seed": 4103,
+    "condition": {
+      "id": "kl_003",
+      "beta": 0.03,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "osimertinib",
+    "seed": 4103,
+    "condition": {
+      "id": "kl_01",
+      "beta": 0.1,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "fexofenadine",
+    "seed": 4104,
+    "condition": {
+      "id": "frozen",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "fexofenadine",
+    "seed": 4104,
+    "condition": {
+      "id": "rf",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "fexofenadine",
+    "seed": 4104,
+    "condition": {
+      "id": "kl_001",
+      "beta": 0.01,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "fexofenadine",
+    "seed": 4104,
+    "condition": {
+      "id": "kl_0003",
+      "beta": 0.003,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "fexofenadine",
+    "seed": 4104,
+    "condition": {
+      "id": "kl_003",
+      "beta": 0.03,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "fexofenadine",
+    "seed": 4104,
+    "condition": {
+      "id": "kl_01",
+      "beta": 0.1,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "osimertinib",
+    "seed": 4104,
+    "condition": {
+      "id": "frozen",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "osimertinib",
+    "seed": 4104,
+    "condition": {
+      "id": "rf",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "osimertinib",
+    "seed": 4104,
+    "condition": {
+      "id": "kl_001",
+      "beta": 0.01,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "osimertinib",
+    "seed": 4104,
+    "condition": {
+      "id": "kl_0003",
+      "beta": 0.003,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "osimertinib",
+    "seed": 4104,
+    "condition": {
+      "id": "kl_003",
+      "beta": 0.03,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "osimertinib",
+    "seed": 4104,
+    "condition": {
+      "id": "kl_01",
+      "beta": 0.1,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "fexofenadine",
+    "seed": 4105,
+    "condition": {
+      "id": "frozen",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "fexofenadine",
+    "seed": 4105,
+    "condition": {
+      "id": "rf",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "fexofenadine",
+    "seed": 4105,
+    "condition": {
+      "id": "kl_001",
+      "beta": 0.01,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "fexofenadine",
+    "seed": 4105,
+    "condition": {
+      "id": "kl_0003",
+      "beta": 0.003,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "fexofenadine",
+    "seed": 4105,
+    "condition": {
+      "id": "kl_003",
+      "beta": 0.03,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "fexofenadine",
+    "seed": 4105,
+    "condition": {
+      "id": "kl_01",
+      "beta": 0.1,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "osimertinib",
+    "seed": 4105,
+    "condition": {
+      "id": "frozen",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "osimertinib",
+    "seed": 4105,
+    "condition": {
+      "id": "rf",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "osimertinib",
+    "seed": 4105,
+    "condition": {
+      "id": "kl_001",
+      "beta": 0.01,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "osimertinib",
+    "seed": 4105,
+    "condition": {
+      "id": "kl_0003",
+      "beta": 0.003,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "osimertinib",
+    "seed": 4105,
+    "condition": {
+      "id": "kl_003",
+      "beta": 0.03,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "kl_dose",
+    "task": "osimertinib",
+    "seed": 4105,
+    "condition": {
+      "id": "kl_01",
+      "beta": 0.1,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "mechanism",
+    "task": "fexofenadine",
+    "seed": 4201,
+    "condition": {
+      "id": "frozen",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "mechanism",
+    "task": "fexofenadine",
+    "seed": 4201,
+    "condition": {
+      "id": "rf",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "mechanism",
+    "task": "fexofenadine",
+    "seed": 4201,
+    "condition": {
+      "id": "kl_001",
+      "beta": 0.01,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "mechanism",
+    "task": "fexofenadine",
+    "seed": 4201,
+    "condition": {
+      "id": "length_0001",
+      "beta": 0,
+      "length_cost": 0.001,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "mechanism",
+    "task": "fexofenadine",
+    "seed": 4201,
+    "condition": {
+      "id": "length_0003",
+      "beta": 0,
+      "length_cost": 0.003,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "mechanism",
+    "task": "fexofenadine",
+    "seed": 4201,
+    "condition": {
+      "id": "upper_tpsa150",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "upper_tpsa",
+      "upper_tpsa": 150,
+      "tpsa_sigma": 30
+    }
+  },
+  {
+    "phase": "mechanism",
+    "task": "fexofenadine",
+    "seed": 4202,
+    "condition": {
+      "id": "frozen",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "mechanism",
+    "task": "fexofenadine",
+    "seed": 4202,
+    "condition": {
+      "id": "rf",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "mechanism",
+    "task": "fexofenadine",
+    "seed": 4202,
+    "condition": {
+      "id": "kl_001",
+      "beta": 0.01,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "mechanism",
+    "task": "fexofenadine",
+    "seed": 4202,
+    "condition": {
+      "id": "length_0001",
+      "beta": 0,
+      "length_cost": 0.001,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "mechanism",
+    "task": "fexofenadine",
+    "seed": 4202,
+    "condition": {
+      "id": "length_0003",
+      "beta": 0,
+      "length_cost": 0.003,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "mechanism",
+    "task": "fexofenadine",
+    "seed": 4202,
+    "condition": {
+      "id": "upper_tpsa150",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "upper_tpsa",
+      "upper_tpsa": 150,
+      "tpsa_sigma": 30
+    }
+  },
+  {
+    "phase": "mechanism",
+    "task": "fexofenadine",
+    "seed": 4203,
+    "condition": {
+      "id": "frozen",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "mechanism",
+    "task": "fexofenadine",
+    "seed": 4203,
+    "condition": {
+      "id": "rf",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "mechanism",
+    "task": "fexofenadine",
+    "seed": 4203,
+    "condition": {
+      "id": "kl_001",
+      "beta": 0.01,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "mechanism",
+    "task": "fexofenadine",
+    "seed": 4203,
+    "condition": {
+      "id": "length_0001",
+      "beta": 0,
+      "length_cost": 0.001,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "mechanism",
+    "task": "fexofenadine",
+    "seed": 4203,
+    "condition": {
+      "id": "length_0003",
+      "beta": 0,
+      "length_cost": 0.003,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "mechanism",
+    "task": "fexofenadine",
+    "seed": 4203,
+    "condition": {
+      "id": "upper_tpsa150",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "upper_tpsa",
+      "upper_tpsa": 150,
+      "tpsa_sigma": 30
+    }
+  },
+  {
+    "phase": "mechanism",
+    "task": "fexofenadine",
+    "seed": 4204,
+    "condition": {
+      "id": "frozen",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "mechanism",
+    "task": "fexofenadine",
+    "seed": 4204,
+    "condition": {
+      "id": "rf",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "mechanism",
+    "task": "fexofenadine",
+    "seed": 4204,
+    "condition": {
+      "id": "kl_001",
+      "beta": 0.01,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "mechanism",
+    "task": "fexofenadine",
+    "seed": 4204,
+    "condition": {
+      "id": "length_0001",
+      "beta": 0,
+      "length_cost": 0.001,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "mechanism",
+    "task": "fexofenadine",
+    "seed": 4204,
+    "condition": {
+      "id": "length_0003",
+      "beta": 0,
+      "length_cost": 0.003,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "mechanism",
+    "task": "fexofenadine",
+    "seed": 4204,
+    "condition": {
+      "id": "upper_tpsa150",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "upper_tpsa",
+      "upper_tpsa": 150,
+      "tpsa_sigma": 30
+    }
+  },
+  {
+    "phase": "mechanism",
+    "task": "fexofenadine",
+    "seed": 4205,
+    "condition": {
+      "id": "frozen",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "mechanism",
+    "task": "fexofenadine",
+    "seed": 4205,
+    "condition": {
+      "id": "rf",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "mechanism",
+    "task": "fexofenadine",
+    "seed": 4205,
+    "condition": {
+      "id": "kl_001",
+      "beta": 0.01,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "mechanism",
+    "task": "fexofenadine",
+    "seed": 4205,
+    "condition": {
+      "id": "length_0001",
+      "beta": 0,
+      "length_cost": 0.001,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "mechanism",
+    "task": "fexofenadine",
+    "seed": 4205,
+    "condition": {
+      "id": "length_0003",
+      "beta": 0,
+      "length_cost": 0.003,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "mechanism",
+    "task": "fexofenadine",
+    "seed": 4205,
+    "condition": {
+      "id": "upper_tpsa150",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "upper_tpsa",
+      "upper_tpsa": 150,
+      "tpsa_sigma": 30
+    }
+  },
+  {
+    "phase": "long_budget",
+    "task": "fexofenadine",
+    "seed": 4301,
+    "condition": {
+      "id": "frozen",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "long_budget",
+    "task": "fexofenadine",
+    "seed": 4301,
+    "condition": {
+      "id": "rf",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "long_budget",
+    "task": "fexofenadine",
+    "seed": 4301,
+    "condition": {
+      "id": "kl_001",
+      "beta": 0.01,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "long_budget",
+    "task": "osimertinib",
+    "seed": 4301,
+    "condition": {
+      "id": "frozen",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "long_budget",
+    "task": "osimertinib",
+    "seed": 4301,
+    "condition": {
+      "id": "rf",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "long_budget",
+    "task": "osimertinib",
+    "seed": 4301,
+    "condition": {
+      "id": "kl_001",
+      "beta": 0.01,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "long_budget",
+    "task": "fexofenadine",
+    "seed": 4302,
+    "condition": {
+      "id": "frozen",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "long_budget",
+    "task": "fexofenadine",
+    "seed": 4302,
+    "condition": {
+      "id": "rf",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "long_budget",
+    "task": "fexofenadine",
+    "seed": 4302,
+    "condition": {
+      "id": "kl_001",
+      "beta": 0.01,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "long_budget",
+    "task": "osimertinib",
+    "seed": 4302,
+    "condition": {
+      "id": "frozen",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "long_budget",
+    "task": "osimertinib",
+    "seed": 4302,
+    "condition": {
+      "id": "rf",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "long_budget",
+    "task": "osimertinib",
+    "seed": 4302,
+    "condition": {
+      "id": "kl_001",
+      "beta": 0.01,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "long_budget",
+    "task": "fexofenadine",
+    "seed": 4303,
+    "condition": {
+      "id": "frozen",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "long_budget",
+    "task": "fexofenadine",
+    "seed": 4303,
+    "condition": {
+      "id": "rf",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "long_budget",
+    "task": "fexofenadine",
+    "seed": 4303,
+    "condition": {
+      "id": "kl_001",
+      "beta": 0.01,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "long_budget",
+    "task": "osimertinib",
+    "seed": 4303,
+    "condition": {
+      "id": "frozen",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "long_budget",
+    "task": "osimertinib",
+    "seed": 4303,
+    "condition": {
+      "id": "rf",
+      "beta": 0,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  },
+  {
+    "phase": "long_budget",
+    "task": "osimertinib",
+    "seed": 4303,
+    "condition": {
+      "id": "kl_001",
+      "beta": 0.01,
+      "length_cost": 0,
+      "transform": "raw"
+    }
+  }
+]

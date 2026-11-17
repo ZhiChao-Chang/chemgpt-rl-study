@@ -1,0 +1,12 @@
+{
+  "status": "COMPLETE_PROFILE_AND_ESTIMATE",
+  "task_id": "acp-explore-chemgpt-profile-20261104-05",
+  "uid": "2ae6600d22da4606a1685c6e4dcd5de6",
+  "worker_phase": "Succeeded",
+  "profile_result": "actual_h100_profile.json",
+  "report": "RESOURCE_ESTIMATE_H100.md",
+  "allocated_acp_gpu_after_completion": 0,
+  "proposal_modified": false,
+  "formal_campaign_started": false,
+  "updated_UTC": "2026-11-04T09:40:23.372237+00:00"
+}

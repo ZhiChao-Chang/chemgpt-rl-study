@@ -1,0 +1,50 @@
+{
+  "model": "ncfrey/ChemGPT-4.7M",
+  "revision": "7438a282460b3038e17a27e25b85b1376e9a23e2",
+  "files": [
+    {
+      "name": "config.json",
+      "url": "https://huggingface.co/ncfrey/ChemGPT-4.7M/resolve/7438a282460b3038e17a27e25b85b1376e9a23e2/config.json",
+      "bytes": 1284,
+      "sha256": "73a9eb113e31b2ac8a6b070469b749dbaa8110f72a197bea7899d93db462e8ba"
+    },
+    {
+      "name": "tokenizer.json",
+      "url": "https://huggingface.co/ncfrey/ChemGPT-4.7M/resolve/7438a282460b3038e17a27e25b85b1376e9a23e2/tokenizer.json",
+      "bytes": 10789,
+      "sha256": "fee4dad651e2edb49afb5d6aa3e4fea437e08c740c80b6d1d6e1909ad2b30100"
+    },
+    {
+      "name": "tokenizer_config.json",
+      "url": "https://huggingface.co/ncfrey/ChemGPT-4.7M/resolve/7438a282460b3038e17a27e25b85b1376e9a23e2/tokenizer_config.json",
+      "bytes": 260,
+      "sha256": "ee5b5daf3a4f292292f944d06fa34ca00c6f4b18aec68478c55ef223311ee145"
+    },
+    {
+      "name": "special_tokens_map.json",
+      "url": "https://huggingface.co/ncfrey/ChemGPT-4.7M/resolve/7438a282460b3038e17a27e25b85b1376e9a23e2/special_tokens_map.json",
+      "bytes": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "name": "README.md",
+      "url": "https://huggingface.co/ncfrey/ChemGPT-4.7M/resolve/7438a282460b3038e17a27e25b85b1376e9a23e2/README.md",
+      "bytes": 1942,
+      "sha256": "5732275e9233a8b8ca8f690b6beb624da9ff5b3e7906f7d446a8c6ff45597195"
+    },
+    {
+      "name": "pytorch_model.bin",
+      "url": "https://huggingface.co/ncfrey/ChemGPT-4.7M/resolve/7438a282460b3038e17a27e25b85b1376e9a23e2/pytorch_model.bin",
+      "bytes": 70836865,
+      "sha256": "a8a39c5ea1d50c450632e003d21c90f847d815a801934b03a12b02010b74d21b"
+    }
+  ],
+  "license": "not declared in this model card; do not inherit code license by assumption",
+  "selfies_wheel": {
+    "name": "selfies-1.0.4-py3-none-any.whl",
+    "url": "https://files.pythonhosted.org/packages/ad/d8/9ee274ee002188a3e343df1575fde1d5e6a270dcb98560a65928b4abb5d3/selfies-1.0.4-py3-none-any.whl",
+    "sha256": "e41009c1b5512d87ed8ea4d2a52ea9d833fbe6ddeb9ea34990b4a4d77b5b037c",
+    "bytes": 30220
+  },
+  "scope": "local CPU forward/sampling/gradient interface check only; no optimizer update"
+}

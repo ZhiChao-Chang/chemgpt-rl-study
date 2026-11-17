@@ -1,0 +1,39 @@
+{
+  "task": "osimertinib",
+  "method": "frozen",
+  "seed": 2026,
+  "limits": {
+    "tasks": [
+      "fexofenadine",
+      "osimertinib"
+    ],
+    "seeds": [
+      2026,
+      2027,
+      2028
+    ],
+    "methods": [
+      "frozen",
+      "reinforce",
+      "reinforce_kl"
+    ],
+    "unique_budget": 3000,
+    "max_attempts": 15000,
+    "max_updates": 470,
+    "run_wall_seconds": 1800,
+    "evaluation_attempts": 1024
+  },
+  "settings": {
+    "batch_size": 32,
+    "horizon": 256,
+    "temperature": 1,
+    "lr": 1e-05,
+    "beta": 0.01,
+    "gradient_norm_clip": 1,
+    "dtype": "float32",
+    "tf32": false,
+    "updates_per_fresh_batch": 1,
+    "baseline": "leave-one-out; previous-batch EMA for singleton"
+  },
+  "beta": 0.0
+}

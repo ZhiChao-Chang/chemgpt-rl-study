@@ -1,0 +1,84 @@
+{
+  "torch": "2.7.1+cu128",
+  "device": "cuda",
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "model_sha256": "a8a39c5ea1d50c450632e003d21c90f847d815a801934b03a12b02010b74d21b",
+  "contract": {
+    "task_id": "me2502-chemgpt-study-20261113",
+    "authorization": "用户2026-11-13明确授权自主决定实验及必要服务器操作，先产出实际工作",
+    "scope": "ME2502 ChemGPT RL final project; preserve submitted proposal and old evidence",
+    "resource_budget": {
+      "simultaneous_gpus": 1,
+      "maximum_gpu_hours": 4,
+      "maximum_worker_seconds": 13200,
+      "preferred_gpu": "full H100",
+      "fallback": "no automatic cross-instance resubmission"
+    },
+    "model_revision": "7438a282460b3038e17a27e25b85b1376e9a23e2",
+    "guacamol_revision": "60ebe1f6a396f16e08b834dce448e9343d259feb",
+    "development": {
+      "task": "perindopril",
+      "seeds": [
+        11,
+        17
+      ],
+      "methods": [
+        "frozen",
+        "reinforce",
+        "reinforce_kl"
+      ],
+      "unique_budget": 512,
+      "max_attempts": 1024,
+      "max_updates": 32,
+      "evaluation_attempts": 128
+    },
+    "main": {
+      "tasks": [
+        "fexofenadine",
+        "osimertinib"
+      ],
+      "seeds": [
+        2026,
+        2027,
+        2028
+      ],
+      "methods": [
+        "frozen",
+        "reinforce",
+        "reinforce_kl"
+      ],
+      "unique_budget": 3000,
+      "max_attempts": 15000,
+      "max_updates": 470,
+      "run_wall_seconds": 1800,
+      "evaluation_attempts": 1024
+    },
+    "fixed_training": {
+      "batch_size": 32,
+      "horizon": 256,
+      "temperature": 1,
+      "lr": 1e-05,
+      "beta": 0.01,
+      "gradient_norm_clip": 1,
+      "dtype": "float32",
+      "tf32": false,
+      "updates_per_fresh_batch": 1,
+      "baseline": "leave-one-out; previous-batch EMA for singleton"
+    },
+    "gate": "Technical tests, exact gradient checks and scorer checks must pass before main; no tuning on main outcomes. Failed/capped runs remain visible.",
+    "primary": "Normalized area under top10 unique-candidate reward versus new unique evaluations. Early stops: achieved-budget and explicitly labelled carry-forward summaries.",
+    "secondary": "Independent terminal-policy samples: all-attempt reward, validity, repeats, structural diversity; attempt-axis curves and time distinguish query efficiency from compute.",
+    "mechanistic_hypotheses": [
+      "Search best-found may improve while routine policy collapses",
+      "Fixed-prior trajectory KL changes quality/diversity tradeoff; benefit not assumed",
+      "Trajectory KL upper-bounds induced canonical-output KL but also spends penalty on conditional encoding changes"
+    ],
+    "stop": "At hard budget or numerical/identity failure, checkpoint and stop; do not silently relax objectives or replace failed seeds",
+    "not_authorized": [
+      "course submission",
+      "email",
+      "editing other projects",
+      "unbounded GPU use"
+    ]
+  }
+}

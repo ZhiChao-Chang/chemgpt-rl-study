@@ -1,0 +1,40 @@
+{
+  "status": "PASS_INTERFACE_ONLY",
+  "scope": "no target reward, optimizer update, or efficacy claim",
+  "model": "ncfrey/ChemGPT-4.7M",
+  "revision": "7438a282460b3038e17a27e25b85b1376e9a23e2",
+  "parameters": 5099264,
+  "torch": "2.7.1+cu128",
+  "transformers": "4.51.3",
+  "device": "cpu",
+  "threads": 2,
+  "attempts": 32,
+  "max_generated_tokens": 128,
+  "naturally_terminated": 32,
+  "valid_connected": 32,
+  "unique_valid_connected": 32,
+  "sample_vs_teacherforce_max_logprob_error": 0.00011444091796875,
+  "gradient_norm_no_optimizer": 222.32725524902344,
+  "loading_missing_keys": [],
+  "loading_unexpected_legacy_buffers": [],
+  "special_ids": {
+    "bos": 2,
+    "eos": 3,
+    "pad": 1,
+    "blocked": [
+      0,
+      1,
+      2,
+      4
+    ]
+  },
+  "token_type_ids": "all zeros in both rollout and teacher forcing; consistent with tokenizer output convention; historical train matrices not inspected",
+  "kernel": "temperature1, full softmax over same static allowed tokens, no top-k/top-p",
+  "mean_blocked_token_mass": 0.0276236390960297,
+  "decode": "WordPiece decode skip specials, remove spaces, SELFIES1.0.4, RDKit connected nonempty",
+  "elapsed_seconds": 2.9078986081294715,
+  "selfies_distribution_version": "1.0.4",
+  "selfies_module_version": "1.0.3",
+  "selfies_wheel_sha256": "e41009c1b5512d87ed8ea4d2a52ea9d833fbe6ddeb9ea34990b4a4d77b5b037c",
+  "version_note": "PyPI wheel distribution declares 1.0.4; its internal __version__ declares 1.0.3; exact wheel hash pinned."
+}

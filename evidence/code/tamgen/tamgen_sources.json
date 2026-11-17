@@ -1,0 +1,427 @@
+{
+  "accessed_at": "2026-11-04",
+  "task": "rl_molecular_generation_course_20261104",
+  "scope": "read-only public small source and metadata review; no install,weights,data or execution",
+  "repos": [
+    {
+      "repo": "microsoft/TamGen",
+      "commit": "9f49e6cee3a861c143600db2f1a9bc10bb1c5279",
+      "commit_date": "2025-09-24T14:39:12Z",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "tree_truncated": false,
+      "tree_blob_count": 370,
+      "metadata_file": "microsoft_metadata.json"
+    },
+    {
+      "repo": "SigmaGenX/TamGen",
+      "commit": "858e35eb9f6d5e1f9877f14911b939bf33cf6d49",
+      "commit_date": "2025-06-03T01:02:00Z",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "tree_truncated": false,
+      "tree_blob_count": 405,
+      "metadata_file": "SigmaGenX_metadata.json"
+    }
+  ],
+  "sources": [
+    {
+      "repo": "microsoft/TamGen",
+      "path": "LICENSE",
+      "url": "https://github.com/microsoft/TamGen/blob/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/LICENSE",
+      "raw_url": "https://raw.githubusercontent.com/microsoft/TamGen/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/LICENSE",
+      "local_path": "source/LICENSE",
+      "bytes": 1074,
+      "sha256": "7df20dcdf9197e9945c14858d41c60f11b52b93e5b69e2b63416b874d598d322"
+    },
+    {
+      "repo": "microsoft/TamGen",
+      "path": "README.md",
+      "url": "https://github.com/microsoft/TamGen/blob/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/README.md",
+      "raw_url": "https://raw.githubusercontent.com/microsoft/TamGen/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/README.md",
+      "local_path": "source/README.md",
+      "bytes": 6748,
+      "sha256": "4bb63e114d6970645009abcd9c7d859ace85388ae8dc392e1c146ff2b8594bdc"
+    },
+    {
+      "repo": "microsoft/TamGen",
+      "path": "TamGen_Demo.py",
+      "url": "https://github.com/microsoft/TamGen/blob/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/TamGen_Demo.py",
+      "raw_url": "https://raw.githubusercontent.com/microsoft/TamGen/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/TamGen_Demo.py",
+      "local_path": "source/TamGen_Demo.py",
+      "bytes": 8765,
+      "sha256": "e7ed4219760be250adc12e24a8aacd5a0f4667fff992ced980c2f09c5432898a"
+    },
+    {
+      "repo": "microsoft/TamGen",
+      "path": "customized_example/README.MD",
+      "url": "https://github.com/microsoft/TamGen/blob/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/customized_example/README.MD",
+      "raw_url": "https://raw.githubusercontent.com/microsoft/TamGen/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/customized_example/README.MD",
+      "local_path": "source/customized_example/README.MD",
+      "bytes": 1749,
+      "sha256": "39b0275244def25ddc77eeb6c473dbb0050030e00c63dd10458bfcbe8eef2db2"
+    },
+    {
+      "repo": "microsoft/TamGen",
+      "path": "data/README.md",
+      "url": "https://github.com/microsoft/TamGen/blob/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/data/README.md",
+      "raw_url": "https://raw.githubusercontent.com/microsoft/TamGen/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/data/README.md",
+      "local_path": "source/data/README.md",
+      "bytes": 1674,
+      "sha256": "2585d0a09888f362fdb54f2d86f4ae2370a7bb49c2f4fa15c7d14606a6ca96e4"
+    },
+    {
+      "repo": "microsoft/TamGen",
+      "path": "fairseq/checkpoint_utils.py",
+      "url": "https://github.com/microsoft/TamGen/blob/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/fairseq/checkpoint_utils.py",
+      "raw_url": "https://raw.githubusercontent.com/microsoft/TamGen/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/fairseq/checkpoint_utils.py",
+      "local_path": "source/fairseq/checkpoint_utils.py",
+      "bytes": 13849,
+      "sha256": "aeb7310c724526107da999514afb501f1b8c9cff05c2115be781161e9a66edf7"
+    },
+    {
+      "repo": "microsoft/TamGen",
+      "path": "fairseq/criterions/label_smoothed_cross_entropy.py",
+      "url": "https://github.com/microsoft/TamGen/blob/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/fairseq/criterions/label_smoothed_cross_entropy.py",
+      "raw_url": "https://raw.githubusercontent.com/microsoft/TamGen/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/fairseq/criterions/label_smoothed_cross_entropy.py",
+      "local_path": "source/fairseq/criterions/label_smoothed_cross_entropy.py",
+      "bytes": 3671,
+      "sha256": "a4b25f4cd922e2f31c1737430fb5120911798da30efb93aa50ea2dcc7ca76d28"
+    },
+    {
+      "repo": "microsoft/TamGen",
+      "path": "fairseq/criterions/label_smoothed_cross_entropy_with_vae.py",
+      "url": "https://github.com/microsoft/TamGen/blob/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/fairseq/criterions/label_smoothed_cross_entropy_with_vae.py",
+      "raw_url": "https://raw.githubusercontent.com/microsoft/TamGen/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/fairseq/criterions/label_smoothed_cross_entropy_with_vae.py",
+      "local_path": "source/fairseq/criterions/label_smoothed_cross_entropy_with_vae.py",
+      "bytes": 3557,
+      "sha256": "1811a30cfe394897f2e3321a9dbcc3578937eb69e3ee5b74f252dc3a7200c27d"
+    },
+    {
+      "repo": "microsoft/TamGen",
+      "path": "fairseq/data/molecule/language_pair_coord_dataset.py",
+      "url": "https://github.com/microsoft/TamGen/blob/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/fairseq/data/molecule/language_pair_coord_dataset.py",
+      "raw_url": "https://raw.githubusercontent.com/microsoft/TamGen/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/fairseq/data/molecule/language_pair_coord_dataset.py",
+      "local_path": "source/fairseq/data/molecule/language_pair_coord_dataset.py",
+      "bytes": 5955,
+      "sha256": "5da4d575f0f225cade7342755462d9bf709193f311409eda6129d9523f636237"
+    },
+    {
+      "repo": "microsoft/TamGen",
+      "path": "fairseq/models/fairseq_model.py",
+      "url": "https://github.com/microsoft/TamGen/blob/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/fairseq/models/fairseq_model.py",
+      "raw_url": "https://raw.githubusercontent.com/microsoft/TamGen/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/fairseq/models/fairseq_model.py",
+      "local_path": "source/fairseq/models/fairseq_model.py",
+      "bytes": 15726,
+      "sha256": "92e197ef6ab8a2e0d22231eddddd83e08c2c6f74ce030dbe51d09d0c946e9091"
+    },
+    {
+      "repo": "microsoft/TamGen",
+      "path": "fairseq/models/tgt2drug/transformer_3d.py",
+      "url": "https://github.com/microsoft/TamGen/blob/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/fairseq/models/tgt2drug/transformer_3d.py",
+      "raw_url": "https://raw.githubusercontent.com/microsoft/TamGen/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/fairseq/models/tgt2drug/transformer_3d.py",
+      "local_path": "source/fairseq/models/tgt2drug/transformer_3d.py",
+      "bytes": 25738,
+      "sha256": "4831d30709cd718a21eb1378c2b067bc04c522b7fb9291e0b9bc73ce0e2c7a82"
+    },
+    {
+      "repo": "microsoft/TamGen",
+      "path": "fairseq/models/transformer.py",
+      "url": "https://github.com/microsoft/TamGen/blob/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/fairseq/models/transformer.py",
+      "raw_url": "https://raw.githubusercontent.com/microsoft/TamGen/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/fairseq/models/transformer.py",
+      "local_path": "source/fairseq/models/transformer.py",
+      "bytes": 27377,
+      "sha256": "6edd72a246faf18089440ec5775b6dc65d4e3942d8a7006fcea6d1d06112fd7e"
+    },
+    {
+      "repo": "microsoft/TamGen",
+      "path": "fairseq/modules/pointcloud/distance_attention.py",
+      "url": "https://github.com/microsoft/TamGen/blob/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/fairseq/modules/pointcloud/distance_attention.py",
+      "raw_url": "https://raw.githubusercontent.com/microsoft/TamGen/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/fairseq/modules/pointcloud/distance_attention.py",
+      "local_path": "source/fairseq/modules/pointcloud/distance_attention.py",
+      "bytes": 4203,
+      "sha256": "9370ec40ade2945242210137b97864051c60f35a691fc4d833fbd673ba06dee3"
+    },
+    {
+      "repo": "microsoft/TamGen",
+      "path": "fairseq/modules/pointcloud/point_transformer_layer_multihead.py",
+      "url": "https://github.com/microsoft/TamGen/blob/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/fairseq/modules/pointcloud/point_transformer_layer_multihead.py",
+      "raw_url": "https://raw.githubusercontent.com/microsoft/TamGen/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/fairseq/modules/pointcloud/point_transformer_layer_multihead.py",
+      "local_path": "source/fairseq/modules/pointcloud/point_transformer_layer_multihead.py",
+      "bytes": 13990,
+      "sha256": "870b32f1b6a98817a72ded77f19f3d97170fa9be49b57388fecfa901679f31da"
+    },
+    {
+      "repo": "microsoft/TamGen",
+      "path": "fairseq/molecule_utils/basic/smiles_utils.py",
+      "url": "https://github.com/microsoft/TamGen/blob/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/fairseq/molecule_utils/basic/smiles_utils.py",
+      "raw_url": "https://raw.githubusercontent.com/microsoft/TamGen/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/fairseq/molecule_utils/basic/smiles_utils.py",
+      "local_path": "source/fairseq/molecule_utils/basic/smiles_utils.py",
+      "bytes": 6453,
+      "sha256": "53f3d5e798d432663b2dfcc76c84b91fd8fc12a7c804ace61b2f34e6500873a8"
+    },
+    {
+      "repo": "microsoft/TamGen",
+      "path": "fairseq/molecule_utils/coordinate_utils/binding_site_utils.py",
+      "url": "https://github.com/microsoft/TamGen/blob/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/fairseq/molecule_utils/coordinate_utils/binding_site_utils.py",
+      "raw_url": "https://raw.githubusercontent.com/microsoft/TamGen/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/fairseq/molecule_utils/coordinate_utils/binding_site_utils.py",
+      "local_path": "source/fairseq/molecule_utils/coordinate_utils/binding_site_utils.py",
+      "bytes": 13023,
+      "sha256": "faa0b515177f5dc594757a0c35bb75dd41f15b56d2738e5b65a74d863056517b"
+    },
+    {
+      "repo": "microsoft/TamGen",
+      "path": "fairseq/molecule_utils/external/fairseq_dataset_build_utils.py",
+      "url": "https://github.com/microsoft/TamGen/blob/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/fairseq/molecule_utils/external/fairseq_dataset_build_utils.py",
+      "raw_url": "https://raw.githubusercontent.com/microsoft/TamGen/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/fairseq/molecule_utils/external/fairseq_dataset_build_utils.py",
+      "local_path": "source/fairseq/molecule_utils/external/fairseq_dataset_build_utils.py",
+      "bytes": 60679,
+      "sha256": "e16680e3f34dde1f4296f355ae1d3e2fb9904cff809e56603585375d26054833"
+    },
+    {
+      "repo": "microsoft/TamGen",
+      "path": "fairseq/search.py",
+      "url": "https://github.com/microsoft/TamGen/blob/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/fairseq/search.py",
+      "raw_url": "https://raw.githubusercontent.com/microsoft/TamGen/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/fairseq/search.py",
+      "local_path": "source/fairseq/search.py",
+      "bytes": 11324,
+      "sha256": "78e818e3c1c9409e7eb7e633971b0a67a86ac0ab9f21ebec67dd080e30596a5d"
+    },
+    {
+      "repo": "microsoft/TamGen",
+      "path": "fairseq/sequence_generator.py",
+      "url": "https://github.com/microsoft/TamGen/blob/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/fairseq/sequence_generator.py",
+      "raw_url": "https://raw.githubusercontent.com/microsoft/TamGen/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/fairseq/sequence_generator.py",
+      "local_path": "source/fairseq/sequence_generator.py",
+      "bytes": 26048,
+      "sha256": "cea378775b741dd15638c530921c0ac807859c48dc3d9baa06339a6f91d9b223"
+    },
+    {
+      "repo": "microsoft/TamGen",
+      "path": "fairseq/sequence_scorer.py",
+      "url": "https://github.com/microsoft/TamGen/blob/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/fairseq/sequence_scorer.py",
+      "raw_url": "https://raw.githubusercontent.com/microsoft/TamGen/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/fairseq/sequence_scorer.py",
+      "local_path": "source/fairseq/sequence_scorer.py",
+      "bytes": 4256,
+      "sha256": "898f6371c432a3e3709dd206842a2c70d55aad40f304dc5a2de3f0f0c07b7f45"
+    },
+    {
+      "repo": "microsoft/TamGen",
+      "path": "fairseq/tasks/fairseq_task.py",
+      "url": "https://github.com/microsoft/TamGen/blob/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/fairseq/tasks/fairseq_task.py",
+      "raw_url": "https://raw.githubusercontent.com/microsoft/TamGen/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/fairseq/tasks/fairseq_task.py",
+      "local_path": "source/fairseq/tasks/fairseq_task.py",
+      "bytes": 10434,
+      "sha256": "fb1e48b6aeb4a1f81fa95b628f3c8b5e81540a8c9967c3173ff120e919a6d601"
+    },
+    {
+      "repo": "microsoft/TamGen",
+      "path": "fairseq/tasks/molecule/translation_coord.py",
+      "url": "https://github.com/microsoft/TamGen/blob/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/fairseq/tasks/molecule/translation_coord.py",
+      "raw_url": "https://raw.githubusercontent.com/microsoft/TamGen/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/fairseq/tasks/molecule/translation_coord.py",
+      "local_path": "source/fairseq/tasks/molecule/translation_coord.py",
+      "bytes": 9891,
+      "sha256": "31af130ee8d38238ee76bff4e40c533ee3d664b7b7dcb2ffb339aecfebb20a94"
+    },
+    {
+      "repo": "microsoft/TamGen",
+      "path": "generate.py",
+      "url": "https://github.com/microsoft/TamGen/blob/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/generate.py",
+      "raw_url": "https://raw.githubusercontent.com/microsoft/TamGen/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/generate.py",
+      "local_path": "source/generate.py",
+      "bytes": 9757,
+      "sha256": "c4dd379b276a27f8e029fa342a13d893807dbe3f695518a4b5543a776ab23a46"
+    },
+    {
+      "repo": "microsoft/TamGen",
+      "path": "model/README.md",
+      "url": "https://github.com/microsoft/TamGen/blob/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/model/README.md",
+      "raw_url": "https://raw.githubusercontent.com/microsoft/TamGen/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/model/README.md",
+      "local_path": "source/model/README.md",
+      "bytes": 181,
+      "sha256": "9e8e31a30d225a66f914dd05bd95ff12feb7ee0da806ed99b1a3f1c617ce3dab"
+    },
+    {
+      "repo": "microsoft/TamGen",
+      "path": "scripts/build_data/prepare_pdb_ids_center.py",
+      "url": "https://github.com/microsoft/TamGen/blob/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/scripts/build_data/prepare_pdb_ids_center.py",
+      "raw_url": "https://raw.githubusercontent.com/microsoft/TamGen/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/scripts/build_data/prepare_pdb_ids_center.py",
+      "local_path": "source/scripts/build_data/prepare_pdb_ids_center.py",
+      "bytes": 2727,
+      "sha256": "6efef0ac5732cc85126c46cbb5b9609d9c1b26e4e0060e31d27ddc7d798cda05"
+    },
+    {
+      "repo": "microsoft/TamGen",
+      "path": "scripts/generate.sh",
+      "url": "https://github.com/microsoft/TamGen/blob/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/scripts/generate.sh",
+      "raw_url": "https://raw.githubusercontent.com/microsoft/TamGen/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/scripts/generate.sh",
+      "local_path": "source/scripts/generate.sh",
+      "bytes": 2246,
+      "sha256": "c68b289e79fd7cf65ea7b23f8652f564fa8adc94a2270a2dcba3366e45cd8882"
+    },
+    {
+      "repo": "microsoft/TamGen",
+      "path": "scripts/train.sh",
+      "url": "https://github.com/microsoft/TamGen/blob/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/scripts/train.sh",
+      "raw_url": "https://raw.githubusercontent.com/microsoft/TamGen/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/scripts/train.sh",
+      "local_path": "source/scripts/train.sh",
+      "bytes": 4271,
+      "sha256": "8468b4248740ca2e05861f32d9f09e53d46bf43dcef8dbdc64c7ad1c5269f9b9"
+    },
+    {
+      "repo": "microsoft/TamGen",
+      "path": "setup.py",
+      "url": "https://github.com/microsoft/TamGen/blob/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/setup.py",
+      "raw_url": "https://raw.githubusercontent.com/microsoft/TamGen/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/setup.py",
+      "local_path": "source/setup.py",
+      "bytes": 2188,
+      "sha256": "1f6eb1f2986cd9d1a29369dea44b1290ccfea0f21ad7a72c45da5ecb6a6bc282"
+    },
+    {
+      "repo": "microsoft/TamGen",
+      "path": "setup_env.sh",
+      "url": "https://github.com/microsoft/TamGen/blob/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/setup_env.sh",
+      "raw_url": "https://raw.githubusercontent.com/microsoft/TamGen/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/setup_env.sh",
+      "local_path": "source/setup_env.sh",
+      "bytes": 1238,
+      "sha256": "4f28665c223b280ffc84d4dd4a63529398b4e268b10fd467778b2ac73d72c743"
+    },
+    {
+      "repo": "SigmaGenX/TamGen",
+      "path": "fairseq/criterions/label_smoothed_cross_entropy_with_vae.py",
+      "url": "https://github.com/SigmaGenX/TamGen/blob/858e35eb9f6d5e1f9877f14911b939bf33cf6d49/fairseq/criterions/label_smoothed_cross_entropy_with_vae.py",
+      "raw_url": "https://raw.githubusercontent.com/SigmaGenX/TamGen/858e35eb9f6d5e1f9877f14911b939bf33cf6d49/fairseq/criterions/label_smoothed_cross_entropy_with_vae.py",
+      "local_path": "sigma_source/fairseq/criterions/label_smoothed_cross_entropy_with_vae.py",
+      "bytes": 3661,
+      "sha256": "a4d38ed499f41c689a613a37cba1c70225cc106263d3205f590ba99557b682af"
+    },
+    {
+      "repo": "SigmaGenX/TamGen",
+      "path": "fairseq/models/tgt2drug/transformer_3d.py",
+      "url": "https://github.com/SigmaGenX/TamGen/blob/858e35eb9f6d5e1f9877f14911b939bf33cf6d49/fairseq/models/tgt2drug/transformer_3d.py",
+      "raw_url": "https://raw.githubusercontent.com/SigmaGenX/TamGen/858e35eb9f6d5e1f9877f14911b939bf33cf6d49/fairseq/models/tgt2drug/transformer_3d.py",
+      "local_path": "sigma_source/fairseq/models/tgt2drug/transformer_3d.py",
+      "bytes": 25664,
+      "sha256": "08ad3ea0315a2c01aabb8f99e2166b0ed4c646890a5b18d0923a9354427f8dcc"
+    },
+    {
+      "repo": "SigmaGenX/TamGen",
+      "path": "fairseq/sequence_generator.py",
+      "url": "https://github.com/SigmaGenX/TamGen/blob/858e35eb9f6d5e1f9877f14911b939bf33cf6d49/fairseq/sequence_generator.py",
+      "raw_url": "https://raw.githubusercontent.com/SigmaGenX/TamGen/858e35eb9f6d5e1f9877f14911b939bf33cf6d49/fairseq/sequence_generator.py",
+      "local_path": "sigma_source/fairseq/sequence_generator.py",
+      "bytes": 25724,
+      "sha256": "c9fbc4946b7f634cf7b7b612ebe44b575960e930ccee595a820035b345c4c638"
+    },
+    {
+      "repo": "SigmaGenX/TamGen",
+      "path": "setup_env.sh",
+      "url": "https://github.com/SigmaGenX/TamGen/blob/858e35eb9f6d5e1f9877f14911b939bf33cf6d49/setup_env.sh",
+      "raw_url": "https://raw.githubusercontent.com/SigmaGenX/TamGen/858e35eb9f6d5e1f9877f14911b939bf33cf6d49/setup_env.sh",
+      "local_path": "sigma_source/setup_env.sh",
+      "bytes": 1213,
+      "sha256": "b8d156fbbf6892827c1150453536b6b3fa367a068b907e6402046dfbe259eeb8"
+    }
+  ],
+  "source_total_bytes": 355054,
+  "paper": {
+    "doi": "10.1038/s41467-024-53632-4",
+    "url": "https://doi.org/10.1038/s41467-024-53632-4",
+    "published": "2024-10-29",
+    "sections": [
+      "Results:TamGen enables target-aware compound design and refinement",
+      "Discussion",
+      "Code availability"
+    ],
+    "note": "Web full text/search exposed content; Nature direct open redirected, no local PDF downloaded"
+  },
+  "zenodo": {
+    "url": "https://zenodo.org/records/13751391",
+    "api": "https://zenodo.org/api/records/13751391",
+    "doi": "10.5281/zenodo.13751391",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "files": [
+      {
+        "key": "SourceDataFile.xlsx",
+        "size_bytes": 106138,
+        "checksum": "md5:04ecd384051bb226bd1ff535d1b3897e"
+      },
+      {
+        "key": "DockingPose.zip",
+        "size_bytes": 244491,
+        "checksum": "md5:ee5328c5556bf006d43496a9aaa528ef"
+      },
+      {
+        "key": "gpt_model.zip",
+        "size_bytes": 824353848,
+        "checksum": "md5:17e7182c88be61d671c6b88423534586"
+      },
+      {
+        "key": "checkpoints.zip",
+        "size_bytes": 2452735481,
+        "checksum": "md5:5815d681256eabaf62fb3df0ef3dfb0e"
+      },
+      {
+        "key": "pdb_ids.csv",
+        "size_bytes": 360512,
+        "checksum": "md5:b1d9ec9b1a801b4601802dca090ea294"
+      },
+      {
+        "key": "compounds_designStage.txt",
+        "size_bytes": 140722,
+        "checksum": "md5:143d2493ef890ab1646e1a591018a793"
+      },
+      {
+        "key": "compounds_refineStage.txt",
+        "size_bytes": 569700,
+        "checksum": "md5:bd445d5ded725ac430c3a20686e37516"
+      },
+      {
+        "key": "crossdocked_results.zip",
+        "size_bytes": 6591594,
+        "checksum": "md5:aea5a2e9d3e58754876423ca16845295"
+      },
+      {
+        "key": "TamGen-code.zip",
+        "size_bytes": 10453535,
+        "checksum": "md5:3a250390dc5cb66db2e352db920d5e39"
+      },
+      {
+        "key": "crossdock_case_study.Fig2d.txt",
+        "size_bytes": 350,
+        "checksum": "md5:5d95f98bac6f4442df764199a84ec7d0"
+      }
+    ],
+    "downloaded_payloads": false
+  },
+  "unknowns": [
+    "checkpoint exact parameter count",
+    "checkpoint tensors and args",
+    "decompressed artifact size",
+    "GPU and CPU peak memory",
+    "installation compatibility",
+    "throughput",
+    "oracle runtime",
+    "RL performance",
+    "RL state correctness until tests",
+    "all forks/branches novelty",
+    "CrossDocked test-info.csv membership for 3PBL/3EML/3NY8: not present in both public trees; no bulk data acquired"
+  ],
+  "cross_agent_context": {
+    "PolyTamGen": "Main agent independently checked primary paper; architecture differs from original TamGen, see main report for source evidence",
+    "doi": "10.1093/bioinformatics/btag766",
+    "independently_verified_in_this_subtask": false
+  }
+}

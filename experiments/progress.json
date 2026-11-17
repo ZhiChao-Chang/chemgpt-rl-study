@@ -1,0 +1,12 @@
+{
+  "status": "CORE_COMPLETE_EXTENSION_RUNNING",
+  "original_main_completed": 18,
+  "original_main_raw_ledgers_verified": 18,
+  "original_development_raw_ledgers_verified": 6,
+  "original_exact_token_replay_runs": 24,
+  "extension_planned_runs": 108,
+  "extension_job_uid": "6941c3db5017414383baee64a26d5d78",
+  "extension_deadline": "2026-11-15T09:28:22+08:00",
+  "extension_report": "exploration_11h_20261114/index.html",
+  "no_submission_or_email": true
+}

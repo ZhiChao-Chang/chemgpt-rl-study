@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "actual_h100_model_and_code_identity": true,
+  "all_methods_four_steps_recounted": true,
+  "reference_unchanged": true,
+  "allocator_memory_scope": "PyTorch only; driver/context excluded",
+  "estimates_labelled_as_scenarios": true,
+  "proposal_pdf_and_source_unchanged": true,
+  "all_acp_gpus_released": true,
+  "shared_CCI_unchanged": true
+}

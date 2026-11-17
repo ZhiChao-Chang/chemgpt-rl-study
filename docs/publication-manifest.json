@@ -1,0 +1,11 @@
+{
+  "artifact": "ChemGPT RL research report",
+  "repository": "ZhiChao-Chang/chemgpt-rl-study",
+  "evidence_cutoff": "2026-11-15",
+  "runs": 126,
+  "artifact_path": "index.html",
+  "bytes": 35312256,
+  "sha256": "7409ec2139d92143c129b58310bbafee18d56977c260af94c3cb9211d45633a9",
+  "source": "experiments/visual_report",
+  "presentation": "read-only audience view; 3D illustrative conformers only"
+}

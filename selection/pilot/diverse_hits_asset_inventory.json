@@ -1,0 +1,112 @@
+{
+  "url": "https://api.github.com/repos/ml-jku/diverse-hits/git/trees/main?recursive=1",
+  "commit": "6e10c418f5b420dc8198875f7e66eee0568e2f11",
+  "files": [
+    {
+      "path": "data/global_settings.json",
+      "size": 130,
+      "sha": "786364c117b5397c5525219edc6e76ac52d5cf71"
+    },
+    {
+      "path": "data/scoring_functions/drd2/all.txt",
+      "size": 4786204,
+      "sha": "553b344011cc21d2135fb1748207d7eb1930768f"
+    },
+    {
+      "path": "data/scoring_functions/drd2/classifier.pkl",
+      "size": 24480332,
+      "sha": "ffd36cf5bf0f54ebca94ffb619815d5d5996d20c"
+    },
+    {
+      "path": "data/scoring_functions/drd2/splits.csv",
+      "size": 5378350,
+      "sha": "18823343ea473e315f45799b7a3ee5636a25dc93"
+    },
+    {
+      "path": "data/scoring_functions/drd2/stats.json",
+      "size": 1416,
+      "sha": "7e346119c80832f925aff60d704b082087dcb9d6"
+    },
+    {
+      "path": "data/scoring_functions/gsk3/actives.txt",
+      "size": 129095,
+      "sha": "0f496a41ba78f332aced56a1791ca04d631076ea"
+    },
+    {
+      "path": "data/scoring_functions/gsk3/all.txt",
+      "size": 2397990,
+      "sha": "98e38ef7dc179da4e4bdb9687ae40b28ba99082f"
+    },
+    {
+      "path": "data/scoring_functions/gsk3/classifier.pkl",
+      "size": 26964492,
+      "sha": "9768e3dd2cc1fb6e6fad0879b4ca71d48ed6ccc7"
+    },
+    {
+      "path": "data/scoring_functions/gsk3/gsk3.pkl",
+      "size": 27791452,
+      "sha": "5ee1e864466c4ffefc70ec967d398fabb5f4259d"
+    },
+    {
+      "path": "data/scoring_functions/gsk3/rationales.txt",
+      "size": 117509,
+      "sha": "33ac9515944ffdef5f18d5090747278dec1a1caf"
+    },
+    {
+      "path": "data/scoring_functions/gsk3/splits.csv",
+      "size": 2701608,
+      "sha": "ea58bb45eb853ad9471cac8edf3e629c06dcc2c4"
+    },
+    {
+      "path": "data/scoring_functions/gsk3/stats.json",
+      "size": 1414,
+      "sha": "883f515574546326f490b2d070c48085ce473307"
+    },
+    {
+      "path": "data/scoring_functions/guacamol_known_bits.json",
+      "size": 5979600,
+      "sha": "fe29f532a38cdc629cd54cb936bee0b88c19fbbf"
+    },
+    {
+      "path": "data/scoring_functions/guacamol_thresholds.json",
+      "size": 160,
+      "sha": "eaab400beae4524edeaec33d4cff86580ae76b99"
+    },
+    {
+      "path": "data/scoring_functions/jnk3/actives.txt",
+      "size": 37411,
+      "sha": "61663736ae37e5455066f853bc52d80c9a59ba6d"
+    },
+    {
+      "path": "data/scoring_functions/jnk3/all.txt",
+      "size": 2201079,
+      "sha": "47aa1987fe5ca21c879ce2c02b8601a8e38c0578"
+    },
+    {
+      "path": "data/scoring_functions/jnk3/classifier.pkl",
+      "size": 10608812,
+      "sha": "281410fc3b271bc64f80b247872004516df7b3e4"
+    },
+    {
+      "path": "data/scoring_functions/jnk3/jnk3.pkl",
+      "size": 12044818,
+      "sha": "543c27daf1aef5ae719ecbeac62f2e289e58f62c"
+    },
+    {
+      "path": "data/scoring_functions/jnk3/rationales.txt",
+      "size": 22839,
+      "sha": "9d0f1dbe62dce216842d67298c9e2118c1296729"
+    },
+    {
+      "path": "data/scoring_functions/jnk3/splits.csv",
+      "size": 2490828,
+      "sha": "46cdace05f5a4bcdf79d478acc770343bbd97d6a"
+    },
+    {
+      "path": "data/scoring_functions/jnk3/stats.json",
+      "size": 1411,
+      "sha": "a2f7c70606d0014bf914d883a131139b958fc80f"
+    }
+  ],
+  "downloaded": false
+}

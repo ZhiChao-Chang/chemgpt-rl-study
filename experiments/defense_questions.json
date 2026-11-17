@@ -1,0 +1,105 @@
+{
+  "scope": "答辩准备，不表示成员已经掌握；需要实际逐人讲解与追问验证",
+  "questions": [
+    {
+      "question": "我们优化的究竟是什么？",
+      "answer": "有限长度token轨迹下的期望MPO奖励减去相对固定初始策略的轨迹KL。候选top10 AUC是评价指标，不是与训练目标完全相同的函数。",
+      "evidence": "method_notes.html"
+    },
+    {
+      "question": "为什么token前缀是状态，最后一个token不是？",
+      "answer": "完整前缀和时间保留后续生成、终止及终局评分需要的信息；同一个末token可对应不同分子结构前缀，不能据此合并状态。",
+      "evidence": "../course_slides/originals/03_RL_3_Formulation.pdf"
+    },
+    {
+      "question": "为什么γ=1，不用0.99？",
+      "answer": "这里最大256动作且奖励有界，回报有限。γ<1会额外偏好更早终止，改变问题；不能直接用折扣收缩证明推断当前策略梯度收敛。",
+      "evidence": "contract.json"
+    },
+    {
+      "question": "为什么不用PPO？",
+      "answer": "我们先研究课程直接覆盖、容易核对的on-policy REINFORCE，隔离参数更新与固定先验正则。PPO并非评分要求，也不能凭算法名字保证更好；扩展需独立动机和预算公平。",
+      "evidence": "src/study.py"
+    },
+    {
+      "question": "Teacher forcing重算概率为什么合理？",
+      "answer": "采样后更新前在同一策略上重算完整轨迹log-prob，支持反向传播；mask、温度、BOS/EOS和参数必须与采样一致。已做概率一致性检查，不是用别的策略伪装on-policy。",
+      "evidence": "collected_remote/results/technical_gate.json"
+    },
+    {
+      "question": "Baseline为什么不会把梯度改错？",
+      "answer": "LOO只用其他独立轨迹的回报，条件于它们时与本条轨迹动作独立，乘score function的期望为零；singleton用历史baseline。当前样本也进均值会在此设置缩放期望梯度，不能忽略。",
+      "evidence": "evidence/theory.json"
+    },
+    {
+      "question": "KL回报依赖θ，为什么detach？",
+      "answer": "完整求导多出的−βE[∇logpθ]为零。剩余梯度可用detach(R−βlogratio−b)乘∇logpθ无偏估计；该结论依赖固定支持、固定奖励和固定prior。",
+      "evidence": "method_notes.html"
+    },
+    {
+      "question": "轨迹KL等于分子KL吗？",
+      "answer": "一般不等。固定多对一解码下，轨迹KL=输出KL+条件编码KL；后者非负。有限编码子集诊断不是全空间KL的估计。",
+      "evidence": "evidence/encoding_diagnostic.json"
+    },
+    {
+      "question": "为什么不能删除重复轨迹后再更新？",
+      "answer": "确定性评分可以按canonical分子缓存，但不同采样轨迹及其概率属于原策略分布。未经权重修正删重会改变梯度估计对象。",
+      "evidence": "src/study.py"
+    },
+    {
+      "question": "所谓3000预算公平在哪里？",
+      "answer": "每个run独立记首次有效canonical identity；冻结模型拿相同预算；重复和无效尝试另记。查询数相同不意味着token、时间或反向计算相同，因此同时报告attempts、updates和墙钟。",
+      "evidence": "contract.json"
+    },
+    {
+      "question": "为什么RL平均分涨了，搜索AUC没怎么涨？",
+      "answer": "它们依赖分布的不同性质。冻结模型已能偶尔采到好候选；提高日常输出均值不自动提高上尾或独特候选发现。现有反例是数学边界，真实机制要由分量和曲线支持。",
+      "evidence": "evidence/objective_mismatch.json"
+    },
+    {
+      "question": "高MPO是否说明是好药、能结合靶点？",
+      "answer": "不能。这是固定相似度和计算性质代理目标，没有测结合、药效、安全性、可合成性或新颖性。任务奖励也没有给分子量/TPSA上限。",
+      "evidence": "evidence/cases/index.html"
+    },
+    {
+      "question": "KL是否已证明保护多样性？",
+      "answer": "还没有通用结论。分别看重复、全样本指纹距离、骨架覆盖和性质漂移；这些指标可不同向。某个单种子的256子样本诊断不能替代完整样本和种子检验。",
+      "evidence": "evidence/cases/cases.json"
+    },
+    {
+      "question": "案例是不是挑出来讲故事的？",
+      "answer": "规则在已知首组汇总性能后、查看和挑选具体分子前制定，属于探索性案例分析，不冒称主实验前预注册。固定规则覆盖中位数附近、搜索最高分、分量<0.5的最高分、最相似独特样本对和首个失败，所有方法与种子均展示。",
+      "evidence": "case_protocol.json"
+    },
+    {
+      "question": "1024个样本是否就是1024次独立实验？",
+      "answer": "不是。方法比较的单位是训练种子。终态样本描述同一模型的输出分布；不能用它们制造方法比较的伪重复显著性。",
+      "evidence": "contract.json"
+    },
+    {
+      "question": "能证明算法收敛或全局最优吗？",
+      "answer": "不能。有限枚举验证估计器实现，不证明神经策略训练收敛。轨迹到分子的KL分解是标准恒等式在项目中的应用，不是新的通用定理。",
+      "evidence": "evidence/theory.json"
+    },
+    {
+      "question": "两个任务是完全未见数据吗？",
+      "answer": "不能如此声称。Fexofenadine有已披露的旧GRU试验历史；公开ChemGPT预训练数据是否覆盖某些结构也不在本项目中保证隔离。这里是固定公开任务的控制优化实验。",
+      "evidence": "../proposal/latex/main.tex"
+    },
+    {
+      "question": "实际贡献是什么？",
+      "answer": "应逐项区分开源模型/基准、课程算法、我们的接口整合/正确性检查/固定预算比较/机制与案例分析，以及自动化辅助工作。成员本人实际完成的工作单独记录，不用proposal计划替代。",
+      "evidence": "contribution_ledger.json"
+    },
+    {
+      "question": "相同长度分箱内RL更高，能说收益不是长度造成的吗？",
+      "answer": "只能说观察到同一粗分箱内仍有奖励差异。长度是策略影响的结果/中介变量，条件化可能引入选择效应，粗分箱也有残余差异；这不是因果识别或收益分解。须报告共同支持和覆盖率。",
+      "evidence": "evidence/length_analysis.html"
+    },
+    {
+      "question": "canonical SMILES重读评分一定与原始token解码评分相同吗？",
+      "answer": "我们在原始24次运行中观察到两处复杂环结构的分量差异超过1e-10。精确token与缓存顺序回放全部通过；重读反事实使各运行终态均值最大绝对变化不到2e-13。保留原评分并报告表示敏感性，不宣称所有描述符在所有表示下完全不变。",
+      "evidence": "evidence/representation_audit/summary.json"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "case_task_pairs": 117,
+  "max_component_abs_error": 5.551115123125783e-17,
+  "source_commit": "60ebe1f6a396f16e08b834dce448e9343d259feb",
+  "scope": "Original pinned fingerprint and modifier modules; task assembly checked against standard_benchmarks.py; not importing the complete benchmark dependency graph"
+}

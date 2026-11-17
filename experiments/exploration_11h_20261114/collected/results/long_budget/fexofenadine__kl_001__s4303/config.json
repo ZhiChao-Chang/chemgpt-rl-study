@@ -1,0 +1,58 @@
+{
+  "task": "fexofenadine",
+  "method": "kl_001",
+  "seed": 4303,
+  "limits": {
+    "name": "long_budget",
+    "purpose": "Larger fixed evaluation budgets, new seeds; examine continuing improvement or concentration. Do not pool with 3000-query study as the same protocol.",
+    "tasks": [
+      "fexofenadine",
+      "osimertinib"
+    ],
+    "seeds": [
+      4301,
+      4302,
+      4303
+    ],
+    "unique_budget": 10000,
+    "max_attempts": 30000,
+    "max_updates": 940,
+    "evaluation_attempts": 1024,
+    "run_wall_seconds": 2400,
+    "conditions": [
+      {
+        "id": "frozen",
+        "beta": 0,
+        "length_cost": 0,
+        "transform": "raw"
+      },
+      {
+        "id": "rf",
+        "beta": 0,
+        "length_cost": 0,
+        "transform": "raw"
+      },
+      {
+        "id": "kl_001",
+        "beta": 0.01,
+        "length_cost": 0,
+        "transform": "raw"
+      }
+    ]
+  },
+  "settings": {
+    "batch_size": 32,
+    "horizon": 256,
+    "lr": 1e-05,
+    "beta": 0.01,
+    "gradient_norm_clip": 1,
+    "temperature": 1,
+    "dtype": "float32",
+    "id": "kl_001",
+    "length_cost": 0,
+    "transform": "raw",
+    "beta_override": 0.01,
+    "phase_name": "long_budget"
+  },
+  "beta": 0.01
+}

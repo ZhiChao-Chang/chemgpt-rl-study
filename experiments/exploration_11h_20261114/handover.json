@@ -1,0 +1,26 @@
+{
+  "scope": "ME2502 ChemGPT RL only",
+  "status": "ACTIVE",
+  "task": "acp-me2502-explore-20261114-01",
+  "job_uid": "6941c3db5017414383baee64a26d5d78",
+  "absolute_deadline": "2026-11-15T09:28:22+08:00",
+  "single_gpu": true,
+  "planned_runs": 108,
+  "priority": [
+    "kl_dose60",
+    "mechanism30",
+    "long_budget18"
+  ],
+  "watch_process_tool_session": 49044,
+  "guard_process_tool_session": 15724,
+  "report": "index.html",
+  "status_file": "evidence/status.json",
+  "verification": "evidence/verification.json",
+  "strict_token_replay": "evidence/strict_replay.json",
+  "raw_results": "collected/results",
+  "journal": "/home/zhangzhichao/codex-cci-control/state/acp/jobs/acp-me2502-explore-20261114-01.json",
+  "no_automatic_new_cloud_attempts": true,
+  "prior_study": "../contract.json unchanged;24 raw runs now fully collected and ledger/token replay verified",
+  "known_representation_boundary": "../evidence/representation_audit/summary.json:2 descriptor-edge identities above1e-10;max terminal mean absolute reward change<2e-13;original rewards retained",
+  "after_deadline": "No further GPU work or restart without renewed authorization; collect/query own evidence as needed."
+}

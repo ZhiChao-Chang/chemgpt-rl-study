@@ -1,0 +1,78 @@
+{
+  "task": "fexofenadine",
+  "method": "kl_01",
+  "seed": 4103,
+  "limits": {
+    "name": "kl_dose",
+    "purpose": "Independent replication and KL dose-response after seeing original main results; new cohort, not retrospective preregistration of original study.",
+    "tasks": [
+      "fexofenadine",
+      "osimertinib"
+    ],
+    "seeds": [
+      4101,
+      4102,
+      4103,
+      4104,
+      4105
+    ],
+    "unique_budget": 3000,
+    "max_attempts": 15000,
+    "max_updates": 470,
+    "evaluation_attempts": 512,
+    "run_wall_seconds": 1200,
+    "conditions": [
+      {
+        "id": "frozen",
+        "beta": 0,
+        "length_cost": 0,
+        "transform": "raw"
+      },
+      {
+        "id": "rf",
+        "beta": 0,
+        "length_cost": 0,
+        "transform": "raw"
+      },
+      {
+        "id": "kl_001",
+        "beta": 0.01,
+        "length_cost": 0,
+        "transform": "raw"
+      },
+      {
+        "id": "kl_0003",
+        "beta": 0.003,
+        "length_cost": 0,
+        "transform": "raw"
+      },
+      {
+        "id": "kl_003",
+        "beta": 0.03,
+        "length_cost": 0,
+        "transform": "raw"
+      },
+      {
+        "id": "kl_01",
+        "beta": 0.1,
+        "length_cost": 0,
+        "transform": "raw"
+      }
+    ]
+  },
+  "settings": {
+    "batch_size": 32,
+    "horizon": 256,
+    "lr": 1e-05,
+    "beta": 0.1,
+    "gradient_norm_clip": 1,
+    "temperature": 1,
+    "dtype": "float32",
+    "id": "kl_01",
+    "length_cost": 0,
+    "transform": "raw",
+    "beta_override": 0.1,
+    "phase_name": "kl_dose"
+  },
+  "beta": 0.1
+}

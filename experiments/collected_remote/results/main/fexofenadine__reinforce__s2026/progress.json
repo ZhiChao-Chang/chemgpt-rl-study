@@ -1,0 +1,13 @@
+{
+  "update": 94,
+  "attempts": 3014,
+  "unique": 3000,
+  "mean_reward": 0.5920832753181458,
+  "sample_trajectory_kl": 45.36933517456055,
+  "full_vocabulary_prefix_kl": 0.49740949273109436,
+  "elapsed_s": 236.8817833736539,
+  "loss": -0.8417648077011108,
+  "grad_norm": 25.028120040893555,
+  "advantage_variance": 0.0013062305515632033,
+  "logprob_error": 0.000213623046875
+}

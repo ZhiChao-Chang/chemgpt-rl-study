@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "runs": 12,
+  "molecule_records_checked": 8226,
+  "valid_molecule_score_parity_checks": 7568,
+  "max_score_difference": 1.1102230246251565e-16,
+  "scope": "saved-record recount + official fingerprint/score modifier parity, not full GuacaMol package certification",
+  "no_hypothesis_significance_claim": true,
+  "actual_scoring": "properties() is called for each processed/final-policy attempt; duplicates are recomputed, not cached; invalid=0",
+  "main_pilot_scorer_invocations": 8226
+}

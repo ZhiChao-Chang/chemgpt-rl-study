@@ -1,0 +1,38 @@
+# Credentials and machine-specific state
+.env
+.env.*
+!.env.example
+**/credentials.json
+**/*credentials*.yaml
+**/*credentials*.yml
+**/*secret*.pem
+*.key
+*.pem
+.openai/
+.codex/
+# Dependencies and caches
+node_modules/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+.DS_Store
+Thumbs.db
+# Downloaded weights and training checkpoints: preserve locally
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.safetensors
+# Reproducible build outputs and duplicate exports
+experiments/visual_report/dist/
+experiments/visual_report/.data-app-offline/
+experiments/visualization_work/before_redesign/
+*.tar.gz
+*.tgz
+*.zip
+# Course slides belong to course material, not this project's source release
+course_slides/
+# Local session/transcript metadata
+*.session.json

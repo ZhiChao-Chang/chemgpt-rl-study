@@ -1,0 +1,380 @@
+{
+  "status": "COMPLETE_PROFILE_ONLY_NOT_FORMAL_PERFORMANCE",
+  "scope": "bounded DEV resource profile; no formal task scoring or saved weights",
+  "arguments": {
+    "model_dir": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/proposal/implementation/chemgpt",
+    "vendor_dir": "/tmp/chemgpt_proposal_20261104/vendor",
+    "out": "/tmp/chemgpt_h100_profile_20261104/cpu_functional.json",
+    "device": "cpu",
+    "batch_size": 2,
+    "steps": 1,
+    "max_length": 16,
+    "threads": 2,
+    "methods": [
+      "frozen",
+      "reinforce",
+      "reinforce_kl"
+    ],
+    "stress_shapes": false,
+    "seed": 11,
+    "learning_rate": 1e-05,
+    "kl_beta": 0.01
+  },
+  "model_revision": "7438a282460b3038e17a27e25b85b1376e9a23e2",
+  "methods": {
+    "frozen": {
+      "status": "COMPLETE",
+      "warmup_excluded": {
+        "timings": {
+          "sampling_seconds": 0.10417211893945932,
+          "decoding_scoring_seconds": 0.0006253959145396948,
+          "reference_forward_seconds": 0.0,
+          "actor_forward_seconds": 0.0,
+          "actor_backward_seconds": 0.0,
+          "adam_step_seconds": 0.0,
+          "optimizer_statistics_seconds": 0.0
+        },
+        "total_step_seconds": 0.10482350084930658,
+        "timed_stage_sum_seconds": 0.10479751485399902,
+        "memory": {
+          "peak_allocated_bytes": null,
+          "peak_reserved_bytes": null,
+          "allocated_bytes": null,
+          "reserved_bytes": null
+        },
+        "samples": {
+          "attempts": 2,
+          "valid_connected": 2,
+          "valid_natural_eos": 0,
+          "natural_eos": 0,
+          "unique_valid_connected": 2,
+          "unique_valid_natural_eos": 0,
+          "mean_reward_invalid_or_truncated_zero": 0.0,
+          "min_reward": 0.0,
+          "max_reward": 0.0,
+          "token_lengths_including_eos": [
+            16,
+            16
+          ],
+          "generated_action_count": 32,
+          "mean_token_length_including_eos": 16.0,
+          "decode_error_counts": {}
+        },
+        "optimization": null
+      },
+      "initialization_seconds": 0.035153231117874384,
+      "measured_steps": [
+        {
+          "timings": {
+            "sampling_seconds": 0.098065793979913,
+            "decoding_scoring_seconds": 0.0005456069484353065,
+            "reference_forward_seconds": 0.0,
+            "actor_forward_seconds": 0.0,
+            "actor_backward_seconds": 0.0,
+            "adam_step_seconds": 0.0,
+            "optimizer_statistics_seconds": 0.0
+          },
+          "total_step_seconds": 0.09863528306595981,
+          "timed_stage_sum_seconds": 0.0986114009283483,
+          "memory": {
+            "peak_allocated_bytes": null,
+            "peak_reserved_bytes": null,
+            "allocated_bytes": null,
+            "reserved_bytes": null
+          },
+          "samples": {
+            "attempts": 2,
+            "valid_connected": 2,
+            "valid_natural_eos": 0,
+            "natural_eos": 0,
+            "unique_valid_connected": 2,
+            "unique_valid_natural_eos": 0,
+            "mean_reward_invalid_or_truncated_zero": 0.0,
+            "min_reward": 0.0,
+            "max_reward": 0.0,
+            "token_lengths_including_eos": [
+              16,
+              16
+            ],
+            "generated_action_count": 32,
+            "mean_token_length_including_eos": 16.0,
+            "decode_error_counts": {}
+          },
+          "optimization": null,
+          "step": 0
+        }
+      ],
+      "starts_from_original_parameters": true,
+      "mean_measured_step_seconds": 0.09863528306595981,
+      "max_peak_allocated_bytes": 0,
+      "max_peak_reserved_bytes": 0
+    },
+    "reinforce": {
+      "status": "COMPLETE",
+      "warmup_excluded": {
+        "timings": {
+          "sampling_seconds": 0.08797675091773272,
+          "decoding_scoring_seconds": 0.0004703227896243334,
+          "reference_forward_seconds": 0.0,
+          "actor_forward_seconds": 0.019672952126711607,
+          "actor_backward_seconds": 0.043087912956252694,
+          "adam_step_seconds": 0.04746955796144903,
+          "optimizer_statistics_seconds": 7.272814400494099e-05
+        },
+        "total_step_seconds": 0.19921270199120045,
+        "timed_stage_sum_seconds": 0.19875022489577532,
+        "memory": {
+          "peak_allocated_bytes": null,
+          "peak_reserved_bytes": null,
+          "allocated_bytes": null,
+          "reserved_bytes": null
+        },
+        "samples": {
+          "attempts": 2,
+          "valid_connected": 2,
+          "valid_natural_eos": 0,
+          "natural_eos": 0,
+          "unique_valid_connected": 2,
+          "unique_valid_natural_eos": 0,
+          "mean_reward_invalid_or_truncated_zero": 0.0,
+          "min_reward": 0.0,
+          "max_reward": 0.0,
+          "token_lengths_including_eos": [
+            16,
+            16
+          ],
+          "generated_action_count": 32,
+          "mean_token_length_including_eos": 16.0,
+          "decode_error_counts": {}
+        },
+        "optimization": {
+          "loss": -0.0,
+          "gradient_norm_before_clip": 0.0,
+          "mean_sample_sequence_kl": 0.0,
+          "mean_regularized_return": 0.0,
+          "mean_abs_advantage": 0.0,
+          "max_sample_vs_teacherforce_logprob_error": 2.193450927734375e-05,
+          "baseline": "leave-one-out",
+          "reference_has_gradient": false
+        }
+      },
+      "initialization_seconds": 0.04033709177747369,
+      "measured_steps": [
+        {
+          "timings": {
+            "sampling_seconds": 0.09043601690791547,
+            "decoding_scoring_seconds": 0.000491623068228364,
+            "reference_forward_seconds": 0.0,
+            "actor_forward_seconds": 0.01337126293219626,
+            "actor_backward_seconds": 0.02597651700489223,
+            "adam_step_seconds": 0.037956404965370893,
+            "optimizer_statistics_seconds": 8.016894571483135e-05
+          },
+          "total_step_seconds": 0.1685356309171766,
+          "timed_stage_sum_seconds": 0.16831199382431805,
+          "memory": {
+            "peak_allocated_bytes": null,
+            "peak_reserved_bytes": null,
+            "allocated_bytes": null,
+            "reserved_bytes": null
+          },
+          "samples": {
+            "attempts": 2,
+            "valid_connected": 2,
+            "valid_natural_eos": 0,
+            "natural_eos": 0,
+            "unique_valid_connected": 2,
+            "unique_valid_natural_eos": 0,
+            "mean_reward_invalid_or_truncated_zero": 0.0,
+            "min_reward": 0.0,
+            "max_reward": 0.0,
+            "token_lengths_including_eos": [
+              16,
+              16
+            ],
+            "generated_action_count": 32,
+            "mean_token_length_including_eos": 16.0,
+            "decode_error_counts": {}
+          },
+          "optimization": {
+            "loss": -0.0,
+            "gradient_norm_before_clip": 0.0,
+            "mean_sample_sequence_kl": 0.0,
+            "mean_regularized_return": 0.0,
+            "mean_abs_advantage": 0.0,
+            "max_sample_vs_teacherforce_logprob_error": 2.193450927734375e-05,
+            "baseline": "leave-one-out",
+            "reference_has_gradient": false
+          },
+          "step": 0
+        }
+      ],
+      "starts_from_original_parameters": true,
+      "mean_measured_step_seconds": 0.1685356309171766,
+      "max_peak_allocated_bytes": 0,
+      "max_peak_reserved_bytes": 0
+    },
+    "reinforce_kl": {
+      "status": "COMPLETE",
+      "warmup_excluded": {
+        "timings": {
+          "sampling_seconds": 0.09198622102849185,
+          "decoding_scoring_seconds": 0.0005659100133925676,
+          "reference_forward_seconds": 0.01028754492290318,
+          "actor_forward_seconds": 0.014831098029389977,
+          "actor_backward_seconds": 0.02655563084408641,
+          "adam_step_seconds": 0.045067560160532594,
+          "optimizer_statistics_seconds": 0.0008880950044840574
+        },
+        "total_step_seconds": 0.19047362986020744,
+        "timed_stage_sum_seconds": 0.19018206000328064,
+        "memory": {
+          "peak_allocated_bytes": null,
+          "peak_reserved_bytes": null,
+          "allocated_bytes": null,
+          "reserved_bytes": null
+        },
+        "samples": {
+          "attempts": 2,
+          "valid_connected": 2,
+          "valid_natural_eos": 0,
+          "natural_eos": 0,
+          "unique_valid_connected": 2,
+          "unique_valid_natural_eos": 0,
+          "mean_reward_invalid_or_truncated_zero": 0.0,
+          "min_reward": 0.0,
+          "max_reward": 0.0,
+          "token_lengths_including_eos": [
+            16,
+            16
+          ],
+          "generated_action_count": 32,
+          "mean_token_length_including_eos": 16.0,
+          "decode_error_counts": {}
+        },
+        "optimization": {
+          "loss": -0.0,
+          "gradient_norm_before_clip": 0.0,
+          "mean_sample_sequence_kl": 0.0,
+          "mean_regularized_return": 0.0,
+          "mean_abs_advantage": 0.0,
+          "max_sample_vs_teacherforce_logprob_error": 2.193450927734375e-05,
+          "baseline": "leave-one-out",
+          "reference_has_gradient": false
+        }
+      },
+      "initialization_seconds": 0.0665197370108217,
+      "measured_steps": [
+        {
+          "timings": {
+            "sampling_seconds": 0.08694081613793969,
+            "decoding_scoring_seconds": 0.0005696879234164953,
+            "reference_forward_seconds": 0.007747698109596968,
+            "actor_forward_seconds": 0.009476199047639966,
+            "actor_backward_seconds": 0.02157797198742628,
+            "adam_step_seconds": 0.036117105977609754,
+            "optimizer_statistics_seconds": 0.0007720319554209709
+          },
+          "total_step_seconds": 0.16342930123209953,
+          "timed_stage_sum_seconds": 0.16320151113905013,
+          "memory": {
+            "peak_allocated_bytes": null,
+            "peak_reserved_bytes": null,
+            "allocated_bytes": null,
+            "reserved_bytes": null
+          },
+          "samples": {
+            "attempts": 2,
+            "valid_connected": 2,
+            "valid_natural_eos": 0,
+            "natural_eos": 0,
+            "unique_valid_connected": 2,
+            "unique_valid_natural_eos": 0,
+            "mean_reward_invalid_or_truncated_zero": 0.0,
+            "min_reward": 0.0,
+            "max_reward": 0.0,
+            "token_lengths_including_eos": [
+              16,
+              16
+            ],
+            "generated_action_count": 32,
+            "mean_token_length_including_eos": 16.0,
+            "decode_error_counts": {}
+          },
+          "optimization": {
+            "loss": -0.0,
+            "gradient_norm_before_clip": 0.0,
+            "mean_sample_sequence_kl": 0.0,
+            "mean_regularized_return": 0.0,
+            "mean_abs_advantage": 0.0,
+            "max_sample_vs_teacherforce_logprob_error": 2.193450927734375e-05,
+            "baseline": "leave-one-out",
+            "reference_has_gradient": false
+          },
+          "step": 0
+        }
+      ],
+      "starts_from_original_parameters": true,
+      "reference_hash_unchanged": true,
+      "mean_measured_step_seconds": 0.16342930123209953,
+      "max_peak_allocated_bytes": 0,
+      "max_peak_reserved_bytes": 0
+    }
+  },
+  "synthetic_stress": [],
+  "measurement_label": "CPU_FUNCTIONAL_ONLY",
+  "no_cross_step_replay": true,
+  "fresh_batch_updates": 1,
+  "warmup": "one real warmup per method, excluded; model and Adam then reinitialized from original weights",
+  "reward": {
+    "name": "DEV Perindopril MPO",
+    "guacamol_commit": "60ebe1f6a396f16e08b834dce448e9343d259feb",
+    "reference_smiles": "O=C(OCC)C(NC(C(=O)N1C(C(=O)O)CC2CCCCC12)C)CCC",
+    "fingerprint": "unhashed count Morgan radius2; useFeatures=False",
+    "aromatic_rings_gaussian": {
+      "mu": 2.0,
+      "sigma": 0.5
+    },
+    "aggregation": "sqrt(similarity * gaussian)",
+    "invalid_or_truncated_reward": 0.0
+  },
+  "token_contract": {
+    "bos": 2,
+    "eos": 3,
+    "pad": 1,
+    "blocked": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "temperature": 1.0,
+    "token_type_ids": "all zero",
+    "length_normalization": false
+  },
+  "gpu_memory_policy": {
+    "allocator_fraction_hard_limit": 0.24,
+    "peak_reserved_limit_fraction": 0.25,
+    "scope": "PyTorch allocator; CUDA driver/context memory is outside allocator accounting"
+  },
+  "script_sha256": "951d6fd36287f404cd02712dd97e138dd59257adca4d3f3914c3fd4e7abe0e0f",
+  "runtime": {
+    "python": "3.10.20",
+    "torch": "2.7.1+cu128",
+    "transformers": "4.51.3",
+    "rdkit": "2025.09.6",
+    "selfies_distribution": "1.0.4",
+    "selfies_module": "1.0.3",
+    "selfies_origin": "/tmp/chemgpt_proposal_20261104/vendor/selfies/__init__.py",
+    "cuda_runtime": "12.8",
+    "actual_parameter_count": 5099264,
+    "weight_sha256": "a8a39c5ea1d50c450632e003d21c90f847d815a801934b03a12b02010b74d21b",
+    "loading_info": {
+      "missing_keys": [],
+      "unexpected_keys": [],
+      "mismatched_keys": [],
+      "error_msgs": []
+    }
+  },
+  "original_parameter_hash": "3da9abed1689e3c9d7068450963cf89dab678c12bb59beda94cf2052ea7a2748"
+}

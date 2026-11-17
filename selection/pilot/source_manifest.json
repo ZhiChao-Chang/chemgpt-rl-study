@@ -1,0 +1,80 @@
+{
+  "repo": "wenhao-gao/mol_opt",
+  "commit": "2da631be85af8d10a2bb43f2de76a03171166190",
+  "accessed_UTC": "2026-11-04T03:15:02.351230+00:00",
+  "files": [
+    {
+      "path": "main/reinvent/data/Prior.ckpt",
+      "url": "https://raw.githubusercontent.com/wenhao-gao/mol_opt/2da631be85af8d10a2bb43f2de76a03171166190/main/reinvent/data/Prior.ckpt",
+      "bytes": 16697208,
+      "sha256": "6fa349413b1ab70134eaf4cc1900523119cf28806d7e63d6acfa001c60d6c3fc"
+    },
+    {
+      "path": "main/reinvent/data/Voc",
+      "url": "https://raw.githubusercontent.com/wenhao-gao/mol_opt/2da631be85af8d10a2bb43f2de76a03171166190/main/reinvent/data/Voc",
+      "bytes": 206,
+      "sha256": "dd2f2bcc04fd328d8125c548663a1deb86608a9fbc2a46d12a9df62799db7796"
+    },
+    {
+      "path": "main/reinvent/model.py",
+      "url": "https://raw.githubusercontent.com/wenhao-gao/mol_opt/2da631be85af8d10a2bb43f2de76a03171166190/main/reinvent/model.py",
+      "bytes": 5331,
+      "sha256": "66afd10fd184c515b94bb4ac3d2b4ea96916407af7ada9205d214401e03bf5ae"
+    },
+    {
+      "path": "main/reinvent/data_structs.py",
+      "url": "https://raw.githubusercontent.com/wenhao-gao/mol_opt/2da631be85af8d10a2bb43f2de76a03171166190/main/reinvent/data_structs.py",
+      "bytes": 12014,
+      "sha256": "bb531391b58d7f14f2f25bb938da0d7287d657fe013702da7f69035e2145c9e1"
+    },
+    {
+      "path": "main/reinvent/utils.py",
+      "url": "https://raw.githubusercontent.com/wenhao-gao/mol_opt/2da631be85af8d10a2bb43f2de76a03171166190/main/reinvent/utils.py",
+      "bytes": 1562,
+      "sha256": "6b3f9e846ec54b556bd7bf32e25445c3754559d0e9f05aa101bae4c3e7a088ca"
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/wenhao-gao/mol_opt/2da631be85af8d10a2bb43f2de76a03171166190/LICENSE",
+      "bytes": 1067,
+      "sha256": "63ea05d87fb120da7fd481f57b391337b60bd10dace22a3349379ffaf35257f5"
+    }
+  ],
+  "scope": "small CPU preflight only; original repo MIT; no formal performance replication",
+  "guacamol": {
+    "commit": "60ebe1f6a396f16e08b834dce448e9343d259feb",
+    "files": [
+      {
+        "path": "guacamol/standard_benchmarks.py",
+        "url": "https://raw.githubusercontent.com/BenevolentAI/guacamol/60ebe1f6a396f16e08b834dce448e9343d259feb/guacamol/standard_benchmarks.py",
+        "bytes": 21205,
+        "sha256": "02782338b20dedb5dd49b077dd9c6ce3322559eea5b7b050bcec4e5a98f3e085"
+      },
+      {
+        "path": "guacamol/score_modifier.py",
+        "url": "https://raw.githubusercontent.com/BenevolentAI/guacamol/60ebe1f6a396f16e08b834dce448e9343d259feb/guacamol/score_modifier.py",
+        "bytes": 6418,
+        "sha256": "837876c6c7ddbe35b89796c86248244eefb2ec61baa387750d01daea583fad9b"
+      },
+      {
+        "path": "guacamol/utils/fingerprints.py",
+        "url": "https://raw.githubusercontent.com/BenevolentAI/guacamol/60ebe1f6a396f16e08b834dce448e9343d259feb/guacamol/utils/fingerprints.py",
+        "bytes": 1628,
+        "sha256": "55fa1b43f6c29e008bb84cc1a8d55716a5d40b62c06d401242647a968e77bfeb"
+      },
+      {
+        "path": "guacamol/common_scoring_functions.py",
+        "url": "https://raw.githubusercontent.com/BenevolentAI/guacamol/60ebe1f6a396f16e08b834dce448e9343d259feb/guacamol/common_scoring_functions.py",
+        "bytes": 6529,
+        "sha256": "7cdcf144663499a3f8270dcca3d2b47be981238e48fada1a0b284d108cde352a"
+      },
+      {
+        "path": "LICENSE",
+        "url": "https://raw.githubusercontent.com/BenevolentAI/guacamol/60ebe1f6a396f16e08b834dce448e9343d259feb/LICENSE",
+        "bytes": 1069,
+        "sha256": "b1964d554f45446206ca08c614bfdff0d471c503da6cd2aaf5dddc2e94d9ea80"
+      }
+    ],
+    "purpose": "auditable original definitions, not a full installed GuacaMol benchmark"
+  }
+}

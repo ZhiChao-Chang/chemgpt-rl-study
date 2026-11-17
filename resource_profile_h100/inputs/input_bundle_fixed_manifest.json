@@ -1,0 +1,47 @@
+{
+  "path": "/tmp/chemgpt_h100_profile_20261104/input_bundle_fixed.tar.gz",
+  "bytes": 19254713,
+  "sha256": "618164ce583350c4f711eaf6dd6053f41622a2ef34afa7f63c478c8a9ca3d040",
+  "files": [
+    {
+      "path": "profile_h100.py",
+      "bytes": 23872,
+      "sha256": "19927a5bef320cda611ecd9844a79d393038f481706d196d7fe4c7b859dd1a5a"
+    },
+    {
+      "path": "model/config.json",
+      "bytes": 1284,
+      "sha256": "73a9eb113e31b2ac8a6b070469b749dbaa8110f72a197bea7899d93db462e8ba"
+    },
+    {
+      "path": "model/tokenizer.json",
+      "bytes": 10789,
+      "sha256": "fee4dad651e2edb49afb5d6aa3e4fea437e08c740c80b6d1d6e1909ad2b30100"
+    },
+    {
+      "path": "model/tokenizer_config.json",
+      "bytes": 260,
+      "sha256": "ee5b5daf3a4f292292f944d06fa34ca00c6f4b18aec68478c55ef223311ee145"
+    },
+    {
+      "path": "model/special_tokens_map.json",
+      "bytes": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "path": "model/README.md",
+      "bytes": 1942,
+      "sha256": "5732275e9233a8b8ca8f690b6beb624da9ff5b3e7906f7d446a8c6ff45597195"
+    },
+    {
+      "path": "model/pytorch_model.bin",
+      "bytes": 70836865,
+      "sha256": "a8a39c5ea1d50c450632e003d21c90f847d815a801934b03a12b02010b74d21b"
+    },
+    {
+      "path": "selfies-1.0.4-py3-none-any.whl",
+      "bytes": 30220,
+      "sha256": "e41009c1b5512d87ed8ea4d2a52ea9d833fbe6ddeb9ea34990b4a4d77b5b037c"
+    }
+  ]
+}

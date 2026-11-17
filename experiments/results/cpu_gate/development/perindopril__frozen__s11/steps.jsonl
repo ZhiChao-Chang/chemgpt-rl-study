@@ -1,0 +1,16 @@
+{"update": 0, "attempts": 32, "unique": 32, "mean_reward": 0.12648072838783264, "sample_trajectory_kl": -4.0531158447265625e-06, "elapsed_s": 0.8604575550416484}
+{"update": 0, "attempts": 64, "unique": 64, "mean_reward": 0.150239497423172, "sample_trajectory_kl": 2.86102294921875e-06, "elapsed_s": 1.9159471039893106}
+{"update": 0, "attempts": 96, "unique": 96, "mean_reward": 0.13396267592906952, "sample_trajectory_kl": 2.3245811462402344e-06, "elapsed_s": 2.8940031530801207}
+{"update": 0, "attempts": 128, "unique": 128, "mean_reward": 0.167212575674057, "sample_trajectory_kl": 2.2649765014648438e-06, "elapsed_s": 3.9766154270619154}
+{"update": 0, "attempts": 160, "unique": 160, "mean_reward": 0.13931527733802795, "sample_trajectory_kl": 8.106231689453125e-06, "elapsed_s": 5.133837917004712}
+{"update": 0, "attempts": 192, "unique": 192, "mean_reward": 0.16472607851028442, "sample_trajectory_kl": 1.3947486877441406e-05, "elapsed_s": 8.101221061078832}
+{"update": 0, "attempts": 224, "unique": 224, "mean_reward": 0.16296565532684326, "sample_trajectory_kl": 7.450580596923828e-06, "elapsed_s": 9.26237306999974}
+{"update": 0, "attempts": 256, "unique": 256, "mean_reward": 0.13960309326648712, "sample_trajectory_kl": -1.9669532775878906e-06, "elapsed_s": 10.444902257993817}
+{"update": 0, "attempts": 288, "unique": 288, "mean_reward": 0.17394225299358368, "sample_trajectory_kl": -7.271766662597656e-06, "elapsed_s": 11.424171874066815}
+{"update": 0, "attempts": 320, "unique": 320, "mean_reward": 0.1456426978111267, "sample_trajectory_kl": 0.0, "elapsed_s": 12.65220772207249}
+{"update": 0, "attempts": 352, "unique": 352, "mean_reward": 0.12701117992401123, "sample_trajectory_kl": 8.344650268554688e-06, "elapsed_s": 13.625440881005488}
+{"update": 0, "attempts": 384, "unique": 384, "mean_reward": 0.1422574371099472, "sample_trajectory_kl": 2.384185791015625e-07, "elapsed_s": 15.273767085047439}
+{"update": 0, "attempts": 416, "unique": 416, "mean_reward": 0.13346941769123077, "sample_trajectory_kl": -3.039836883544922e-06, "elapsed_s": 18.09624295507092}
+{"update": 0, "attempts": 448, "unique": 448, "mean_reward": 0.14249281585216522, "sample_trajectory_kl": 3.2782554626464844e-06, "elapsed_s": 19.39006187103223}
+{"update": 0, "attempts": 480, "unique": 480, "mean_reward": 0.11636346578598022, "sample_trajectory_kl": -4.231929779052734e-06, "elapsed_s": 21.252756007015705}
+{"update": 0, "attempts": 512, "unique": 512, "mean_reward": 0.12207116931676865, "sample_trajectory_kl": -1.0728836059570312e-06, "elapsed_s": 23.34610186109785}

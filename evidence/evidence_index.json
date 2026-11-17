@@ -1,0 +1,67 @@
+{
+  "as_of": "2026-11-04",
+  "scope": "field-wide literature,not a predetermined TamGen project",
+  "source_collections": [
+    {
+      "file": "rl_method_sources.json",
+      "top_keys": [
+        "as_of",
+        "scope",
+        "core_source_count",
+        "supporting_source_count",
+        "source_policy",
+        "sources"
+      ],
+      "entry_count": 19
+    },
+    {
+      "file": "evaluation_sources.json",
+      "top_keys": [
+        "reviewed_on",
+        "scope",
+        "source_count",
+        "source_count_unit",
+        "sources"
+      ],
+      "entry_count": 12
+    },
+    {
+      "file": "field_extension_sources.json",
+      "top_keys": [
+        "as_of",
+        "scope",
+        "source_count",
+        "sources",
+        "related_existing_sources",
+        "no_execution"
+      ],
+      "entry_count": 13
+    },
+    {
+      "file": "field_project_sources.json",
+      "top_keys": [
+        "reviewed_on",
+        "purpose",
+        "sources"
+      ],
+      "entry_count": 4
+    },
+    {
+      "file": "tamgen_sources.json",
+      "top_keys": [
+        "accessed_at",
+        "task",
+        "scope",
+        "repos",
+        "sources",
+        "source_total_bytes",
+        "paper",
+        "zenodo",
+        "unknowns",
+        "cross_agent_context"
+      ],
+      "entry_count": 33
+    }
+  ],
+  "note": "Source collections contain papers,officialcode,metadata and versions;do not treat codefile counts as paper counts. All claims are literature/static review,not model reproduction."
+}

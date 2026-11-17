@@ -1,0 +1,27 @@
+{
+  "task": "fexofenadine",
+  "method": "length_0001",
+  "seed": 9002,
+  "limits": {
+    "unique_budget": 5,
+    "max_attempts": 5,
+    "max_updates": 1,
+    "evaluation_attempts": 4,
+    "run_wall_seconds": 120
+  },
+  "settings": {
+    "batch_size": 32,
+    "horizon": 256,
+    "lr": 1e-05,
+    "beta": 0,
+    "gradient_norm_clip": 1,
+    "temperature": 1,
+    "dtype": "float32",
+    "id": "length_0001",
+    "length_cost": 0.001,
+    "transform": "raw",
+    "beta_override": 0,
+    "phase_name": "edge"
+  },
+  "beta": 0.0
+}

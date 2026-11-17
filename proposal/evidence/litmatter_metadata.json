@@ -1,0 +1,545 @@
+{
+  "repo": {
+    "id": 431217886,
+    "node_id": "R_kgDOGbPc3g",
+    "name": "litmatter",
+    "full_name": "ncfrey/litmatter",
+    "private": false,
+    "owner": {
+      "login": "ncfrey",
+      "id": 19844216,
+      "node_id": "MDQ6VXNlcjE5ODQ0MjE2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19844216?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ncfrey",
+      "html_url": "https://github.com/ncfrey",
+      "followers_url": "https://api.github.com/users/ncfrey/followers",
+      "following_url": "https://api.github.com/users/ncfrey/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ncfrey/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ncfrey/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ncfrey/subscriptions",
+      "organizations_url": "https://api.github.com/users/ncfrey/orgs",
+      "repos_url": "https://api.github.com/users/ncfrey/repos",
+      "events_url": "https://api.github.com/users/ncfrey/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ncfrey/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "html_url": "https://github.com/ncfrey/litmatter",
+    "description": "Rapid experimentation and scaling of deep learning models on molecular and crystal graphs.",
+    "fork": false,
+    "url": "https://api.github.com/repos/ncfrey/litmatter",
+    "forks_url": "https://api.github.com/repos/ncfrey/litmatter/forks",
+    "keys_url": "https://api.github.com/repos/ncfrey/litmatter/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/ncfrey/litmatter/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/ncfrey/litmatter/teams",
+    "hooks_url": "https://api.github.com/repos/ncfrey/litmatter/hooks",
+    "issue_events_url": "https://api.github.com/repos/ncfrey/litmatter/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/ncfrey/litmatter/events",
+    "assignees_url": "https://api.github.com/repos/ncfrey/litmatter/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/ncfrey/litmatter/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/ncfrey/litmatter/tags",
+    "blobs_url": "https://api.github.com/repos/ncfrey/litmatter/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/ncfrey/litmatter/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/ncfrey/litmatter/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/ncfrey/litmatter/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/ncfrey/litmatter/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/ncfrey/litmatter/languages",
+    "stargazers_url": "https://api.github.com/repos/ncfrey/litmatter/stargazers",
+    "contributors_url": "https://api.github.com/repos/ncfrey/litmatter/contributors",
+    "subscribers_url": "https://api.github.com/repos/ncfrey/litmatter/subscribers",
+    "subscription_url": "https://api.github.com/repos/ncfrey/litmatter/subscription",
+    "commits_url": "https://api.github.com/repos/ncfrey/litmatter/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/ncfrey/litmatter/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/ncfrey/litmatter/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/ncfrey/litmatter/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/ncfrey/litmatter/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/ncfrey/litmatter/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/ncfrey/litmatter/merges",
+    "archive_url": "https://api.github.com/repos/ncfrey/litmatter/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/ncfrey/litmatter/downloads",
+    "issues_url": "https://api.github.com/repos/ncfrey/litmatter/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/ncfrey/litmatter/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/ncfrey/litmatter/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/ncfrey/litmatter/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/ncfrey/litmatter/labels{/name}",
+    "releases_url": "https://api.github.com/repos/ncfrey/litmatter/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/ncfrey/litmatter/deployments",
+    "created_at": "2021-11-23T18:51:06Z",
+    "updated_at": "2026-10-27T17:37:17Z",
+    "pushed_at": "2023-10-23T16:05:07Z",
+    "git_url": "git://github.com/ncfrey/litmatter.git",
+    "ssh_url": "git@github.com:ncfrey/litmatter.git",
+    "clone_url": "https://github.com/ncfrey/litmatter.git",
+    "svn_url": "https://github.com/ncfrey/litmatter",
+    "homepage": "https://www.nature.com/articles/s42256-023-00740-3",
+    "size": 523,
+    "stargazers_count": 77,
+    "watchers_count": 77,
+    "language": "Jupyter Notebook",
+    "has_issues": true,
+    "has_projects": true,
+    "has_downloads": false,
+    "has_wiki": true,
+    "has_pages": false,
+    "has_discussions": false,
+    "forks_count": 17,
+    "mirror_url": null,
+    "archived": false,
+    "disabled": false,
+    "open_issues_count": 2,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "allow_forking": true,
+    "is_template": false,
+    "web_commit_signoff_required": false,
+    "has_pull_requests": true,
+    "pull_request_creation_policy": "all",
+    "topics": [
+      "computational-chemistry",
+      "deep-learning",
+      "drug-discovery",
+      "geometric-deep-learning",
+      "machine-learning",
+      "materials-science",
+      "molecular-dynamics",
+      "neural-architecture-search"
+    ],
+    "visibility": "public",
+    "forks": 17,
+    "open_issues": 2,
+    "watchers": 77,
+    "default_branch": "main",
+    "temp_clone_token": null,
+    "network_count": 17,
+    "subscribers_count": 2
+  },
+  "commit": {
+    "sha": "d355ccac45e3b6299d1773c536ad7617e49a6b8a",
+    "node_id": "C_kwDOGbPc3toAKGQzNTVjY2FjNDVlM2I2Mjk5ZDE3NzNjNTM2YWQ3NjE3ZTQ5YTZiOGE",
+    "commit": {
+      "author": {
+        "name": "Nathan Frey",
+        "email": "ncfrey@users.noreply.github.com",
+        "date": "2023-10-23T16:05:07Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-10-23T16:05:07Z"
+      },
+      "message": "Update README.md",
+      "tree": {
+        "sha": "2313ec8b79ff76225212dd5d5e1343d8651ee384",
+        "url": "https://api.github.com/repos/ncfrey/litmatter/git/trees/2313ec8b79ff76225212dd5d5e1343d8651ee384"
+      },
+      "url": "https://api.github.com/repos/ncfrey/litmatter/git/commits/d355ccac45e3b6299d1773c536ad7617e49a6b8a",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlNpmzCRBK7hj4Ov3rIwAAz0UIALD1YRw/SqWl00kOE3Y0OoKt\n6DZhLkBUnEQmFUVPtvLZIvkO/PHLildghk1mmsh1UhFg7SoY0ajhG2jiXNpgXjKD\nw1S9g5I2fuK3nP34nBhGVGdTMPFuLbi243ywwCEMevTGjMV71tR++WtdlijhAvNP\n/lg0TpZiLkfWSX8kWjxMc3J1+/x2JpesnTNp1aFNzmEGoiLHWbMqk6QeqOh6RC7P\nwtpq3ynf1lc4cbm7cJNgX/V64WVW9gZSPO+MyubtVZbnCJInAzN19pByH091ZK18\nnQQiVjbBrKb6lKlgKvLmDXHY2PF0gntWPvJ1gLYeg0Epxh0+FJoLzsmwvrLWQJk=\n=gJ1F\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 2313ec8b79ff76225212dd5d5e1343d8651ee384\nparent 56619121ef4b7a82bc4581da3cad2df4d89a29f7\nauthor Nathan Frey <ncfrey@users.noreply.github.com> 1698077107 -0400\ncommitter GitHub <noreply@github.com> 1698077107 -0400\n\nUpdate README.md",
+        "verified_at": "2024-11-07T18:08:18Z"
+      }
+    },
+    "url": "https://api.github.com/repos/ncfrey/litmatter/commits/d355ccac45e3b6299d1773c536ad7617e49a6b8a",
+    "html_url": "https://github.com/ncfrey/litmatter/commit/d355ccac45e3b6299d1773c536ad7617e49a6b8a",
+    "comments_url": "https://api.github.com/repos/ncfrey/litmatter/commits/d355ccac45e3b6299d1773c536ad7617e49a6b8a/comments",
+    "author": {
+      "login": "ncfrey",
+      "id": 19844216,
+      "node_id": "MDQ6VXNlcjE5ODQ0MjE2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19844216?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ncfrey",
+      "html_url": "https://github.com/ncfrey",
+      "followers_url": "https://api.github.com/users/ncfrey/followers",
+      "following_url": "https://api.github.com/users/ncfrey/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ncfrey/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ncfrey/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ncfrey/subscriptions",
+      "organizations_url": "https://api.github.com/users/ncfrey/orgs",
+      "repos_url": "https://api.github.com/users/ncfrey/repos",
+      "events_url": "https://api.github.com/users/ncfrey/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ncfrey/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "56619121ef4b7a82bc4581da3cad2df4d89a29f7",
+        "url": "https://api.github.com/repos/ncfrey/litmatter/commits/56619121ef4b7a82bc4581da3cad2df4d89a29f7",
+        "html_url": "https://github.com/ncfrey/litmatter/commit/56619121ef4b7a82bc4581da3cad2df4d89a29f7"
+      }
+    ],
+    "stats": {
+      "total": 13,
+      "additions": 12,
+      "deletions": 1
+    },
+    "files": [
+      {
+        "sha": "9bfe2c007146891d5c8b92ee3a2d273314fe38e1",
+        "filename": "README.md",
+        "status": "modified",
+        "additions": 12,
+        "deletions": 1,
+        "changes": 13,
+        "blob_url": "https://github.com/ncfrey/litmatter/blob/d355ccac45e3b6299d1773c536ad7617e49a6b8a/README.md",
+        "raw_url": "https://github.com/ncfrey/litmatter/raw/d355ccac45e3b6299d1773c536ad7617e49a6b8a/README.md",
+        "contents_url": "https://api.github.com/repos/ncfrey/litmatter/contents/README.md?ref=d355ccac45e3b6299d1773c536ad7617e49a6b8a",
+        "patch": "@@ -27,7 +27,18 @@ The example notebooks show how to use LitMatter to scale model training for diff\n Note that these examples have additional dependencies beyond the core depdencies of LitMatter.\n \n ## References\n-If you use LitMatter for your own research and scaling experiments, please cite the following work:\n+If you use LitMatter for your own research and scaling experiments, please cite the following works:\n+[Frey, Nathan C., et al. \"Neural Scaling of Deep Chemical Models.\" __Nature Machine Intelligence_ (2023)](https://www.nature.com/articles/s42256-023-00740-3)\n+```\n+@article{frey2022neural,\n+  title={Neural scaling of deep chemical models},\n+  author={Frey, Nathan and Soklaski, Ryan and Axelrod, Simon and Samsi, Siddharth and Gomez-Bombarelli, Rafael and Coley, Connor and Gadepally, Vijay},\n+  journal={Nature Machine Intelligence},\n+  doi={10.1038/s42256-023-00740-3},\n+  year={2023}\n+}\n+```\n+\n [Frey, Nathan C., et al. \"Scalable Geometric Deep Learning on Molecular Graphs.\" NeurIPS 2021 AI for Science Workshop. 2021.](https://arxiv.org/abs/2112.03364)\n ```\n @inproceedings{frey2021scalable,"
+      }
+    ]
+  },
+  "tree": {
+    "sha": "d355ccac45e3b6299d1773c536ad7617e49a6b8a",
+    "url": "https://api.github.com/repos/ncfrey/litmatter/git/trees/d355ccac45e3b6299d1773c536ad7617e49a6b8a",
+    "tree": [
+      {
+        "path": ".gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b6e47617de110dea7ca47e087ff1347cc2646eda",
+        "size": 1799,
+        "url": "https://api.github.com/repos/ncfrey/litmatter/git/blobs/b6e47617de110dea7ca47e087ff1347cc2646eda"
+      },
+      {
+        "path": "CONTRIBUTING.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "33677d40b969d362529723a2d525a7083a2e7f3f",
+        "size": 823,
+        "url": "https://api.github.com/repos/ncfrey/litmatter/git/blobs/33677d40b969d362529723a2d525a7083a2e7f3f"
+      },
+      {
+        "path": "LICENSE",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "04cd253cddf6e859ba1acec0190278bc7f491f47",
+        "size": 1068,
+        "url": "https://api.github.com/repos/ncfrey/litmatter/git/blobs/04cd253cddf6e859ba1acec0190278bc7f491f47"
+      },
+      {
+        "path": "LitDeepChem.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d6ffb0e2ea556b6445b1ff986e6ab1a42328494d",
+        "size": 10484,
+        "url": "https://api.github.com/repos/ncfrey/litmatter/git/blobs/d6ffb0e2ea556b6445b1ff986e6ab1a42328494d"
+      },
+      {
+        "path": "LitHF.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5482aa91613ad4a330c727028d6c49e14537c531",
+        "size": 6114,
+        "url": "https://api.github.com/repos/ncfrey/litmatter/git/blobs/5482aa91613ad4a330c727028d6c49e14537c531"
+      },
+      {
+        "path": "LitNFFs.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "05833285465dbae580cfe1da8e505cda0bd0eb19",
+        "size": 104160,
+        "url": "https://api.github.com/repos/ncfrey/litmatter/git/blobs/05833285465dbae580cfe1da8e505cda0bd0eb19"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9bfe2c007146891d5c8b92ee3a2d273314fe38e1",
+        "size": 5352,
+        "url": "https://api.github.com/repos/ncfrey/litmatter/git/blobs/9bfe2c007146891d5c8b92ee3a2d273314fe38e1"
+      },
+      {
+        "path": "SPDX.spdx",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6db37f18a589fa8e211f05fc55da32caeb2843bf",
+        "size": 249,
+        "url": "https://api.github.com/repos/ncfrey/litmatter/git/blobs/6db37f18a589fa8e211f05fc55da32caeb2843bf"
+      },
+      {
+        "path": "TPE.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3e10727eecb5d34f8642c9e7e6e98ec50ee09885",
+        "size": 30787,
+        "url": "https://api.github.com/repos/ncfrey/litmatter/git/blobs/3e10727eecb5d34f8642c9e7e6e98ec50ee09885"
+      },
+      {
+        "path": "example_files",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c74505bcb60b1eec60db641a4d8cc34c999006ce",
+        "url": "https://api.github.com/repos/ncfrey/litmatter/git/trees/c74505bcb60b1eec60db641a4d8cc34c999006ce"
+      },
+      {
+        "path": "example_files/metrics.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3540078df2970ecce0467d5bcd455a735e5fb34b",
+        "size": 55054,
+        "url": "https://api.github.com/repos/ncfrey/litmatter/git/blobs/3540078df2970ecce0467d5bcd455a735e5fb34b"
+      },
+      {
+        "path": "example_files/nvidia-smi.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "14b453ee412acd9a92e365c1080098bd24026091",
+        "size": 10290375,
+        "url": "https://api.github.com/repos/ncfrey/litmatter/git/blobs/14b453ee412acd9a92e365c1080098bd24026091"
+      },
+      {
+        "path": "lit_data",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f8a6f5ae2e9e335b8f6ce30e95042d2f54539ede",
+        "url": "https://api.github.com/repos/ncfrey/litmatter/git/trees/f8a6f5ae2e9e335b8f6ce30e95042d2f54539ede"
+      },
+      {
+        "path": "lit_data/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/ncfrey/litmatter/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "lit_data/data.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e71c3c2e552077f2230efc0670b19b89afa3a57d",
+        "size": 1352,
+        "url": "https://api.github.com/repos/ncfrey/litmatter/git/blobs/e71c3c2e552077f2230efc0670b19b89afa3a57d"
+      },
+      {
+        "path": "lit_data/lm_data.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bbf6768071ab46c83cf38302ac7e757ccc1b6a45",
+        "size": 4006,
+        "url": "https://api.github.com/repos/ncfrey/litmatter/git/blobs/bbf6768071ab46c83cf38302ac7e757ccc1b6a45"
+      },
+      {
+        "path": "lit_data/molnet_data.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d2ad1f5e3ada8d719f87a05093b7ea5e8b5b8aa8",
+        "size": 1605,
+        "url": "https://api.github.com/repos/ncfrey/litmatter/git/blobs/d2ad1f5e3ada8d719f87a05093b7ea5e8b5b8aa8"
+      },
+      {
+        "path": "lit_data/nff_data.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8e0c564c78dbb02170579282e1c6b54ff21d512b",
+        "size": 1710,
+        "url": "https://api.github.com/repos/ncfrey/litmatter/git/blobs/8e0c564c78dbb02170579282e1c6b54ff21d512b"
+      },
+      {
+        "path": "lit_models",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "270658440494279f61de065ab04484a7ee65c01a",
+        "url": "https://api.github.com/repos/ncfrey/litmatter/git/trees/270658440494279f61de065ab04484a7ee65c01a"
+      },
+      {
+        "path": "lit_models/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/ncfrey/litmatter/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "lit_models/deepchem_models.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "56ac3c11b44b1eb839a06f1d679d0085a5a91ed5",
+        "size": 1750,
+        "url": "https://api.github.com/repos/ncfrey/litmatter/git/blobs/56ac3c11b44b1eb839a06f1d679d0085a5a91ed5"
+      },
+      {
+        "path": "lit_models/lit_chemgpt.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a1e8daed502a783230ade2cdbfc83c1aa09fcb82",
+        "size": 6770,
+        "url": "https://api.github.com/repos/ncfrey/litmatter/git/blobs/a1e8daed502a783230ade2cdbfc83c1aa09fcb82"
+      },
+      {
+        "path": "lit_models/lit_hf.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "15a0dbd1ba15a210f5ce3b8f66a35568d5853393",
+        "size": 5435,
+        "url": "https://api.github.com/repos/ncfrey/litmatter/git/blobs/15a0dbd1ba15a210f5ce3b8f66a35568d5853393"
+      },
+      {
+        "path": "lit_models/lit_nffs.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "64602f2cd1679254b9229aa20ec89674bbc7f495",
+        "size": 2409,
+        "url": "https://api.github.com/repos/ncfrey/litmatter/git/blobs/64602f2cd1679254b9229aa20ec89674bbc7f495"
+      },
+      {
+        "path": "lit_models/models.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ac7670c241a3b0319d4c3cf04d5fdc415d424484",
+        "size": 6161,
+        "url": "https://api.github.com/repos/ncfrey/litmatter/git/blobs/ac7670c241a3b0319d4c3cf04d5fdc415d424484"
+      },
+      {
+        "path": "prototyping.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6636a8dd147e9e1a89b195b68fb0e8c599c2717f",
+        "size": 4335,
+        "url": "https://api.github.com/repos/ncfrey/litmatter/git/blobs/6636a8dd147e9e1a89b195b68fb0e8c599c2717f"
+      },
+      {
+        "path": "requirements.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bdee565ea8767d13ba0174a887a15d82df7fe7ed",
+        "size": 143,
+        "url": "https://api.github.com/repos/ncfrey/litmatter/git/blobs/bdee565ea8767d13ba0174a887a15d82df7fe7ed"
+      },
+      {
+        "path": "run.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2ba535e61a1c88aa307343995f672c04348d4a0d",
+        "size": 653,
+        "url": "https://api.github.com/repos/ncfrey/litmatter/git/blobs/2ba535e61a1c88aa307343995f672c04348d4a0d"
+      },
+      {
+        "path": "submit.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9b1508cbecc342cd193461d9125f3ff81930c516",
+        "size": 319,
+        "url": "https://api.github.com/repos/ncfrey/litmatter/git/blobs/9b1508cbecc342cd193461d9125f3ff81930c516"
+      },
+      {
+        "path": "tokenizers",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "107ad9cc944c690f899be1e896b90ba1b999e7f2",
+        "url": "https://api.github.com/repos/ncfrey/litmatter/git/trees/107ad9cc944c690f899be1e896b90ba1b999e7f2"
+      },
+      {
+        "path": "tokenizers/pubchem10M_selfiesv2_tokenizer",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e69e1e5e203e007adb34f3ed0a12935ee9f72e1f",
+        "url": "https://api.github.com/repos/ncfrey/litmatter/git/trees/e69e1e5e203e007adb34f3ed0a12935ee9f72e1f"
+      },
+      {
+        "path": "tokenizers/pubchem10M_selfiesv2_tokenizer/special_tokens_map.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9e26dfeeb6e641a33dae4961196235bdb965b21b",
+        "size": 2,
+        "url": "https://api.github.com/repos/ncfrey/litmatter/git/blobs/9e26dfeeb6e641a33dae4961196235bdb965b21b"
+      },
+      {
+        "path": "tokenizers/pubchem10M_selfiesv2_tokenizer/tokenizer.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9c6f8eb0eda4e91043715ade8a3605a5d47e80d4",
+        "size": 9098,
+        "url": "https://api.github.com/repos/ncfrey/litmatter/git/blobs/9c6f8eb0eda4e91043715ade8a3605a5d47e80d4"
+      },
+      {
+        "path": "tokenizers/pubchem10M_selfiesv2_tokenizer/tokenizer_config.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "943dd03f32254633b8a826482d28398a7e0a729a",
+        "size": 46,
+        "url": "https://api.github.com/repos/ncfrey/litmatter/git/blobs/943dd03f32254633b8a826482d28398a7e0a729a"
+      },
+      {
+        "path": "tokenizers/pubchem10M_tokenizer",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6148d5e67703c2ebe20e9c986d412b4f68035566",
+        "url": "https://api.github.com/repos/ncfrey/litmatter/git/trees/6148d5e67703c2ebe20e9c986d412b4f68035566"
+      },
+      {
+        "path": "tokenizers/pubchem10M_tokenizer/special_tokens_map.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9e26dfeeb6e641a33dae4961196235bdb965b21b",
+        "size": 2,
+        "url": "https://api.github.com/repos/ncfrey/litmatter/git/blobs/9e26dfeeb6e641a33dae4961196235bdb965b21b"
+      },
+      {
+        "path": "tokenizers/pubchem10M_tokenizer/tokenizer.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0c6a1f8e8b8d254dac468ff11d2a164629c1e91d",
+        "size": 10789,
+        "url": "https://api.github.com/repos/ncfrey/litmatter/git/blobs/0c6a1f8e8b8d254dac468ff11d2a164629c1e91d"
+      },
+      {
+        "path": "tokenizers/pubchem10M_tokenizer/tokenizer_config.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "943dd03f32254633b8a826482d28398a7e0a729a",
+        "size": 46,
+        "url": "https://api.github.com/repos/ncfrey/litmatter/git/blobs/943dd03f32254633b8a826482d28398a7e0a729a"
+      },
+      {
+        "path": "tpe.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9e489d275d69291f8a7327662e595e08b5c738e7",
+        "size": 3232,
+        "url": "https://api.github.com/repos/ncfrey/litmatter/git/blobs/9e489d275d69291f8a7327662e595e08b5c738e7"
+      },
+      {
+        "path": "train.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "39a0b64a073d7b9895e3bc9da10754a20248f8ac",
+        "size": 2056,
+        "url": "https://api.github.com/repos/ncfrey/litmatter/git/blobs/39a0b64a073d7b9895e3bc9da10754a20248f8ac"
+      }
+    ],
+    "truncated": false
+  }
+}

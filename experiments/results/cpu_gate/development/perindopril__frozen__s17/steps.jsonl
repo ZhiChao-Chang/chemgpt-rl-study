@@ -1,0 +1,16 @@
+{"update": 0, "attempts": 32, "unique": 32, "mean_reward": 0.16110065579414368, "sample_trajectory_kl": 6.377696990966797e-06, "elapsed_s": 1.4634123259456828}
+{"update": 0, "attempts": 64, "unique": 64, "mean_reward": 0.14891526103019714, "sample_trajectory_kl": 1.7881393432617188e-06, "elapsed_s": 3.4004925129702315}
+{"update": 0, "attempts": 96, "unique": 96, "mean_reward": 0.1275586485862732, "sample_trajectory_kl": 9.417533874511719e-06, "elapsed_s": 4.929420331027359}
+{"update": 0, "attempts": 128, "unique": 128, "mean_reward": 0.11932606995105743, "sample_trajectory_kl": -1.1920928955078125e-07, "elapsed_s": 5.8324241529917344}
+{"update": 0, "attempts": 160, "unique": 160, "mean_reward": 0.2004193365573883, "sample_trajectory_kl": 8.463859558105469e-06, "elapsed_s": 6.7658101910492405}
+{"update": 0, "attempts": 192, "unique": 192, "mean_reward": 0.16027185320854187, "sample_trajectory_kl": -9.5367431640625e-06, "elapsed_s": 7.863643581047654}
+{"update": 0, "attempts": 224, "unique": 224, "mean_reward": 0.15133944153785706, "sample_trajectory_kl": -1.424551010131836e-05, "elapsed_s": 9.081596242031083}
+{"update": 0, "attempts": 256, "unique": 256, "mean_reward": 0.134945809841156, "sample_trajectory_kl": 1.3709068298339844e-05, "elapsed_s": 10.08388049597852}
+{"update": 0, "attempts": 288, "unique": 288, "mean_reward": 0.14996805787086487, "sample_trajectory_kl": 4.827976226806641e-06, "elapsed_s": 11.369107882026583}
+{"update": 0, "attempts": 320, "unique": 320, "mean_reward": 0.1450139284133911, "sample_trajectory_kl": 5.960464477539062e-07, "elapsed_s": 12.510252989945002}
+{"update": 0, "attempts": 352, "unique": 352, "mean_reward": 0.15185832977294922, "sample_trajectory_kl": -4.76837158203125e-07, "elapsed_s": 14.914382874034345}
+{"update": 0, "attempts": 384, "unique": 384, "mean_reward": 0.1352047473192215, "sample_trajectory_kl": 9.5367431640625e-07, "elapsed_s": 15.917033520992845}
+{"update": 0, "attempts": 416, "unique": 416, "mean_reward": 0.14201650023460388, "sample_trajectory_kl": 6.079673767089844e-06, "elapsed_s": 16.774975541979074}
+{"update": 0, "attempts": 448, "unique": 448, "mean_reward": 0.1554972529411316, "sample_trajectory_kl": -4.231929779052734e-06, "elapsed_s": 17.88515946501866}
+{"update": 0, "attempts": 480, "unique": 480, "mean_reward": 0.146122008562088, "sample_trajectory_kl": 1.0073184967041016e-05, "elapsed_s": 18.875758809037507}
+{"update": 0, "attempts": 512, "unique": 512, "mean_reward": 0.15874212980270386, "sample_trajectory_kl": -8.285045623779297e-06, "elapsed_s": 20.063471185974777}

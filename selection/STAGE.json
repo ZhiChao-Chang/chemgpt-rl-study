@@ -1,0 +1,39 @@
+{
+  "status": "COMPLETE_SELECTION_AND_CPU_PILOT",
+  "as_of_UTC": "2026-11-04T03:27:07.987162+00:00",
+  "user_authorization": "detailed course project selection and simple attempts; local CPU only",
+  "recommendation": "finite-budget quality-diversity molecular generation; controlled replay study",
+  "formal_topic_user_accepted": false,
+  "proposal_submitted": false,
+  "formal_multitask_campaign_started": false,
+  "cpu_pilot": {
+    "runs": 12,
+    "trained_runs": 9,
+    "seeds": [
+      19,
+      23,
+      29
+    ],
+    "updates": 153,
+    "unique_valid_discovery_per_run": 512,
+    "final_policy_attempts_per_run": 128,
+    "main_pilot_scoring_invocations": 8226,
+    "cpu_threads": 2,
+    "summed_run_wall_seconds": 113.9608320731204
+  },
+  "resources": {
+    "remote": false,
+    "cuda": false,
+    "packages_installed": false,
+    "shared_environment_modified": false,
+    "ddc_assets_accessed": false
+  },
+  "limits": [
+    "development task and short budget only",
+    "scaffold replay superiority not established",
+    "replay versus no-replay training compute differs",
+    "stationary score primitive parity, not official benchmark harness reproduction"
+  ],
+  "entry": "DECISION.md",
+  "prior_literature_stage_unchanged": true
+}

@@ -1,0 +1,43 @@
+{
+  "observed": "2026-11-14T23:09:05.749547+00:00",
+  "state": "SUCCEEDED",
+  "uid": "6941c3db5017414383baee64a26d5d78",
+  "workers": [
+    {
+      "uid": "3377d1b8-80ab-42a7-9f0f-ccca648966c9",
+      "id": "3ae9d186-49e0-4b2c-b0aa-01a99e27160f",
+      "name": "pt-6941c3db5017414383baee64a26d5d78-worker-0",
+      "namespace": "ns-zhicheng-f9bddac6",
+      "node_name": "host-10-115-72-14-10.115.72.14",
+      "ip": "10.120.4.90",
+      "host_ip": "10.115.72.14",
+      "phase": "Succeeded",
+      "init_containers": [],
+      "containers": [
+        {
+          "name": "pytorch",
+          "resources": {
+            "limits": {
+              "cpu": "4",
+              "device": "1",
+              "memory": "64",
+              "nvidia.com/gpu": "1"
+            },
+            "requests": {
+              "cpu": "4",
+              "device": "1",
+              "memory": "64",
+              "nvidia.com/gpu": "1"
+            }
+          },
+          "device_type": "N6lS"
+        }
+      ],
+      "node_spec_name": "n6ls.iu.i40",
+      "create_time": "2026-11-14T14:38:56.604978Z",
+      "update_time": "2026-11-14T23:08:58.880669Z"
+    }
+  ],
+  "log_results": 108,
+  "absolute_deadline": "2026-11-15T09:28:22+08:00"
+}

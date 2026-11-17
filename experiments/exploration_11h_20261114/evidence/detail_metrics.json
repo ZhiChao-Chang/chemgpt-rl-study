@@ -1,0 +1,2162 @@
+{
+  "kl_dose/fexofenadine__kl_001__s4101": {
+    "source_sha256": "c57ada53e908ffa4e9b4af0aaa1059a29e9929d8c64b3746e97928cebf86e9ba",
+    "attempts": 512,
+    "valid": 512,
+    "unique": 512,
+    "mean_actions_all_attempts": 58.083984375,
+    "diversity_unique_full_pairs": 0.8845470124816466,
+    "diversity_valid_attempt_full_pairs": 0.8845470124816466,
+    "unique_scaffolds_including_acyclic": 464,
+    "valid_property_means": {
+      "MW": 494.7867695312501,
+      "TPSA": 137.1511328125,
+      "logP": 1.0403710742187517
+    },
+    "valid_property_medians": {
+      "MW": 455.5595000000002,
+      "TPSA": 120.44,
+      "logP": 1.2844999999999998
+    }
+  },
+  "kl_dose/fexofenadine__frozen__s4101": {
+    "source_sha256": "9c7e05ac6978bd2073988bbe229eb5f253bce54be130e54f9d8c38da2bd3006a",
+    "attempts": 512,
+    "valid": 509,
+    "unique": 509,
+    "mean_actions_all_attempts": 41.857421875,
+    "diversity_unique_full_pairs": 0.8993978313568314,
+    "diversity_valid_attempt_full_pairs": 0.8993978313568314,
+    "unique_scaffolds_including_acyclic": 424,
+    "valid_property_means": {
+      "MW": 366.0190766208252,
+      "TPSA": 70.67422396856581,
+      "logP": 2.7413388212180765
+    },
+    "valid_property_medians": {
+      "MW": 339.46100000000007,
+      "TPSA": 67.43,
+      "logP": 2.6129000000000007
+    }
+  },
+  "kl_dose/fexofenadine__rf__s4101": {
+    "source_sha256": "2e73c7449e358c91d5cf44eb7c937c23efda7c85a1dad8a4cc9e760d2d180fca",
+    "attempts": 512,
+    "valid": 508,
+    "unique": 508,
+    "mean_actions_all_attempts": 86.31640625,
+    "diversity_unique_full_pairs": 0.8844531920462907,
+    "diversity_valid_attempt_full_pairs": 0.8844531920462907,
+    "unique_scaffolds_including_acyclic": 494,
+    "valid_property_means": {
+      "MW": 715.3404625984252,
+      "TPSA": 215.72409448818897,
+      "logP": -0.3882347440944863
+    },
+    "valid_property_medians": {
+      "MW": 664.6980000000001,
+      "TPSA": 192.365,
+      "logP": -0.08848999999999618
+    }
+  },
+  "kl_dose/fexofenadine__kl_0003__s4101": {
+    "source_sha256": "8859330cff9e4d356557736e3d0a3424f286aaf4648ecbb123c8e5c391c602e4",
+    "attempts": 512,
+    "valid": 511,
+    "unique": 511,
+    "mean_actions_all_attempts": 70.125,
+    "diversity_unique_full_pairs": 0.8900833392791144,
+    "diversity_valid_attempt_full_pairs": 0.8900833392791144,
+    "unique_scaffolds_including_acyclic": 480,
+    "valid_property_means": {
+      "MW": 578.002589041096,
+      "TPSA": 177.55696673189823,
+      "logP": -0.039914853228960455
+    },
+    "valid_property_medians": {
+      "MW": 547.0790000000004,
+      "TPSA": 160.62,
+      "logP": 0.36057000000000006
+    }
+  },
+  "kl_dose/fexofenadine__kl_003__s4101": {
+    "source_sha256": "5e81c531c338a1bbd8824079bd9b9224912e4cc19f65f523f884430b49ae62a8",
+    "attempts": 512,
+    "valid": 510,
+    "unique": 510,
+    "mean_actions_all_attempts": 49.234375,
+    "diversity_unique_full_pairs": 0.8871839169951317,
+    "diversity_valid_attempt_full_pairs": 0.8871839169951317,
+    "unique_scaffolds_including_acyclic": 460,
+    "valid_property_means": {
+      "MW": 422.08136078431386,
+      "TPSA": 105.02841176470588,
+      "logP": 1.614577607843139
+    },
+    "valid_property_medians": {
+      "MW": 402.9705000000001,
+      "TPSA": 100.47999999999999,
+      "logP": 1.5541850000000021
+    }
+  },
+  "kl_dose/fexofenadine__kl_01__s4101": {
+    "source_sha256": "17d11671e75b85b99383abc74d73ca8cbe853ca043703b790146fc6d1fee5cce",
+    "attempts": 512,
+    "valid": 512,
+    "unique": 512,
+    "mean_actions_all_attempts": 43.150390625,
+    "diversity_unique_full_pairs": 0.892007723404074,
+    "diversity_valid_attempt_full_pairs": 0.892007723404074,
+    "unique_scaffolds_including_acyclic": 442,
+    "valid_property_means": {
+      "MW": 376.9341425781251,
+      "TPSA": 88.00638671875,
+      "logP": 2.040598886718751
+    },
+    "valid_property_medians": {
+      "MW": 359.44550000000004,
+      "TPSA": 80.495,
+      "logP": 1.9976999999999996
+    }
+  },
+  "kl_dose/osimertinib__frozen__s4101": {
+    "source_sha256": "75f4ee1e065f34e888ef7af5f2481b23b37e210c9b34f1c8a0489fcc67fcc315",
+    "attempts": 512,
+    "valid": 509,
+    "unique": 509,
+    "mean_actions_all_attempts": 41.857421875,
+    "diversity_unique_full_pairs": 0.8993978313568314,
+    "diversity_valid_attempt_full_pairs": 0.8993978313568314,
+    "unique_scaffolds_including_acyclic": 424,
+    "valid_property_means": {
+      "MW": 366.0190766208252,
+      "TPSA": 70.67422396856581,
+      "logP": 2.7413388212180765
+    },
+    "valid_property_medians": {
+      "MW": 339.46100000000007,
+      "TPSA": 67.43,
+      "logP": 2.6129000000000007
+    }
+  },
+  "kl_dose/osimertinib__rf__s4101": {
+    "source_sha256": "00eb00c8e97a516868a7290222aee0ac6c7fbac7d531b814a7bd9f28585a9c9a",
+    "attempts": 512,
+    "valid": 509,
+    "unique": 509,
+    "mean_actions_all_attempts": 69.640625,
+    "diversity_unique_full_pairs": 0.8902842218789795,
+    "diversity_valid_attempt_full_pairs": 0.8902842218789795,
+    "unique_scaffolds_including_acyclic": 435,
+    "valid_property_means": {
+      "MW": 576.82610805501,
+      "TPSA": 224.8772888015717,
+      "logP": -2.3703498624754404
+    },
+    "valid_property_medians": {
+      "MW": 526.6360000000003,
+      "TPSA": 203.42000000000002,
+      "logP": -1.9739999999999942
+    }
+  },
+  "kl_dose/osimertinib__kl_001__s4101": {
+    "source_sha256": "e71dd00bdf70811d147a94e799835b506353e2c606eef6ec72e50a9b03ff8f32",
+    "attempts": 512,
+    "valid": 511,
+    "unique": 511,
+    "mean_actions_all_attempts": 52.41796875,
+    "diversity_unique_full_pairs": 0.8909188514438425,
+    "diversity_valid_attempt_full_pairs": 0.8909188514438425,
+    "unique_scaffolds_including_acyclic": 449,
+    "valid_property_means": {
+      "MW": 445.3023131115461,
+      "TPSA": 155.79254403131114,
+      "logP": -0.956944500978472
+    },
+    "valid_property_medians": {
+      "MW": 415.39300000000014,
+      "TPSA": 142.05,
+      "logP": -0.7734799999999991
+    }
+  },
+  "kl_dose/osimertinib__kl_0003__s4101": {
+    "source_sha256": "82e50b680621ee17669b5adb402cf95dbc2dc602414ded7972689d9569ec92e0",
+    "attempts": 512,
+    "valid": 512,
+    "unique": 512,
+    "mean_actions_all_attempts": 59.45703125,
+    "diversity_unique_full_pairs": 0.889427075606849,
+    "diversity_valid_attempt_full_pairs": 0.889427075606849,
+    "unique_scaffolds_including_acyclic": 419,
+    "valid_property_means": {
+      "MW": 501.3792148437501,
+      "TPSA": 191.62492187499998,
+      "logP": -1.6590260351562487
+    },
+    "valid_property_medians": {
+      "MW": 471.08150000000023,
+      "TPSA": 169.69,
+      "logP": -1.1250999999999949
+    }
+  },
+  "kl_dose/osimertinib__kl_003__s4101": {
+    "source_sha256": "bfe76b7d5370786eb24d8d3668195ce1bd41f78cd7fb856e09551bec259359c0",
+    "attempts": 512,
+    "valid": 512,
+    "unique": 512,
+    "mean_actions_all_attempts": 44.240234375,
+    "diversity_unique_full_pairs": 0.8915706175007887,
+    "diversity_valid_attempt_full_pairs": 0.8915706175007887,
+    "unique_scaffolds_including_acyclic": 424,
+    "valid_property_means": {
+      "MW": 382.3815878906251,
+      "TPSA": 117.24875,
+      "logP": 0.08104351562500141
+    },
+    "valid_property_medians": {
+      "MW": 362.8695,
+      "TPSA": 107.64500000000001,
+      "logP": -0.01034999999999997
+    }
+  },
+  "kl_dose/osimertinib__kl_01__s4101": {
+    "source_sha256": "1cd14105f818813ced03cf1c14f27bc6005b54e8b1ee74b32849ddb9384d909d",
+    "attempts": 512,
+    "valid": 512,
+    "unique": 512,
+    "mean_actions_all_attempts": 40.935546875,
+    "diversity_unique_full_pairs": 0.8905990775023638,
+    "diversity_valid_attempt_full_pairs": 0.8905990775023638,
+    "unique_scaffolds_including_acyclic": 418,
+    "valid_property_means": {
+      "MW": 357.7687363281251,
+      "TPSA": 92.47197265625,
+      "logP": 1.2446549023437514
+    },
+    "valid_property_medians": {
+      "MW": 339.4925000000002,
+      "TPSA": 85.28,
+      "logP": 1.2424
+    }
+  },
+  "kl_dose/fexofenadine__frozen__s4102": {
+    "source_sha256": "f5ffaaee5e1119caadf2674547bb4aa2195fa7802b9abc3ced27cb1442034850",
+    "attempts": 512,
+    "valid": 512,
+    "unique": 512,
+    "mean_actions_all_attempts": 41.51171875,
+    "diversity_unique_full_pairs": 0.8959694731118368,
+    "diversity_valid_attempt_full_pairs": 0.8959694731118368,
+    "unique_scaffolds_including_acyclic": 432,
+    "valid_property_means": {
+      "MW": 363.6720312500001,
+      "TPSA": 69.9296484375,
+      "logP": 2.7385357617187513
+    },
+    "valid_property_medians": {
+      "MW": 331.92150000000004,
+      "TPSA": 64.685,
+      "logP": 2.5847000000000007
+    }
+  },
+  "kl_dose/fexofenadine__rf__s4102": {
+    "source_sha256": "4d88549276c527e323a4d69a00aa7f34d5a0eafcfe63a73792574ef4da87f5d5",
+    "attempts": 512,
+    "valid": 510,
+    "unique": 510,
+    "mean_actions_all_attempts": 80.615234375,
+    "diversity_unique_full_pairs": 0.8874496732487498,
+    "diversity_valid_attempt_full_pairs": 0.8874496732487498,
+    "unique_scaffolds_including_acyclic": 478,
+    "valid_property_means": {
+      "MW": 655.1263882352941,
+      "TPSA": 192.97288235294116,
+      "logP": 0.22528992156862937
+    },
+    "valid_property_medians": {
+      "MW": 601.2370000000003,
+      "TPSA": 171.91,
+      "logP": 0.4168999999999999
+    }
+  },
+  "kl_dose/fexofenadine__kl_001__s4102": {
+    "source_sha256": "1af8aea618e5ed47ead3de66f6f8d0ad45e0a8daa7872c1745895b21c47f045f",
+    "attempts": 512,
+    "valid": 511,
+    "unique": 511,
+    "mean_actions_all_attempts": 55.73046875,
+    "diversity_unique_full_pairs": 0.8865342152810711,
+    "diversity_valid_attempt_full_pairs": 0.8865342152810711,
+    "unique_scaffolds_including_acyclic": 461,
+    "valid_property_means": {
+      "MW": 469.68773972602753,
+      "TPSA": 128.68579256360078,
+      "logP": 1.0423113894324874
+    },
+    "valid_property_medians": {
+      "MW": 444.5310000000002,
+      "TPSA": 118.17000000000002,
+      "logP": 1.3341999999999996
+    }
+  },
+  "kl_dose/fexofenadine__kl_0003__s4102": {
+    "source_sha256": "270394479875a773c21739d6bacc87702476671ec8b1c1502e085c3f6f64b71b",
+    "attempts": 512,
+    "valid": 512,
+    "unique": 512,
+    "mean_actions_all_attempts": 66.1953125,
+    "diversity_unique_full_pairs": 0.8869390241100145,
+    "diversity_valid_attempt_full_pairs": 0.8869390241100145,
+    "unique_scaffolds_including_acyclic": 493,
+    "valid_property_means": {
+      "MW": 562.0151386718751,
+      "TPSA": 160.12337890625,
+      "logP": 0.924921328125002
+    },
+    "valid_property_medians": {
+      "MW": 536.5515000000003,
+      "TPSA": 140.06,
+      "logP": 0.978400000000003
+    }
+  },
+  "kl_dose/fexofenadine__kl_003__s4102": {
+    "source_sha256": "74cc5dc1f11dbf97827d7ba6af1f354259d715b483d3e786247abe20f2cc3268",
+    "attempts": 512,
+    "valid": 511,
+    "unique": 511,
+    "mean_actions_all_attempts": 50.02734375,
+    "diversity_unique_full_pairs": 0.8883152745807785,
+    "diversity_valid_attempt_full_pairs": 0.8883152745807785,
+    "unique_scaffolds_including_acyclic": 448,
+    "valid_property_means": {
+      "MW": 428.5902583170256,
+      "TPSA": 115.576457925636,
+      "logP": 1.5007353228962832
+    },
+    "valid_property_medians": {
+      "MW": 401.33800000000014,
+      "TPSA": 103.23,
+      "logP": 1.5668000000000015
+    }
+  },
+  "kl_dose/fexofenadine__kl_01__s4102": {
+    "source_sha256": "573d8cc07b050130fbe65690c9a26492c693396fce50306c276ce898dc0d668c",
+    "attempts": 512,
+    "valid": 511,
+    "unique": 511,
+    "mean_actions_all_attempts": 43.69140625,
+    "diversity_unique_full_pairs": 0.8940383227550798,
+    "diversity_valid_attempt_full_pairs": 0.8940383227550798,
+    "unique_scaffolds_including_acyclic": 434,
+    "valid_property_means": {
+      "MW": 374.52532289628186,
+      "TPSA": 90.36510763209394,
+      "logP": 1.967133405088064
+    },
+    "valid_property_medians": {
+      "MW": 336.4560000000002,
+      "TPSA": 83.72999999999999,
+      "logP": 2.012799999999999
+    }
+  },
+  "kl_dose/osimertinib__frozen__s4102": {
+    "source_sha256": "dc6b96eab89d4487aaa62fc3aaf64596a9ec1e61554acc99630abc2a338d3576",
+    "attempts": 512,
+    "valid": 512,
+    "unique": 512,
+    "mean_actions_all_attempts": 41.51171875,
+    "diversity_unique_full_pairs": 0.8959694731118368,
+    "diversity_valid_attempt_full_pairs": 0.8959694731118368,
+    "unique_scaffolds_including_acyclic": 432,
+    "valid_property_means": {
+      "MW": 363.6720312500001,
+      "TPSA": 69.9296484375,
+      "logP": 2.7385357617187513
+    },
+    "valid_property_medians": {
+      "MW": 331.92150000000004,
+      "TPSA": 64.685,
+      "logP": 2.5847000000000007
+    }
+  },
+  "kl_dose/osimertinib__rf__s4102": {
+    "source_sha256": "4d903826a2e716bab98e5cd9833d6850eb595ff2b71ca72a57c4610bfdd143c7",
+    "attempts": 512,
+    "valid": 509,
+    "unique": 509,
+    "mean_actions_all_attempts": 70.849609375,
+    "diversity_unique_full_pairs": 0.8896798882780981,
+    "diversity_valid_attempt_full_pairs": 0.8896798882780981,
+    "unique_scaffolds_including_acyclic": 414,
+    "valid_property_means": {
+      "MW": 562.6842671905699,
+      "TPSA": 233.9396463654224,
+      "logP": -2.569062671905696
+    },
+    "valid_property_medians": {
+      "MW": 522.9000000000003,
+      "TPSA": 210.32000000000002,
+      "logP": -2.2422199999999943
+    }
+  },
+  "kl_dose/osimertinib__kl_001__s4102": {
+    "source_sha256": "cec830741cda42f8b4a9d87d9c9e694aedd206ff027b49e8505a294f6d721a01",
+    "attempts": 512,
+    "valid": 512,
+    "unique": 512,
+    "mean_actions_all_attempts": 48.2890625,
+    "diversity_unique_full_pairs": 0.8862675863934025,
+    "diversity_valid_attempt_full_pairs": 0.8862675863934025,
+    "unique_scaffolds_including_acyclic": 417,
+    "valid_property_means": {
+      "MW": 414.0206308593751,
+      "TPSA": 146.79662109375,
+      "logP": -0.5413482226562486
+    },
+    "valid_property_medians": {
+      "MW": 401.4500000000002,
+      "TPSA": 134.89,
+      "logP": -0.2282100000000001
+    }
+  },
+  "kl_dose/osimertinib__kl_0003__s4102": {
+    "source_sha256": "2a567338bc9fa101ba66642c030abcdeb2f87396c019356abae89da3f0a4af11",
+    "attempts": 512,
+    "valid": 512,
+    "unique": 512,
+    "mean_actions_all_attempts": 48.25390625,
+    "diversity_unique_full_pairs": 0.8903414553290606,
+    "diversity_valid_attempt_full_pairs": 0.8903414553290606,
+    "unique_scaffolds_including_acyclic": 326,
+    "valid_property_means": {
+      "MW": 411.03885937500013,
+      "TPSA": 156.01820312499999,
+      "logP": -1.3222025976562484
+    },
+    "valid_property_medians": {
+      "MW": 389.9250000000002,
+      "TPSA": 147.05,
+      "logP": -1.0794099999999989
+    }
+  },
+  "kl_dose/osimertinib__kl_003__s4102": {
+    "source_sha256": "5ff8bedd2d58cc860e1983f3b28284324154eea3e654d0b066d5a34d2e79a03e",
+    "attempts": 512,
+    "valid": 512,
+    "unique": 512,
+    "mean_actions_all_attempts": 42.115234375,
+    "diversity_unique_full_pairs": 0.8917503911350863,
+    "diversity_valid_attempt_full_pairs": 0.8917503911350863,
+    "unique_scaffolds_including_acyclic": 415,
+    "valid_property_means": {
+      "MW": 362.9471621093751,
+      "TPSA": 117.81015624999999,
+      "logP": 0.01644576171875185
+    },
+    "valid_property_medians": {
+      "MW": 342.43050000000005,
+      "TPSA": 108.49000000000001,
+      "logP": 0.16445000000000107
+    }
+  },
+  "kl_dose/osimertinib__kl_01__s4102": {
+    "source_sha256": "9a5521b560e8337b14c8dce7ce6bab7993ce5a6b8a8f051794174ffd41838596",
+    "attempts": 512,
+    "valid": 512,
+    "unique": 512,
+    "mean_actions_all_attempts": 42.6953125,
+    "diversity_unique_full_pairs": 0.8937243190582181,
+    "diversity_valid_attempt_full_pairs": 0.8937243190582181,
+    "unique_scaffolds_including_acyclic": 421,
+    "valid_property_means": {
+      "MW": 367.2586054687501,
+      "TPSA": 96.94875,
+      "logP": 1.176589101562501
+    },
+    "valid_property_medians": {
+      "MW": 341.9620000000001,
+      "TPSA": 87.91,
+      "logP": 1.1647000000000007
+    }
+  },
+  "kl_dose/fexofenadine__frozen__s4103": {
+    "source_sha256": "6c18498e1b9ff5e29303a5235c86781456e76e3511823b05847312b23938f756",
+    "attempts": 512,
+    "valid": 511,
+    "unique": 511,
+    "mean_actions_all_attempts": 42.76953125,
+    "diversity_unique_full_pairs": 0.8953045645427682,
+    "diversity_valid_attempt_full_pairs": 0.8953045645427682,
+    "unique_scaffolds_including_acyclic": 428,
+    "valid_property_means": {
+      "MW": 366.87898434442275,
+      "TPSA": 73.58931506849315,
+      "logP": 2.7158511350293555
+    },
+    "valid_property_medians": {
+      "MW": 340.3720000000001,
+      "TPSA": 66.84,
+      "logP": 2.5496999999999996
+    }
+  },
+  "kl_dose/fexofenadine__rf__s4103": {
+    "source_sha256": "aa68d73c05d7664b299cdf5c39beeff374044cd57fd5d99a80fd2152e4ee7dbc",
+    "attempts": 512,
+    "valid": 510,
+    "unique": 510,
+    "mean_actions_all_attempts": 88.517578125,
+    "diversity_unique_full_pairs": 0.8851196809772203,
+    "diversity_valid_attempt_full_pairs": 0.8851196809772203,
+    "unique_scaffolds_including_acyclic": 461,
+    "valid_property_means": {
+      "MW": 735.7043843137255,
+      "TPSA": 218.7793725490196,
+      "logP": -0.19302168627450783
+    },
+    "valid_property_medians": {
+      "MW": 666.7074999999998,
+      "TPSA": 191.17000000000002,
+      "logP": 0.030999999999994032
+    }
+  },
+  "kl_dose/fexofenadine__kl_001__s4103": {
+    "source_sha256": "8c3570a24066e1a04890c9fdb538b23bfc368b910056ce3cf2f237d2130910a1",
+    "attempts": 512,
+    "valid": 512,
+    "unique": 512,
+    "mean_actions_all_attempts": 56.58984375,
+    "diversity_unique_full_pairs": 0.8860646945789371,
+    "diversity_valid_attempt_full_pairs": 0.8860646945789371,
+    "unique_scaffolds_including_acyclic": 472,
+    "valid_property_means": {
+      "MW": 477.01144531250014,
+      "TPSA": 133.15099609375,
+      "logP": 0.7680282421875021
+    },
+    "valid_property_medians": {
+      "MW": 451.0630000000001,
+      "TPSA": 122.685,
+      "logP": 0.967385000000002
+    }
+  },
+  "kl_dose/fexofenadine__kl_0003__s4103": {
+    "source_sha256": "f902fd665f1dc6f3af392284ac7c8deb4abf47b17ce773b2033fa587d16b5d3a",
+    "attempts": 512,
+    "valid": 512,
+    "unique": 512,
+    "mean_actions_all_attempts": 66.83984375,
+    "diversity_unique_full_pairs": 0.8843162386033012,
+    "diversity_valid_attempt_full_pairs": 0.8843162386033012,
+    "unique_scaffolds_including_acyclic": 474,
+    "valid_property_means": {
+      "MW": 567.0594902343751,
+      "TPSA": 170.0054296875,
+      "logP": 0.2661108593750021
+    },
+    "valid_property_medians": {
+      "MW": 523.1730000000002,
+      "TPSA": 149.92,
+      "logP": 0.5642850000000009
+    }
+  },
+  "kl_dose/fexofenadine__kl_003__s4103": {
+    "source_sha256": "ca1ba0b10f9cb4892871dc4a7b62c9462855e5b43f95f790021556137cb62fba",
+    "attempts": 512,
+    "valid": 512,
+    "unique": 512,
+    "mean_actions_all_attempts": 50.58203125,
+    "diversity_unique_full_pairs": 0.8837181528149273,
+    "diversity_valid_attempt_full_pairs": 0.8837181528149273,
+    "unique_scaffolds_including_acyclic": 463,
+    "valid_property_means": {
+      "MW": 429.14737304687515,
+      "TPSA": 109.96265625,
+      "logP": 1.7008182226562518
+    },
+    "valid_property_medians": {
+      "MW": 404.4475000000001,
+      "TPSA": 102.88,
+      "logP": 1.7621499999999997
+    }
+  },
+  "kl_dose/fexofenadine__kl_01__s4103": {
+    "source_sha256": "f49fc1cd50d944a1af6adb80381e0408d389e2e91f888322ed62309d4aceaa28",
+    "attempts": 512,
+    "valid": 512,
+    "unique": 512,
+    "mean_actions_all_attempts": 42.91796875,
+    "diversity_unique_full_pairs": 0.8900665837751874,
+    "diversity_valid_attempt_full_pairs": 0.8900665837751874,
+    "unique_scaffolds_including_acyclic": 435,
+    "valid_property_means": {
+      "MW": 371.5803535156251,
+      "TPSA": 87.34279296875,
+      "logP": 1.8150257421875016
+    },
+    "valid_property_medians": {
+      "MW": 356.42650000000015,
+      "TPSA": 82.185,
+      "logP": 1.8628599999999995
+    }
+  },
+  "kl_dose/osimertinib__frozen__s4103": {
+    "source_sha256": "b5f63774c74ad5ac3a19672b1165e0a81de96886eb81af1ec0cfb68fb629c0c2",
+    "attempts": 512,
+    "valid": 511,
+    "unique": 511,
+    "mean_actions_all_attempts": 42.76953125,
+    "diversity_unique_full_pairs": 0.8953045645427682,
+    "diversity_valid_attempt_full_pairs": 0.8953045645427682,
+    "unique_scaffolds_including_acyclic": 428,
+    "valid_property_means": {
+      "MW": 366.87898434442275,
+      "TPSA": 73.58931506849315,
+      "logP": 2.7158511350293555
+    },
+    "valid_property_medians": {
+      "MW": 340.3720000000001,
+      "TPSA": 66.84,
+      "logP": 2.5496999999999996
+    }
+  },
+  "kl_dose/osimertinib__rf__s4103": {
+    "source_sha256": "4779d36c6df41b138382bdd00ea472f379838598d062ccaac14cba6d79dc1289",
+    "attempts": 512,
+    "valid": 511,
+    "unique": 511,
+    "mean_actions_all_attempts": 68.615234375,
+    "diversity_unique_full_pairs": 0.892388845511542,
+    "diversity_valid_attempt_full_pairs": 0.892388845511542,
+    "unique_scaffolds_including_acyclic": 387,
+    "valid_property_means": {
+      "MW": 561.0257612524463,
+      "TPSA": 226.70512720156555,
+      "logP": -2.6946672407044994
+    },
+    "valid_property_medians": {
+      "MW": 523.5930000000002,
+      "TPSA": 201.5,
+      "logP": -2.3210999999999915
+    }
+  },
+  "kl_dose/osimertinib__kl_001__s4103": {
+    "source_sha256": "3c03379041b256e375aaa940e51e32af662ac3c5056da9d56050d04f5d509e56",
+    "attempts": 512,
+    "valid": 512,
+    "unique": 512,
+    "mean_actions_all_attempts": 49.654296875,
+    "diversity_unique_full_pairs": 0.8926154408819212,
+    "diversity_valid_attempt_full_pairs": 0.8926154408819212,
+    "unique_scaffolds_including_acyclic": 399,
+    "valid_property_means": {
+      "MW": 428.8642519531251,
+      "TPSA": 155.6898828125,
+      "logP": -0.9960672460937486
+    },
+    "valid_property_medians": {
+      "MW": 392.9345000000002,
+      "TPSA": 139.65499999999997,
+      "logP": -0.8024099999999998
+    }
+  },
+  "kl_dose/osimertinib__kl_0003__s4103": {
+    "source_sha256": "3a77315df649f1adee16d8fab891178a9f4d06c9542f655308a2333260136172",
+    "attempts": 512,
+    "valid": 512,
+    "unique": 512,
+    "mean_actions_all_attempts": 53.931640625,
+    "diversity_unique_full_pairs": 0.8884756551346462,
+    "diversity_valid_attempt_full_pairs": 0.8884756551346462,
+    "unique_scaffolds_including_acyclic": 427,
+    "valid_property_means": {
+      "MW": 464.69876953125015,
+      "TPSA": 177.08076171874998,
+      "logP": -1.6229420117187485
+    },
+    "valid_property_medians": {
+      "MW": 444.9665000000002,
+      "TPSA": 160.1,
+      "logP": -1.4075899999999975
+    }
+  },
+  "kl_dose/osimertinib__kl_003__s4103": {
+    "source_sha256": "594e3e3f627ec0b98f1b1fae742baa9c41cdc1c3945cf8e40d7f58b36c46cc91",
+    "attempts": 512,
+    "valid": 511,
+    "unique": 511,
+    "mean_actions_all_attempts": 42.52734375,
+    "diversity_unique_full_pairs": 0.8897828531132681,
+    "diversity_valid_attempt_full_pairs": 0.8897828531132681,
+    "unique_scaffolds_including_acyclic": 378,
+    "valid_property_means": {
+      "MW": 366.081119373777,
+      "TPSA": 118.97027397260274,
+      "logP": 0.038155009784737
+    },
+    "valid_property_medians": {
+      "MW": 347.3720000000001,
+      "TPSA": 113.13,
+      "logP": 0.19260000000000127
+    }
+  },
+  "kl_dose/osimertinib__kl_01__s4103": {
+    "source_sha256": "28127f6c0f6a0e7e8761dae93fbed73a0f2ebb741f9688f7b0f3ebf8338b3995",
+    "attempts": 512,
+    "valid": 511,
+    "unique": 511,
+    "mean_actions_all_attempts": 42.279296875,
+    "diversity_unique_full_pairs": 0.8957988715515246,
+    "diversity_valid_attempt_full_pairs": 0.8957988715515246,
+    "unique_scaffolds_including_acyclic": 418,
+    "valid_property_means": {
+      "MW": 368.2262661448142,
+      "TPSA": 93.96313111545989,
+      "logP": 1.2190884148727998
+    },
+    "valid_property_medians": {
+      "MW": 338.41200000000015,
+      "TPSA": 85.08,
+      "logP": 1.3053000000000021
+    }
+  },
+  "kl_dose/fexofenadine__frozen__s4104": {
+    "source_sha256": "ee2e9fd6546fca319fe75c796267bbe85438ad6d8065026ca72f9d64e45fbfdf",
+    "attempts": 512,
+    "valid": 511,
+    "unique": 511,
+    "mean_actions_all_attempts": 42.537109375,
+    "diversity_unique_full_pairs": 0.9004207749470599,
+    "diversity_valid_attempt_full_pairs": 0.9004207749470599,
+    "unique_scaffolds_including_acyclic": 439,
+    "valid_property_means": {
+      "MW": 372.5167534246576,
+      "TPSA": 72.03046966731898,
+      "logP": 2.763634090019571
+    },
+    "valid_property_medians": {
+      "MW": 344.39000000000016,
+      "TPSA": 66.84,
+      "logP": 2.564000000000001
+    }
+  },
+  "kl_dose/fexofenadine__rf__s4104": {
+    "source_sha256": "0fa05f3289b7494ba77a40c476d48b2aacdf7441aa11f38d420c9bf0dc62049b",
+    "attempts": 512,
+    "valid": 507,
+    "unique": 507,
+    "mean_actions_all_attempts": 80.8984375,
+    "diversity_unique_full_pairs": 0.8932361123410867,
+    "diversity_valid_attempt_full_pairs": 0.8932361123410867,
+    "unique_scaffolds_including_acyclic": 433,
+    "valid_property_means": {
+      "MW": 627.1571124260356,
+      "TPSA": 192.85668639053253,
+      "logP": 0.10795104536489357
+    },
+    "valid_property_medians": {
+      "MW": 580.3030000000003,
+      "TPSA": 161.1,
+      "logP": 0.4464000000000115
+    }
+  },
+  "kl_dose/fexofenadine__kl_001__s4104": {
+    "source_sha256": "5cb4d0615b0b6dd22fbda739de397495d4564e3bc85b4b40e05b740078dfa875",
+    "attempts": 512,
+    "valid": 512,
+    "unique": 512,
+    "mean_actions_all_attempts": 54.732421875,
+    "diversity_unique_full_pairs": 0.8841105808433736,
+    "diversity_valid_attempt_full_pairs": 0.8841105808433736,
+    "unique_scaffolds_including_acyclic": 482,
+    "valid_property_means": {
+      "MW": 464.0423789062501,
+      "TPSA": 128.12998046875,
+      "logP": 0.9821153320312519
+    },
+    "valid_property_medians": {
+      "MW": 454.4970000000002,
+      "TPSA": 123.04500000000002,
+      "logP": 1.0815
+    }
+  },
+  "kl_dose/fexofenadine__kl_0003__s4104": {
+    "source_sha256": "6a7babd21ac9906f2012a567fdbca388caea817221810ca2c77214551abce522",
+    "attempts": 512,
+    "valid": 512,
+    "unique": 512,
+    "mean_actions_all_attempts": 62.943359375,
+    "diversity_unique_full_pairs": 0.8834629536062164,
+    "diversity_valid_attempt_full_pairs": 0.8834629536062164,
+    "unique_scaffolds_including_acyclic": 470,
+    "valid_property_means": {
+      "MW": 536.2027011718751,
+      "TPSA": 158.06882812499998,
+      "logP": 0.7622490429687517
+    },
+    "valid_property_medians": {
+      "MW": 511.9490000000003,
+      "TPSA": 146.28,
+      "logP": 1.0514999999999999
+    }
+  },
+  "kl_dose/fexofenadine__kl_003__s4104": {
+    "source_sha256": "d09142c7066ceb430bc2197feec953fd65008f874653c6936cb366ea5d2ecbd0",
+    "attempts": 512,
+    "valid": 512,
+    "unique": 512,
+    "mean_actions_all_attempts": 48.8984375,
+    "diversity_unique_full_pairs": 0.8862292223597612,
+    "diversity_valid_attempt_full_pairs": 0.8862292223597612,
+    "unique_scaffolds_including_acyclic": 464,
+    "valid_property_means": {
+      "MW": 420.7568261718751,
+      "TPSA": 109.453515625,
+      "logP": 1.3485256835937516
+    },
+    "valid_property_medians": {
+      "MW": 399.94050000000016,
+      "TPSA": 100.35,
+      "logP": 1.3450900000000001
+    }
+  },
+  "kl_dose/fexofenadine__kl_01__s4104": {
+    "source_sha256": "a300529ea2e8c19278337eedcadd9f492b3e035e536bdfa876b1764cd6431869",
+    "attempts": 512,
+    "valid": 512,
+    "unique": 512,
+    "mean_actions_all_attempts": 44.794921875,
+    "diversity_unique_full_pairs": 0.8898485800820269,
+    "diversity_valid_attempt_full_pairs": 0.8898485800820269,
+    "unique_scaffolds_including_acyclic": 463,
+    "valid_property_means": {
+      "MW": 384.0369296875001,
+      "TPSA": 90.26619140625,
+      "logP": 1.8322963867187514
+    },
+    "valid_property_medians": {
+      "MW": 359.43700000000024,
+      "TPSA": 83.14500000000001,
+      "logP": 1.7224100000000009
+    }
+  },
+  "kl_dose/osimertinib__frozen__s4104": {
+    "source_sha256": "6c24557d8b056cbb66b9ecd5e7510cffc400c3151ecf8831cf7f0b10973ff614",
+    "attempts": 512,
+    "valid": 511,
+    "unique": 511,
+    "mean_actions_all_attempts": 42.537109375,
+    "diversity_unique_full_pairs": 0.9004207749470599,
+    "diversity_valid_attempt_full_pairs": 0.9004207749470599,
+    "unique_scaffolds_including_acyclic": 439,
+    "valid_property_means": {
+      "MW": 372.5167534246576,
+      "TPSA": 72.03046966731898,
+      "logP": 2.763634090019571
+    },
+    "valid_property_medians": {
+      "MW": 344.39000000000016,
+      "TPSA": 66.84,
+      "logP": 2.564000000000001
+    }
+  },
+  "kl_dose/osimertinib__rf__s4104": {
+    "source_sha256": "acec426f5ccf4a36ad361e86ff458416ac376433f78ef3c17596e1222ff1d5f9",
+    "attempts": 512,
+    "valid": 512,
+    "unique": 512,
+    "mean_actions_all_attempts": 60.76171875,
+    "diversity_unique_full_pairs": 0.8946545866409549,
+    "diversity_valid_attempt_full_pairs": 0.8946545866409549,
+    "unique_scaffolds_including_acyclic": 415,
+    "valid_property_means": {
+      "MW": 492.27417382812513,
+      "TPSA": 181.4753125,
+      "logP": -1.3435801953124984
+    },
+    "valid_property_medians": {
+      "MW": 463.0150000000002,
+      "TPSA": 160.70000000000002,
+      "logP": -0.9597499999999969
+    }
+  },
+  "kl_dose/osimertinib__kl_001__s4104": {
+    "source_sha256": "87ec4fb71b8a3a5ce341e4d8787bca9a06395e479b6434d27e21ecd8a465a8ca",
+    "attempts": 512,
+    "valid": 512,
+    "unique": 512,
+    "mean_actions_all_attempts": 48.154296875,
+    "diversity_unique_full_pairs": 0.8889587047906045,
+    "diversity_valid_attempt_full_pairs": 0.8889587047906045,
+    "unique_scaffolds_including_acyclic": 391,
+    "valid_property_means": {
+      "MW": 415.5279863281251,
+      "TPSA": 150.771015625,
+      "logP": -0.8743352343749984
+    },
+    "valid_property_medians": {
+      "MW": 378.40050000000014,
+      "TPSA": 135.29500000000002,
+      "logP": -0.6393500000000001
+    }
+  },
+  "kl_dose/osimertinib__kl_0003__s4104": {
+    "source_sha256": "1a647afd15fdff627582892e9493c14b11d62b25e8a9cf719dec5fbc02dcac26",
+    "attempts": 512,
+    "valid": 511,
+    "unique": 511,
+    "mean_actions_all_attempts": 57.306640625,
+    "diversity_unique_full_pairs": 0.8994010912284041,
+    "diversity_valid_attempt_full_pairs": 0.8994010912284041,
+    "unique_scaffolds_including_acyclic": 388,
+    "valid_property_means": {
+      "MW": 463.8226046966733,
+      "TPSA": 178.70694716242662,
+      "logP": -1.8492387279843427
+    },
+    "valid_property_medians": {
+      "MW": 439.8760000000002,
+      "TPSA": 161.61,
+      "logP": -1.5493999999999968
+    }
+  },
+  "kl_dose/osimertinib__kl_003__s4104": {
+    "source_sha256": "cdc41252308ea351d9c669caed6938da7ab32abfc6dbe21de52fa9fb6e37a1d6",
+    "attempts": 512,
+    "valid": 511,
+    "unique": 511,
+    "mean_actions_all_attempts": 43.20703125,
+    "diversity_unique_full_pairs": 0.8911273657540396,
+    "diversity_valid_attempt_full_pairs": 0.8911273657540396,
+    "unique_scaffolds_including_acyclic": 397,
+    "valid_property_means": {
+      "MW": 368.89068493150694,
+      "TPSA": 119.69099804305284,
+      "logP": -0.05366589041095759
+    },
+    "valid_property_medians": {
+      "MW": 354.4320000000001,
+      "TPSA": 112.14,
+      "logP": 0.12029999999999996
+    }
+  },
+  "kl_dose/osimertinib__kl_01__s4104": {
+    "source_sha256": "11282598d3608d9d06959b65608418606391e1d800bd3bd1fd6a2568dd72108d",
+    "attempts": 512,
+    "valid": 512,
+    "unique": 512,
+    "mean_actions_all_attempts": 40.451171875,
+    "diversity_unique_full_pairs": 0.8938799461340138,
+    "diversity_valid_attempt_full_pairs": 0.8938799461340138,
+    "unique_scaffolds_including_acyclic": 422,
+    "valid_property_means": {
+      "MW": 351.13236718750005,
+      "TPSA": 92.34064453125,
+      "logP": 1.3092408203125014
+    },
+    "valid_property_medians": {
+      "MW": 332.1565000000001,
+      "TPSA": 87.68,
+      "logP": 1.3703000000000016
+    }
+  },
+  "kl_dose/fexofenadine__frozen__s4105": {
+    "source_sha256": "9e4b53a9389b9a1c5c62115868f76d64f4b0a625ed261c011b888fdf111d319b",
+    "attempts": 512,
+    "valid": 511,
+    "unique": 511,
+    "mean_actions_all_attempts": 41.53125,
+    "diversity_unique_full_pairs": 0.9011496842907031,
+    "diversity_valid_attempt_full_pairs": 0.9011496842907031,
+    "unique_scaffolds_including_acyclic": 430,
+    "valid_property_means": {
+      "MW": 362.80689823874764,
+      "TPSA": 70.31154598825832,
+      "logP": 2.668543679060667
+    },
+    "valid_property_medians": {
+      "MW": 329.31200000000007,
+      "TPSA": 63.3,
+      "logP": 2.6126200000000006
+    }
+  },
+  "kl_dose/fexofenadine__rf__s4105": {
+    "source_sha256": "8605ec0392259ca765adf6ed22f324de7c7f1465621377bd0f58d4fd57825dda",
+    "attempts": 512,
+    "valid": 511,
+    "unique": 511,
+    "mean_actions_all_attempts": 80.166015625,
+    "diversity_unique_full_pairs": 0.8914439073911541,
+    "diversity_valid_attempt_full_pairs": 0.8914439073911541,
+    "unique_scaffolds_including_acyclic": 453,
+    "valid_property_means": {
+      "MW": 652.1664716242663,
+      "TPSA": 199.19837573385516,
+      "logP": -0.0022101369862988604
+    },
+    "valid_property_medians": {
+      "MW": 598.6820000000001,
+      "TPSA": 173.01,
+      "logP": 0.23710000000000236
+    }
+  },
+  "kl_dose/fexofenadine__kl_001__s4105": {
+    "source_sha256": "66a67a7a9ca50621565f7a92064267b8d7ba405078229ec1638dc062e01a5990",
+    "attempts": 512,
+    "valid": 511,
+    "unique": 511,
+    "mean_actions_all_attempts": 56.77734375,
+    "diversity_unique_full_pairs": 0.8849394842451618,
+    "diversity_valid_attempt_full_pairs": 0.8849394842451618,
+    "unique_scaffolds_including_acyclic": 464,
+    "valid_property_means": {
+      "MW": 476.6888943248534,
+      "TPSA": 133.62986301369864,
+      "logP": 1.0423914677103738
+    },
+    "valid_property_medians": {
+      "MW": 456.5020000000003,
+      "TPSA": 123.69000000000001,
+      "logP": 1.1793999999999998
+    }
+  },
+  "kl_dose/fexofenadine__kl_0003__s4105": {
+    "source_sha256": "972ab31e1b8ca8fdacc3010297e1ddc6ca6a8105a1ee73bd701974fe36b55e1b",
+    "attempts": 512,
+    "valid": 511,
+    "unique": 511,
+    "mean_actions_all_attempts": 65.451171875,
+    "diversity_unique_full_pairs": 0.8922182184080035,
+    "diversity_valid_attempt_full_pairs": 0.8922182184080035,
+    "unique_scaffolds_including_acyclic": 474,
+    "valid_property_means": {
+      "MW": 549.6488767123288,
+      "TPSA": 162.4440508806262,
+      "logP": 0.26578113502935663
+    },
+    "valid_property_medians": {
+      "MW": 498.57600000000025,
+      "TPSA": 135.15,
+      "logP": 0.4544000000000011
+    }
+  },
+  "kl_dose/fexofenadine__kl_003__s4105": {
+    "source_sha256": "f0c696718a732e02a5f85532e48252485a662dc9e5415611c70d6578b0a406bf",
+    "attempts": 512,
+    "valid": 512,
+    "unique": 512,
+    "mean_actions_all_attempts": 50.337890625,
+    "diversity_unique_full_pairs": 0.8840869989788134,
+    "diversity_valid_attempt_full_pairs": 0.8840869989788134,
+    "unique_scaffolds_including_acyclic": 472,
+    "valid_property_means": {
+      "MW": 428.5147500000001,
+      "TPSA": 111.18650390625,
+      "logP": 1.5908807812500017
+    },
+    "valid_property_medians": {
+      "MW": 412.4435000000002,
+      "TPSA": 101.735,
+      "logP": 1.7345499999999996
+    }
+  },
+  "kl_dose/fexofenadine__kl_01__s4105": {
+    "source_sha256": "dab22d6f0e5cb13433d4bd82a624fe73a2346bf05966564fc24e0c59b6dfeadb",
+    "attempts": 512,
+    "valid": 511,
+    "unique": 511,
+    "mean_actions_all_attempts": 41.08203125,
+    "diversity_unique_full_pairs": 0.8974011036909445,
+    "diversity_valid_attempt_full_pairs": 0.8974011036909445,
+    "unique_scaffolds_including_acyclic": 413,
+    "valid_property_means": {
+      "MW": 358.01985518591005,
+      "TPSA": 84.21111545988258,
+      "logP": 2.036115264187868
+    },
+    "valid_property_medians": {
+      "MW": 338.411,
+      "TPSA": 78.9,
+      "logP": 2.016000000000001
+    }
+  },
+  "kl_dose/osimertinib__frozen__s4105": {
+    "source_sha256": "fe0b461835f7fce7da3782ffce7d1c42f9c89c438738261560e0530c184efc18",
+    "attempts": 512,
+    "valid": 511,
+    "unique": 511,
+    "mean_actions_all_attempts": 41.53125,
+    "diversity_unique_full_pairs": 0.9011496842907031,
+    "diversity_valid_attempt_full_pairs": 0.9011496842907031,
+    "unique_scaffolds_including_acyclic": 430,
+    "valid_property_means": {
+      "MW": 362.80689823874764,
+      "TPSA": 70.31154598825832,
+      "logP": 2.668543679060667
+    },
+    "valid_property_medians": {
+      "MW": 329.31200000000007,
+      "TPSA": 63.3,
+      "logP": 2.6126200000000006
+    }
+  },
+  "kl_dose/osimertinib__rf__s4105": {
+    "source_sha256": "15c7ff3d578884d8dc6dc2757a992ad028494276d4fdb9cf646e485913630559",
+    "attempts": 512,
+    "valid": 511,
+    "unique": 511,
+    "mean_actions_all_attempts": 72.134765625,
+    "diversity_unique_full_pairs": 0.8946184218086494,
+    "diversity_valid_attempt_full_pairs": 0.8946184218086494,
+    "unique_scaffolds_including_acyclic": 452,
+    "valid_property_means": {
+      "MW": 589.999733855186,
+      "TPSA": 226.05410958904108,
+      "logP": -2.625300547945204
+    },
+    "valid_property_medians": {
+      "MW": 549.6020000000001,
+      "TPSA": 201.67999999999995,
+      "logP": -2.218279999999992
+    }
+  },
+  "kl_dose/osimertinib__kl_001__s4105": {
+    "source_sha256": "d02dd0e45eeb491dc74e48b4f787c08bdeed34bd6a67be87c0f17ece7744770c",
+    "attempts": 512,
+    "valid": 512,
+    "unique": 512,
+    "mean_actions_all_attempts": 47.646484375,
+    "diversity_unique_full_pairs": 0.896120250749305,
+    "diversity_valid_attempt_full_pairs": 0.896120250749305,
+    "unique_scaffolds_including_acyclic": 419,
+    "valid_property_means": {
+      "MW": 408.96407226562513,
+      "TPSA": 144.9843359375,
+      "logP": -0.9598584374999981
+    },
+    "valid_property_medians": {
+      "MW": 390.1505000000001,
+      "TPSA": 134.005,
+      "logP": -0.7388999999999991
+    }
+  },
+  "kl_dose/osimertinib__kl_0003__s4105": {
+    "source_sha256": "e7ec68e89b20932333dcf61595779ba34a117975f439706387ac9e2f4b09792a",
+    "attempts": 512,
+    "valid": 509,
+    "unique": 509,
+    "mean_actions_all_attempts": 58.029296875,
+    "diversity_unique_full_pairs": 0.8943211745679047,
+    "diversity_valid_attempt_full_pairs": 0.8943211745679047,
+    "unique_scaffolds_including_acyclic": 424,
+    "valid_property_means": {
+      "MW": 476.20219253438125,
+      "TPSA": 176.70571709233792,
+      "logP": -1.557910255402748
+    },
+    "valid_property_medians": {
+      "MW": 430.4650000000002,
+      "TPSA": 155.54,
+      "logP": -1.2730999999999928
+    }
+  },
+  "kl_dose/osimertinib__kl_003__s4105": {
+    "source_sha256": "5142f991db985f78a840a44cb029441df844277e10210d9ee98631b6bd2a07e6",
+    "attempts": 512,
+    "valid": 512,
+    "unique": 512,
+    "mean_actions_all_attempts": 44.67578125,
+    "diversity_unique_full_pairs": 0.8917902286030371,
+    "diversity_valid_attempt_full_pairs": 0.8917902286030371,
+    "unique_scaffolds_including_acyclic": 419,
+    "valid_property_means": {
+      "MW": 386.6071894531251,
+      "TPSA": 126.03146484375,
+      "logP": -0.23245160156249836
+    },
+    "valid_property_medians": {
+      "MW": 362.41400000000016,
+      "TPSA": 113.97500000000001,
+      "logP": -0.21214999999999865
+    }
+  },
+  "kl_dose/osimertinib__kl_01__s4105": {
+    "source_sha256": "0b87d0bbec9f2cc7aa3f7f21f4c27d548b1cb9d1bdce4b373e9844247e56518e",
+    "attempts": 512,
+    "valid": 512,
+    "unique": 512,
+    "mean_actions_all_attempts": 39.796875,
+    "diversity_unique_full_pairs": 0.8946468552642528,
+    "diversity_valid_attempt_full_pairs": 0.8946468552642528,
+    "unique_scaffolds_including_acyclic": 415,
+    "valid_property_means": {
+      "MW": 347.5453261718751,
+      "TPSA": 91.19705078125,
+      "logP": 1.0936002929687514
+    },
+    "valid_property_medians": {
+      "MW": 324.9090000000001,
+      "TPSA": 85.86,
+      "logP": 1.0164099999999996
+    }
+  },
+  "mechanism/fexofenadine__frozen__s4201": {
+    "source_sha256": "a5c40a2eb2b66c7bb910ad50a14dc1c099bd2b053d588c0905e16135058a0922",
+    "attempts": 512,
+    "valid": 511,
+    "unique": 511,
+    "mean_actions_all_attempts": 42.15234375,
+    "diversity_unique_full_pairs": 0.900647123765141,
+    "diversity_valid_attempt_full_pairs": 0.900647123765141,
+    "unique_scaffolds_including_acyclic": 427,
+    "valid_property_means": {
+      "MW": 362.1651956947163,
+      "TPSA": 71.3111350293542,
+      "logP": 2.604528884540119
+    },
+    "valid_property_medians": {
+      "MW": 325.19100000000003,
+      "TPSA": 65.07,
+      "logP": 2.5539200000000006
+    }
+  },
+  "mechanism/fexofenadine__rf__s4201": {
+    "source_sha256": "17dadec77dc1a986ae84ee2d2389ff39e7d9fb1d42b22c9ff86abaf266a70052",
+    "attempts": 512,
+    "valid": 511,
+    "unique": 511,
+    "mean_actions_all_attempts": 89.6484375,
+    "diversity_unique_full_pairs": 0.8898409541272991,
+    "diversity_valid_attempt_full_pairs": 0.8898409541272991,
+    "unique_scaffolds_including_acyclic": 490,
+    "valid_property_means": {
+      "MW": 718.7373874755382,
+      "TPSA": 221.15778864970645,
+      "logP": -0.46667663405087917
+    },
+    "valid_property_medians": {
+      "MW": 671.6830000000002,
+      "TPSA": 204.37,
+      "logP": -0.3588999999999957
+    }
+  },
+  "mechanism/fexofenadine__kl_001__s4201": {
+    "source_sha256": "a0a51dea032373d30d5b269b04982e6a0c47c4e71b6e42ac73fd7c2d95c516bc",
+    "attempts": 512,
+    "valid": 512,
+    "unique": 512,
+    "mean_actions_all_attempts": 56.21875,
+    "diversity_unique_full_pairs": 0.8804948474945857,
+    "diversity_valid_attempt_full_pairs": 0.8804948474945857,
+    "unique_scaffolds_including_acyclic": 489,
+    "valid_property_means": {
+      "MW": 477.04395117187516,
+      "TPSA": 129.799140625,
+      "logP": 1.118158476562502
+    },
+    "valid_property_medians": {
+      "MW": 457.04150000000027,
+      "TPSA": 121.28,
+      "logP": 1.3127999999999993
+    }
+  },
+  "mechanism/fexofenadine__length_0001__s4201": {
+    "source_sha256": "d58df1a7ae4dbf4f4f0617d1f8c73075bd2cfa49f910e894e7a64cad38ccb087",
+    "attempts": 512,
+    "valid": 511,
+    "unique": 511,
+    "mean_actions_all_attempts": 70.41796875,
+    "diversity_unique_full_pairs": 0.8907469285789134,
+    "diversity_valid_attempt_full_pairs": 0.8907469285789134,
+    "unique_scaffolds_including_acyclic": 466,
+    "valid_property_means": {
+      "MW": 565.969614481409,
+      "TPSA": 172.90293542074363,
+      "logP": -0.26254731898238537
+    },
+    "valid_property_medians": {
+      "MW": 543.6210000000002,
+      "TPSA": 161.75,
+      "logP": -0.04689999999999839
+    }
+  },
+  "mechanism/fexofenadine__length_0003__s4201": {
+    "source_sha256": "17b9823cd4645a44c247ceaa6e27b6e1ba8ea42b19d3b85f496b7184819a79c4",
+    "attempts": 512,
+    "valid": 512,
+    "unique": 512,
+    "mean_actions_all_attempts": 55.556640625,
+    "diversity_unique_full_pairs": 0.8903143555704084,
+    "diversity_valid_attempt_full_pairs": 0.8903143555704084,
+    "unique_scaffolds_including_acyclic": 401,
+    "valid_property_means": {
+      "MW": 471.0203847656251,
+      "TPSA": 146.9010546875,
+      "logP": 0.22479083984375228
+    },
+    "valid_property_medians": {
+      "MW": 455.5530000000002,
+      "TPSA": 138.53,
+      "logP": 0.3372500000000009
+    }
+  },
+  "mechanism/fexofenadine__upper_tpsa150__s4201": {
+    "source_sha256": "9ecb854253e905edec667637f8acd1c675c7f4d8bc2970e6b7e6c373cf094a77",
+    "attempts": 512,
+    "valid": 511,
+    "unique": 511,
+    "mean_actions_all_attempts": 52.958984375,
+    "diversity_unique_full_pairs": 0.8971557797163909,
+    "diversity_valid_attempt_full_pairs": 0.8971557797163909,
+    "unique_scaffolds_including_acyclic": 436,
+    "valid_property_means": {
+      "MW": 439.22214481409014,
+      "TPSA": 117.40774951076321,
+      "logP": 1.2710115459882603
+    },
+    "valid_property_medians": {
+      "MW": 430.55900000000014,
+      "TPSA": 113.08,
+      "logP": 1.2373
+    }
+  },
+  "mechanism/fexofenadine__frozen__s4202": {
+    "source_sha256": "eeff6e2e6629b2c087799e56675d69b89646208b9a0f588af240c916005f9b05",
+    "attempts": 512,
+    "valid": 511,
+    "unique": 511,
+    "mean_actions_all_attempts": 41.87109375,
+    "diversity_unique_full_pairs": 0.8988982688342202,
+    "diversity_valid_attempt_full_pairs": 0.8988982688342202,
+    "unique_scaffolds_including_acyclic": 429,
+    "valid_property_means": {
+      "MW": 362.3083855185911,
+      "TPSA": 71.78043052837573,
+      "logP": 2.639736223091978
+    },
+    "valid_property_medians": {
+      "MW": 334.38300000000015,
+      "TPSA": 66.1,
+      "logP": 2.583940000000001
+    }
+  },
+  "mechanism/fexofenadine__rf__s4202": {
+    "source_sha256": "ca12ed14f0a331d334e986aa5e5969dedecf331778be23a344bb4755761972c4",
+    "attempts": 512,
+    "valid": 506,
+    "unique": 506,
+    "mean_actions_all_attempts": 75.09375,
+    "diversity_unique_full_pairs": 0.8911842652612315,
+    "diversity_valid_attempt_full_pairs": 0.8911842652612315,
+    "unique_scaffolds_including_acyclic": 463,
+    "valid_property_means": {
+      "MW": 621.4261857707511,
+      "TPSA": 202.3103557312253,
+      "logP": -0.417909762845848
+    },
+    "valid_property_medians": {
+      "MW": 576.1345000000003,
+      "TPSA": 179.825,
+      "logP": -0.27290499999999596
+    }
+  },
+  "mechanism/fexofenadine__kl_001__s4202": {
+    "source_sha256": "e01a2e6d9d3434453ffebb262e166098fadd98520aaee77d32e910d4174c27fb",
+    "attempts": 512,
+    "valid": 510,
+    "unique": 510,
+    "mean_actions_all_attempts": 63.05859375,
+    "diversity_unique_full_pairs": 0.8932084307022469,
+    "diversity_valid_attempt_full_pairs": 0.8932084307022469,
+    "unique_scaffolds_including_acyclic": 453,
+    "valid_property_means": {
+      "MW": 520.9932019607844,
+      "TPSA": 152.31013725490195,
+      "logP": 0.8477311960784333
+    },
+    "valid_property_medians": {
+      "MW": 485.2625000000002,
+      "TPSA": 133.79,
+      "logP": 1.0234899999999998
+    }
+  },
+  "mechanism/fexofenadine__length_0001__s4202": {
+    "source_sha256": "6e45870f5a9a7f3e98a5b4d4bc0d5973bc4ea85fc060548fd597b5074f86bc68",
+    "attempts": 512,
+    "valid": 511,
+    "unique": 511,
+    "mean_actions_all_attempts": 65.216796875,
+    "diversity_unique_full_pairs": 0.8908840621918064,
+    "diversity_valid_attempt_full_pairs": 0.8908840621918064,
+    "unique_scaffolds_including_acyclic": 446,
+    "valid_property_means": {
+      "MW": 528.2506301369864,
+      "TPSA": 154.76467710371818,
+      "logP": 0.5788782191780842
+    },
+    "valid_property_medians": {
+      "MW": 496.8640000000003,
+      "TPSA": 141.49,
+      "logP": 0.6126000000000009
+    }
+  },
+  "mechanism/fexofenadine__length_0003__s4202": {
+    "source_sha256": "bd3e99f42338345511ff5351a669970f12a76a3e4fded7f01e3aedfba10048dd",
+    "attempts": 512,
+    "valid": 512,
+    "unique": 512,
+    "mean_actions_all_attempts": 54.576171875,
+    "diversity_unique_full_pairs": 0.8914813053759046,
+    "diversity_valid_attempt_full_pairs": 0.8914813053759046,
+    "unique_scaffolds_including_acyclic": 437,
+    "valid_property_means": {
+      "MW": 458.92561328125015,
+      "TPSA": 137.2408984375,
+      "logP": 0.6083417578125021
+    },
+    "valid_property_medians": {
+      "MW": 438.00250000000017,
+      "TPSA": 131.43,
+      "logP": 0.7024500000000008
+    }
+  },
+  "mechanism/fexofenadine__upper_tpsa150__s4202": {
+    "source_sha256": "1413baa4ece8e2c615f008c94d4a52ac5c732c1609e9297d7e6ff376fa6129d3",
+    "attempts": 512,
+    "valid": 512,
+    "unique": 512,
+    "mean_actions_all_attempts": 56.7890625,
+    "diversity_unique_full_pairs": 0.8947919364509653,
+    "diversity_valid_attempt_full_pairs": 0.8947919364509653,
+    "unique_scaffolds_including_acyclic": 459,
+    "valid_property_means": {
+      "MW": 468.0308671875001,
+      "TPSA": 123.001328125,
+      "logP": 1.363693828125002
+    },
+    "valid_property_medians": {
+      "MW": 446.5730000000002,
+      "TPSA": 117.82499999999999,
+      "logP": 1.4459550000000005
+    }
+  },
+  "mechanism/fexofenadine__frozen__s4203": {
+    "source_sha256": "29c7420529e6309637670efb3fc6aead0ac261435c96615b43cbc71a07cfddf4",
+    "attempts": 512,
+    "valid": 512,
+    "unique": 512,
+    "mean_actions_all_attempts": 40.96484375,
+    "diversity_unique_full_pairs": 0.8993659081470011,
+    "diversity_valid_attempt_full_pairs": 0.8993659081470011,
+    "unique_scaffolds_including_acyclic": 432,
+    "valid_property_means": {
+      "MW": 358.16635156250004,
+      "TPSA": 69.38015625,
+      "logP": 2.7626742968750015
+    },
+    "valid_property_medians": {
+      "MW": 326.0885,
+      "TPSA": 66.44,
+      "logP": 2.6387000000000014
+    }
+  },
+  "mechanism/fexofenadine__rf__s4203": {
+    "source_sha256": "3bc4245cecec0c81fe10aa4289cb11ace3a37c95aabb419b81bb97ed6cd45203",
+    "attempts": 512,
+    "valid": 505,
+    "unique": 505,
+    "mean_actions_all_attempts": 82.798828125,
+    "diversity_unique_full_pairs": 0.8901352261785036,
+    "diversity_valid_attempt_full_pairs": 0.8901352261785036,
+    "unique_scaffolds_including_acyclic": 458,
+    "valid_property_means": {
+      "MW": 639.9682415841585,
+      "TPSA": 184.98253465346534,
+      "logP": 0.553088217821785
+    },
+    "valid_property_medians": {
+      "MW": 589.6230000000002,
+      "TPSA": 164.07999999999996,
+      "logP": 0.6944000000000008
+    }
+  },
+  "mechanism/fexofenadine__kl_001__s4203": {
+    "source_sha256": "c50c9c1aad38b5dd12217bc4b060f57b3d27f52c0988d560d33d53aac2c87e2d",
+    "attempts": 512,
+    "valid": 512,
+    "unique": 512,
+    "mean_actions_all_attempts": 54.919921875,
+    "diversity_unique_full_pairs": 0.8827726179901735,
+    "diversity_valid_attempt_full_pairs": 0.8827726179901735,
+    "unique_scaffolds_including_acyclic": 484,
+    "valid_property_means": {
+      "MW": 467.99626562500015,
+      "TPSA": 128.5944921875,
+      "logP": 1.0731391796875018
+    },
+    "valid_property_medians": {
+      "MW": 447.0195000000002,
+      "TPSA": 117.91,
+      "logP": 1.14501
+    }
+  },
+  "mechanism/fexofenadine__length_0001__s4203": {
+    "source_sha256": "95c0c6e6640532209c097775945f5f8464497bc663cd5047bfb624fddd7dfe68",
+    "attempts": 512,
+    "valid": 511,
+    "unique": 511,
+    "mean_actions_all_attempts": 67.08984375,
+    "diversity_unique_full_pairs": 0.8942485474894593,
+    "diversity_valid_attempt_full_pairs": 0.8942485474894593,
+    "unique_scaffolds_including_acyclic": 474,
+    "valid_property_means": {
+      "MW": 560.3489315068495,
+      "TPSA": 168.57448140900195,
+      "logP": -0.029157769080233046
+    },
+    "valid_property_medians": {
+      "MW": 519.4040000000002,
+      "TPSA": 147.34,
+      "logP": 0.19340000000000307
+    }
+  },
+  "mechanism/fexofenadine__length_0003__s4203": {
+    "source_sha256": "a193f13bfffb6f3635148dcb7a2edbc1b362a74bcaa9a1fd0819e5c97e7ca1e5",
+    "attempts": 512,
+    "valid": 512,
+    "unique": 512,
+    "mean_actions_all_attempts": 53.619140625,
+    "diversity_unique_full_pairs": 0.8929602557315558,
+    "diversity_valid_attempt_full_pairs": 0.8929602557315558,
+    "unique_scaffolds_including_acyclic": 417,
+    "valid_property_means": {
+      "MW": 449.36714843750013,
+      "TPSA": 139.71724609375,
+      "logP": 0.12686455078125225
+    },
+    "valid_property_medians": {
+      "MW": 436.97050000000013,
+      "TPSA": 133.66,
+      "logP": 0.2270500000000023
+    }
+  },
+  "mechanism/fexofenadine__upper_tpsa150__s4203": {
+    "source_sha256": "c7c2196286266f9c3c13bc0482285967c768aec7f3f22e7657b468f0762f94b3",
+    "attempts": 512,
+    "valid": 512,
+    "unique": 512,
+    "mean_actions_all_attempts": 52.8125,
+    "diversity_unique_full_pairs": 0.8841639071096222,
+    "diversity_valid_attempt_full_pairs": 0.8841639071096222,
+    "unique_scaffolds_including_acyclic": 494,
+    "valid_property_means": {
+      "MW": 454.91975195312517,
+      "TPSA": 117.10095703125,
+      "logP": 1.481397050781252
+    },
+    "valid_property_medians": {
+      "MW": 446.68300000000033,
+      "TPSA": 114.925,
+      "logP": 1.5194499999999997
+    }
+  },
+  "mechanism/fexofenadine__frozen__s4204": {
+    "source_sha256": "faee0a469d46fcdaede8d0180d96b2ac398c44a319372258312dc89feec4d00e",
+    "attempts": 512,
+    "valid": 512,
+    "unique": 512,
+    "mean_actions_all_attempts": 41.677734375,
+    "diversity_unique_full_pairs": 0.8973362476989553,
+    "diversity_valid_attempt_full_pairs": 0.8973362476989553,
+    "unique_scaffolds_including_acyclic": 421,
+    "valid_property_means": {
+      "MW": 362.61152343750007,
+      "TPSA": 68.76048828125,
+      "logP": 2.8512165820312516
+    },
+    "valid_property_medians": {
+      "MW": 338.4375000000001,
+      "TPSA": 66.995,
+      "logP": 2.6693600000000006
+    }
+  },
+  "mechanism/fexofenadine__rf__s4204": {
+    "source_sha256": "407b3bf2f8dcb5ebd94517838f7d7f385a8a9dc66c89d7460aacb9e944984706",
+    "attempts": 512,
+    "valid": 509,
+    "unique": 509,
+    "mean_actions_all_attempts": 88.876953125,
+    "diversity_unique_full_pairs": 0.8915179404235665,
+    "diversity_valid_attempt_full_pairs": 0.8915179404235665,
+    "unique_scaffolds_including_acyclic": 487,
+    "valid_property_means": {
+      "MW": 725.4938526522594,
+      "TPSA": 222.76418467583497,
+      "logP": 0.047214656188606104
+    },
+    "valid_property_medians": {
+      "MW": 659.8580000000002,
+      "TPSA": 194.10999999999999,
+      "logP": 0.28479999999999955
+    }
+  },
+  "mechanism/fexofenadine__kl_001__s4204": {
+    "source_sha256": "d03abbd1e4e74098fc62b3676e45eaec0506bba75de292565f0ed6689601c69b",
+    "attempts": 512,
+    "valid": 511,
+    "unique": 511,
+    "mean_actions_all_attempts": 56.66015625,
+    "diversity_unique_full_pairs": 0.8778016600502223,
+    "diversity_valid_attempt_full_pairs": 0.8778016600502223,
+    "unique_scaffolds_including_acyclic": 482,
+    "valid_property_means": {
+      "MW": 475.5110136986303,
+      "TPSA": 133.62407045009783,
+      "logP": 1.0918618199608632
+    },
+    "valid_property_medians": {
+      "MW": 453.52000000000015,
+      "TPSA": 123.68,
+      "logP": 1.107799999999999
+    }
+  },
+  "mechanism/fexofenadine__length_0001__s4204": {
+    "source_sha256": "0394c25f069fa15ea2b50c18dc42478080b35d21ed4b65078c7d179b37280b16",
+    "attempts": 512,
+    "valid": 512,
+    "unique": 512,
+    "mean_actions_all_attempts": 71.595703125,
+    "diversity_unique_full_pairs": 0.8898468313457317,
+    "diversity_valid_attempt_full_pairs": 0.8898468313457317,
+    "unique_scaffolds_including_acyclic": 470,
+    "valid_property_means": {
+      "MW": 589.2755097656251,
+      "TPSA": 176.44197265625,
+      "logP": -0.22138781249999806
+    },
+    "valid_property_medians": {
+      "MW": 561.1685000000002,
+      "TPSA": 165.59,
+      "logP": 0.013600000000002277
+    }
+  },
+  "mechanism/fexofenadine__length_0003__s4204": {
+    "source_sha256": "a88a1ba27b5e9c109b32135a5b000d023a4b27a62a5d2e4810ba463807946f65",
+    "attempts": 512,
+    "valid": 512,
+    "unique": 512,
+    "mean_actions_all_attempts": 56.439453125,
+    "diversity_unique_full_pairs": 0.8875116188886666,
+    "diversity_valid_attempt_full_pairs": 0.8875116188886666,
+    "unique_scaffolds_including_acyclic": 462,
+    "valid_property_means": {
+      "MW": 484.3876093750001,
+      "TPSA": 141.53029296875,
+      "logP": 0.6278079296875024
+    },
+    "valid_property_medians": {
+      "MW": 468.5485000000002,
+      "TPSA": 134.67,
+      "logP": 0.7013400000000012
+    }
+  },
+  "mechanism/fexofenadine__upper_tpsa150__s4204": {
+    "source_sha256": "37e10261aec6c94740f35755b9bb5f9af2f242796206b619fb329ff75d712214",
+    "attempts": 512,
+    "valid": 511,
+    "unique": 511,
+    "mean_actions_all_attempts": 51.662109375,
+    "diversity_unique_full_pairs": 0.8934522937977964,
+    "diversity_valid_attempt_full_pairs": 0.8934522937977964,
+    "unique_scaffolds_including_acyclic": 476,
+    "valid_property_means": {
+      "MW": 437.47999021526437,
+      "TPSA": 113.28117416829745,
+      "logP": 0.9747756751467731
+    },
+    "valid_property_medians": {
+      "MW": 430.18300000000016,
+      "TPSA": 110.47,
+      "logP": 0.9376000000000062
+    }
+  },
+  "mechanism/fexofenadine__frozen__s4205": {
+    "source_sha256": "59d9adb5dc2b2b626aa0ae929a7b904fff268b4223d8cbe85b9d475863c8d739",
+    "attempts": 512,
+    "valid": 512,
+    "unique": 512,
+    "mean_actions_all_attempts": 41.77734375,
+    "diversity_unique_full_pairs": 0.8964916920111556,
+    "diversity_valid_attempt_full_pairs": 0.8964916920111556,
+    "unique_scaffolds_including_acyclic": 438,
+    "valid_property_means": {
+      "MW": 361.55186914062506,
+      "TPSA": 70.7382421875,
+      "logP": 2.679034921875001
+    },
+    "valid_property_medians": {
+      "MW": 332.43500000000006,
+      "TPSA": 66.91499999999999,
+      "logP": 2.5434099999999997
+    }
+  },
+  "mechanism/fexofenadine__rf__s4205": {
+    "source_sha256": "9c8e156bb5838be243558409ee3a79a5cc6ec537eaa8f6473cf1bb0be11459aa",
+    "attempts": 512,
+    "valid": 511,
+    "unique": 511,
+    "mean_actions_all_attempts": 80.314453125,
+    "diversity_unique_full_pairs": 0.8812586778694469,
+    "diversity_valid_attempt_full_pairs": 0.8812586778694469,
+    "unique_scaffolds_including_acyclic": 480,
+    "valid_property_means": {
+      "MW": 673.7491213307242,
+      "TPSA": 199.52657534246575,
+      "logP": 0.7377362426614507
+    },
+    "valid_property_medians": {
+      "MW": 622.8190000000001,
+      "TPSA": 177.68,
+      "logP": 0.8017000000000047
+    }
+  },
+  "mechanism/fexofenadine__kl_001__s4205": {
+    "source_sha256": "8ded7a9c5dd8cdb1cb160d7ff83afd40ce7b85721f2d2d1f0e3cfc36a08522b0",
+    "attempts": 512,
+    "valid": 512,
+    "unique": 512,
+    "mean_actions_all_attempts": 55.0625,
+    "diversity_unique_full_pairs": 0.8841223456107222,
+    "diversity_valid_attempt_full_pairs": 0.8841223456107222,
+    "unique_scaffolds_including_acyclic": 465,
+    "valid_property_means": {
+      "MW": 477.59441406250016,
+      "TPSA": 132.60583984375,
+      "logP": 0.9751974414062523
+    },
+    "valid_property_medians": {
+      "MW": 454.1790000000001,
+      "TPSA": 118.76000000000002,
+      "logP": 1.124300000000002
+    }
+  },
+  "mechanism/fexofenadine__length_0001__s4205": {
+    "source_sha256": "5930f598fa3cf22b34b643472efb3f06713054ab4df7bf835f410874f626c42c",
+    "attempts": 512,
+    "valid": 511,
+    "unique": 511,
+    "mean_actions_all_attempts": 69.6875,
+    "diversity_unique_full_pairs": 0.8845117028124762,
+    "diversity_valid_attempt_full_pairs": 0.8845117028124762,
+    "unique_scaffolds_including_acyclic": 481,
+    "valid_property_means": {
+      "MW": 585.9279295499023,
+      "TPSA": 170.28806262230918,
+      "logP": 0.6057567514677128
+    },
+    "valid_property_medians": {
+      "MW": 546.6780000000002,
+      "TPSA": 157.93,
+      "logP": 0.5857000000000019
+    }
+  },
+  "mechanism/fexofenadine__length_0003__s4205": {
+    "source_sha256": "af2d8d94b2dd44ae1b1313d107aa7caf08a3557940e41d1e79568a7acf394138",
+    "attempts": 512,
+    "valid": 512,
+    "unique": 512,
+    "mean_actions_all_attempts": 52.47265625,
+    "diversity_unique_full_pairs": 0.8852633826905235,
+    "diversity_valid_attempt_full_pairs": 0.8852633826905235,
+    "unique_scaffolds_including_acyclic": 435,
+    "valid_property_means": {
+      "MW": 457.1803925781252,
+      "TPSA": 144.99333984375,
+      "logP": 0.10716634765625199
+    },
+    "valid_property_medians": {
+      "MW": 448.1515000000002,
+      "TPSA": 140.95499999999998,
+      "logP": 0.22400000000000095
+    }
+  },
+  "mechanism/fexofenadine__upper_tpsa150__s4205": {
+    "source_sha256": "cad2c50f66244108d7ed8222d18c8f049a363e83dfcfd0162543c836ec2e6016",
+    "attempts": 512,
+    "valid": 512,
+    "unique": 512,
+    "mean_actions_all_attempts": 55.080078125,
+    "diversity_unique_full_pairs": 0.8886541883645969,
+    "diversity_valid_attempt_full_pairs": 0.8886541883645969,
+    "unique_scaffolds_including_acyclic": 414,
+    "valid_property_means": {
+      "MW": 454.28836914062515,
+      "TPSA": 119.182265625,
+      "logP": 1.372787070312502
+    },
+    "valid_property_medians": {
+      "MW": 450.0615000000002,
+      "TPSA": 117.18,
+      "logP": 1.3324500000000006
+    }
+  },
+  "long_budget/fexofenadine__frozen__s4301": {
+    "source_sha256": "372176d36b3965e1a4901f15d6bc7f00b5bd40d3556e7f0314f2961997132421",
+    "attempts": 1024,
+    "valid": 1019,
+    "unique": 1019,
+    "mean_actions_all_attempts": 41.06640625,
+    "diversity_unique_full_pairs": 0.8988922483113293,
+    "diversity_valid_attempt_full_pairs": 0.8988922483113293,
+    "unique_scaffolds_including_acyclic": 826,
+    "valid_property_means": {
+      "MW": 356.38343866535826,
+      "TPSA": 68.08281648675172,
+      "logP": 2.8070780765456345
+    },
+    "valid_property_medians": {
+      "MW": 324.21799999999996,
+      "TPSA": 63.220000000000006,
+      "logP": 2.6760999999999995
+    }
+  },
+  "long_budget/fexofenadine__rf__s4301": {
+    "source_sha256": "a703a800c832c9a3df37c408cfc77bd716fe573723aa904a6e8f7915890eccdd",
+    "attempts": 1024,
+    "valid": 1024,
+    "unique": 1024,
+    "mean_actions_all_attempts": 88.16015625,
+    "diversity_unique_full_pairs": 0.8711873951075404,
+    "diversity_valid_attempt_full_pairs": 0.8711873951075404,
+    "unique_scaffolds_including_acyclic": 972,
+    "valid_property_means": {
+      "MW": 761.8916572265624,
+      "TPSA": 171.648779296875,
+      "logP": 0.643328251953127
+    },
+    "valid_property_medians": {
+      "MW": 761.9100000000001,
+      "TPSA": 167.04500000000002,
+      "logP": 0.7035500000000054
+    }
+  },
+  "long_budget/fexofenadine__kl_001__s4301": {
+    "source_sha256": "4243dee018eba7747366e8c322169010849e5a22407c458dfded8e370938fe59",
+    "attempts": 1024,
+    "valid": 1024,
+    "unique": 1024,
+    "mean_actions_all_attempts": 57.31640625,
+    "diversity_unique_full_pairs": 0.874418581550647,
+    "diversity_valid_attempt_full_pairs": 0.874418581550647,
+    "unique_scaffolds_including_acyclic": 973,
+    "valid_property_means": {
+      "MW": 478.5945527343752,
+      "TPSA": 133.3530078125,
+      "logP": 0.9801938574218769
+    },
+    "valid_property_medians": {
+      "MW": 465.59550000000036,
+      "TPSA": 127.22,
+      "logP": 1.1563000000000025
+    }
+  },
+  "long_budget/osimertinib__frozen__s4301": {
+    "source_sha256": "9127183a5e876adc2674a3646e41bbdd8abeeaba15d1d97c0ce1984fa464ff29",
+    "attempts": 1024,
+    "valid": 1019,
+    "unique": 1019,
+    "mean_actions_all_attempts": 41.06640625,
+    "diversity_unique_full_pairs": 0.8988922483113293,
+    "diversity_valid_attempt_full_pairs": 0.8988922483113293,
+    "unique_scaffolds_including_acyclic": 826,
+    "valid_property_means": {
+      "MW": 356.38343866535826,
+      "TPSA": 68.08281648675172,
+      "logP": 2.8070780765456345
+    },
+    "valid_property_medians": {
+      "MW": 324.21799999999996,
+      "TPSA": 63.220000000000006,
+      "logP": 2.6760999999999995
+    }
+  },
+  "long_budget/osimertinib__rf__s4301": {
+    "source_sha256": "773fc703ac87c3cd3edae010c35bd3ad4111d155f04350320f4fc4dbeada099a",
+    "attempts": 1024,
+    "valid": 1021,
+    "unique": 1021,
+    "mean_actions_all_attempts": 75.0703125,
+    "diversity_unique_full_pairs": 0.8756410057100819,
+    "diversity_valid_attempt_full_pairs": 0.8756410057100819,
+    "unique_scaffolds_including_acyclic": 978,
+    "valid_property_means": {
+      "MW": 627.3209872673849,
+      "TPSA": 260.93005876591576,
+      "logP": -1.5441860430950027
+    },
+    "valid_property_medians": {
+      "MW": 622.6980000000001,
+      "TPSA": 255.46000000000004,
+      "logP": -1.5498999999999907
+    }
+  },
+  "long_budget/osimertinib__kl_001__s4301": {
+    "source_sha256": "7b8eb14ba6ce3756af86100621dbf202539155fd2498ffb56045a314ed52aff2",
+    "attempts": 1024,
+    "valid": 1024,
+    "unique": 1024,
+    "mean_actions_all_attempts": 42.2333984375,
+    "diversity_unique_full_pairs": 0.8720689423374041,
+    "diversity_valid_attempt_full_pairs": 0.8720689423374041,
+    "unique_scaffolds_including_acyclic": 818,
+    "valid_property_means": {
+      "MW": 370.4662646484376,
+      "TPSA": 137.2170703125,
+      "logP": -0.4939367773437487
+    },
+    "valid_property_medians": {
+      "MW": 362.32300000000004,
+      "TPSA": 133.89499999999998,
+      "logP": -0.41970999999999814
+    }
+  },
+  "long_budget/fexofenadine__frozen__s4302": {
+    "source_sha256": "cb2844ba859543ed7c2f65f3d134e372001bd798a739616b44002f0a8c348156",
+    "attempts": 1024,
+    "valid": 1023,
+    "unique": 1023,
+    "mean_actions_all_attempts": 40.955078125,
+    "diversity_unique_full_pairs": 0.8981186060926134,
+    "diversity_valid_attempt_full_pairs": 0.8981186060926134,
+    "unique_scaffolds_including_acyclic": 830,
+    "valid_property_means": {
+      "MW": 358.6074652981428,
+      "TPSA": 70.92643206256109,
+      "logP": 2.525900508308897
+    },
+    "valid_property_medians": {
+      "MW": 329.4450000000001,
+      "TPSA": 66.92,
+      "logP": 2.4209000000000005
+    }
+  },
+  "long_budget/fexofenadine__rf__s4302": {
+    "source_sha256": "d559b308f153c1a6bc1f3ef71e7cbf9444c9b262cad03b5b98f6334390be4fa5",
+    "attempts": 1024,
+    "valid": 1024,
+    "unique": 1024,
+    "mean_actions_all_attempts": 90.9794921875,
+    "diversity_unique_full_pairs": 0.8794825023290238,
+    "diversity_valid_attempt_full_pairs": 0.8794825023290238,
+    "unique_scaffolds_including_acyclic": 983,
+    "valid_property_means": {
+      "MW": 743.3589443359374,
+      "TPSA": 187.489619140625,
+      "logP": 0.12314789062500175
+    },
+    "valid_property_medians": {
+      "MW": 733.9259999999999,
+      "TPSA": 181.195,
+      "logP": 0.26395000000000457
+    }
+  },
+  "long_budget/fexofenadine__kl_001__s4302": {
+    "source_sha256": "bda48e0d12b433dcd6a1f9b6aa01138f93a7215fb078e449bcd16411e3720c9c",
+    "attempts": 1024,
+    "valid": 1023,
+    "unique": 1023,
+    "mean_actions_all_attempts": 54.9873046875,
+    "diversity_unique_full_pairs": 0.8722718440424098,
+    "diversity_valid_attempt_full_pairs": 0.8722718440424098,
+    "unique_scaffolds_including_acyclic": 963,
+    "valid_property_means": {
+      "MW": 467.26803812316734,
+      "TPSA": 129.38366568914955,
+      "logP": 0.7667258162267859
+    },
+    "valid_property_medians": {
+      "MW": 459.54800000000023,
+      "TPSA": 123.0,
+      "logP": 0.8706000000000034
+    }
+  },
+  "long_budget/osimertinib__frozen__s4302": {
+    "source_sha256": "86eac029b0cc22a91344ab9afffcb384b58eb72544ade7cd5fefe669208b9551",
+    "attempts": 1024,
+    "valid": 1023,
+    "unique": 1023,
+    "mean_actions_all_attempts": 40.955078125,
+    "diversity_unique_full_pairs": 0.8981186060926134,
+    "diversity_valid_attempt_full_pairs": 0.8981186060926134,
+    "unique_scaffolds_including_acyclic": 830,
+    "valid_property_means": {
+      "MW": 358.6074652981428,
+      "TPSA": 70.92643206256109,
+      "logP": 2.525900508308897
+    },
+    "valid_property_medians": {
+      "MW": 329.4450000000001,
+      "TPSA": 66.92,
+      "logP": 2.4209000000000005
+    }
+  },
+  "long_budget/osimertinib__rf__s4302": {
+    "source_sha256": "640780d2083faa6d0886b7ac0e51a6c4f54ae57de03f033d1e0d20c25840aaae",
+    "attempts": 1024,
+    "valid": 1024,
+    "unique": 1024,
+    "mean_actions_all_attempts": 75.4609375,
+    "diversity_unique_full_pairs": 0.8716449128632883,
+    "diversity_valid_attempt_full_pairs": 0.8716449128632883,
+    "unique_scaffolds_including_acyclic": 983,
+    "valid_property_means": {
+      "MW": 642.51270703125,
+      "TPSA": 258.85599609375,
+      "logP": -1.401167675781248
+    },
+    "valid_property_medians": {
+      "MW": 626.1814999999999,
+      "TPSA": 250.47499999999997,
+      "logP": -1.221749999999997
+    }
+  },
+  "long_budget/osimertinib__kl_001__s4302": {
+    "source_sha256": "d9504781569c45e7655d1d51df9cc8203672e6f90d5479b6704a7837c2ace73c",
+    "attempts": 1024,
+    "valid": 1024,
+    "unique": 1024,
+    "mean_actions_all_attempts": 43.7109375,
+    "diversity_unique_full_pairs": 0.8779238518955186,
+    "diversity_valid_attempt_full_pairs": 0.8779238518955186,
+    "unique_scaffolds_including_acyclic": 810,
+    "valid_property_means": {
+      "MW": 375.1762724609376,
+      "TPSA": 142.279052734375,
+      "logP": -0.5933459374999986
+    },
+    "valid_property_medians": {
+      "MW": 361.39350000000013,
+      "TPSA": 136.31,
+      "logP": -0.5586499999999988
+    }
+  },
+  "long_budget/fexofenadine__frozen__s4303": {
+    "source_sha256": "ff82e9e6b18f149665574a90b40710fa68e830d341fbea6f4bbfd8ef6365b2b3",
+    "attempts": 1024,
+    "valid": 1024,
+    "unique": 1024,
+    "mean_actions_all_attempts": 41.0537109375,
+    "diversity_unique_full_pairs": 0.898082401831622,
+    "diversity_valid_attempt_full_pairs": 0.898082401831622,
+    "unique_scaffolds_including_acyclic": 843,
+    "valid_property_means": {
+      "MW": 356.64108789062504,
+      "TPSA": 67.579560546875,
+      "logP": 2.7876893164062517
+    },
+    "valid_property_medians": {
+      "MW": 332.8645,
+      "TPSA": 64.16499999999999,
+      "logP": 2.6382600000000007
+    }
+  },
+  "long_budget/fexofenadine__rf__s4303": {
+    "source_sha256": "b285fc26fb9bcb8c182ed957c594413ae2f6efe029bd5c3716372b15bc70afa2",
+    "attempts": 1024,
+    "valid": 1022,
+    "unique": 1022,
+    "mean_actions_all_attempts": 89.275390625,
+    "diversity_unique_full_pairs": 0.8852887460491787,
+    "diversity_valid_attempt_full_pairs": 0.8852887460491787,
+    "unique_scaffolds_including_acyclic": 961,
+    "valid_property_means": {
+      "MW": 716.2173033268101,
+      "TPSA": 190.78384540117415,
+      "logP": -0.36414030332680836
+    },
+    "valid_property_medians": {
+      "MW": 706.8570000000001,
+      "TPSA": 184.34499999999997,
+      "logP": -0.30979999999999563
+    }
+  },
+  "long_budget/fexofenadine__kl_001__s4303": {
+    "source_sha256": "37dea79c92de459314e321b9bbe2c5fb8a2b8559862ee1eaa16e573af5c5cfcb",
+    "attempts": 1024,
+    "valid": 1024,
+    "unique": 1024,
+    "mean_actions_all_attempts": 59.4580078125,
+    "diversity_unique_full_pairs": 0.874910082317924,
+    "diversity_valid_attempt_full_pairs": 0.874910082317924,
+    "unique_scaffolds_including_acyclic": 981,
+    "valid_property_means": {
+      "MW": 501.6642558593752,
+      "TPSA": 137.284853515625,
+      "logP": 0.8968314550781271
+    },
+    "valid_property_medians": {
+      "MW": 486.54800000000023,
+      "TPSA": 130.07999999999998,
+      "logP": 1.0402600000000013
+    }
+  },
+  "long_budget/osimertinib__frozen__s4303": {
+    "source_sha256": "b447e9e228f488ab80cfc987467721a7eba9fc27e3ee7d4ba8a15415f5128174",
+    "attempts": 1024,
+    "valid": 1024,
+    "unique": 1024,
+    "mean_actions_all_attempts": 41.0537109375,
+    "diversity_unique_full_pairs": 0.898082401831622,
+    "diversity_valid_attempt_full_pairs": 0.898082401831622,
+    "unique_scaffolds_including_acyclic": 843,
+    "valid_property_means": {
+      "MW": 356.64108789062504,
+      "TPSA": 67.579560546875,
+      "logP": 2.7876893164062517
+    },
+    "valid_property_medians": {
+      "MW": 332.8645,
+      "TPSA": 64.16499999999999,
+      "logP": 2.6382600000000007
+    }
+  },
+  "long_budget/osimertinib__rf__s4303": {
+    "source_sha256": "02b605236a18157374f80b8015d0643f687df85a37e523b2f02e5d222cecf818",
+    "attempts": 1024,
+    "valid": 1024,
+    "unique": 1024,
+    "mean_actions_all_attempts": 68.62109375,
+    "diversity_unique_full_pairs": 0.8834211410967928,
+    "diversity_valid_attempt_full_pairs": 0.8834211410967928,
+    "unique_scaffolds_including_acyclic": 875,
+    "valid_property_means": {
+      "MW": 547.9302851562501,
+      "TPSA": 234.56317382812497,
+      "logP": -1.709668574218748
+    },
+    "valid_property_medians": {
+      "MW": 547.5605000000002,
+      "TPSA": 234.10500000000002,
+      "logP": -1.5880999999999965
+    }
+  },
+  "long_budget/osimertinib__kl_001__s4303": {
+    "source_sha256": "b43de0e759ee236acb4b52693e3dd9909688940331210ac4889bb471fbdc4b0b",
+    "attempts": 1024,
+    "valid": 1024,
+    "unique": 1024,
+    "mean_actions_all_attempts": 41.4150390625,
+    "diversity_unique_full_pairs": 0.8691534367157813,
+    "diversity_valid_attempt_full_pairs": 0.8691534367157813,
+    "unique_scaffolds_including_acyclic": 791,
+    "valid_property_means": {
+      "MW": 358.3755585937501,
+      "TPSA": 138.645830078125,
+      "logP": -0.5114656738281238
+    },
+    "valid_property_medians": {
+      "MW": 351.34400000000005,
+      "TPSA": 135.365,
+      "logP": -0.4727999999999999
+    }
+  }
+}

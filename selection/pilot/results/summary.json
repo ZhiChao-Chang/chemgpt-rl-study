@@ -1,0 +1,47 @@
+{
+  "status": "PASS_FEASIBILITY_ONLY",
+  "device": "cpu",
+  "threads": 2,
+  "seed": 20261104,
+  "torch": "2.7.1+cu128",
+  "rdkit": "2025.09.6",
+  "parameters": 4173239,
+  "weights_sha256": "6fa349413b1ab70134eaf4cc1900523119cf28806d7e63d6acfa001c60d6c3fc",
+  "fused_vs_original_cell_max_logit_error": 6.67572021484375e-06,
+  "sample_vs_teacherforce_max_logprob_error": 1.52587890625e-05,
+  "max_length": 140,
+  "truncated_attempts": 0,
+  "prior": {
+    "attempts": 512,
+    "valid": 475,
+    "unique": 475,
+    "valid_fraction": 0.927734375,
+    "unique_nonempty_scaffolds": 436,
+    "acyclic_valid": 1,
+    "qed_mean_valid": 0.7349304584738583,
+    "qed_ge_08_attempts": 187,
+    "physchem_window_attempts": 105,
+    "fexo_mpo_mean_valid": 0.22977778135140475,
+    "fexo_mpo_top10_unique": 0.632618118155927,
+    "fexo_mpo_ge_08_unique": 0,
+    "fexo_mpo_ge_07_unique": 0,
+    "fexo_all_plateaus_attempts": 0
+  },
+  "one_step_trainability": {
+    "batch_size": 16,
+    "dap_sigma": 30,
+    "lr": 0.0001,
+    "loss": 34.5693359375,
+    "unclipped_gradient_norm": 289.8426513671875,
+    "max_output_weight_change": 0.00010001659393310547
+  },
+  "elapsed_seconds": 4.817664122208953,
+  "limits": [
+    "one seed for engineering preflight",
+    "no formal optimizer comparison",
+    "Fexofenadine MPO reimplementation from official definitions; not yet package-parity certified",
+    "all-plateaus and physchem-window are supplementary custom diagnostics, not official benchmark metrics",
+    "QED, calculated logP, TPSA and similarity are computational proxies, not binding or efficacy",
+    "no empirical GPU memory or production-run timing measurement"
+  ]
+}

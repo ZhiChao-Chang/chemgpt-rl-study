@@ -1,0 +1,24 @@
+{
+  "status": "actual_student_contributions_pending_confirmation",
+  "planned_roles_source": "../proposal/latex/main.tex",
+  "planned_roles": {
+    "Zhang_Zhichao": "文献、问题与整体设计、ChemGPT接口、叙事",
+    "Liao_Yang": "奖励接口、预算缓存与冻结基线、实验指标和分析",
+    "Han_Gaofei": "REINFORCE、baseline、KL、梯度正确性及训练"
+  },
+  "actual_entries": [
+    {
+      "date": "2026-11-13",
+      "actor": "Codex assistant",
+      "type": "automated assistance",
+      "work": [
+        "课程资料下载阅读及要求核对",
+        "实验程序与理论/评分/账本检查",
+        "用户授权的ACP运行与结果收取",
+        "案例、性质诊断和初步展示材料"
+      ],
+      "scope": "这些记录不自动转为任何学生的实际贡献；学生后续复核、修改、分析和排练需按真实工作补充"
+    }
+  ],
+  "student_entries": []
+}

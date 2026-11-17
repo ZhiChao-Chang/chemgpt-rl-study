@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "trajectory_count": 4,
+  "independent_batches": 16,
+  "gradient_error": 2.7755575615628914e-17,
+  "loo_error": 4.163336342344337e-17,
+  "self_including_batch_mean_gradient_ratio": 0.5,
+  "negative_control": "batch-mean baseline (N=2) halves expected gradient in this setting",
+  "trajectory_kl": 0.08420094785616214,
+  "decoded_output_kl": 0.08402633571573001,
+  "conditional_encoding_kl": 0.00017461214043216222,
+  "chain_rule_error": 3.3420531966865674e-17,
+  "theorem": "For fixed deterministic decoder f and common support: KL(P_tau||P0_tau)=KL(P_f||P0_f)+E_m KL(P(tau|m)||P0(tau|m)).",
+  "caveat": "Exact finite example and identity; not an empirical estimate of molecular KL, nor evidence of improved drug efficacy."
+}

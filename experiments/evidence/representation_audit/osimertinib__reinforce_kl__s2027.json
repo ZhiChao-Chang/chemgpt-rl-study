@@ -1,0 +1,30 @@
+{
+  "run": "main/osimertinib__reinforce_kl__s2027",
+  "exact_token_replay": "PASS",
+  "replay_mismatches": [],
+  "canonical_descriptor_edges": [],
+  "stats": {
+    "search": {
+      "attempts": 3004,
+      "original_mean": 0.44383515469388385,
+      "canonical_reread_mean": 0.44383515469388385,
+      "mean_absolute_reward_change": 9.557135627008621e-18,
+      "max_absolute_reward_change": 8.881784197001252e-16,
+      "original_unique_top10": 0.8072140848391086,
+      "reread_unique_top10": 0.8072140848391086
+    },
+    "evaluation": {
+      "attempts": 1024,
+      "original_mean": 0.5929042322424154,
+      "canonical_reread_mean": 0.5929042322424154,
+      "mean_absolute_reward_change": 9.96184861353942e-18,
+      "max_absolute_reward_change": 5.551115123125783e-16,
+      "original_unique_top10": 0.7910566787799318,
+      "reread_unique_top10": 0.7910566787799318
+    }
+  },
+  "ledger_sha256": {
+    "search": "3ff0405bca73639823b8004f9d3a8cd24d4e8cd9ebe668e7f9759d445b18ca47",
+    "evaluation": "eb1ac765d66d9c6ceaa216c6802de8a099e1b5a8118a72b00a432b116ba5aba9"
+  }
+}

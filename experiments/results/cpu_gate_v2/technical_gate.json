@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "sample_vs_recompute_max_abs": 2.6702880859375e-05,
+  "padding_invariance_max_abs": 0.0,
+  "finite_nonzero_gradient_norm": 194.5965118408203,
+  "reference_has_gradient": false,
+  "scorer_references": {
+    "perindopril": {
+      "reference_components": [
+        1.0,
+        0.00033546262790251185
+      ],
+      "reference_reward": 0.018315638888734182
+    },
+    "fexofenadine": {
+      "reference_components": [
+        1.0,
+        0.6669768108584744,
+        0.31956163115609243
+      ],
+      "reference_reward": 0.5973402619117621
+    },
+    "osimertinib": {
+      "reference_components": [
+        1.0,
+        0.3246524673583496,
+        0.4606980222376964,
+        0.002113630867654493
+      ],
+      "reference_reward": 0.1333417190026552
+    }
+  }
+}

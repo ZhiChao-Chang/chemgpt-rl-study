@@ -1,0 +1,131 @@
+{
+  "label": "Development / exploratory",
+  "source": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/evidence/remote_results.json",
+  "groups": [
+    {
+      "task": "perindopril",
+      "method": "frozen",
+      "seeds": [
+        11,
+        17
+      ],
+      "runs": 2,
+      "auc": {
+        "mean": 0.37342023106302,
+        "sd": 0.0034514560991308705,
+        "values": [
+          0.3709796830503569,
+          0.3758607790756831
+        ]
+      },
+      "top10": {
+        "mean": 0.4064980869242276,
+        "sd": 0.005762913990892413,
+        "values": [
+          0.40242309136187276,
+          0.4105730824865825
+        ]
+      },
+      "evaluation_mean_reward": {
+        "mean": 0.13866844875931666,
+        "sd": 0.0006332321873446153,
+        "values": [
+          0.13911621153305362,
+          0.13822068598557968
+        ]
+      },
+      "validity": {
+        "mean": 1.0,
+        "sd": 0.0,
+        "values": [
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "task": "perindopril",
+      "method": "reinforce",
+      "seeds": [
+        11,
+        17
+      ],
+      "runs": 2,
+      "auc": {
+        "mean": 0.3627983025523302,
+        "sd": 0.009812147598177555,
+        "values": [
+          0.36973653865700484,
+          0.35586006644765555
+        ]
+      },
+      "top10": {
+        "mean": 0.40194133632778883,
+        "sd": 0.008445934695810254,
+        "values": [
+          0.40791351402465503,
+          0.3959691586309227
+        ]
+      },
+      "evaluation_mean_reward": {
+        "mean": 0.14490994609898455,
+        "sd": 0.013356269628067834,
+        "values": [
+          0.13546563727362188,
+          0.15435425492434726
+        ]
+      },
+      "validity": {
+        "mean": 1.0,
+        "sd": 0.0,
+        "values": [
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "task": "perindopril",
+      "method": "reinforce_kl",
+      "seeds": [
+        11,
+        17
+      ],
+      "runs": 2,
+      "auc": {
+        "mean": 0.3656443459547536,
+        "sd": 0.0017391998567065207,
+        "values": [
+          0.3668741459672694,
+          0.3644145459422377
+        ]
+      },
+      "top10": {
+        "mean": 0.40795967138099937,
+        "sd": 0.007522610009948875,
+        "values": [
+          0.4026403828307427,
+          0.413278959931256
+        ]
+      },
+      "evaluation_mean_reward": {
+        "mean": 0.1574499412205193,
+        "sd": 0.007839616481311226,
+        "values": [
+          0.15190649524468233,
+          0.1629933871963563
+        ]
+      },
+      "validity": {
+        "mean": 1.0,
+        "sd": 0.0,
+        "values": [
+          1.0,
+          1.0
+        ]
+      }
+    }
+  ],
+  "statistical_unit": "independent training seed",
+  "inference": "descriptive; no significance claim from two/three seeds"
+}

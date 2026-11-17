@@ -1,0 +1,55 @@
+{
+  "as_of": "2026-11-04",
+  "scope": "Mathematical method review and proposedconfiguration only. No training, molecular generation, installation, weightdownloads, or remote operations.",
+  "model_revision_from_parent_audit": "7438a282460b3038e17a27e25b85b1376e9a23e2",
+  "derivation_attribution": "All explicit equations for finite-horizonmaskedtrajectoryKL,score-function surrogate,LOObaseline andlocal-KLoccupancy correction are our derivations/check proposals based on general policygradient identities. Tests proposed, not executed.",
+  "sources": [
+    {
+      "id": "C1",
+      "title": "Neural scaling of deep chemical models",
+      "date": "2023-10-23",
+      "url": "https://www.nature.com/articles/s42256-023-00740-3",
+      "scope": "Original ChemGPT scientific provenance; no claim original paper supplies thisRL method."
+    },
+    {
+      "id": "C2",
+      "title": "ChemGPT-4.7M fixed model/tokenizer revision",
+      "revision": "7438a282460b3038e17a27e25b85b1376e9a23e2",
+      "url": "https://huggingface.co/ncfrey/ChemGPT-4.7M/tree/7438a282460b3038e17a27e25b85b1376e9a23e2",
+      "scope": "Parent model-audit handoff:684 original IDs, CLS2/SEP3/PAD1 and same-revision tokenizer; direct tool access to pinned file pages unavailable. No weights inspected/downloaded by this branch.",
+      "cross_revision_caution": "Search-visible later tokenizer bf0c5179f09589ee7cc25cf286bfbabbc64930e7 includes addedEOS684; do not mix with selected2022 revision.",
+      "additional_urls": [
+        "https://huggingface.co/ncfrey/ChemGPT-4.7M/blob/main/config.json",
+        "https://huggingface.co/ncfrey/ChemGPT-4.7M/blob/bf0c5179f09589ee7cc25cf286bfbabbc64930e7/tokenizer.json"
+      ]
+    },
+    {
+      "id": "C3",
+      "title": "Simple Statistical Gradient-Following Algorithms for Connectionist Reinforcement Learning",
+      "date": "1992",
+      "url": "https://people.cs.umass.edu/~barto/courses/cs687/williams92simple.pdf",
+      "scope": "Primary REINFORCE likelihood-ratio gradient/background; current finite-trajectory/KL andLOO derivation is our explicit design, not quoted as a ChemGPT theorem."
+    },
+    {
+      "id": "C4",
+      "title": "On the Design of KL-Regularized Policy Gradient Algorithms for LLM Reasoning",
+      "date": "ICLR2026 author PDF; preprint2025",
+      "url": "https://complex-reasoning.github.io/RPG/RPG.pdf",
+      "scope": "Primary modern derivation ofKL estimator/surrogate consistency; useful background for distinction between intendedKL objective and gradient implementation.",
+      "limits": "ReasoningLM setting, not molecular efficacy or validation of our implementation."
+    },
+    {
+      "id": "C5",
+      "title": "GuacaMol official standard benchmark scoring functions",
+      "url": "https://raw.githubusercontent.com/BenevolentAI/guacamol/master/guacamol/standard_benchmarks.py",
+      "evidence_location": [
+        "hard_fexofenadine",
+        "hard_osimertinib",
+        "amlodipine_rings"
+      ],
+      "scope": "OriginalMPO functions and independent development-task candidate.",
+      "limits": "Proxy scoring objectives, not drug efficacy; officialmaster must be commit-pinned by implementation owner."
+    }
+  ],
+  "source_count": 5
+}

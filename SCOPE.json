@@ -1,0 +1,44 @@
+{
+  "task": "Field-wide literature review of reinforcement learning for molecular generation and optimization, supporting proposal background and course research-topic selection",
+  "as_of": "2026-11-04",
+  "scope": "Literature/public-code/smallmetadata review only. Cover goal-directed generation,leadoptimization,graph/fragment/reaction/sequence/3D generation,multiobjective exploration,synthesis and feedback paradigms. TamGen as one case. No actual generation,training,largeassetdownloads,installations,remote/paid jobs,wetlab or emailing.",
+  "course": {
+    "name": "ME2502 Reinforcement Learning",
+    "source": "Blackboard announcement Reinforcement Learning Final Project Guide Line,2026-10-23",
+    "project_course_weight": 0.5,
+    "team_max": 5,
+    "proposal_due": "2026-11-08;exact time unspecified",
+    "proposal_fields": [
+      "team members",
+      "research question",
+      "planned approach",
+      "related work",
+      "resources",
+      "division of responsibilities"
+    ],
+    "proposal_submission": "teacher email,read-only requirement;not authorized to send",
+    "report_due": "2026-12-06",
+    "presentation": "weeks13/14,all members participate",
+    "rubric_equal_weights": [
+      "problem/motivation",
+      "technical correctness/depth",
+      "evaluation/theory",
+      "report/presentation/materials",
+      "individual understanding"
+    ],
+    "publication_level_contribution_required": false,
+    "negative_results_allowed_if_analyzed": true
+  },
+  "prior_tasks": "Dark-proteome/native benchmark/quantitative auxiliary work remain paused; antibody report complete. This new task does not resume any earlier experiments.",
+  "status": "COMPLETE_FIELD_LITERATURE_REVIEW",
+  "user_priority": "TamGen is only a user-provided example,not selected model or research axis. Survey the domain,then derive research questions before choosing backbone or algorithms. GPU available,team/resources undecided.",
+  "completed_UTC": "2026-11-04T03:06:37.989400+00:00",
+  "deliverables": [
+    "REPORT.md",
+    "PROPOSAL_BACKGROUND.md",
+    "evidence/field_project_options.md"
+  ],
+  "topic_model_algorithm_selected": false,
+  "course_proposal_submitted": false,
+  "no_training_generation_or_remote": true
+}

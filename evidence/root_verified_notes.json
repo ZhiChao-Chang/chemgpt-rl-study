@@ -1,0 +1,21 @@
+{
+  "as_of": "2026-11-04",
+  "primary_checks": [
+    {
+      "source": "https://github.com/bjzgcai/PolyTamGen",
+      "read_scope": "Current official README,not runtime test",
+      "verified": "SFT/DPO script entries;release uses ESM-C600M despite paper figureESM3;NatureLM-1b paths;asset release2026.10.16 different from olderZenodo;not original2024TamGen checkpointplusDPO"
+    },
+    {
+      "source": "https://github.com/Acellera/acegen-open",
+      "read_scope": "Current official README,not runtime test",
+      "verified": "Multiple RL/DPO loops and custom model/reward tutorials;not proof nativeTamGen pocketintegration"
+    },
+    {
+      "source": "Blackboard ME2502 FinalProjectGuideLine posted2026-10-23",
+      "verified": "DPOexplicitexample;proposal2026-11-08noexacttime;report12-06;<=5team;publicationlevelnotrequired"
+    }
+  ],
+  "constraints": "No installation,weights/bulkdata downloads,molecule generation,training,docking,server or emailactions;oldexperimentsremainpaused",
+  "interpretation": "Implementation choices and study axes remain open per user;GPUavailablebutnotused."
+}

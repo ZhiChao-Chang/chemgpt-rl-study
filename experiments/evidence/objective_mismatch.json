@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "mean_vs_tail": {
+    "policy_A": "reward always 0.6",
+    "policy_B": "reward 1 with probability .01, else 0",
+    "mean_A": 0.6,
+    "mean_B": 0.01,
+    "expected_max_A_B100": 0.6,
+    "expected_max_B_B100": 0.6339676587267709,
+    "expected_top10_A_B1000": 0.6,
+    "expected_top10_B_B1000": 0.8755171909850559
+  },
+  "identity_collapse": {
+    "policy_C": "always one identical molecule, reward1",
+    "policy_D": "at least ten distinct molecules each reward .8, once discovered",
+    "per_attempt_mean_C": 1.0,
+    "unique_top10_zero_padded_C": 0.1,
+    "unique_top10_D_after_ten_discoveries": 0.8
+  },
+  "formula": "For iid bounded rewards under a FIXED policy: E[max(R1..RB)]=integral_0^1 (1-F(r)^B) dr; E[topk average]=integral_0^1 E[min(k,N_r)]/k dr, N_r~Binomial(B,1-F(r)).",
+  "boundary": "Formula concerns iid raw attempts, NOT adaptive training or a budget counted in unique canonical molecules. Counterexamples show absence of a general implication, not actual model behavior."
+}

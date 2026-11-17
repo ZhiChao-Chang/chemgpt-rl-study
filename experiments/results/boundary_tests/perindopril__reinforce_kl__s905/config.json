@@ -1,0 +1,25 @@
+{
+  "task": "perindopril",
+  "method": "reinforce_kl",
+  "seed": 905,
+  "limits": {
+    "unique_budget": 5,
+    "max_attempts": 5,
+    "max_updates": 1,
+    "evaluation_attempts": 1,
+    "run_wall_seconds": 120
+  },
+  "settings": {
+    "batch_size": 32,
+    "horizon": 256,
+    "temperature": 1,
+    "lr": 1e-05,
+    "beta": 0.01,
+    "gradient_norm_clip": 1,
+    "dtype": "float32",
+    "tf32": false,
+    "updates_per_fresh_batch": 1,
+    "baseline": "leave-one-out; previous-batch EMA for singleton"
+  },
+  "beta": 0.01
+}

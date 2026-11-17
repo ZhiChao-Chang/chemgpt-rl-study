@@ -1,0 +1,22 @@
+{
+  "freePair": {
+    "freeCombination": true,
+    "canvas": 1,
+    "error": [],
+    "alignmentAllowed": true,
+    "alignmentChecked": true
+  },
+  "png": {
+    "pngProduced": true,
+    "filename": "conformers-3d7b6463e0bceac247f4-81c1d41fe3b49a95e995.png",
+    "isPNG": true
+  },
+  "htmlSha256": "2f5cddd5429b7df6dd6cdfa2f1bf9abca4ec458a7813bc552ff6fc110afa057c",
+  "offline": "source build is self-contained; byte-identical copy in .data-app-offline/exports/ChemGPT-RL.html",
+  "comparisonCounts": {
+    "mcsPairs": 306,
+    "aligned3DPairs": 285,
+    "completeMCS": 306
+  },
+  "note": "Original result hashes and 30 aggregated means/SD were independently checked; no evidence changed."
+}

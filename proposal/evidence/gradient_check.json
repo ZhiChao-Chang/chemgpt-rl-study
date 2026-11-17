@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "scope": "exact 2-step, 2-action enumerated toy MDP; not chemical efficacy",
+  "beta": 0.03,
+  "objective": "E_q[R]-beta*KL(q||q_ref)",
+  "estimator": "stopgrad(R-beta*(logq-logq_ref)-LOO_baseline)*grad(logq)",
+  "max_gradient_error_no_baseline": 2.7755575615628914e-17,
+  "max_gradient_error_LOO_batch2": 4.163336342344337e-17,
+  "true_gradient": [
+    0.06847177310406678,
+    -0.0684717731040668,
+    -0.11164960235447235,
+    0.11164960235447233,
+    0.07179825093493045,
+    -0.07179825093493043
+  ],
+  "trajectory_count": 4,
+  "independent_batch_pairs": 16
+}

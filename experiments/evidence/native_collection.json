@@ -1,0 +1,9 @@
+{
+  "status": "COLLECTED_HASH_VERIFIED",
+  "job_uid": "2096259930704a57a666199368b4e3ed",
+  "worker_uid": "99fd739f-bddc-468d-81e2-e7301eb77a67",
+  "archive_sha256": "353e4aa63fd32149bd8ac429a5b6a20f1be50dd25163f582612d8355346f38d6",
+  "bytes": 5169499,
+  "completed_runs": 18,
+  "elapsed_s": 16.171997320954688
+}

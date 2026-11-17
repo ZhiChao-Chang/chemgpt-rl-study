@@ -1,0 +1,2371 @@
+{
+  "queried_at": "2026-11-04T08:43:37.951451+00:00",
+  "current_cci": {
+    "name": "cci-autonomy-20261008-debug5090",
+    "uid": "8e30954fa2f442d2acc77a1c45c9c475",
+    "state": "SUSPENDED",
+    "pool": "debug-cluster",
+    "requested_gpus": 1
+  },
+  "own_acp": [
+    {
+      "name": "acp-maris-cost-20261104-a001",
+      "uid": "3e4d8f9f0dc94a7c849f516548411d0f",
+      "state": "SUCCEEDED"
+    },
+    {
+      "name": "acp-maris-timing-20261104-a001",
+      "uid": "1642c3e02cfb4c7aaeed26473c15db9a",
+      "state": "SUCCEEDED"
+    },
+    {
+      "name": "acp-ddc-results-20261027-a016",
+      "uid": "82fa16d703c04d618501a63f14468cd0",
+      "state": "SUCCEEDED"
+    },
+    {
+      "name": "acp-ddc-synergyx-20261026-a015",
+      "uid": "da474291af4347678847a0ec5da0191a",
+      "state": "SUCCEEDED"
+    },
+    {
+      "name": "acp-ddc-mixed-20261024-a014",
+      "uid": "34ef2cb72c024822ae76245528394d99",
+      "state": "SUSPENDED"
+    },
+    {
+      "name": "acp-ddc-synergyx-20261023-a013",
+      "uid": "be7469afd2714062bded7549610fc10a",
+      "state": "SUSPENDED"
+    },
+    {
+      "name": "acp-ddc-synergyx-20261022-a012",
+      "uid": "dbaff804c3854e5388e8f3dcc8f2dc29",
+      "state": "SUSPENDED"
+    },
+    {
+      "name": "acp-ddc-synergyx-20261020-a011",
+      "uid": "909d452dd53c41179d844433d52355c4",
+      "state": "SUSPENDED"
+    },
+    {
+      "name": "acp-ddc-synergyx-20261017-a010",
+      "uid": "1bbe7d44bb5b4d6c980a7a72904e1477",
+      "state": "SUSPENDED"
+    },
+    {
+      "name": "acp-ddc-lco-subsets-onehot-20261016-a009",
+      "uid": "5c1158f57a124931bb88c0dcf5abdd14",
+      "state": "SUCCEEDED"
+    },
+    {
+      "name": "acp-ddc-lco-subsets-onehot-20261016-a008",
+      "uid": "55b953e5c68e4f04803c5913104f5e9a",
+      "state": "SUSPENDED"
+    },
+    {
+      "name": "acp-ddc-synergyx-20261016-a007",
+      "uid": "8915e59d71f3473b96f0a2d5d7f7afeb",
+      "state": "SUSPENDED"
+    },
+    {
+      "name": "acp-ddc-ref4-20261014-a006",
+      "uid": "2110be18f82e48ceb47d92953d127ed3",
+      "state": "SUSPENDED"
+    },
+    {
+      "name": "acp-ddc-ref4-20261012-a005",
+      "uid": "8f7b0a93982e431d9282f86bf28b19cd",
+      "state": "SUSPENDED"
+    },
+    {
+      "name": "acp-ddc-ref3-baitsao-20261010-a004",
+      "uid": "cfa8a1203c6d474d80c9ba5d1b947bcd",
+      "state": "SUSPENDED"
+    },
+    {
+      "name": "acp-ddc-ref4-20261009-a003",
+      "uid": "88355c06b95941738a1ffa1da49f4c9a",
+      "state": "FAILED"
+    },
+    {
+      "name": "acp-smoke-20261009-ddp-recover-01",
+      "uid": "fa2ea94d9d87474c8e507c9f857d5012",
+      "state": "SUCCEEDED"
+    },
+    {
+      "name": "acp-smoke-20261009-ddp-v2-01",
+      "uid": "b794015d778f4270b05ce8093cdadc84",
+      "state": "SUSPENDED"
+    }
+  ],
+  "released_suspended_acp": [
+    {
+      "queried_at": "2026-11-04T08:43:32.972125+00:00",
+      "job_uid": "34ef2cb72c024822ae76245528394d99",
+      "worker_uids": [
+        "8c789a12-5b8c-490d-9465-94d011cad13e"
+      ],
+      "worker_phases": [
+        "Deleted"
+      ]
+    },
+    {
+      "queried_at": "2026-11-04T08:43:33.514828+00:00",
+      "job_uid": "be7469afd2714062bded7549610fc10a",
+      "worker_uids": [
+        "f038211a-2a25-409f-89c1-956f682228c6"
+      ],
+      "worker_phases": [
+        "Deleted"
+      ]
+    },
+    {
+      "queried_at": "2026-11-04T08:43:33.992262+00:00",
+      "job_uid": "dbaff804c3854e5388e8f3dcc8f2dc29",
+      "worker_uids": [
+        "19fad7e1-de93-4b6e-8ce6-567ed322ad95"
+      ],
+      "worker_phases": [
+        "Deleted"
+      ]
+    },
+    {
+      "queried_at": "2026-11-04T08:43:34.470662+00:00",
+      "job_uid": "909d452dd53c41179d844433d52355c4",
+      "worker_uids": [
+        "e90a626d-0581-41d5-b4de-7ce3babd1411"
+      ],
+      "worker_phases": [
+        "Deleted"
+      ]
+    },
+    {
+      "queried_at": "2026-11-04T08:43:34.991561+00:00",
+      "job_uid": "1bbe7d44bb5b4d6c980a7a72904e1477",
+      "worker_uids": [],
+      "worker_phases": []
+    },
+    {
+      "queried_at": "2026-11-04T08:43:35.540235+00:00",
+      "job_uid": "55b953e5c68e4f04803c5913104f5e9a",
+      "worker_uids": [],
+      "worker_phases": []
+    },
+    {
+      "queried_at": "2026-11-04T08:43:36.037361+00:00",
+      "job_uid": "8915e59d71f3473b96f0a2d5d7f7afeb",
+      "worker_uids": [],
+      "worker_phases": []
+    },
+    {
+      "queried_at": "2026-11-04T08:43:36.516595+00:00",
+      "job_uid": "2110be18f82e48ceb47d92953d127ed3",
+      "worker_uids": [],
+      "worker_phases": []
+    },
+    {
+      "queried_at": "2026-11-04T08:43:37.003820+00:00",
+      "job_uid": "8f7b0a93982e431d9282f86bf28b19cd",
+      "worker_uids": [],
+      "worker_phases": []
+    },
+    {
+      "queried_at": "2026-11-04T08:43:37.510987+00:00",
+      "job_uid": "cfa8a1203c6d474d80c9ba5d1b947bcd",
+      "worker_uids": [],
+      "worker_phases": []
+    },
+    {
+      "queried_at": "2026-11-04T08:43:37.951428+00:00",
+      "job_uid": "b794015d778f4270b05ce8093cdadc84",
+      "worker_uids": [],
+      "worker_phases": []
+    }
+  ],
+  "visible_job_count": 18,
+  "activity_budget_scope": "ACP_TEST_ONLY_CCI_EXCLUDED",
+  "pools": [
+    {
+      "binding": {
+        "uid": "01995670-b2c2-7011-bb00-b5df6257c9ae",
+        "id": "/subscriptions/0197ee17-b6eb-7846-b2b4-a77c5f509b92/resourceGroups/default/zones/cn-sh-01g/aec2s/share-cluster",
+        "name": "share-cluster",
+        "display_name": "computing_cluster",
+        "state": "ACTIVE",
+        "reserved_cpu": "3949.00",
+        "reserved_number": "25",
+        "reserved_memory": "43182.00Gi",
+        "vpc_id": "0198a254-1d71-7211-9a41-d5783abfe9aa",
+        "type": "",
+        "spot_status": [
+          {
+            "spot_name": "default",
+            "spot_quota": {
+              "cpu": "3405.00",
+              "device": "4",
+              "memory": "38738.00Gi"
+            }
+          }
+        ],
+        "quota_type": "ALL"
+      },
+      "specifications": [
+        {
+          "id": "n6ls.iu.i40.2c4g",
+          "name": "n6ls.iu.i40.2c4g",
+          "description": "0XN6lS-80GB",
+          "cpu": {
+            "manufacturer": "Intel",
+            "type": "Xeon Platinum 8468V",
+            "frequency": 2.4,
+            "vcpu_allocatable": 2,
+            "vcpu_capacity": 0,
+            "property_name": "intel-xeon-platinum-8468v"
+          },
+          "memory": {
+            "allocatable": 4,
+            "capacity": 0,
+            "property_name": "memory"
+          },
+          "device": {
+            "manufacturer": "NVIDIA",
+            "type": "N6lS",
+            "memory": 80,
+            "number": 0,
+            "physical_interface": "SXM5",
+            "resource_key": "nvidia.com/gpu",
+            "property_name": "nvidia-n6ls-80gb-sxm5"
+          },
+          "training_network": {
+            "network": {
+              "type": "IB",
+              "nics_number": 2,
+              "bandwidth": "200"
+            },
+            "name": ""
+          },
+          "service_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "data_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "zones": [
+            "cn-sh-01g"
+          ]
+        },
+        {
+          "id": "n6ls.iu.i40.2c8g",
+          "name": "n6ls.iu.i40.2c8g",
+          "description": "0XN6lS-80GB",
+          "cpu": {
+            "manufacturer": "Intel",
+            "type": "Xeon Platinum 8468V",
+            "frequency": 2.4,
+            "vcpu_allocatable": 2,
+            "vcpu_capacity": 0,
+            "property_name": "intel-xeon-platinum-8468v"
+          },
+          "memory": {
+            "allocatable": 8,
+            "capacity": 0,
+            "property_name": "memory"
+          },
+          "device": {
+            "manufacturer": "NVIDIA",
+            "type": "N6lS",
+            "memory": 80,
+            "number": 0,
+            "physical_interface": "SXM5",
+            "resource_key": "nvidia.com/gpu",
+            "property_name": "nvidia-n6ls-80gb-sxm5"
+          },
+          "training_network": {
+            "network": {
+              "type": "IB",
+              "nics_number": 2,
+              "bandwidth": "200"
+            },
+            "name": ""
+          },
+          "service_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "data_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "zones": [
+            "cn-sh-01g"
+          ]
+        },
+        {
+          "id": "n6ls.iu.i40.64c256g",
+          "name": "n6ls.iu.i40.64c256g",
+          "description": "0XN6lS-80GB",
+          "cpu": {
+            "manufacturer": "Intel",
+            "type": "Xeon Platinum 8468V",
+            "frequency": 2.4,
+            "vcpu_allocatable": 64,
+            "vcpu_capacity": 0,
+            "property_name": "intel-xeon-platinum-8468v"
+          },
+          "memory": {
+            "allocatable": 256,
+            "capacity": 0,
+            "property_name": "memory"
+          },
+          "device": {
+            "manufacturer": "NVIDIA",
+            "type": "N6lS",
+            "memory": 80,
+            "number": 0,
+            "physical_interface": "SXM5",
+            "resource_key": "nvidia.com/gpu",
+            "property_name": "nvidia-n6ls-80gb-sxm5"
+          },
+          "training_network": {
+            "network": {
+              "type": "IB",
+              "nics_number": 2,
+              "bandwidth": "200"
+            },
+            "name": ""
+          },
+          "service_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "data_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "zones": [
+            "cn-sh-01g"
+          ]
+        },
+        {
+          "id": "n6ls.iu.i40.16c64g",
+          "name": "n6ls.iu.i40.16c64g",
+          "description": "0XN6lS-80GB",
+          "cpu": {
+            "manufacturer": "Intel",
+            "type": "Xeon Platinum 8468V",
+            "frequency": 2.4,
+            "vcpu_allocatable": 16,
+            "vcpu_capacity": 0,
+            "property_name": "intel-xeon-platinum-8468v"
+          },
+          "memory": {
+            "allocatable": 64,
+            "capacity": 0,
+            "property_name": "memory"
+          },
+          "device": {
+            "manufacturer": "NVIDIA",
+            "type": "N6lS",
+            "memory": 80,
+            "number": 0,
+            "physical_interface": "SXM5",
+            "resource_key": "nvidia.com/gpu",
+            "property_name": "nvidia-n6ls-80gb-sxm5"
+          },
+          "training_network": {
+            "network": {
+              "type": "IB",
+              "nics_number": 2,
+              "bandwidth": "200"
+            },
+            "name": ""
+          },
+          "service_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "data_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "zones": [
+            "cn-sh-01g"
+          ]
+        },
+        {
+          "id": "n6ls.iu.i40.8c32g",
+          "name": "n6ls.iu.i40.8c32g",
+          "description": "0XN6lS-80GB",
+          "cpu": {
+            "manufacturer": "Intel",
+            "type": "Xeon Platinum 8468V",
+            "frequency": 2.4,
+            "vcpu_allocatable": 8,
+            "vcpu_capacity": 0,
+            "property_name": "intel-xeon-platinum-8468v"
+          },
+          "memory": {
+            "allocatable": 32,
+            "capacity": 0,
+            "property_name": "memory"
+          },
+          "device": {
+            "manufacturer": "NVIDIA",
+            "type": "N6lS",
+            "memory": 80,
+            "number": 0,
+            "physical_interface": "SXM5",
+            "resource_key": "nvidia.com/gpu",
+            "property_name": "nvidia-n6ls-80gb-sxm5"
+          },
+          "training_network": {
+            "network": {
+              "type": "IB",
+              "nics_number": 2,
+              "bandwidth": "200"
+            },
+            "name": ""
+          },
+          "service_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "data_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "zones": [
+            "cn-sh-01g"
+          ]
+        },
+        {
+          "id": "n6ls.iu.i40.4c16g",
+          "name": "n6ls.iu.i40.4c16g",
+          "description": "0XN6lS-80GB",
+          "cpu": {
+            "manufacturer": "Intel",
+            "type": "Xeon Platinum 8468V",
+            "frequency": 2.4,
+            "vcpu_allocatable": 4,
+            "vcpu_capacity": 0,
+            "property_name": "intel-xeon-platinum-8468v"
+          },
+          "memory": {
+            "allocatable": 16,
+            "capacity": 0,
+            "property_name": "memory"
+          },
+          "device": {
+            "manufacturer": "NVIDIA",
+            "type": "N6lS",
+            "memory": 80,
+            "number": 0,
+            "physical_interface": "SXM5",
+            "resource_key": "nvidia.com/gpu",
+            "property_name": "nvidia-n6ls-80gb-sxm5"
+          },
+          "training_network": {
+            "network": {
+              "type": "IB",
+              "nics_number": 2,
+              "bandwidth": "200"
+            },
+            "name": ""
+          },
+          "service_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "data_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "zones": [
+            "cn-sh-01g"
+          ]
+        },
+        {
+          "id": "n6ls.iu.i40.1",
+          "name": "n6ls.iu.i40.1",
+          "description": "1XN6lS-80GB",
+          "cpu": {
+            "manufacturer": "Intel",
+            "type": "Xeon Platinum 8468V",
+            "frequency": 2.4,
+            "vcpu_allocatable": 22,
+            "vcpu_capacity": 0,
+            "property_name": "intel-xeon-platinum-8468v"
+          },
+          "memory": {
+            "allocatable": 240,
+            "capacity": 0,
+            "property_name": "memory"
+          },
+          "device": {
+            "manufacturer": "NVIDIA",
+            "type": "N6lS",
+            "memory": 80,
+            "number": 1,
+            "physical_interface": "SXM5",
+            "resource_key": "nvidia.com/gpu",
+            "property_name": "nvidia-n6ls-80gb-sxm5"
+          },
+          "training_network": {
+            "network": {
+              "type": "IB",
+              "nics_number": 8,
+              "bandwidth": "400"
+            },
+            "name": ""
+          },
+          "service_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "data_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "zones": [
+            "cn-sh-01g"
+          ]
+        },
+        {
+          "id": "n6ls.iu.i40.2",
+          "name": "n6ls.iu.i40.2",
+          "description": "2XN6lS-80GB",
+          "cpu": {
+            "manufacturer": "Intel",
+            "type": "Xeon Platinum 8468V",
+            "frequency": 2.4,
+            "vcpu_allocatable": 44,
+            "vcpu_capacity": 0,
+            "property_name": "intel-xeon-platinum-8468v"
+          },
+          "memory": {
+            "allocatable": 480,
+            "capacity": 0,
+            "property_name": "memory"
+          },
+          "device": {
+            "manufacturer": "NVIDIA",
+            "type": "N6lS",
+            "memory": 80,
+            "number": 2,
+            "physical_interface": "SXM5",
+            "resource_key": "nvidia.com/gpu",
+            "property_name": "nvidia-n6ls-80gb-sxm5"
+          },
+          "training_network": {
+            "network": {
+              "type": "IB",
+              "nics_number": 8,
+              "bandwidth": "400"
+            },
+            "name": ""
+          },
+          "service_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "data_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "zones": [
+            "cn-sh-01g"
+          ]
+        },
+        {
+          "id": "n6ls.iu.i40.4",
+          "name": "n6ls.iu.i40.4",
+          "description": "4XN6lS-80GB",
+          "cpu": {
+            "manufacturer": "Intel",
+            "type": "Xeon Platinum 8468V",
+            "frequency": 2.4,
+            "vcpu_allocatable": 88,
+            "vcpu_capacity": 0,
+            "property_name": "intel-xeon-platinum-8468v"
+          },
+          "memory": {
+            "allocatable": 960,
+            "capacity": 0,
+            "property_name": "memory"
+          },
+          "device": {
+            "manufacturer": "NVIDIA",
+            "type": "N6lS",
+            "memory": 80,
+            "number": 4,
+            "physical_interface": "SXM5",
+            "resource_key": "nvidia.com/gpu",
+            "property_name": "nvidia-n6ls-80gb-sxm5"
+          },
+          "training_network": {
+            "network": {
+              "type": "IB",
+              "nics_number": 8,
+              "bandwidth": "400"
+            },
+            "name": ""
+          },
+          "service_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "data_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "zones": [
+            "cn-sh-01g"
+          ]
+        },
+        {
+          "id": "n6ls.iu.i40.8",
+          "name": "n6ls.iu.i40.8",
+          "description": "8XN6lS-80GB",
+          "cpu": {
+            "manufacturer": "Intel",
+            "type": "Xeon Platinum 8468V",
+            "frequency": 2.4,
+            "vcpu_allocatable": 176,
+            "vcpu_capacity": 0,
+            "property_name": "intel-xeon-platinum-8468v"
+          },
+          "memory": {
+            "allocatable": 1920,
+            "capacity": 0,
+            "property_name": "memory"
+          },
+          "device": {
+            "manufacturer": "NVIDIA",
+            "type": "N6lS",
+            "memory": 80,
+            "number": 8,
+            "physical_interface": "SXM5",
+            "resource_key": "nvidia.com/gpu",
+            "property_name": "nvidia-n6ls-80gb-sxm5"
+          },
+          "training_network": {
+            "network": {
+              "type": "IB",
+              "nics_number": 8,
+              "bandwidth": "400"
+            },
+            "name": ""
+          },
+          "service_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "data_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "zones": [
+            "cn-sh-01g"
+          ]
+        },
+        {
+          "id": "n6ls.iu.i40.1.8c128g",
+          "name": "n6ls.iu.i40.1.8c128g",
+          "description": "1XN6lS-80GB",
+          "cpu": {
+            "manufacturer": "Intel",
+            "type": "Xeon Platinum 8468V",
+            "frequency": 2.4,
+            "vcpu_allocatable": 8,
+            "vcpu_capacity": 0,
+            "property_name": "intel-xeon-platinum-8468v"
+          },
+          "memory": {
+            "allocatable": 128,
+            "capacity": 0,
+            "property_name": "memory"
+          },
+          "device": {
+            "manufacturer": "NVIDIA",
+            "type": "N6lS",
+            "memory": 80,
+            "number": 1,
+            "physical_interface": "SXM5",
+            "resource_key": "nvidia.com/gpu",
+            "property_name": "nvidia-n6ls-80gb-sxm5"
+          },
+          "training_network": {
+            "network": {
+              "type": "IB",
+              "nics_number": 2,
+              "bandwidth": "200"
+            },
+            "name": ""
+          },
+          "service_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "data_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "zones": [
+            "cn-sh-01g"
+          ]
+        },
+        {
+          "id": "n6ls.iu.i40.1.4c64g",
+          "name": "n6ls.iu.i40.1.4c64g",
+          "description": "1XN6lS-80GB",
+          "cpu": {
+            "manufacturer": "Intel",
+            "type": "Xeon Platinum 8468V",
+            "frequency": 2.4,
+            "vcpu_allocatable": 4,
+            "vcpu_capacity": 0,
+            "property_name": "intel-xeon-platinum-8468v"
+          },
+          "memory": {
+            "allocatable": 64,
+            "capacity": 0,
+            "property_name": "memory"
+          },
+          "device": {
+            "manufacturer": "NVIDIA",
+            "type": "N6lS",
+            "memory": 80,
+            "number": 1,
+            "physical_interface": "SXM5",
+            "resource_key": "nvidia.com/gpu",
+            "property_name": "nvidia-n6ls-80gb-sxm5"
+          },
+          "training_network": {
+            "network": {
+              "type": "IB",
+              "nics_number": 2,
+              "bandwidth": "200"
+            },
+            "name": ""
+          },
+          "service_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "data_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "zones": [
+            "cn-sh-01g"
+          ]
+        },
+        {
+          "id": "n6ls.iu.i40.2.8c128g",
+          "name": "n6ls.iu.i40.2.8c128g",
+          "description": "2XN6lS-80GB",
+          "cpu": {
+            "manufacturer": "Intel",
+            "type": "Xeon Platinum 8468V",
+            "frequency": 2.4,
+            "vcpu_allocatable": 8,
+            "vcpu_capacity": 0,
+            "property_name": "intel-xeon-platinum-8468v"
+          },
+          "memory": {
+            "allocatable": 128,
+            "capacity": 0,
+            "property_name": "memory"
+          },
+          "device": {
+            "manufacturer": "NVIDIA",
+            "type": "N6lS",
+            "memory": 80,
+            "number": 2,
+            "physical_interface": "SXM5",
+            "resource_key": "nvidia.com/gpu",
+            "property_name": "nvidia-n6ls-80gb-sxm5"
+          },
+          "training_network": {
+            "network": {
+              "type": "IB",
+              "nics_number": 2,
+              "bandwidth": "200"
+            },
+            "name": ""
+          },
+          "service_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "data_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "zones": [
+            "cn-sh-01g"
+          ]
+        },
+        {
+          "id": "n6ls.iu.i40.2.16c256g",
+          "name": "n6ls.iu.i40.2.16c256g",
+          "description": "2XN6lS-80GB",
+          "cpu": {
+            "manufacturer": "Intel",
+            "type": "Xeon Platinum 8468V",
+            "frequency": 2.4,
+            "vcpu_allocatable": 16,
+            "vcpu_capacity": 0,
+            "property_name": "intel-xeon-platinum-8468v"
+          },
+          "memory": {
+            "allocatable": 256,
+            "capacity": 0,
+            "property_name": "memory"
+          },
+          "device": {
+            "manufacturer": "NVIDIA",
+            "type": "N6lS",
+            "memory": 80,
+            "number": 2,
+            "physical_interface": "SXM5",
+            "resource_key": "nvidia.com/gpu",
+            "property_name": "nvidia-n6ls-80gb-sxm5"
+          },
+          "training_network": {
+            "network": {
+              "type": "IB",
+              "nics_number": 2,
+              "bandwidth": "200"
+            },
+            "name": ""
+          },
+          "service_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "data_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "zones": [
+            "cn-sh-01g"
+          ]
+        },
+        {
+          "id": "n6ls.iu.i40.4.16c256g",
+          "name": "n6ls.iu.i40.4.16c256g",
+          "description": "4XN6lS-80GB",
+          "cpu": {
+            "manufacturer": "Intel",
+            "type": "Xeon Platinum 8468V",
+            "frequency": 2.4,
+            "vcpu_allocatable": 16,
+            "vcpu_capacity": 0,
+            "property_name": "intel-xeon-platinum-8468v"
+          },
+          "memory": {
+            "allocatable": 256,
+            "capacity": 0,
+            "property_name": "memory"
+          },
+          "device": {
+            "manufacturer": "NVIDIA",
+            "type": "N6lS",
+            "memory": 80,
+            "number": 4,
+            "physical_interface": "SXM5",
+            "resource_key": "nvidia.com/gpu",
+            "property_name": "nvidia-n6ls-80gb-sxm5"
+          },
+          "training_network": {
+            "network": {
+              "type": "IB",
+              "nics_number": 2,
+              "bandwidth": "200"
+            },
+            "name": ""
+          },
+          "service_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "data_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "zones": [
+            "cn-sh-01g"
+          ]
+        },
+        {
+          "id": "n6ls.iu.i40.4.32c512g",
+          "name": "n6ls.iu.i40.4.32c512g",
+          "description": "4XN6lS-80GB",
+          "cpu": {
+            "manufacturer": "Intel",
+            "type": "Xeon Platinum 8468V",
+            "frequency": 2.4,
+            "vcpu_allocatable": 32,
+            "vcpu_capacity": 0,
+            "property_name": "intel-xeon-platinum-8468v"
+          },
+          "memory": {
+            "allocatable": 512,
+            "capacity": 0,
+            "property_name": "memory"
+          },
+          "device": {
+            "manufacturer": "NVIDIA",
+            "type": "N6lS",
+            "memory": 80,
+            "number": 4,
+            "physical_interface": "SXM5",
+            "resource_key": "nvidia.com/gpu",
+            "property_name": "nvidia-n6ls-80gb-sxm5"
+          },
+          "training_network": {
+            "network": {
+              "type": "IB",
+              "nics_number": 2,
+              "bandwidth": "200"
+            },
+            "name": ""
+          },
+          "service_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "data_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "zones": [
+            "cn-sh-01g"
+          ]
+        },
+        {
+          "id": "n6ls.iu.i40.8.32c512g",
+          "name": "n6ls.iu.i40.8.32c512g",
+          "description": "8XN6lS-80GB",
+          "cpu": {
+            "manufacturer": "Intel",
+            "type": "Xeon Platinum 8468V",
+            "frequency": 2.4,
+            "vcpu_allocatable": 32,
+            "vcpu_capacity": 0,
+            "property_name": "intel-xeon-platinum-8468v"
+          },
+          "memory": {
+            "allocatable": 512,
+            "capacity": 0,
+            "property_name": "memory"
+          },
+          "device": {
+            "manufacturer": "NVIDIA",
+            "type": "N6lS",
+            "memory": 80,
+            "number": 8,
+            "physical_interface": "SXM5",
+            "resource_key": "nvidia.com/gpu",
+            "property_name": "nvidia-n6ls-80gb-sxm5"
+          },
+          "training_network": {
+            "network": {
+              "type": "IB",
+              "nics_number": 2,
+              "bandwidth": "200"
+            },
+            "name": ""
+          },
+          "service_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "data_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "zones": [
+            "cn-sh-01g"
+          ]
+        },
+        {
+          "id": "n6ls.iu.i40.8.64c1024g",
+          "name": "n6ls.iu.i40.8.64c1024g",
+          "description": "8XN6lS-80GB",
+          "cpu": {
+            "manufacturer": "Intel",
+            "type": "Xeon Platinum 8468V",
+            "frequency": 2.4,
+            "vcpu_allocatable": 64,
+            "vcpu_capacity": 0,
+            "property_name": "intel-xeon-platinum-8468v"
+          },
+          "memory": {
+            "allocatable": 1024,
+            "capacity": 0,
+            "property_name": "memory"
+          },
+          "device": {
+            "manufacturer": "NVIDIA",
+            "type": "N6lS",
+            "memory": 80,
+            "number": 8,
+            "physical_interface": "SXM5",
+            "resource_key": "nvidia.com/gpu",
+            "property_name": "nvidia-n6ls-80gb-sxm5"
+          },
+          "training_network": {
+            "network": {
+              "type": "IB",
+              "nics_number": 2,
+              "bandwidth": "200"
+            },
+            "name": ""
+          },
+          "service_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "data_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "zones": [
+            "cn-sh-01g"
+          ]
+        }
+      ],
+      "usage": {
+        "GPU_NUMBER": {
+          "reserved": {
+            "total": 936,
+            "used": 903,
+            "idle": 25,
+            "unaccounted": 8
+          },
+          "spot": {
+            "total": 936,
+            "used": 21,
+            "idle": 4,
+            "unaccounted": 911
+          }
+        },
+        "GPU_MEMORY (GB)": {
+          "reserved": {
+            "total": 74880,
+            "used": 72240,
+            "idle": 2000,
+            "unaccounted": 640
+          },
+          "spot": {
+            "total": 74880,
+            "used": 1680,
+            "idle": 320,
+            "unaccounted": 72880
+          }
+        },
+        "vCPU_NUMBER": {
+          "reserved": {
+            "total": 20592,
+            "used": 16467,
+            "idle": 3949,
+            "unaccounted": 176
+          },
+          "spot": {
+            "total": 20592,
+            "used": 544,
+            "idle": 3405,
+            "unaccounted": 16643
+          }
+        },
+        "MEMORY (GiB)": {
+          "reserved": {
+            "total": 224640,
+            "used": 179538,
+            "idle": 43182,
+            "unaccounted": 1920
+          },
+          "spot": {
+            "total": 224640,
+            "used": 4444,
+            "idle": 38738,
+            "unaccounted": 181458
+          }
+        }
+      },
+      "capacity_guarantee": false,
+      "legacy_usage_exit_code": 0
+    },
+    {
+      "binding": {
+        "uid": "019d8670-9253-7052-b85e-9c2c1aab5133",
+        "id": "/subscriptions/0197ee17-b6eb-7846-b2b4-a77c5f509b92/resourceGroups/default/zones/cn-sh-01g/aec2s/computing-cluster-01g-02",
+        "name": "computing-cluster-01g-02",
+        "display_name": "computing_cluster_01g_02",
+        "state": "ACTIVE",
+        "reserved_cpu": "504.00",
+        "reserved_number": "9",
+        "reserved_memory": "5132.00Gi",
+        "vpc_id": "0198a254-1d71-7211-9a41-d5783abfe9aa",
+        "type": "",
+        "spot_status": [
+          {
+            "spot_name": "default",
+            "spot_quota": {
+              "cpu": "330.00",
+              "device": "1",
+              "memory": "3622.00Gi"
+            }
+          }
+        ],
+        "quota_type": "ALL"
+      },
+      "specifications": [
+        {
+          "id": "N6lS.Iu.I10.64c256g",
+          "name": "N6lS.Iu.I10.64c256g",
+          "description": "0XN6lS-80GB",
+          "cpu": {
+            "manufacturer": "Intel",
+            "type": "8468",
+            "frequency": 2.1,
+            "vcpu_allocatable": 64,
+            "vcpu_capacity": 0,
+            "property_name": "intel-8468"
+          },
+          "memory": {
+            "allocatable": 256,
+            "capacity": 0,
+            "property_name": "memory"
+          },
+          "device": {
+            "manufacturer": "NVIDIA",
+            "type": "N6lS",
+            "memory": 80,
+            "number": 0,
+            "physical_interface": "SXM5",
+            "resource_key": "nvidia.com/gpu",
+            "property_name": "nvidia-n6ls-80gb-sxm5"
+          },
+          "training_network": {
+            "network": {
+              "type": "IB",
+              "nics_number": 8,
+              "bandwidth": "200"
+            },
+            "name": ""
+          },
+          "service_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "data_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "zones": [
+            "cn-sh-01g"
+          ]
+        },
+        {
+          "id": "N6lS.Iu.I10.2c4g",
+          "name": "N6lS.Iu.I10.2c4g",
+          "description": "0XN6lS-80GB",
+          "cpu": {
+            "manufacturer": "Intel",
+            "type": "8468",
+            "frequency": 2.1,
+            "vcpu_allocatable": 2,
+            "vcpu_capacity": 0,
+            "property_name": "intel-8468"
+          },
+          "memory": {
+            "allocatable": 4,
+            "capacity": 0,
+            "property_name": "memory"
+          },
+          "device": {
+            "manufacturer": "NVIDIA",
+            "type": "N6lS",
+            "memory": 80,
+            "number": 0,
+            "physical_interface": "SXM5",
+            "resource_key": "nvidia.com/gpu",
+            "property_name": "nvidia-n6ls-80gb-sxm5"
+          },
+          "training_network": {
+            "network": {
+              "type": "IB",
+              "nics_number": 8,
+              "bandwidth": "200"
+            },
+            "name": ""
+          },
+          "service_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "data_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "zones": [
+            "cn-sh-01g"
+          ]
+        },
+        {
+          "id": "N6lS.Iu.I10.2c8g",
+          "name": "N6lS.Iu.I10.2c8g",
+          "description": "0XN6lS-80GB",
+          "cpu": {
+            "manufacturer": "Intel",
+            "type": "8468",
+            "frequency": 2.1,
+            "vcpu_allocatable": 2,
+            "vcpu_capacity": 0,
+            "property_name": "intel-8468"
+          },
+          "memory": {
+            "allocatable": 8,
+            "capacity": 0,
+            "property_name": "memory"
+          },
+          "device": {
+            "manufacturer": "NVIDIA",
+            "type": "N6lS",
+            "memory": 80,
+            "number": 0,
+            "physical_interface": "SXM5",
+            "resource_key": "nvidia.com/gpu",
+            "property_name": "nvidia-n6ls-80gb-sxm5"
+          },
+          "training_network": {
+            "network": {
+              "type": "IB",
+              "nics_number": 8,
+              "bandwidth": "200"
+            },
+            "name": ""
+          },
+          "service_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "data_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "zones": [
+            "cn-sh-01g"
+          ]
+        },
+        {
+          "id": "N6lS.Iu.I10.4c16g",
+          "name": "N6lS.Iu.I10.4c16g",
+          "description": "0XN6lS-80GB",
+          "cpu": {
+            "manufacturer": "Intel",
+            "type": "8468",
+            "frequency": 2.1,
+            "vcpu_allocatable": 4,
+            "vcpu_capacity": 0,
+            "property_name": "intel-8468"
+          },
+          "memory": {
+            "allocatable": 16,
+            "capacity": 0,
+            "property_name": "memory"
+          },
+          "device": {
+            "manufacturer": "NVIDIA",
+            "type": "N6lS",
+            "memory": 80,
+            "number": 0,
+            "physical_interface": "SXM5",
+            "resource_key": "nvidia.com/gpu",
+            "property_name": "nvidia-n6ls-80gb-sxm5"
+          },
+          "training_network": {
+            "network": {
+              "type": "IB",
+              "nics_number": 8,
+              "bandwidth": "200"
+            },
+            "name": ""
+          },
+          "service_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "data_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "zones": [
+            "cn-sh-01g"
+          ]
+        },
+        {
+          "id": "N6lS.Iu.I10.8c32g",
+          "name": "N6lS.Iu.I10.8c32g",
+          "description": "0XN6lS-80GB",
+          "cpu": {
+            "manufacturer": "Intel",
+            "type": "8468",
+            "frequency": 2.1,
+            "vcpu_allocatable": 8,
+            "vcpu_capacity": 0,
+            "property_name": "intel-8468"
+          },
+          "memory": {
+            "allocatable": 32,
+            "capacity": 0,
+            "property_name": "memory"
+          },
+          "device": {
+            "manufacturer": "NVIDIA",
+            "type": "N6lS",
+            "memory": 80,
+            "number": 0,
+            "physical_interface": "SXM5",
+            "resource_key": "nvidia.com/gpu",
+            "property_name": "nvidia-n6ls-80gb-sxm5"
+          },
+          "training_network": {
+            "network": {
+              "type": "IB",
+              "nics_number": 8,
+              "bandwidth": "200"
+            },
+            "name": ""
+          },
+          "service_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "data_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "zones": [
+            "cn-sh-01g"
+          ]
+        },
+        {
+          "id": "N6lS.Iu.I10.16c64g",
+          "name": "N6lS.Iu.I10.16c64g",
+          "description": "0XN6lS-80GB",
+          "cpu": {
+            "manufacturer": "Intel",
+            "type": "8468",
+            "frequency": 2.1,
+            "vcpu_allocatable": 16,
+            "vcpu_capacity": 0,
+            "property_name": "intel-8468"
+          },
+          "memory": {
+            "allocatable": 64,
+            "capacity": 0,
+            "property_name": "memory"
+          },
+          "device": {
+            "manufacturer": "NVIDIA",
+            "type": "N6lS",
+            "memory": 80,
+            "number": 0,
+            "physical_interface": "SXM5",
+            "resource_key": "nvidia.com/gpu",
+            "property_name": "nvidia-n6ls-80gb-sxm5"
+          },
+          "training_network": {
+            "network": {
+              "type": "IB",
+              "nics_number": 8,
+              "bandwidth": "200"
+            },
+            "name": ""
+          },
+          "service_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "data_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "zones": [
+            "cn-sh-01g"
+          ]
+        },
+        {
+          "id": "N6lS.Iu.I10.1",
+          "name": "N6lS.Iu.I10.1",
+          "description": "1XN6lS-80GB",
+          "cpu": {
+            "manufacturer": "Intel",
+            "type": "8468",
+            "frequency": 2.1,
+            "vcpu_allocatable": 22,
+            "vcpu_capacity": 0,
+            "property_name": "intel-8468"
+          },
+          "memory": {
+            "allocatable": 230,
+            "capacity": 0,
+            "property_name": "memory"
+          },
+          "device": {
+            "manufacturer": "NVIDIA",
+            "type": "N6lS",
+            "memory": 80,
+            "number": 1,
+            "physical_interface": "SXM5",
+            "resource_key": "nvidia.com/gpu",
+            "property_name": "nvidia-n6ls-80gb-sxm5"
+          },
+          "training_network": {
+            "network": {
+              "type": "IB",
+              "nics_number": 8,
+              "bandwidth": "400"
+            },
+            "name": ""
+          },
+          "service_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "data_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "zones": [
+            "cn-sh-01g"
+          ]
+        },
+        {
+          "id": "N6lS.Iu.I10.2",
+          "name": "N6lS.Iu.I10.2",
+          "description": "2XN6lS-80GB",
+          "cpu": {
+            "manufacturer": "Intel",
+            "type": "8468",
+            "frequency": 2.1,
+            "vcpu_allocatable": 44,
+            "vcpu_capacity": 0,
+            "property_name": "intel-8468"
+          },
+          "memory": {
+            "allocatable": 460,
+            "capacity": 0,
+            "property_name": "memory"
+          },
+          "device": {
+            "manufacturer": "NVIDIA",
+            "type": "N6lS",
+            "memory": 80,
+            "number": 2,
+            "physical_interface": "SXM5",
+            "resource_key": "nvidia.com/gpu",
+            "property_name": "nvidia-n6ls-80gb-sxm5"
+          },
+          "training_network": {
+            "network": {
+              "type": "IB",
+              "nics_number": 8,
+              "bandwidth": "400"
+            },
+            "name": ""
+          },
+          "service_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "data_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "zones": [
+            "cn-sh-01g"
+          ]
+        },
+        {
+          "id": "N6lS.Iu.I10.4",
+          "name": "N6lS.Iu.I10.4",
+          "description": "4XN6lS-80GB",
+          "cpu": {
+            "manufacturer": "Intel",
+            "type": "8468",
+            "frequency": 2.1,
+            "vcpu_allocatable": 88,
+            "vcpu_capacity": 0,
+            "property_name": "intel-8468"
+          },
+          "memory": {
+            "allocatable": 920,
+            "capacity": 0,
+            "property_name": "memory"
+          },
+          "device": {
+            "manufacturer": "NVIDIA",
+            "type": "N6lS",
+            "memory": 80,
+            "number": 4,
+            "physical_interface": "SXM5",
+            "resource_key": "nvidia.com/gpu",
+            "property_name": "nvidia-n6ls-80gb-sxm5"
+          },
+          "training_network": {
+            "network": {
+              "type": "IB",
+              "nics_number": 8,
+              "bandwidth": "400"
+            },
+            "name": ""
+          },
+          "service_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "data_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "zones": [
+            "cn-sh-01g"
+          ]
+        },
+        {
+          "id": "N6lS.Iu.I10.8",
+          "name": "N6lS.Iu.I10.8",
+          "description": "8XN6lS-80GB",
+          "cpu": {
+            "manufacturer": "Intel",
+            "type": "8468",
+            "frequency": 2.1,
+            "vcpu_allocatable": 176,
+            "vcpu_capacity": 0,
+            "property_name": "intel-8468"
+          },
+          "memory": {
+            "allocatable": 1840,
+            "capacity": 0,
+            "property_name": "memory"
+          },
+          "device": {
+            "manufacturer": "NVIDIA",
+            "type": "N6lS",
+            "memory": 80,
+            "number": 8,
+            "physical_interface": "SXM5",
+            "resource_key": "nvidia.com/gpu",
+            "property_name": "nvidia-n6ls-80gb-sxm5"
+          },
+          "training_network": {
+            "network": {
+              "type": "IB",
+              "nics_number": 8,
+              "bandwidth": "400"
+            },
+            "name": ""
+          },
+          "service_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "data_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "zones": [
+            "cn-sh-01g"
+          ]
+        },
+        {
+          "id": "N6lS.Iu.I10.1.8c128g",
+          "name": "N6lS.Iu.I10.1.8c128g",
+          "description": "1XN6lS-80GB",
+          "cpu": {
+            "manufacturer": "Intel",
+            "type": "8468",
+            "frequency": 2.1,
+            "vcpu_allocatable": 8,
+            "vcpu_capacity": 0,
+            "property_name": "intel-8468"
+          },
+          "memory": {
+            "allocatable": 128,
+            "capacity": 0,
+            "property_name": "memory"
+          },
+          "device": {
+            "manufacturer": "NVIDIA",
+            "type": "N6lS",
+            "memory": 80,
+            "number": 1,
+            "physical_interface": "SXM5",
+            "resource_key": "nvidia.com/gpu",
+            "property_name": "nvidia-n6ls-80gb-sxm5"
+          },
+          "training_network": {
+            "network": {
+              "type": "IB",
+              "nics_number": 8,
+              "bandwidth": "200"
+            },
+            "name": ""
+          },
+          "service_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "data_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "zones": [
+            "cn-sh-01g"
+          ]
+        },
+        {
+          "id": "N6lS.Iu.I10.1.14c198g",
+          "name": "N6lS.Iu.I10.1.14c198g",
+          "description": "",
+          "cpu": {
+            "manufacturer": "Intel",
+            "type": "8468",
+            "frequency": 2.1,
+            "vcpu_allocatable": 14,
+            "vcpu_capacity": 0,
+            "property_name": "intel-8468"
+          },
+          "memory": {
+            "allocatable": 198,
+            "capacity": 0,
+            "property_name": "memory"
+          },
+          "device": {
+            "manufacturer": "NVIDIA",
+            "type": "N6lS",
+            "memory": 80,
+            "number": 1,
+            "physical_interface": "SXM5",
+            "resource_key": "nvidia.com/gpu",
+            "property_name": "nvidia-n6ls-80gb-sxm5"
+          },
+          "training_network": {
+            "network": {
+              "type": "IB",
+              "nics_number": 8,
+              "bandwidth": "400"
+            },
+            "name": ""
+          },
+          "service_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "data_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "zones": [
+            "cn-sh-01g"
+          ]
+        },
+        {
+          "id": "N6lS.Iu.I10.2.28c396g",
+          "name": "N6lS.Iu.I10.2.28c396g",
+          "description": "",
+          "cpu": {
+            "manufacturer": "Intel",
+            "type": "8468",
+            "frequency": 2.1,
+            "vcpu_allocatable": 28,
+            "vcpu_capacity": 0,
+            "property_name": "intel-8468"
+          },
+          "memory": {
+            "allocatable": 396,
+            "capacity": 0,
+            "property_name": "memory"
+          },
+          "device": {
+            "manufacturer": "NVIDIA",
+            "type": "N6lS",
+            "memory": 80,
+            "number": 2,
+            "physical_interface": "SXM5",
+            "resource_key": "nvidia.com/gpu",
+            "property_name": "nvidia-n6ls-80gb-sxm5"
+          },
+          "training_network": {
+            "network": {
+              "type": "IB",
+              "nics_number": 8,
+              "bandwidth": "400"
+            },
+            "name": ""
+          },
+          "service_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "data_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "zones": [
+            "cn-sh-01g"
+          ]
+        },
+        {
+          "id": "N6lS.Iu.I10.4.56c792g",
+          "name": "N6lS.Iu.I10.4.56c792g",
+          "description": "",
+          "cpu": {
+            "manufacturer": "Intel",
+            "type": "8468",
+            "frequency": 2.1,
+            "vcpu_allocatable": 56,
+            "vcpu_capacity": 0,
+            "property_name": "intel-8468"
+          },
+          "memory": {
+            "allocatable": 792,
+            "capacity": 0,
+            "property_name": "memory"
+          },
+          "device": {
+            "manufacturer": "NVIDIA",
+            "type": "N6lS",
+            "memory": 80,
+            "number": 4,
+            "physical_interface": "SXM5",
+            "resource_key": "nvidia.com/gpu",
+            "property_name": "nvidia-n6ls-80gb-sxm5"
+          },
+          "training_network": {
+            "network": {
+              "type": "IB",
+              "nics_number": 8,
+              "bandwidth": "400"
+            },
+            "name": ""
+          },
+          "service_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "data_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "zones": [
+            "cn-sh-01g"
+          ]
+        },
+        {
+          "id": "N6lS.Iu.I10.6.84c1188g",
+          "name": "N6lS.Iu.I10.6.84c1188g",
+          "description": "6XN6lS-80GB",
+          "cpu": {
+            "manufacturer": "Intel",
+            "type": "8468",
+            "frequency": 2.1,
+            "vcpu_allocatable": 84,
+            "vcpu_capacity": 0,
+            "property_name": "intel-8468"
+          },
+          "memory": {
+            "allocatable": 1188,
+            "capacity": 0,
+            "property_name": "memory"
+          },
+          "device": {
+            "manufacturer": "NVIDIA",
+            "type": "N6lS",
+            "memory": 80,
+            "number": 6,
+            "physical_interface": "SXM5",
+            "resource_key": "nvidia.com/gpu",
+            "property_name": "nvidia-n6ls-80gb-sxm5"
+          },
+          "training_network": {
+            "network": {
+              "type": "IB",
+              "nics_number": 8,
+              "bandwidth": "400"
+            },
+            "name": ""
+          },
+          "service_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "data_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "zones": [
+            "cn-sh-01g"
+          ]
+        },
+        {
+          "id": "N6lS.Iu.I10.8.64c1024g",
+          "name": "N6lS.Iu.I10.8.64c1024g",
+          "description": "8XN6lS-80GB",
+          "cpu": {
+            "manufacturer": "Intel",
+            "type": "8468",
+            "frequency": 2.1,
+            "vcpu_allocatable": 64,
+            "vcpu_capacity": 0,
+            "property_name": "intel-8468"
+          },
+          "memory": {
+            "allocatable": 1024,
+            "capacity": 0,
+            "property_name": "memory"
+          },
+          "device": {
+            "manufacturer": "NVIDIA",
+            "type": "N6lS",
+            "memory": 80,
+            "number": 8,
+            "physical_interface": "SXM5",
+            "resource_key": "nvidia.com/gpu",
+            "property_name": "nvidia-n6ls-80gb-sxm5"
+          },
+          "training_network": {
+            "network": {
+              "type": "IB",
+              "nics_number": 8,
+              "bandwidth": "200"
+            },
+            "name": ""
+          },
+          "service_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "data_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "zones": [
+            "cn-sh-01g"
+          ]
+        },
+        {
+          "id": "N6lS.Iu.I10.8.112c1584g",
+          "name": "N6lS.Iu.I10.8.112c1584g",
+          "description": "",
+          "cpu": {
+            "manufacturer": "Intel",
+            "type": "8468",
+            "frequency": 2.1,
+            "vcpu_allocatable": 112,
+            "vcpu_capacity": 0,
+            "property_name": "intel-8468"
+          },
+          "memory": {
+            "allocatable": 1584,
+            "capacity": 0,
+            "property_name": "memory"
+          },
+          "device": {
+            "manufacturer": "NVIDIA",
+            "type": "N6lS",
+            "memory": 80,
+            "number": 8,
+            "physical_interface": "SXM5",
+            "resource_key": "nvidia.com/gpu",
+            "property_name": "nvidia-n6ls-80gb-sxm5"
+          },
+          "training_network": {
+            "network": {
+              "type": "IB",
+              "nics_number": 8,
+              "bandwidth": "400"
+            },
+            "name": ""
+          },
+          "service_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "data_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "zones": [
+            "cn-sh-01g"
+          ]
+        }
+      ],
+      "usage": null,
+      "capacity_guarantee": false,
+      "legacy_usage_exit_code": 69
+    },
+    {
+      "binding": {
+        "uid": "019e4073-af56-797d-bc30-3ef82188e21d",
+        "id": "/subscriptions/0197ee17-b6eb-7846-b2b4-a77c5f509b92/resourceGroups/default/zones/cn-sh-01g/aec2s/computing-cluster-5090-01g",
+        "name": "computing-cluster-5090-01g",
+        "display_name": "computing_cluster_5090_01g",
+        "state": "ACTIVE",
+        "reserved_cpu": "12459.00",
+        "reserved_number": "890",
+        "reserved_memory": "53399.00Gi",
+        "vpc_id": "0198a254-1d71-7211-9a41-d5783abfe9aa",
+        "type": "",
+        "spot_status": [
+          {
+            "spot_name": "default",
+            "spot_quota": {
+              "cpu": "135.00",
+              "device": "1",
+              "memory": "597.00Gi"
+            }
+          }
+        ],
+        "quota_type": "ALL"
+      },
+      "specifications": [
+        {
+          "id": "n12lp.nn.i10a.1",
+          "name": "n12lp.nn.i10a.1",
+          "description": "1Xn12lp-32GB",
+          "cpu": {
+            "manufacturer": "Intel",
+            "type": "6530",
+            "frequency": 2.1,
+            "vcpu_allocatable": 14,
+            "vcpu_capacity": 0,
+            "property_name": "intel-6530"
+          },
+          "memory": {
+            "allocatable": 60,
+            "capacity": 0,
+            "property_name": "memory"
+          },
+          "device": {
+            "manufacturer": "NVIDIA",
+            "type": "n12lp",
+            "memory": 32,
+            "number": 1,
+            "physical_interface": "PCIe",
+            "resource_key": "nvidia.com/gpu",
+            "property_name": "nvidia-n12lp-32gb-pcie"
+          },
+          "training_network": {
+            "network": {
+              "type": "RoCE",
+              "nics_number": 1,
+              "bandwidth": "25"
+            },
+            "name": ""
+          },
+          "service_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "data_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "zones": [
+            "cn-sh-01g"
+          ]
+        },
+        {
+          "id": "n12lp.nn.i10a.2",
+          "name": "n12lp.nn.i10a.2",
+          "description": "2Xn12lp-32GB",
+          "cpu": {
+            "manufacturer": "Intel",
+            "type": "6530",
+            "frequency": 2.1,
+            "vcpu_allocatable": 28,
+            "vcpu_capacity": 0,
+            "property_name": "intel-6530"
+          },
+          "memory": {
+            "allocatable": 120,
+            "capacity": 0,
+            "property_name": "memory"
+          },
+          "device": {
+            "manufacturer": "NVIDIA",
+            "type": "n12lp",
+            "memory": 32,
+            "number": 2,
+            "physical_interface": "PCIe",
+            "resource_key": "nvidia.com/gpu",
+            "property_name": "nvidia-n12lp-32gb-pcie"
+          },
+          "training_network": {
+            "network": {
+              "type": "RoCE",
+              "nics_number": 1,
+              "bandwidth": "25"
+            },
+            "name": ""
+          },
+          "service_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "data_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "zones": [
+            "cn-sh-01g"
+          ]
+        },
+        {
+          "id": "n12lp.nn.i10a.4",
+          "name": "n12lp.nn.i10a.4",
+          "description": "4Xn12lp-32GB",
+          "cpu": {
+            "manufacturer": "Intel",
+            "type": "6530",
+            "frequency": 2.1,
+            "vcpu_allocatable": 56,
+            "vcpu_capacity": 0,
+            "property_name": "intel-6530"
+          },
+          "memory": {
+            "allocatable": 240,
+            "capacity": 0,
+            "property_name": "memory"
+          },
+          "device": {
+            "manufacturer": "NVIDIA",
+            "type": "n12lp",
+            "memory": 32,
+            "number": 4,
+            "physical_interface": "PCIe",
+            "resource_key": "nvidia.com/gpu",
+            "property_name": "nvidia-n12lp-32gb-pcie"
+          },
+          "training_network": {
+            "network": {
+              "type": "RoCE",
+              "nics_number": 1,
+              "bandwidth": "25"
+            },
+            "name": ""
+          },
+          "service_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "data_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "zones": [
+            "cn-sh-01g"
+          ]
+        },
+        {
+          "id": "n12lp.nn.i10a.8",
+          "name": "n12lp.nn.i10a.8",
+          "description": "8Xn12lp-32GB",
+          "cpu": {
+            "manufacturer": "Intel",
+            "type": "6530",
+            "frequency": 2.1,
+            "vcpu_allocatable": 112,
+            "vcpu_capacity": 0,
+            "property_name": "intel-6530"
+          },
+          "memory": {
+            "allocatable": 480,
+            "capacity": 0,
+            "property_name": "memory"
+          },
+          "device": {
+            "manufacturer": "NVIDIA",
+            "type": "n12lp",
+            "memory": 32,
+            "number": 8,
+            "physical_interface": "PCIe",
+            "resource_key": "nvidia.com/gpu",
+            "property_name": "nvidia-n12lp-32gb-pcie"
+          },
+          "training_network": {
+            "network": {
+              "type": "RoCE",
+              "nics_number": 1,
+              "bandwidth": "25"
+            },
+            "name": ""
+          },
+          "service_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "data_network": {
+            "network": {
+              "type": "",
+              "nics_number": 0,
+              "bandwidth": ""
+            }
+          },
+          "zones": [
+            "cn-sh-01g"
+          ]
+        }
+      ],
+      "usage": null,
+      "capacity_guarantee": false,
+      "legacy_usage_exit_code": 69
+    }
+  ],
+  "allocated_gpu_equivalents": 0,
+  "maximum_gpu_equivalents": 1,
+  "remaining_gpu_equivalents": 1,
+  "runtime_limit": "UNKNOWN",
+  "create_permission": "ADMISSION_REQUIRES_ACTUAL_CREATE",
+  "quota_is_admission_guarantee": false
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "name": "acp-explore-chemgpt-profile-20261104-01",
+    "uid": "504dcf43724a47b5a100e906db927822",
+    "state": "FAILED",
+    "create_time": "2026-11-04T16:49:37+08:00",
+    "start_time": "2026-11-04T08:58:19Z",
+    "update_time": "2026-11-04T16:59:57.339826+08:00",
+    "workers": [
+      {
+        "uid": "2235c9dd-a259-493d-97af-a28bcb0f3a3f",
+        "phase": "Failed",
+        "create_time": "2026-11-04T08:49:37.750091Z",
+        "update_time": "2026-11-04T08:59:57.281424Z"
+      }
+    ]
+  },
+  {
+    "name": "acp-explore-chemgpt-profile-20261104-02",
+    "uid": "734ccfda752e447fbb6e3c1d1a8c5ff7",
+    "state": "FAILED",
+    "create_time": "2026-11-04T17:03:32+08:00",
+    "start_time": "2026-11-04T09:03:56Z",
+    "update_time": "2026-11-04T17:07:52.774405+08:00",
+    "workers": [
+      {
+        "uid": "480cac5a-ee8c-47ef-98f7-024640282cda",
+        "phase": "Failed",
+        "create_time": "2026-11-04T09:03:34.554043Z",
+        "update_time": "2026-11-04T09:06:29.181114Z"
+      }
+    ]
+  },
+  {
+    "name": "acp-explore-chemgpt-profile-20261104-03",
+    "uid": "6895c5f133d146ccae034d86c878adc4",
+    "state": "FAILED",
+    "create_time": "2026-11-04T17:11:53+08:00",
+    "start_time": "2026-11-04T09:12:13Z",
+    "update_time": "2026-11-04T17:14:18.517486+08:00",
+    "workers": [
+      {
+        "uid": "00666ff6-d67c-4096-a161-ab0898cace4b",
+        "phase": "Failed",
+        "create_time": "2026-11-04T09:11:53.452176Z",
+        "update_time": "2026-11-04T09:14:18.381348Z"
+      }
+    ]
+  },
+  {
+    "name": "acp-explore-chemgpt-profile-20261104-04",
+    "uid": "b26c0868fdc64d368e3fb5a6ae57e7b1",
+    "state": "FAILED",
+    "create_time": "2026-11-04T17:22:03+08:00",
+    "start_time": "2026-11-04T09:22:13Z",
+    "update_time": "2026-11-04T17:23:41.943676+08:00",
+    "workers": [
+      {
+        "uid": "90b5fc4d-0b8f-47e8-a299-d2dca38f29f5",
+        "phase": "Failed",
+        "create_time": "2026-11-04T09:22:03.258510Z",
+        "update_time": "2026-11-04T09:23:41.780840Z"
+      }
+    ]
+  },
+  {
+    "name": "acp-explore-chemgpt-profile-20261104-05",
+    "uid": "2ae6600d22da4606a1685c6e4dcd5de6",
+    "state": "SUCCEEDED",
+    "create_time": "2026-11-04T17:26:34+08:00",
+    "start_time": "2026-11-04T09:26:58Z",
+    "update_time": "2026-11-04T17:29:41.140016+08:00",
+    "workers": [
+      {
+        "uid": "61e17645-9f92-4735-9ad4-1993100c57cb",
+        "phase": "Succeeded",
+        "create_time": "2026-11-04T09:26:34.721281Z",
+        "update_time": "2026-11-04T09:29:41.080828Z"
+      }
+    ]
+  }
+]

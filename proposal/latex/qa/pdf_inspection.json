@@ -1,0 +1,48 @@
+{
+  "pages": 5,
+  "metadata": {
+    "format": "PDF 1.5",
+    "title": "Budgeted Molecular Optimization with Reinforcement Learning Fine-Tuning of ChemGPT",
+    "author": "Zhang Zhichao; Liao Yang; Han Gaofei",
+    "subject": "",
+    "keywords": "",
+    "creator": "LaTeX with hyperref",
+    "producer": "xdvipdfmx (0.1)",
+    "creationDate": "D:20261104110513-00'00'",
+    "modDate": "",
+    "trapped": "",
+    "encryption": null
+  },
+  "page_text": [
+    {
+      "page": 1,
+      "chars": 3220,
+      "start": "Budgeted Molecular Optimization with\nReinforcement Learning Fine-Tuning of ChemGPT\nZhang Zhichao\nLia",
+      "end": "ed a\nchemical-prior-plus-feedback route [7]; ChemRLformer further examined language representations\n"
+    },
+    {
+      "page": 2,
+      "chars": 3764,
+      "start": "and RL design choices [8]. GuacaMol supplies standardized molecular design tasks [9], and the\nPracti",
+      "end": "ll be completed before running the main comparisons.\n1https://huggingface.co/ncfrey/ChemGPT-4.7M.\n2\n"
+    },
+    {
+      "page": 3,
+      "chars": 3991,
+      "start": "3\nExperimental design\nTasks and controls.\nWe will use GuacaMol\u2019s goal-directed v2 de\ufb01nitions, whose ",
+      "end": "dget\u2013quality curves, paired method comparisons, and a summary of the quality\u2013diversity\ntrade-off.\n3\n"
+    },
+    {
+      "page": 4,
+      "chars": 3114,
+      "start": "4\nFeasibility, resources, and work plan\nFeasibility and resources.\nInitial CPU checks loaded the pub",
+      "end": "sensitivity study\nBy December 6\nFinal report, reproducibility package, and presentation materials\n4\n"
+    },
+    {
+      "page": 5,
+      "chars": 2770,
+      "start": "References\n[1] Nathan C. Frey, Ryan Soklaski, Simon Axelrod, Siddharth Samsi, Rafael G\u00f3mez-Bombarell",
+      "end": "nnectionist rein-\nforcement learning. Machine Learning, 8:229\u2013256, 1992. doi: 10.1007/BF00992696.\n5\n"
+    }
+  ]
+}

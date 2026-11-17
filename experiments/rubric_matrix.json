@@ -1,0 +1,148 @@
+{
+  "checked_on": "2026-11-13",
+  "source": "evidence/project_requirements.json",
+  "course_grade_fraction": 0.5,
+  "project_deadline": "2026-12-06",
+  "presentation": "Weeks 13–14; exact slots not announced",
+  "team_limit": 5,
+  "team": [
+    "Zhang Zhichao",
+    "Liao Yang",
+    "Han Gaofei"
+  ],
+  "criteria": [
+    {
+      "criterion": "Clear problem formulation and motivation",
+      "weight_percent": 20,
+      "current": "问题和三条件已明确；正在形成主结果，尚未定稿",
+      "target": "用可检验的问题连接课程目标、有限预算和分子场景，而不是泛泛展示训练效果。",
+      "deliverables": [
+        "一页研究问题与贡献边界",
+        "任务MDP及奖励定义表",
+        "Frozen/RF/RF+KL的公平对照",
+        "搜索效率与终态分布两个评价对象的区别"
+      ],
+      "evidence": [
+        "../proposal/latex/main.tex",
+        "contract.json",
+        "method_notes.html",
+        "evidence/objective_mismatch.json"
+      ],
+      "remaining": [
+        "用全部任务/种子验证结论范围",
+        "明确为何本项目值得研究，以及不能回答的问题"
+      ]
+    },
+    {
+      "criterion": "Technical correctness and depth",
+      "weight_percent": 20,
+      "current": "梯度、KL、评分器、预算边界和原始账本已检查；仍需完整正式运行验收",
+      "target": "每个公式对应到实现和可执行检查；分析目标与解码映射的关系，不堆不必要的算法。",
+      "deliverables": [
+        "REINFORCE+LOO+KL推导及stop-gradient解释",
+        "固定解码的KL链式分解及适用边界",
+        "EOS/mask/padding/参考冻结检查",
+        "代码输入哈希、checkpoint与依赖证据"
+      ],
+      "evidence": [
+        "src/study.py",
+        "src/check_theory.py",
+        "evidence/theory.json",
+        "evidence/scorer_check.json",
+        "evidence/boundary_check.json",
+        "evidence/input_manifest.json"
+      ],
+      "remaining": [
+        "核验全部18次正式运行的源文件与账本",
+        "将数学例子与真实观察分开",
+        "完整记录远端依赖版本和硬件时间"
+      ]
+    },
+    {
+      "criterion": "Rigorous evaluation or theoretical analysis",
+      "weight_percent": 20,
+      "current": "正式比较进行中；已有完整对照和案例，但不是全18次最终结论",
+      "target": "预先固定主协议，全部种子可见，独立评估，报告负结果、计算成本和机制证据。",
+      "deliverables": [
+        "两任务×三方法×三种子完整矩阵",
+        "查询/attempt/time曲线与终态1024样本",
+        "逐分量/长度/分子量/TPSA分布",
+        "固定规则案例与失败样本",
+        "全体样本的重复与结构覆盖",
+        "明确标注探索性分析，禁止按主任务结果调参"
+      ],
+      "evidence": [
+        "contract.json",
+        "case_protocol.json",
+        "verify_ledgers.py",
+        "evidence/remote_ledger_check.json",
+        "evidence/cases/cases.json"
+      ],
+      "remaining": [
+        "完成并独立核验剩余正式运行",
+        "报告全部种子与配对差异，不以1024样本冒充1024次训练",
+        "预算允许时对具体机制做聚焦实验；未做则保留为假设",
+        "避免把独特分子数量、指纹距离、骨架覆盖混成单一多样性结论"
+      ]
+    },
+    {
+      "criterion": "Quality of report, presentation and supporting materials",
+      "weight_percent": 20,
+      "current": "已有方法说明、自动结果页和分子案例；最终报告与slides未完成",
+      "target": "每项主张都有证据、图表、反例和局限；展示主线简洁，技术细节在备份页可追溯。",
+      "deliverables": [
+        "最终报告：方法/修改/理论应用/结果/局限/贡献/代码链接",
+        "主线展示：问题→目标→证据→机制→边界",
+        "可编辑分子SVG、独立PDF图和来源账本",
+        "一条命令复现的环境与运行说明",
+        "备份页：公式、协议、全部种子、负结果与复杂度"
+      ],
+      "evidence": [
+        "method_notes.html",
+        "evidence/main_summary.html",
+        "evidence/cases/index.html",
+        "presentation_plan.json"
+      ],
+      "remaining": [
+        "完整主结果到齐后写最终叙事",
+        "视觉检查全部图、表、分子结构及单位",
+        "定稿引用与复现入口",
+        "根据正式展示时长裁剪；不能捏造老师未公布的时长要求"
+      ]
+    },
+    {
+      "criterion": "Individual contribution and understanding",
+      "weight_percent": 20,
+      "current": "proposal分工存在；实际成员贡献与理解尚待逐人核实，不能由自动化代替",
+      "target": "三人均能说明问题、主要数学、关键实现和结果；真实贡献有记录，不按预定分工虚构已完成工作。",
+      "deliverables": [
+        "计划分工与实际贡献分列",
+        "代码/实验/分析/报告的可追溯工作记录",
+        "三人各自讲解主要模块并互相复核",
+        "全员参加展示和问答",
+        "逐人答辩练习与薄弱点修复"
+      ],
+      "evidence": [
+        "../proposal/latex/main.tex",
+        "contribution_ledger.json",
+        "defense_questions.json"
+      ],
+      "remaining": [
+        "成员本人补充、确认实际工作",
+        "逐人解释代码与公式，做真实问答排练",
+        "全员能跨越自己分工回答核心追问"
+      ]
+    }
+  ],
+  "not_claimed": [
+    "未自行打分或保证满分",
+    "没有把标准KL链式法则声称为新定理",
+    "没有把计算MPO分数解释为真实药效",
+    "未声称成员已经理解或完成其计划工作"
+  ],
+  "official_deliverables": [
+    "proposal: team/question/approach/related work/resources/division; Nov8 by email",
+    "final report: methods/modifications/theory/results/limitations/contributions; Dec6; code/supporting links where applicable",
+    "in-person presentation Weeks13/14, all members participate and answer questions"
+  ]
+}

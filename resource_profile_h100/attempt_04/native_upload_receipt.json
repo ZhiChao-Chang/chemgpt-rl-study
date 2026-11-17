@@ -1,0 +1,8 @@
+{
+  "status": "UPLOADED_AND_REMOTE_HASH_VERIFIED",
+  "job_uid": "b26c0868fdc64d368e3fb5a6ae57e7b1",
+  "worker_uid": "90b5fc4d-0b8f-47e8-a299-d2dca38f29f5",
+  "compressed_bytes": 19254733,
+  "seconds": 4.172647478990257,
+  "transport": "SCO native terminal, shell echo disabled; base64 blocks under PTY line limit"
+}

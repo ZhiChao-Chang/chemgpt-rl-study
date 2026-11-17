@@ -1,0 +1,257 @@
+Budgeted Molecular Optimization with
+Reinforcement Learning Fine-Tuning of ChemGPT
+Zhang Zhichao
+Liao Yang
+Han Gaofei
+Name order does not imply contribution ranking.
+ME2502 Reinforcement Learning — Final Project Proposal
+Abstract
+Pretrained chemical language models provide useful molecular priors, but ordi-
+nary sampling does not directly optimize a desired property proﬁle. We propose a
+controlled study of whether reinforcement learning improves target-directed gen-
+eration under a limited evaluation budget, and how a ﬁxed-prior Kullback–Leibler
+(KL) penalty changes the trade-off between optimization and output quality. Start-
+ing from public ChemGPT weights, we will compare frozen sampling and selec-
+tion, REINFORCE, and KL-regularized REINFORCE on two GuacaMol multi-
+property tasks, using three seeds and matched unique-molecule budgets. Evalu-
+ation will distinguish candidate discovery from the ﬁnal policy’s routine outputs,
+while tracking validity, diversity, repetitions, and actual computation. The project
+will deliver a reproducible implementation and an analysis of both improvements
+and failure modes. In particular, we will examine whether better search scores cor-
+respond to a broadly improved output distribution or to increasing concentration
+on a small set of candidates.
+1
+Background and related work
+Molecular generation proposes structures for de novo design, lead exploration, and property opti-
+mization. Learning a plausible chemical distribution and ﬁnding molecules that satisfy a speciﬁed
+objective are related but distinct tasks. Useful evaluation therefore includes property quality, struc-
+tural coverage, and the number of candidates that must be assessed.
+A candidate may be similar to a reference structure yet miss a desired physicochemical proﬁle, while
+a high aggregate reward can conceal a weak component. We therefore consider the joint behavior of
+the component properties and the production of multiple distinct candidates. This makes molecular
+optimization a useful setting for studying how feedback changes a pretrained generator under ﬁnite
+evaluation resources.
+Existing generators span several representations and mechanisms. Sequence models learn SMILES
+or SELFIES autoregressively; ChemGPT extends this approach through chemical language pretrain-
+ing [1]. Graph and fragment models represent connectivity explicitly: JT-VAE combines chemical
+substructures with graph message passing [2], and MolGAN uses adversarial graph generation with
+a property-oriented learning objective [3]. Normalizing ﬂows such as MoFlow learn invertible graph
+representations [4], while equivariant diffusion models generate atom types and three-dimensional
+coordinates [5]. Representation, generator architecture, and goal-directed optimization are separate
+design choices that can be combined.
+Goal-directed methods include conditional generation, sampling and ﬁltering, latent-space optimiza-
+tion, genetic search, and reinforcement learning (RL). Graph-based genetic algorithms illustrate
+that relatively simple search can be competitive on some objectives [6]. REINVENT established a
+chemical-prior-plus-feedback route [7]; ChemRLformer further examined language representations
+
+
+and RL design choices [8]. GuacaMol supplies standardized molecular design tasks [9], and the
+Practical Molecular Optimization (PMO) benchmark emphasizes oracle-call efﬁciency [10].
+Our project builds on this established literature by integrating and evaluating on-policy RL on a ﬁxed
+public ChemGPT prior. Keeping the generator and scoring deﬁnitions ﬁxed allows us to isolate the
+effects of parameter updates and prior regularization. We ask: RQ1, does RL improve discov-
+ery relative to equal-budget frozen sampling and selection? RQ2, does KL regularization preserve
+useful output characteristics, and at what cost to the optimization score? The study will connect
+policy-gradient learning and prior regularization to an explicit molecular environment, producing a
+controlled comparison that separates the beneﬁts of learning from those of repeated sampling.
+2
+Proposed method
+Model and environment.
+We will use the public ncfrey/ChemGPT-4.7M checkpoint1 and its
+matched SELFIES/WordPiece tokenizer, without pretraining from scratch. The state is the current
+token preﬁx and time step; an action selects a token or terminates generation. Each completed
+molecule receives a deterministic task reward R ∈[0, 1]. Empty, undecodable, disconnected, or
+length-truncated outputs receive zero. The horizon is 256 sampled actions. All methods share
+the same checkpoint-compatible start/end tokens, ﬁxed special-token mask, and temperature-one
+categorical sampling distribution.
+A ﬁxed processing chain will convert sampled tokens into SELFIES, decode them to SMILES,
+and apply RDKit validity checks. The resulting canonical identity will index the score cache and
+candidate collection. We will retain the original token sequence, termination status, and property
+components alongside each evaluation so that failures and repeated proposals remain visible.
+Policy gradient and prior preservation.
+Let pθ(τ) be the probability of a complete sampled to-
+ken trajectory, including its termination behavior, and let p0 be the frozen initial policy. We optimize
+Jβ(θ) = Eτ∼pθ[R(τ)] −βDKL(pθ∥p0) .
+(1)
+Using REINFORCE [11], deﬁne Li = log pθ(τi), L0
+i = log p0(τi), and Gi = Ri −β(Li −L0
+i ). For
+a batch of N > 1 independent trajectories, the loss is
+L(θ) = −1
+N
+N
+∑
+i=1
+sg(Gi −bi)Li,
+bi =
+1
+N −1
+∑
+j̸=i
+Gj,
+(2)
+where sg denotes stop-gradient. The sampled log-ratio accounts for the trajectory KL in Eq. (1); no
+additional KL loss is added. A singleton tail batch uses a previous-batch baseline. We will log full-
+vocabulary preﬁx KL as a diagnostic, keeping the training objective unchanged. This regularizer
+acts on token trajectories rather than directly on the set of canonical molecules. Different encodings
+can map to the same molecule, so their sampled probabilities must remain attached to their original
+trajectories. The baseline uses other samples in the batch to reduce variance without depending on
+the current sample’s action.
+Each fresh on-policy batch receives one update. Repeated molecules retain their sampled trajectories
+and cached rewards in the loss; canonicalization is used for scoring identities, not to replace training
+trajectories. Initial settings are batch size 32, Adam learning rate 10−5, gradient norm clipping at
+1.0, and β = 0.01 for the regularized model. Actor and reference likelihoods use the same token
+mask, temperature, and trajectory convention; the reference parameters remain frozen. Development
+checks will precede a conﬁguration freeze. We will verify that padding leaves trajectory probabilities
+unchanged, the reference receives no gradients, and rollout probabilities match their training-time
+recomputation. These checks will be completed before running the main comparisons.
+1https://huggingface.co/ncfrey/ChemGPT-4.7M.
+2
+
+
+3
+Experimental design
+Tasks and controls.
+We will use GuacaMol’s goal-directed v2 deﬁnitions, whose selected MPO
+rewards use geometric aggregation. Table 1 separates development from the two main comparisons.
+Scores combine reference similarity and calculated physicochemical properties; they are proxies for
+design requirements, not measured binding or efﬁcacy.
+Table 1: Public tasks and their roles. MPO denotes multi-property optimization.
+Task
+Role
+Main scoring components
+Perindopril MPO
+Development
+Reference similarity and aromatic ring count
+Fexofenadine MPO
+Main comparison
+Atom-pair similarity, TPSA, and logP
+Osimertinib MPO
+Main comparison
+Two ﬁngerprint similarities, TPSA, and logP
+Fexofenadine MPO favors reference similarity and sufﬁciently high TPSA while limiting logP. Os-
+imertinib MPO combines similarity requirements from two ﬁngerprints with a different physico-
+chemical proﬁle. Their components will be scored using the published deﬁnitions, with no task-
+speciﬁc rescaling from main-run outcomes. Each task will be optimized independently from the
+same initial checkpoint.
+The three conditions are Frozen + best-of-B, retaining the best observed candidates without param-
+eter updates; REINFORCE, using β = 0; and REINFORCE + KL, using the ﬁxed-prior penalty.
+Two tasks, three conditions, and three seeds yield 18 runs. Development will use Perindopril and
+separate seeds. Fexofenadine has already been explored in an earlier, different GRU pilot; this his-
+tory will be disclosed rather than presented as a fresh blind test. Main-task outcomes will not select
+hyperparameters, seeds, or checkpoints. For each search curve, frozen and trainable methods will be
+compared using the same top-k statistic over candidates available at that point. The frozen baseline
+will receive the full evaluation budget under the same sampling protocol.
+Evaluation budget.
+Each run may score up to B = 3,000 previously unseen valid canonical
+molecules, with additional caps of 15,000 generation attempts, 470 optimizer updates, and 30 min-
+utes of search/training time. The ﬁrst exhausted limit ends the run. The tail batch size is determined
+before sampling by remaining unique-query capacity. Invalid and repeated attempts are recorded;
+caching never grants another run free logical queries. Unique-query matching does not imply equal
+training computation, so updates, tokens, physical scoring calls, and wall time will also be reported.
+The evaluation ledger will distinguish generation attempts, ﬁrst-time valid identities, cache hits, and
+actual scoring calls. This will reveal whether a method spends substantial computation revisiting
+known candidates even when its unique-query count appears efﬁcient.
+Outcomes and analysis.
+The primary endpoint is the normalized area under the top-10 MPO
+score curve against new unique evaluations. We will also report budget-end scores, the number of
+threshold-passing candidates, and strict joint component satisfaction; an aggregate MPO threshold
+does not imply that every component passes. For early-stopped runs, ﬁxed-budget summaries will
+explicitly identify any last-value carry-forward and show the achieved query count.
+Each terminal policy will independently generate 1,024 additional attempts, without further training
+or checkpoint selection. We will measure all-attempt mean reward, validity, unique valid output, rep-
+etition, and ﬁngerprint/scaffold diversity. Search histories and ﬁnal-policy samples will be analyzed
+separately. Results will show every seed, means and variability, and paired differences for each task.
+A higher search score accompanied by collapsed routine outputs, or a KL model trading peak score
+for diversity, will be analyzed as a trade-off. We will inspect component-score and sequence-length
+distributions alongside KL and repetition curves to explain these outcomes. Planned ﬁgures will
+include budget–quality curves, paired method comparisons, and a summary of the quality–diversity
+trade-off.
+3
+
+
+4
+Feasibility, resources, and work plan
+Feasibility and resources.
+Initial CPU checks loaded the public ChemGPT checkpoint, generated
+32 naturally terminated and decodable single-molecule samples, veriﬁed rollout/teacher-forcing log-
+probability agreement, and obtained ﬁnite nonzero gradients. An enumerable two-step environment
+checked the KL score-function and leave-one-out gradient construction. H100 resource proﬁling has
+also been completed. These are feasibility checks; the formal 18-run comparison remains planned.
+The next development milestone is an end-to-end short run that validates the scorer, query ledger,
+and frozen-reference behavior together. A small development conﬁguration will then be ﬁxed and
+reused across both main tasks and all reported seeds. The planned computing resources are one
+NVIDIA H100 80GB GPU, 4 vCPUs, 64 GiB of host RAM, and 10 GB of project storage.
+Team responsibilities.
+Zhang Zhichao will cover molecular-generation literature, research-
+question formulation, and overall study design; adapt ChemGPT loading, sampling, and decoding
+interfaces for integration with the RL framework; and coordinate the proposal’s background, moti-
+vation, and overall narrative in the ﬁnal report. This work will provide the tested model interface
+and the study’s scientiﬁc framing.
+Liao Yang will develop the GuacaMol task, property-scoring, and reward interfaces; implement
+evaluation budgets, duplicate-molecule caching, and the frozen-model baseline; organize compari-
+son runs; and carry out metric veriﬁcation, result analysis, ﬁgures, and experimental reporting. The
+corresponding outputs will be an auditable scoring ledger and reproducible comparison tables.
+Han Gaofei will focus on RL-method design and implementation, including REINFORCE, the
+variance-reduction baseline, the frozen reference policy, and KL regularization; verify policy up-
+dates, gradient correctness, and training stability; develop training conﬁgurations; and write the
+methods section and interpret the optimization behavior. This work will deliver the validated policy-
+gradient training module and its implementation checks.
+Joint work and deliverables.
+All three members will jointly ﬁnalize experiments, cross-check
+code and results, discuss conclusions, integrate the report, prepare the presentation, and participate
+in Q&A. Deliverables are versioned code and conﬁgurations, complete generation/scoring logs, per-
+seed metrics, necessary checkpoints, and a reproducible ﬁnal report. Negative results and quality–
+diversity trade-offs will be retained. Each implementation component will be reviewed by another
+member, and the team will jointly rehearse explanations of the MDP, objective, and empirical ﬁnd-
+ings. The schedule is summarized in Table 2.
+Table 2: Planned schedule and concrete outputs.
+Period
+Output
+Before November 8
+Proposal, development checks, and frozen conﬁguration
+November 9–15
+Complete the 18-run core comparison
+November 16–22
+Independent metric checks and one focused sensitivity study
+By December 6
+Final report, reproducibility package, and presentation materials
+4
+
+
+References
+[1] Nathan C. Frey, Ryan Soklaski, Simon Axelrod, Siddharth Samsi, Rafael Gómez-Bombarelli,
+Connor W. Coley, and Vijay Gadepally. Neural scaling of deep chemical models. Nature
+Machine Intelligence, 5:1297–1305, 2023. doi: 10.1038/s42256-023-00740-3.
+[2] Wengong Jin, Regina Barzilay, and Tommi Jaakkola. Junction tree variational autoencoder for
+molecular graph generation. In Proceedings of the 35th International Conference on Machine
+Learning, volume 80 of Proceedings of Machine Learning Research, pages 2323–2332, 2018.
+URL https://proceedings.mlr.press/v80/jin18a.html.
+[3] Nicola De Cao and Thomas Kipf. MolGAN: An implicit generative model for small molecular
+graphs. arXiv:1805.11973, 2018. URL https://arxiv.org/abs/1805.11973.
+[4] Chengxi Zang and Fei Wang. MoFlow: An invertible ﬂow model for generating molecular
+graphs. In Proceedings of the 26th ACM SIGKDD International Conference on Knowledge
+Discovery and Data Mining, pages 617–626, 2020. doi: 10.1145/3394486.3403104.
+[5] Emiel Hoogeboom, Víctor Garcia Satorras, Clément Vignac, and Max Welling. Equivariant
+diffusion for molecule generation in 3D. In Proceedings of the 39th International Confer-
+ence on Machine Learning, volume 162 of Proceedings of Machine Learning Research, pages
+8867–8887, 2022. URL https://proceedings.mlr.press/v162/hoogeboom22a.html.
+[6] Jan H. Jensen. A graph-based genetic algorithm and generative model/Monte Carlo tree search
+for the exploration of chemical space. Chemical Science, 10:3567–3572, 2019. doi: 10.1039/
+C8SC05372C.
+[7] Marcus Olivecrona, Thomas Blaschke, Ola Engkvist, and Hongming Chen. Molecular de-
+novo design through deep reinforcement learning. Journal of Cheminformatics, 9:48, 2017.
+doi: 10.1186/s13321-017-0235-x.
+[8] Raj Ghugare, Santiago Miret, Adriana Hugessen, Mariano Phielipp, and Glen Berseth. Search-
+ing for high-value molecules using reinforcement learning and transformers. In International
+Conference on Learning Representations, 2024. URL https://proceedings.iclr.cc/paper_ﬁles/
+paper/2024/hash/792a4eb351b014e1d61bcfaab0ddd555-Abstract-Conference.html.
+[9] Nathan Brown, Marco Fiscato, Marwin H. S. Segler, and Alain C. Vaucher. GuacaMol: Bench-
+marking models for de novo molecular design. Journal of Chemical Information and Modeling,
+59(3):1096–1108, 2019. doi: 10.1021/acs.jcim.8b00839.
+[10] Wenhao Gao, Tianfan Fu, Jimeng Sun, and Connor W. Coley. Sample efﬁciency matters: A
+benchmark for practical molecular optimization. In Advances in Neural Information Process-
+ing Systems, volume 35, 2022. URL https://arxiv.org/abs/2206.12411.
+[11] Ronald J. Williams. Simple statistical gradient-following algorithms for connectionist rein-
+forcement learning. Machine Learning, 8:229–256, 1992. doi: 10.1007/BF00992696.
+5

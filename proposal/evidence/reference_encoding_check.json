@@ -1,0 +1,26 @@
+{
+  "scope": "public task reference strings only; no task optimization or rewards queried",
+  "records": [
+    {
+      "function": "hard_osimertinib",
+      "selfies_encoding_success": true,
+      "total_tokens_with_CLS_SEP": 62,
+      "unknown_token_count": 0,
+      "starts_CLS_ends_SEP": true
+    },
+    {
+      "function": "hard_fexofenadine",
+      "selfies_encoding_success": true,
+      "total_tokens_with_CLS_SEP": 63,
+      "unknown_token_count": 0,
+      "starts_CLS_ends_SEP": true
+    },
+    {
+      "function": "perindopril_rings",
+      "selfies_encoding_success": true,
+      "total_tokens_with_CLS_SEP": 46,
+      "unknown_token_count": 0,
+      "starts_CLS_ends_SEP": true
+    }
+  ]
+}

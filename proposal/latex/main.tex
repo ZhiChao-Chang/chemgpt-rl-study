@@ -1,0 +1,297 @@
+\documentclass{article}
+\PassOptionsToPackage{numbers,sort&compress}{natbib}
+\usepackage[nonanonymous]{neurips_2026}
+% Course-proposal adaptation: named authors, no venue notice or review line numbers.
+\makeatletter
+\renewcommand{\@notice}{}
+\makeatother
+\AtBeginDocument{\nolinenumbers}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb,booktabs,tabularx}
+\usepackage{float}
+\usepackage{url}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=black,citecolor=black,urlcolor=blue,
+  pdftitle={Budgeted Molecular Optimization with Reinforcement Learning Fine-Tuning of ChemGPT},
+  pdfauthor={Zhang Zhichao; Liao Yang; Han Gaofei}}
+\urlstyle{same}
+\newcommand{\KL}{D_{\mathrm{KL}}}
+\newcommand{\sg}{\operatorname{sg}}
+
+\title{Budgeted Molecular Optimization with\\
+Reinforcement Learning Fine-Tuning of ChemGPT}
+
+\author{%
+  Zhang Zhichao\qquad Liao Yang\qquad Han Gaofei\\[0.3em]
+  {\footnotesize Name order does not imply contribution ranking.}\\[0.4em]
+  {\small ME2502 Reinforcement Learning --- Final Project Proposal}
+}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Pretrained chemical language models provide useful molecular priors, but ordinary
+sampling does not directly optimize a desired property profile. We propose a
+controlled study of whether reinforcement learning improves target-directed
+generation under a limited evaluation budget, and how a fixed-prior
+Kullback--Leibler (KL) penalty changes the trade-off between optimization and
+output quality. Starting from public ChemGPT weights, we will compare frozen
+sampling and selection, REINFORCE, and KL-regularized REINFORCE on two GuacaMol
+multi-property tasks, using three seeds and matched unique-molecule budgets.
+Evaluation will distinguish candidate discovery from the final policy's routine
+outputs, while tracking validity, diversity, repetitions, and actual computation.
+The project will deliver a reproducible implementation and an analysis of both
+improvements and failure modes. In particular, we will examine whether better
+search scores correspond to a broadly improved output distribution or to
+increasing concentration on a small set of candidates.
+\end{abstract}
+
+\section{Background and related work}
+Molecular generation proposes structures for de novo design, lead exploration,
+and property optimization. Learning a plausible chemical distribution and
+finding molecules that satisfy a specified objective are related but distinct
+tasks. Useful evaluation therefore includes property quality, structural
+coverage, and the number of candidates that must be assessed.
+
+A candidate may be similar to a reference structure yet miss a desired
+physicochemical profile, while a high aggregate reward can conceal a weak
+component. We therefore consider the joint behavior of the component properties
+and the production of multiple distinct candidates. This makes molecular
+optimization a useful setting for studying how feedback changes a pretrained
+generator under finite evaluation resources.
+
+Existing generators span several representations and mechanisms. Sequence
+models learn SMILES or SELFIES autoregressively; ChemGPT extends this approach
+through chemical language pretraining~\citep{frey2023scaling}.
+Graph and fragment models represent connectivity explicitly: JT-VAE combines
+chemical substructures with graph message passing~\citep{jin2018junction}, and
+MolGAN uses adversarial graph generation with a property-oriented learning
+objective~\citep{decao2018molgan}. Normalizing flows such as MoFlow learn
+invertible graph representations~\citep{zang2020moflow}, while equivariant
+diffusion models generate atom types and three-dimensional
+coordinates~\citep{hoogeboom2022edm}. Representation, generator architecture,
+and goal-directed optimization are separate design choices that can be combined.
+
+Goal-directed methods include conditional generation, sampling and filtering,
+latent-space optimization, genetic search, and reinforcement learning (RL).
+Graph-based genetic algorithms illustrate that relatively simple search can be
+competitive on some objectives~\citep{jensen2019ga}. REINVENT established a
+chemical-prior-plus-feedback route~\citep{olivecrona2017reinvent};
+ChemRLformer further examined language representations and RL design
+choices~\citep{ghugare2024chemrlformer}. GuacaMol supplies standardized molecular
+design tasks~\citep{brown2019guacamol}, and the Practical Molecular Optimization
+(PMO) benchmark emphasizes oracle-call efficiency~\citep{gao2022pmo}.
+
+Our project builds on this established literature by integrating and evaluating
+on-policy RL on a fixed public ChemGPT prior. Keeping the generator and scoring
+definitions fixed allows us to isolate the effects of parameter updates and
+prior regularization. We ask: \textbf{RQ1}, does RL improve discovery relative
+to equal-budget frozen sampling and selection? \textbf{RQ2}, does KL
+regularization preserve useful output characteristics, and at what cost to the
+optimization score? The study will connect policy-gradient learning and prior
+regularization to an explicit molecular environment, producing a controlled
+comparison that separates the benefits of learning from those of repeated
+sampling.
+
+\section{Proposed method}
+\paragraph{Model and environment.}
+We will use the public \texttt{ncfrey/ChemGPT-4.7M} checkpoint\footnote{\url{https://huggingface.co/ncfrey/ChemGPT-4.7M}.} and its matched
+SELFIES/WordPiece tokenizer, without pretraining from scratch. The state is the
+current token prefix and time step; an action selects a token or terminates
+generation. Each completed molecule receives a deterministic task reward
+$R\in[0,1]$. Empty, undecodable, disconnected, or length-truncated outputs receive
+zero. The horizon is 256 sampled actions. All methods share the same
+checkpoint-compatible start/end tokens, fixed special-token mask, and
+temperature-one categorical sampling distribution.
+
+A fixed processing chain will convert sampled tokens into SELFIES, decode them
+to SMILES, and apply RDKit validity checks. The resulting canonical identity
+will index the score cache and candidate collection. We will retain the original
+token sequence, termination status, and property components alongside each
+evaluation so that failures and repeated proposals remain visible.
+
+\paragraph{Policy gradient and prior preservation.}
+Let $p_\theta(\tau)$ be the probability of a complete sampled token trajectory,
+including its termination behavior, and let $p_0$ be the frozen initial policy.
+We optimize
+\begin{equation}
+J_\beta(\theta)=\mathbb{E}_{\tau\sim p_\theta}[R(\tau)]
+ -\beta\KL\!\left(p_\theta\Vert p_0\right).
+\label{eq:objective}
+\end{equation}
+Using REINFORCE~\citep{williams1992reinforce}, define $L_i=\log p_\theta(\tau_i)$,
+$L_i^0=\log p_0(\tau_i)$, and $G_i=R_i-\beta(L_i-L_i^0)$. For a batch of $N>1$
+independent trajectories, the loss is
+\begin{equation}
+\mathcal{L}(\theta)=-\frac{1}{N}\sum_{i=1}^{N}\sg(G_i-b_i)L_i,
+\qquad b_i=\frac{1}{N-1}\sum_{j\ne i}G_j,
+\label{eq:loss}
+\end{equation}
+where $\sg$ denotes stop-gradient. The sampled log-ratio accounts for the
+trajectory KL in Eq.~\eqref{eq:objective}; no additional KL loss is added.
+A singleton tail batch uses a previous-batch baseline. We will log full-vocabulary
+prefix KL as a diagnostic, keeping the training objective unchanged. This regularizer acts on token
+trajectories rather than directly on the set of canonical molecules. Different
+encodings can map to the same molecule, so their sampled probabilities must
+remain attached to their original trajectories. The baseline uses other samples
+in the batch to reduce variance without depending on the current sample's action.
+
+Each fresh on-policy batch receives one update. Repeated molecules retain their
+sampled trajectories and cached rewards in the loss; canonicalization is used
+for scoring identities, not to replace training trajectories. Initial settings
+are batch size 32, Adam learning rate $10^{-5}$, gradient norm clipping at 1.0,
+and $\beta=0.01$ for the regularized model. Actor and reference likelihoods use
+the same token mask, temperature, and trajectory convention; the reference
+parameters remain frozen. Development checks will precede a configuration freeze.
+We will verify that padding leaves trajectory probabilities unchanged, the
+reference receives no gradients, and rollout probabilities match their
+training-time recomputation. These checks will be completed before running the
+main comparisons.
+
+\clearpage
+\section{Experimental design}
+\paragraph{Tasks and controls.}
+We will use GuacaMol's goal-directed \textbf{v2} definitions, whose selected MPO
+rewards use geometric aggregation. Table~\ref{tab:tasks} separates development
+from the two main comparisons. Scores combine reference similarity and
+calculated physicochemical properties; they are proxies for design requirements,
+not measured binding or efficacy.
+
+\begin{table}[H]
+\caption{Public tasks and their roles. MPO denotes multi-property optimization.}
+\label{tab:tasks}
+\centering
+\begin{tabularx}{\linewidth}{@{}l l X@{}}
+\toprule
+Task & Role & Main scoring components \\
+\midrule
+Perindopril MPO & Development & Reference similarity and aromatic ring count \\
+Fexofenadine MPO & Main comparison & Atom-pair similarity, TPSA, and logP \\
+Osimertinib MPO & Main comparison & Two fingerprint similarities, TPSA, and logP \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+Fexofenadine MPO favors reference similarity and sufficiently high TPSA while
+limiting logP. Osimertinib MPO combines similarity requirements from two
+fingerprints with a different physicochemical profile. Their components will be
+scored using the published definitions, with no task-specific rescaling from
+main-run outcomes. Each task will be optimized independently from the same
+initial checkpoint.
+
+The three conditions are \textbf{Frozen + best-of-$B$}, retaining the best
+observed candidates without parameter updates; \textbf{REINFORCE}, using
+$\beta=0$; and \textbf{REINFORCE + KL}, using the fixed-prior penalty. Two tasks,
+three conditions, and three seeds yield \textbf{18 runs}. Development will use
+Perindopril and separate seeds. Fexofenadine has already been explored in an
+earlier, different GRU pilot; this history will be disclosed rather than
+presented as a fresh blind test. Main-task outcomes will not select
+hyperparameters, seeds, or checkpoints. For each search curve, frozen and
+trainable methods will be compared using the same top-$k$ statistic over
+candidates available at that point. The frozen baseline will receive the full
+evaluation budget under the same sampling protocol.
+
+\paragraph{Evaluation budget.}
+Each run may score up to $B=3{,}000$ previously unseen valid canonical molecules,
+with additional caps of 15,000 generation attempts, 470 optimizer updates, and
+30 minutes of search/training time. The first exhausted limit ends the run.
+The tail batch size is determined before sampling by remaining unique-query
+capacity. Invalid and repeated attempts are recorded; caching never grants
+another run free logical queries. Unique-query matching does not imply equal
+training computation, so updates, tokens, physical scoring calls, and wall time
+will also be reported. The evaluation ledger will distinguish generation
+attempts, first-time valid identities, cache hits, and actual scoring calls.
+This will reveal whether a method spends substantial computation revisiting
+known candidates even when its unique-query count appears efficient.
+
+\paragraph{Outcomes and analysis.}
+The primary endpoint is the normalized area under the top-10 MPO score curve
+against new unique evaluations. We will also report budget-end scores, the
+number of threshold-passing candidates, and strict joint component satisfaction;
+an aggregate MPO threshold does not imply that every component passes. For
+early-stopped runs, fixed-budget summaries will explicitly identify any
+last-value carry-forward and show the achieved query count.
+
+Each terminal policy will independently generate 1,024 additional attempts,
+without further training or checkpoint selection. We will measure all-attempt
+mean reward, validity, unique valid output, repetition, and fingerprint/scaffold
+diversity. Search histories and final-policy samples will be analyzed separately.
+Results will show every seed, means and variability, and paired differences for
+each task. A higher search score accompanied by collapsed routine outputs, or a
+KL model trading peak score for diversity, will be analyzed as a trade-off.
+We will inspect component-score and sequence-length distributions alongside KL
+and repetition curves to explain these outcomes. Planned figures will include
+budget--quality curves, paired method comparisons, and a summary of the
+quality--diversity trade-off.
+
+\clearpage
+\section{Feasibility, resources, and work plan}
+\paragraph{Feasibility and resources.}
+Initial CPU checks loaded the public ChemGPT checkpoint, generated 32 naturally
+terminated and decodable single-molecule samples, verified rollout/teacher-forcing
+log-probability agreement, and obtained finite nonzero gradients. An enumerable
+two-step environment checked the KL score-function and leave-one-out gradient
+construction. H100 resource profiling has also been completed. These are
+feasibility checks; the formal 18-run comparison remains planned. The next
+development milestone is an end-to-end short run that validates the scorer,
+query ledger, and frozen-reference behavior together. A small development
+configuration will then be fixed and reused across both main tasks and all
+reported seeds.
+The planned computing resources are one NVIDIA H100 80GB GPU, 4 vCPUs,
+64 GiB of host RAM, and 10 GB of project storage.
+
+\paragraph{Team responsibilities.}
+\textbf{Zhang Zhichao} will cover molecular-generation literature, research-question
+formulation, and overall study design; adapt ChemGPT loading, sampling, and
+decoding interfaces for integration with the RL framework; and coordinate the
+proposal's background, motivation, and overall narrative in the final report.
+This work will provide the tested model interface and the study's scientific
+framing.
+
+\textbf{Liao Yang} will develop the GuacaMol task, property-scoring, and reward
+interfaces; implement evaluation budgets, duplicate-molecule caching, and the
+frozen-model baseline; organize comparison runs; and carry out metric
+verification, result analysis, figures, and experimental reporting. The
+corresponding outputs will be an auditable scoring ledger and reproducible
+comparison tables.
+
+\textbf{Han Gaofei} will focus on RL-method design and implementation, including
+REINFORCE, the variance-reduction baseline, the frozen reference policy, and KL
+regularization; verify policy updates, gradient correctness, and training
+stability; develop training configurations; and write the methods section and
+interpret the optimization behavior. This work will deliver the validated
+policy-gradient training module and its implementation checks.
+
+\paragraph{Joint work and deliverables.}
+All three members will jointly finalize experiments, cross-check code and
+results, discuss conclusions, integrate the report, prepare the presentation,
+and participate in Q\&A. Deliverables are versioned code and configurations,
+complete generation/scoring logs, per-seed metrics, necessary checkpoints,
+and a reproducible final report. Negative results and quality--diversity
+trade-offs will be retained. Each implementation component will be reviewed by
+another member, and the team will jointly rehearse explanations of the MDP,
+objective, and empirical findings. The schedule is summarized in
+Table~\ref{tab:schedule}.
+
+\begin{table}[H]
+\caption{Planned schedule and concrete outputs.}
+\label{tab:schedule}
+\centering
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+\toprule
+Period & Output \\
+\midrule
+Before November 8 & Proposal, development checks, and frozen configuration \\
+November 9--15 & Complete the 18-run core comparison \\
+November 16--22 & Independent metric checks and one focused sensitivity study \\
+By December 6 & Final report, reproducibility package, and presentation materials \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\clearpage
+\bibliographystyle{unsrtnat}
+\bibliography{references}
+\end{document}

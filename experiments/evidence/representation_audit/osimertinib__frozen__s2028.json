@@ -1,0 +1,54 @@
+{
+  "run": "main/osimertinib__frozen__s2028",
+  "exact_token_replay": "PASS",
+  "replay_mismatches": [],
+  "canonical_descriptor_edges": [
+    {
+      "ledger": "evaluation",
+      "row": 466,
+      "identity": "CCCCCCCCCCCC=CC(=O)C(C)OC(=O)C=CC1=Cc2c3c1c1cc4c5ccccc6cccc7c6c4c(C(=O)C=Cc4ccc(CCCC)cc4O)c(OC)c5cccc-1cc1c2C7C=C1C3=O",
+      "component_delta": 0.005496448981856528,
+      "original_components": [
+        0.22854477611940296,
+        1.0,
+        1.0,
+        1.131486010905579e-51
+      ],
+      "reread_components": [
+        0.22304832713754644,
+        1.0,
+        1.0,
+        6.045106807992855e-46
+      ],
+      "original_reward": 1.2681047286174255e-13,
+      "reread_reward": 3.407616694374932e-12,
+      "raw_logP": 16.31719999999996,
+      "reread_logP": 15.43049999999996,
+      "canonical_idempotent": false
+    }
+  ],
+  "stats": {
+    "search": {
+      "attempts": 3001,
+      "original_mean": 0.18706398674110344,
+      "canonical_reread_mean": 0.18706398674110344,
+      "mean_absolute_reward_change": 7.099936085560631e-18,
+      "max_absolute_reward_change": 8.881784197001252e-16,
+      "original_unique_top10": 0.7763622795401576,
+      "reread_unique_top10": 0.7763622795401576
+    },
+    "evaluation": {
+      "attempts": 1024,
+      "original_mean": 0.18873072099536825,
+      "canonical_reread_mean": 0.18873072099537141,
+      "mean_absolute_reward_change": 3.2126832596095775e-15,
+      "max_absolute_reward_change": 3.2808062215131896e-12,
+      "original_unique_top10": 0.7636928052048425,
+      "reread_unique_top10": 0.7636928052048425
+    }
+  },
+  "ledger_sha256": {
+    "search": "d8dbd8eeabfd53922335bb9d650446df0c3aa798c3b7d917ba60e89e74e60992",
+    "evaluation": "7744bd1bdbd08a823e1ca2adcfbbbb826f0af180f9c7c39843e15662365f719b"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "ui": {
+    "osimValues": true,
+    "filterScope": "当前：Osimertinib · 基础对照 · 2 种方法 × 3 个种子 · 每种子 1,024 次终末采样 · 搜索预算 3,000 个唯一分子 / 运行",
+    "seedDots": 6,
+    "noFrozenBar": true,
+    "logPAxis": true,
+    "mechanismUsesFex": true,
+    "longUsesOsim": true,
+    "emptyState": true,
+    "finalNav": [
+      "01研究问题",
+      "02输入与评价条件",
+      "03方法与实际流程",
+      "04结果比较",
+      "05差异分析",
+      "06分子对照",
+      "07主要结论与决策",
+      "08数据与方法说明"
+    ]
+  },
+  "export": {
+    "svgName": "r-terminal.svg",
+    "svgValid": true,
+    "svgHasScope": true,
+    "svgHasMean": true,
+    "csvHasScope": true,
+    "csvHasDisplayAndSource": true,
+    "csvHasHiddenPaths": false,
+    "csvLines": 13
+  },
+  "rendered_checks": {
+    "desktop": "1440x900 and 1512x982 reviewed",
+    "mobile": "390x844; document scrollWidth <= viewport; charts scroll internally",
+    "navigation": "8 matching chapters; scroll highlight and mobile collapse checked",
+    "three_d": "canvas rendered; A visibility and reset checked; no viewer errors; aligned model screenshot reviewed",
+    "two_d": "36 shared-subgraph pair comparisons; original standalone drawings preserved",
+    "audience": "no Edit/Publish/Ask controls in default view",
+    "source_changes": "App.jsx and DataAppChrome.jsx scoped to explicit audience-view request; author=1 retains author entry"
+  },
+  "counts": {
+    "runs": 126,
+    "case_roles": 252,
+    "shared_subgraph_pairs": 306
+  },
+  "unperformed": [
+    "No new training, GPU instance or cloud task",
+    "No GitHub publication",
+    "3D geometry is illustrative, not binding-pose validation"
+  ]
+}

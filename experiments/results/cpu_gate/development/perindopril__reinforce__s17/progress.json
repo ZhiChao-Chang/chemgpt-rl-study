@@ -1,0 +1,12 @@
+{
+  "update": 15,
+  "attempts": 512,
+  "unique": 512,
+  "mean_reward": 0.12943094968795776,
+  "sample_trajectory_kl": 4.972909450531006,
+  "elapsed_s": 34.61001993797254,
+  "loss": -0.09390753507614136,
+  "grad_norm": 23.36481285095215,
+  "advantage_variance": 0.01097732875496149,
+  "logprob_error": 0.00014495849609375
+}

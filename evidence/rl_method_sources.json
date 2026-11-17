@@ -1,0 +1,393 @@
+{
+  "as_of": "2026-11-04",
+  "scope": "Primary-source literature and public-code/docs review only; no execution, model/weight downloads, molecular generation, paid service, remote compute or contact.",
+  "core_source_count": 12,
+  "supporting_source_count": 7,
+  "source_policy": "All linked sources are original papers, publisher/author versions, official author repositories/docs or PubMed bibliographic records. Search-index extracts were used when direct primary pages redirected; limitations recorded.",
+  "sources": [
+    {
+      "id": "R01",
+      "core": true,
+      "title": "Molecular de-novo design through deep reinforcement learning",
+      "publication_or_version_date": "2017-09-04",
+      "venue_or_status": "Journal of Cheminformatics 9:48",
+      "primary_url": "https://link.springer.com/article/10.1186/s13321-017-0235-x",
+      "evidence_location": [
+        "Methods > Reinforcement learning",
+        "Methods > The agent network",
+        "Target activity guided structure generation"
+      ],
+      "verified_scope": "Autoregressive RNN prior and agent; augmented episodic likelihood; original text uses POMDP for cell-state-based framing.",
+      "limits": "DRD2 evidence is predictor-guided generation and retrospective recovery; no new wet-lab validation claimed here.",
+      "accessed": "2026-11-04",
+      "local_execution": false,
+      "additional_primary_links": [
+        "https://arxiv.org/abs/1704.07555"
+      ]
+    },
+    {
+      "id": "R02",
+      "core": true,
+      "title": "Reinvent 4: Modern AI–driven generative molecule design",
+      "publication_or_version_date": "2024-02-21",
+      "venue_or_status": "Journal of Cheminformatics 16:20",
+      "primary_url": "https://link.springer.com/article/10.1186/s13321-024-00812-5",
+      "evidence_location": [
+        "Reinforcement learning, Eq.5–6",
+        "Diversity filter",
+        "Inception"
+      ],
+      "verified_scope": "DAP augmented likelihood, fixed prior, scaffold memory, replay and staged learning; software reference implementations.",
+      "limits": "Inception support is generator-specific; current docs are dynamic main, not pinned or executed.",
+      "accessed": "2026-11-04",
+      "local_execution": false,
+      "official_code_or_docs": [
+        "https://github.com/MolecularAI/REINVENT4",
+        "https://github.com/MolecularAI/REINVENT4/blob/main/contrib/reinvent-doc/tutorials/rl.md"
+      ]
+    },
+    {
+      "id": "R03",
+      "core": true,
+      "title": "DrugEx v2: de novo design of drug molecules by Pareto-based multi-objective reinforcement learning in polypharmacology",
+      "publication_or_version_date": "2021-11",
+      "venue_or_status": "Journal of Cheminformatics; DOI 10.1186/s13321-021-00561-9",
+      "primary_url": "https://link.springer.com/article/10.1186/s13321-021-00561-9",
+      "evidence_location": [
+        "Methods > Reinforcement learning",
+        "Weighted sum and Pareto front schemes"
+      ],
+      "verified_scope": "SMILES policy gradient; QSAR scores for multiple human receptors/off-target, dynamic weighted-sum and Pareto ranking.",
+      "limits": "Predictive affinities and properties; exact publication day not extracted in this audit.",
+      "accessed": "2026-11-04",
+      "local_execution": false,
+      "official_code_or_docs": [
+        "https://github.com/XuhanLiu/DrugEx"
+      ]
+    },
+    {
+      "id": "R04",
+      "core": true,
+      "title": "DrugEx v3: scaffold-constrained drug design with graph transformer-based reinforcement learning",
+      "publication_or_version_date": "2023-02",
+      "venue_or_status": "Journal of Cheminformatics; DOI 10.1186/s13321-023-00694-z",
+      "primary_url": "https://link.springer.com/article/10.1186/s13321-023-00694-z",
+      "evidence_location": [
+        "Molecular representations",
+        "End-to-end deep learning",
+        "Multi-objective optimization",
+        "Reinforcement learning"
+      ],
+      "verified_scope": "Graph and SMILES scaffold-conditioned models; sequential graph fields, valence masking, Pareto feedback.",
+      "limits": "A2AAR affinity is modeled; no wet-lab claim; publication month extracted, exact day not asserted.",
+      "accessed": "2026-11-04",
+      "local_execution": false,
+      "official_code_or_docs": [
+        "https://github.com/CDDLeiden/DrugEx",
+        "https://cddleiden.github.io/DrugEx/docs/use.html"
+      ]
+    },
+    {
+      "id": "R05",
+      "core": true,
+      "title": "Optimization of Molecules via Deep Reinforcement Learning",
+      "publication_or_version_date": "2019-07-24",
+      "venue_or_status": "Scientific Reports 9:10752",
+      "primary_url": "https://www.nature.com/articles/s41598-019-47148-x",
+      "evidence_location": [
+        "Methods > Molecule modification as a markov decision process",
+        "Deep Q-learning implementation details"
+      ],
+      "verified_scope": "MolDQN uses molecule plus remaining steps and chemically allowed graph modifications; double Q-learning and randomized value functions.",
+      "limits": "Chemical validity is rule-level, not synthesis or binding evidence.",
+      "accessed": "2026-11-04",
+      "local_execution": false,
+      "official_code_or_docs": [
+        "https://github.com/google-research/google-research/tree/master/mol_dqn"
+      ],
+      "additional_primary_links": [
+        "https://research.google/pubs/optimization-of-molecules-via-deep-reinforcement-learning/"
+      ]
+    },
+    {
+      "id": "R06",
+      "core": true,
+      "title": "Graph Convolutional Policy Network for Goal-Directed Molecular Graph Generation",
+      "publication_or_version_date": "2018",
+      "venue_or_status": "NeurIPS 2018",
+      "primary_url": "https://papers.nips.cc/paper_files/paper/2018/hash/d60678e8f2ba9c540798ebbde31177e8-Abstract.html",
+      "evidence_location": [
+        "Paper §3, graph generation MDP, reward and policy learning"
+      ],
+      "verified_scope": "Graph construction, domain rules, property and adversarial reward; PPO policy training.",
+      "limits": "Benchmark graph/property optimization, not target-aware drug efficacy.",
+      "accessed": "2026-11-04",
+      "local_execution": false,
+      "official_code_or_docs": [
+        "https://github.com/bowenliu16/rl_graph_generation"
+      ],
+      "additional_primary_links": [
+        "https://ai.stanford.edu/~jure/pubs/gcpn-neurips18.pdf"
+      ]
+    },
+    {
+      "id": "R07",
+      "core": true,
+      "title": "Proximal Policy Optimization Algorithms",
+      "publication_or_version_date": "2017-07-20; v2 2017-08-28",
+      "venue_or_status": "arXiv:1707.06347",
+      "primary_url": "https://arxiv.org/pdf/1707.06347",
+      "evidence_location": [
+        "§2 Policy Optimization",
+        "§3 Clipped Surrogate Objective",
+        "§5 Algorithm"
+      ],
+      "verified_scope": "Old-policy likelihood ratio and clipped surrogate, repeated minibatch epochs.",
+      "limits": "Original experiments are locomotion/Atari; clipping does not enforce fixed-prior chemistry.",
+      "accessed": "2026-11-04",
+      "local_execution": false
+    },
+    {
+      "id": "R08",
+      "core": true,
+      "title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+      "publication_or_version_date": "2023-05-29; inspected arXiv v3 2024-07-29",
+      "venue_or_status": "NeurIPS 2023 / revised author version",
+      "primary_url": "https://arxiv.org/html/2305.18290v3",
+      "evidence_location": [
+        "§3 Preliminaries",
+        "§4 Direct Preference Optimization",
+        "Appendix A.1–A.2"
+      ],
+      "verified_scope": "Reference-relative pairwise objective derived under reward-optimality/preference assumptions.",
+      "limits": "Original domain is language, not molecular experimental evidence; standard offline training is not an online RL loop.",
+      "accessed": "2026-11-04",
+      "local_execution": false,
+      "official_code_or_docs": [
+        "https://github.com/eric-mitchell/direct-preference-optimization"
+      ]
+    },
+    {
+      "id": "R09",
+      "core": true,
+      "title": "Polypharmacological target-aware molecule generation",
+      "publication_or_version_date": "2026-10-12 publisher; PubMed gives 2026-10-02",
+      "venue_or_status": "Bioinformatics 42(10), btag766",
+      "primary_url": "https://academic.oup.com/bioinformatics/article/42/10/btag766/8911832",
+      "evidence_location": [
+        "§2.1 Network architecture",
+        "§2.3 Direct preference optimization, Eq.3–4",
+        "Discussion/limitations"
+      ],
+      "verified_scope": "ESM3 + NatureLM target-set conditioning; SFT-reference candidates paired by mean Vina/QED; DPO; no antitarget conditioning.",
+      "limits": "Computational docking/proxy results, not wet-lab polypharmacology. Publisher indexed full text read; direct open redirected. Publication date discrepancy preserved.",
+      "accessed": "2026-11-04",
+      "local_execution": false,
+      "official_code_or_docs": [
+        "https://github.com/bjzgcai/PolyTamGen"
+      ],
+      "additional_primary_links": [
+        "https://pubmed.ncbi.nlm.nih.gov/42865030/",
+        "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag766/8911832?rss=1"
+      ]
+    },
+    {
+      "id": "R10",
+      "core": true,
+      "title": "ACEGEN: Reinforcement Learning of Generative Chemical Agents for Drug Discovery",
+      "publication_or_version_date": "2024-08-02 online; inspected arXiv v2 2024-06-03",
+      "venue_or_status": "Journal of Chemical Information and Modeling 64(15):5900–5911, DOI 10.1021/acs.jcim.4c00895",
+      "primary_url": "https://arxiv.org/html/2405.04657v2",
+      "evidence_location": [
+        "§2.4 RL Agents Training",
+        "§3.1 Benchmarking RL performance",
+        "§3.3 Ablation study of REINVENT",
+        "§3.4 case study"
+      ],
+      "verified_scope": "Common TorchRL framework for REINFORCE/REINVENT/AHC/A2C/PPO/replay variants; modular ablations and chemistry-aware evaluation.",
+      "limits": "Do not universalize benchmark ranking; preprint and journal dates distinct; no course-level reproduction performed.",
+      "accessed": "2026-11-04",
+      "local_execution": false,
+      "official_code_or_docs": [
+        "https://github.com/acellera/acegen-open"
+      ],
+      "additional_primary_links": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11581341/"
+      ]
+    },
+    {
+      "id": "R11",
+      "core": true,
+      "title": "Sample Efficiency Matters: A Benchmark for Practical Molecular Optimization",
+      "publication_or_version_date": "2022",
+      "venue_or_status": "NeurIPS 2022 Datasets and Benchmarks",
+      "primary_url": "https://proceedings.nips.cc/paper_files/paper/2022/hash/8644353f7d307baaf29bc1e56fe8e0ec-Abstract-Datasets_and_Benchmarks.html",
+      "evidence_location": [
+        "Paper introduction and benchmark protocol",
+        "Oracle budget and AUC Top-10 definition"
+      ],
+      "verified_scope": "25 methods, 23 scalar tasks, 10,000-oracle evaluation emphasizing sample efficiency.",
+      "limits": "Oracle benchmark, no new biological efficacy validation; local proposal can adopt principles without claiming full PMO reproduction.",
+      "accessed": "2026-11-04",
+      "local_execution": false,
+      "official_code_or_docs": [
+        "https://github.com/wenhao-gao/mol_opt"
+      ],
+      "additional_primary_links": [
+        "https://proceedings.neurips.cc/paper_files/paper/2022/file/8644353f7d307baaf29bc1e56fe8e0ec-Paper-Datasets_and_Benchmarks.pdf"
+      ]
+    },
+    {
+      "id": "R12",
+      "core": true,
+      "title": "Sample-efficient generative molecular design using memory manipulation",
+      "publication_or_version_date": "2026-03-17; antecedent Saturn preprint 2024-05-27",
+      "venue_or_status": "Nature Machine Intelligence 8:449–460; DOI 10.1038/s42256-026-01200-4",
+      "primary_url": "https://doi.org/10.1038/s42256-026-01200-4",
+      "evidence_location": [
+        "Results Part 1: optimization dynamics",
+        "Results docking and DFT sections",
+        "Methods: autoregressive backbone, Augmented Memory and GA"
+      ],
+      "verified_scope": "Saturn Mamba + augmentation/replay; sample-efficiency/diversity tradeoff, compute-based docking and DFT oracles.",
+      "limits": "2024 preprint and 2026 journal version differ in authors/experiments/comparison numbers. Formal primary full text obtained through PMC indexed source; nature direct open redirected. DFT is computational, not wet-lab.",
+      "accessed": "2026-11-04",
+      "local_execution": false,
+      "official_code_or_docs": [
+        "https://github.com/schwallergroup/saturn"
+      ],
+      "additional_primary_links": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13658037/",
+        "https://pubmed.ncbi.nlm.nih.gov/42871027/",
+        "https://arxiv.org/html/2405.17066"
+      ]
+    },
+    {
+      "id": "S01",
+      "core": false,
+      "title": "De Novo Molecular Design Enabled by Direct Preference Optimization and Curriculum Learning",
+      "publication_or_version_date": "2025-04-02 v1",
+      "venue_or_status": "arXiv:2504.01389; a conference preprint copy also located, acceptance not inferred",
+      "primary_url": "https://arxiv.org/html/2504.01389v1",
+      "evidence_location": [
+        "§3.2 DPO for Molecular Optimization",
+        "§4.2 Molecular Generation for High Binding Affinity to Target Proteins"
+      ],
+      "verified_scope": "Molecular-score preference pairs and curriculum; §4.2 uses TDC oracles.",
+      "limits": "Abstract wording about binding experiments does not establish wet-lab assays. Official code not confirmed in inspected text.",
+      "accessed": "2026-11-04",
+      "local_execution": false
+    },
+    {
+      "id": "S02",
+      "core": false,
+      "title": "Aligning Transformers with Continuous Feedback via Energy Rank Alignment",
+      "publication_or_version_date": "2024-05-21 v1; 2025-10-22 v3",
+      "venue_or_status": "arXiv:2405.12961v3",
+      "primary_url": "https://arxiv.org/html/2405.12961v3",
+      "evidence_location": [
+        "Abstract",
+        "Methods and alignment objective"
+      ],
+      "verified_scope": "Explicit continuous feedback alignment with Gibbs-distribution motivation; molecular Transformer applications.",
+      "limits": "Authors state approach does not require RL; no claim of target binding or clinical efficacy.",
+      "accessed": "2026-11-04",
+      "local_execution": false
+    },
+    {
+      "id": "S03",
+      "core": false,
+      "title": "Adopting Reinforcement Learning with Verifiable Rewards for Molecular Generation",
+      "publication_or_version_date": "2026-07-21 v1",
+      "venue_or_status": "arXiv:2607.19044",
+      "primary_url": "https://arxiv.org/html/2607.19044v1",
+      "evidence_location": [
+        "§III Task description and representation",
+        "§IV RLVR and GRPO",
+        "§V experiments"
+      ],
+      "verified_scope": "LLMol simplified SELFIES plus online GRPO, deterministic toolkit rewards; property targeting and similarity constraints.",
+      "limits": "Preprint; target properties are not protein-target conditioning; deterministic score is not experimentally verified activity.",
+      "accessed": "2026-11-04",
+      "local_execution": false
+    },
+    {
+      "id": "S04",
+      "core": false,
+      "title": "Flow Network based Generative Models for Non-Iterative Diverse Candidate Generation",
+      "publication_or_version_date": "2021-06-08 preprint; NeurIPS 2021",
+      "venue_or_status": "NeurIPS 2021",
+      "primary_url": "https://proceedings.neurips.cc/paper_files/paper/2021/file/e614f646836aaed9f89ce58e837e2310-Paper.pdf",
+      "evidence_location": [
+        "Abstract",
+        "Flow consistency objective",
+        "Molecule synthesis domain"
+      ],
+      "verified_scope": "GFlowNet learns reward-proportional sampling and handles multiple construction paths to the same endpoint.",
+      "limits": "Different objective and infrastructure from a simple RL loss swap; not proof of biological usefulness.",
+      "accessed": "2026-11-04",
+      "local_execution": false,
+      "official_code_or_docs": [
+        "https://github.com/GFNOrg/gflownet"
+      ]
+    },
+    {
+      "id": "S05",
+      "core": false,
+      "title": "TamGen: drug design with target-aware molecule generation through a chemical language model",
+      "publication_or_version_date": "2024",
+      "venue_or_status": "Nature Communications; DOI 10.1038/s41467-024-53632-4",
+      "primary_url": "https://www.nature.com/articles/s41467-024-53632-4",
+      "evidence_location": [
+        "TamGen enables target-aware compound design and refinement"
+      ],
+      "verified_scope": "Anchor architecture: compound decoder, protein pocket encoder, contextual encoder; details delegated to anchor audit.",
+      "limits": "Only architecture bridge summarized here. No reproduction or claim that public inference loop already exposes RL training interfaces.",
+      "accessed": "2026-11-04",
+      "local_execution": false
+    },
+    {
+      "id": "S06",
+      "core": false,
+      "title": "Hit and Lead Discovery with Explorative RL and Fragment-based Molecule Generation",
+      "publication_or_version_date": "2021",
+      "venue_or_status": "NeurIPS 2021",
+      "primary_url": "https://proceedings.neurips.cc/paper/2021/file/41da609c519d77b29be442f8c1105647-Paper.pdf",
+      "evidence_location": [
+        "§2–3 fragment generation and SAC/PER",
+        "Fig.1"
+      ],
+      "verified_scope": "FREED fragment attachment with SAC and predictive-error prioritized replay; docking reward.",
+      "limits": "Docking proxy, not experimentally established potency of generated molecules.",
+      "official_code_or_docs": [
+        "https://github.com/AITRICS/FREED"
+      ],
+      "accessed": "2026-11-04",
+      "local_execution": false
+    },
+    {
+      "id": "S07",
+      "core": false,
+      "title": "FREED++: Improving RL Agents for Fragment-Based Molecule Generation by Thorough Reproduction",
+      "publication_or_version_date": "TMLR PDF marked 12/2023; arXiv v1 2024-01-18",
+      "venue_or_status": "Transactions on Machine Learning Research; inspected author arXiv v1 and official code",
+      "primary_url": "https://arxiv.org/html/2401.09840v1",
+      "additional_primary_links": [
+        "https://openreview.net/pdf?id=YVPb6tyRJu"
+      ],
+      "evidence_location": [
+        "§3 MDP/state/action/critic",
+        "§4 Fixing FREED",
+        "§5.2 fragment libraries",
+        "§5.3 USP7"
+      ],
+      "verified_scope": "SAC implementation and protocol audit, corrective reproduction, fragment library sensitivity.",
+      "limits": "USP7 generated candidates have computational analysis, not new measured inhibition. OpenReview forum returned challenge; PDF header date recorded separately.",
+      "official_code_or_docs": [
+        "https://github.com/AIRI-Institute/FFREED"
+      ],
+      "accessed": "2026-11-04",
+      "local_execution": false
+    }
+  ]
+}

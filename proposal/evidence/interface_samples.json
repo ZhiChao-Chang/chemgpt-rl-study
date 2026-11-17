@@ -1,0 +1,322 @@
+[
+  {
+    "sample": 0,
+    "natural_sep": true,
+    "raw_wordpiece_decode": "[C] [C] [=C] [C] [=C] [C] [=C] [Ring1] [Branch1_2] [C] [S] [C] [=N] [N] [=C] [Branch1_1] [C] [C] [N] [Ring1] [Branch1_2] [C] [C] [C] [=C] [C] [=C] [C] [=C] [Ring1] [Branch1_2]",
+    "selfies": "[C][C][=C][C][=C][C][=C][Ring1][Branch1_2][C][S][C][=N][N][=C][Branch1_1][C][C][N][Ring1][Branch1_2][C][C][C][=C][C][=C][C][=C][Ring1][Branch1_2]",
+    "smiles": "CC1=CC=CC=C1CSC2=NN=C(C)N2CCC3=CC=CC=C3",
+    "valid_connected": true,
+    "canonical": "Cc1ccccc1CSc1nnc(C)n1CCc1ccccc1",
+    "error": null
+  },
+  {
+    "sample": 1,
+    "natural_sep": true,
+    "raw_wordpiece_decode": "[C] [C] [Branch1_1] [C] [NH3+expl] [C] [=C] [N] [Branch1_1] [Branch2_2] [C] [C] [C] [O] [C] [Ring1] [Branch1_1] [C] [N] [=N] [Ring1] [O]",
+    "selfies": "[C][C][Branch1_1][C][NH3+expl][C][=C][N][Branch1_1][Branch2_2][C][C][C][O][C][Ring1][Branch1_1][C][N][=N][Ring1][O]",
+    "smiles": "CC([NH3+])C2=CN(C1CCOC1C)N=N2",
+    "valid_connected": true,
+    "canonical": "CC([NH3+])c1cn(C2CCOC2C)nn1",
+    "error": null
+  },
+  {
+    "sample": 2,
+    "natural_sep": true,
+    "raw_wordpiece_decode": "[C] [C] [C] [NH+expl] [Branch1_1] [Branch1_3] [C] [C] [Branch1_2] [C] [=O] [O-expl] [C] [C] [Branch1_2] [C] [=O] [N] [C] [Branch1_2] [C] [=O] [N] [C]",
+    "selfies": "[C][C][C][NH+expl][Branch1_1][Branch1_3][C][C][Branch1_2][C][=O][O-expl][C][C][Branch1_2][C][=O][N][C][Branch1_2][C][=O][N][C]",
+    "smiles": "CCC[NH+](CC(=O)[O-])CC(=O)NC(=O)NC",
+    "valid_connected": true,
+    "canonical": "CCC[NH+](CC(=O)[O-])CC(=O)NC(=O)NC",
+    "error": null
+  },
+  {
+    "sample": 3,
+    "natural_sep": true,
+    "raw_wordpiece_decode": "[O] [C] [C] [O] [C] [C] [NH2+expl] [C] [C] [C] [Branch1_1] [Branch1_2] [C] [C] [C] [Ring1] [Ring1] [C] [Ring1] [Branch2_1]",
+    "selfies": "[O][C][C][O][C][C][NH2+expl][C][C][C][Branch1_1][Branch1_2][C][C][C][Ring1][Ring1][C][Ring1][Branch2_1]",
+    "smiles": "OCCOCC[NH2+]CCC(C1CC1)C",
+    "valid_connected": true,
+    "canonical": "CC(CC[NH2+]CCOCCO)C1CC1",
+    "error": null
+  },
+  {
+    "sample": 4,
+    "natural_sep": true,
+    "raw_wordpiece_decode": "[C] [C] [=C] [C] [=C] [Branch2_1] [Ring1] [#C] [C] [Branch1_2] [C] [=O] [N] [C] [C] [C] [C] [Branch1_1] [P] [C] [Branch1_2] [C] [=O] [N] [C] [=C] [C] [=C] [Branch1_1] [C] [Br] [N] [=C] [Ring1] [Branch1_3] [C] [Ring1] [S] [C] [=C] [Ring2] [Ring1] [Branch2_1]",
+    "selfies": "[C][C][=C][C][=C][Branch2_1][Ring1][#C][C][Branch1_2][C][=O][N][C][C][C][C][Branch1_1][P][C][Branch1_2][C][=O][N][C][=C][C][=C][Branch1_1][C][Br][N][=C][Ring1][Branch1_3][C][Ring1][S][C][=C][Ring2][Ring1][Branch2_1]",
+    "smiles": "CC3=CC=C(C(=O)N2CCCC(C(=O)NC1=CC=C(Br)N=C1)C2)C=C3",
+    "valid_connected": true,
+    "canonical": "Cc1ccc(C(=O)N2CCCC(C(=O)Nc3ccc(Br)nc3)C2)cc1",
+    "error": null
+  },
+  {
+    "sample": 5,
+    "natural_sep": true,
+    "raw_wordpiece_decode": "[C] [N] [Branch1_1] [C] [C] [C] [=C] [C] [=C] [Branch2_1] [Ring1] [C] [C] [Branch1_2] [C] [=O] [C] [Branch1_1] [C] [NH3+expl] [C] [C] [=C] [C] [=C] [C] [=C] [Ring1] [Branch1_2] [C] [=C] [Ring1] [P]",
+    "selfies": "[C][N][Branch1_1][C][C][C][=C][C][=C][Branch2_1][Ring1][C][C][Branch1_2][C][=O][C][Branch1_1][C][NH3+expl][C][C][=C][C][=C][C][=C][Ring1][Branch1_2][C][=C][Ring1][P]",
+    "smiles": "CN(C)C2=CC=C(C(=O)C([NH3+])CC1=CC=CC=C1)C=C2",
+    "valid_connected": true,
+    "canonical": "CN(C)c1ccc(C(=O)C([NH3+])Cc2ccccc2)cc1",
+    "error": null
+  },
+  {
+    "sample": 6,
+    "natural_sep": true,
+    "raw_wordpiece_decode": "[NH3+expl] [C] [C] [C] [Branch1_1] [C] [O] [C] [O] [C] [C] [=C] [C] [O] [N] [=N] [C] [Expl=Ring1] [Branch1_1] [C] [Expl=Ring1] [Branch2_2]",
+    "selfies": "[NH3+expl][C][C][C][Branch1_1][C][O][C][O][C][C][=C][C][O][N][=N][C][Expl=Ring1][Branch1_1][C][Expl=Ring1][Branch2_2]",
+    "smiles": "[NH3+]CCC(O)COC=2C=CC=1ON=NC=1C=2",
+    "valid_connected": true,
+    "canonical": "[NH3+]CCC(O)COc1ccc2onnc2c1",
+    "error": null
+  },
+  {
+    "sample": 7,
+    "natural_sep": true,
+    "raw_wordpiece_decode": "[C] [C] [=C] [C] [=C] [Branch2_1] [Ring2] [Branch2_2] [C] [=C] [NH+expl] [=C] [C] [Branch2_1] [Ring1] [Ring1] [N] [C] [Branch1_2] [C] [=O] [C] [=C] [C] [Branch1_1] [C] [F] [=C] [C] [=C] [Ring1] [Branch1_3] [O] [C] [=C] [C] [=C] [Ring2] [Ring1] [C] [N] [Ring2] [Ring1] [Branch1_1] [C] [Ring2] [Ring1] [Branch1_3] [C] [Branch1_1] [C] [F] [=C] [Ring2] [Ring1] [=N] [F]",
+    "selfies": "[C][C][=C][C][=C][Branch2_1][Ring2][Branch2_2][C][=C][NH+expl][=C][C][Branch2_1][Ring1][Ring1][N][C][Branch1_2][C][=O][C][=C][C][Branch1_1][C][F][=C][C][=C][Ring1][Branch1_3][O][C][=C][C][=C][Ring2][Ring1][C][N][Ring2][Ring1][Branch1_1][C][Ring2][Ring1][Branch1_3][C][Branch1_1][C][F][=C][Ring2][Ring1][=N][F]",
+    "smiles": "CC3=CC=C(C2=C[NH+]=CC(NC(=O)C1=CC(F)=CC=C1OC)=CC=CN2C)C(F)=C3F",
+    "valid_connected": true,
+    "canonical": "COc1ccc(F)cc1C(=O)Nc1cccn(C)c(-c2ccc(C)c(F)c2F)c[nH+]c1",
+    "error": null
+  },
+  {
+    "sample": 8,
+    "natural_sep": true,
+    "raw_wordpiece_decode": "[C] [C] [O] [C] [C] [=N] [S] [C] [Branch2_1] [Ring1] [C] [N] [C] [C] [O] [C] [Branch1_1] [Branch2_1] [C] [C] [Branch1_2] [C] [=O] [O] [C] [C] [Ring1] [O] [=N] [Ring1] [S]",
+    "selfies": "[C][C][O][C][C][=N][S][C][Branch2_1][Ring1][C][N][C][C][O][C][Branch1_1][Branch2_1][C][C][Branch1_2][C][=O][O][C][C][Ring1][O][=N][Ring1][S]",
+    "smiles": "CCOCC2=NSC(N1CCOC(CC(=O)OC)C1)=N2",
+    "valid_connected": true,
+    "canonical": "CCOCc1nsc(N2CCOC(CC(=O)OC)C2)n1",
+    "error": null
+  },
+  {
+    "sample": 9,
+    "natural_sep": true,
+    "raw_wordpiece_decode": "[C] [N] [C] [=C] [C] [=C] [C] [Branch2_1] [Ring2] [C] [C] [=C] [C] [Branch1_1] [Branch2_3] [O] [C] [=C] [C] [=C] [C] [=C] [Ring1] [Branch1_2] [=C] [C] [=C] [Ring1] [=N] [O] [S] [Branch1_2] [C] [=O] [Branch1_2] [C] [=O] [N] [Ring1] [Branch2_1] [C] [C] [O] [=N] [Ring2] [Ring1] [O]",
+    "selfies": "[C][N][C][=C][C][=C][C][Branch2_1][Ring2][C][C][=C][C][Branch1_1][Branch2_3][O][C][=C][C][=C][C][=C][Ring1][Branch1_2][=C][C][=C][Ring1][=N][O][S][Branch1_2][C][=O][Branch1_2][C][=O][N][Ring1][Branch2_1][C][C][O][=N][Ring2][Ring1][O]",
+    "smiles": "CNC4=CC=CC(C2=CC(OC1=CC=CC=C1)=C3C=C2OS(=O)(=O)N3CCO)=N4",
+    "valid_connected": true,
+    "canonical": "CNc1cccc(-c2cc(Oc3ccccc3)c3cc2OS(=O)(=O)N3CCO)n1",
+    "error": null
+  },
+  {
+    "sample": 10,
+    "natural_sep": true,
+    "raw_wordpiece_decode": "[C] [C] [O] [C] [Branch1_2] [C] [=O] [C] [C] [C] [N] [C] [=C] [C] [Branch1_1] [Ring1] [C] [#N] [=C] [C] [=C] [Ring1] [Branch2_1] [O] [C]",
+    "selfies": "[C][C][O][C][Branch1_2][C][=O][C][C][C][N][C][=C][C][Branch1_1][Ring1][C][#N][=C][C][=C][Ring1][Branch2_1][O][C]",
+    "smiles": "CCOC(=O)CCCNC1=CC(C#N)=CC=C1OC",
+    "valid_connected": true,
+    "canonical": "CCOC(=O)CCCNc1cc(C#N)ccc1OC",
+    "error": null
+  },
+  {
+    "sample": 11,
+    "natural_sep": true,
+    "raw_wordpiece_decode": "[C] [O] [C] [=C] [C] [=C] [Branch1_1] [C] [F] [C] [=C] [Ring1] [Branch1_3] [C] [=C] [C] [=N] [C] [=C] [Ring1] [Branch1_2]",
+    "selfies": "[C][O][C][=C][C][=C][Branch1_1][C][F][C][=C][Ring1][Branch1_3][C][=C][C][=N][C][=C][Ring1][Branch1_2]",
+    "smiles": "COC1=CC=C(F)C=C1C2=CC=NC=C2",
+    "valid_connected": true,
+    "canonical": "COc1ccc(F)cc1-c1ccncc1",
+    "error": null
+  },
+  {
+    "sample": 12,
+    "natural_sep": true,
+    "raw_wordpiece_decode": "[C] [C] [Branch1_1] [C] [C] [Branch1_1] [C] [C] [C] [Branch1_2] [C] [=O] [C] [C] [Branch2_1] [Ring1] [Branch1_1] [N] [S] [Branch1_2] [C] [=O] [Branch1_2] [C] [=O] [C] [=C] [C] [=C] [C] [Branch1_1] [Ring1] [C] [#N] [=C] [Ring1] [Branch2_1] [C] [=C] [C] [=C] [C] [=C] [Ring1] [Branch1_2]",
+    "selfies": "[C][C][Branch1_1][C][C][Branch1_1][C][C][C][Branch1_2][C][=O][C][C][Branch2_1][Ring1][Branch1_1][N][S][Branch1_2][C][=O][Branch1_2][C][=O][C][=C][C][=C][C][Branch1_1][Ring1][C][#N][=C][Ring1][Branch2_1][C][=C][C][=C][C][=C][Ring1][Branch1_2]",
+    "smiles": "CC(C)(C)C(=O)CC(NS(=O)(=O)C1=CC=CC(C#N)=C1)C2=CC=CC=C2",
+    "valid_connected": true,
+    "canonical": "CC(C)(C)C(=O)CC(NS(=O)(=O)c1cccc(C#N)c1)c1ccccc1",
+    "error": null
+  },
+  {
+    "sample": 13,
+    "natural_sep": true,
+    "raw_wordpiece_decode": "[C] [C] [=N] [N] [Branch1_1] [C] [C] [C] [Branch1_1] [Branch2_2] [C] [Branch1_1] [C] [F] [Branch1_1] [C] [F] [F] [=C] [Ring1] [Branch2_3] [C] [NH2+expl] [C] [C] [=C] [C] [=C] [Branch1_1] [Branch2_3] [C] [=C] [C] [=C] [C] [=C] [Ring1] [Branch1_2] [F] [S] [Ring1] [N]",
+    "selfies": "[C][C][=N][N][Branch1_1][C][C][C][Branch1_1][Branch2_2][C][Branch1_1][C][F][Branch1_1][C][F][F][=C][Ring1][Branch2_3][C][NH2+expl][C][C][=C][C][=C][Branch1_1][Branch2_3][C][=C][C][=C][C][=C][Ring1][Branch1_2][F][S][Ring1][N]",
+    "smiles": "CC1=NN(C)C(C(F)(F)F)=C1C[NH2+]CC3=CC=C(C2=CC=CC=C2F)S3",
+    "valid_connected": true,
+    "canonical": "Cc1nn(C)c(C(F)(F)F)c1C[NH2+]Cc1ccc(-c2ccccc2F)s1",
+    "error": null
+  },
+  {
+    "sample": 14,
+    "natural_sep": true,
+    "raw_wordpiece_decode": "[C] [C] [Branch2_1] [Ring1] [Ring2] [N] [C] [Branch1_2] [C] [=O] [C] [C] [=C] [Branch1_1] [Branch1_2] [C] [C] [C] [Ring1] [Ring1] [O] [N] [Expl=Ring1] [Branch2_1] [C] [Branch1_1] [C] [C] [Branch1_1] [C] [C] [NH3+expl]",
+    "selfies": "[C][C][Branch2_1][Ring1][Ring2][N][C][Branch1_2][C][=O][C][C][=C][Branch1_1][Branch1_2][C][C][C][Ring1][Ring1][O][N][Expl=Ring1][Branch2_1][C][Branch1_1][C][C][Branch1_1][C][C][NH3+expl]",
+    "smiles": "CC(NC(=O)C=2C=C(C1CC1)ON=2)C(C)(C)[NH3+]",
+    "valid_connected": true,
+    "canonical": "CC(NC(=O)c1cc(C2CC2)on1)C(C)(C)[NH3+]",
+    "error": null
+  },
+  {
+    "sample": 15,
+    "natural_sep": true,
+    "raw_wordpiece_decode": "[C] [C] [C] [O] [C] [=C] [C] [=C] [C] [=C] [Ring1] [Branch1_2] [N] [C] [Branch1_2] [C] [=O] [C] [Branch1_1] [C] [O] [=C] [Branch1_1] [=N] [C] [=C] [C] [=C] [Branch1_1] [C] [Cl] [C] [=C] [Ring1] [Branch1_3] [Cl] [C] [Ring1] [#C] [C] [=C] [C] [=C] [Branch1_1] [C] [O] [C] [Branch1_1] [C] [O] [=C] [Ring1] [Branch2_1]",
+    "selfies": "[C][C][C][O][C][=C][C][=C][C][=C][Ring1][Branch1_2][N][C][Branch1_2][C][=O][C][Branch1_1][C][O][=C][Branch1_1][=N][C][=C][C][=C][Branch1_1][C][Cl][C][=C][Ring1][Branch1_3][Cl][C][Ring1][#C][C][=C][C][=C][Branch1_1][C][O][C][Branch1_1][C][O][=C][Ring1][Branch2_1]",
+    "smiles": "CCCOC1=CC=CC=C1N3C(=O)C(O)=C(C2=CC=C(Cl)C=C2Cl)C3C4=CC=C(O)C(O)=C4",
+    "valid_connected": true,
+    "canonical": "CCCOc1ccccc1N1C(=O)C(O)=C(c2ccc(Cl)cc2Cl)C1c1ccc(O)c(O)c1",
+    "error": null
+  },
+  {
+    "sample": 16,
+    "natural_sep": true,
+    "raw_wordpiece_decode": "[C] [C] [C] [C] [N] [C] [Branch1_2] [C] [=O] [C] [Branch1_1] [C] [C] [NH+expl] [Branch1_1] [C] [C] [C] [C] [Branch1_1] [C] [C] [Branch1_1] [C] [C] [O]",
+    "selfies": "[C][C][C][C][N][C][Branch1_2][C][=O][C][Branch1_1][C][C][NH+expl][Branch1_1][C][C][C][C][Branch1_1][C][C][Branch1_1][C][C][O]",
+    "smiles": "CCCCNC(=O)C(C)[NH+](C)CC(C)(C)O",
+    "valid_connected": true,
+    "canonical": "CCCCNC(=O)C(C)[NH+](C)CC(C)(C)O",
+    "error": null
+  },
+  {
+    "sample": 17,
+    "natural_sep": true,
+    "raw_wordpiece_decode": "[C] [C] [C] [=C] [C] [=C] [Branch2_1] [Ring1] [O] [C] [Branch1_1] [C] [C] [Branch1_1] [C] [C] [C] [=C] [C] [=C] [Branch1_1] [Branch2_3] [O] [C] [Branch1_1] [C] [F] [Branch1_1] [C] [F] [F] [C] [=C] [Ring1] [O] [C] [Branch1_1] [=C] [O] [C] [=C] [C] [=C] [C] [Branch1_1] [C] [C] [=C] [Ring1] [Branch1_3] [F] [=C] [Ring2] [Ring1] [=N]",
+    "selfies": "[C][C][C][=C][C][=C][Branch2_1][Ring1][O][C][Branch1_1][C][C][Branch1_1][C][C][C][=C][C][=C][Branch1_1][Branch2_3][O][C][Branch1_1][C][F][Branch1_1][C][F][F][C][=C][Ring1][O][C][Branch1_1][=C][O][C][=C][C][=C][C][Branch1_1][C][C][=C][Ring1][Branch1_3][F][=C][Ring2][Ring1][=N]",
+    "smiles": "CCC3=CC=C(C(C)(C)C1=CC=C(OC(F)(F)F)C=C1)C(OC2=CC=CC(C)=C2F)=C3",
+    "valid_connected": true,
+    "canonical": "CCc1ccc(C(C)(C)c2ccc(OC(F)(F)F)cc2)c(Oc2cccc(C)c2F)c1",
+    "error": null
+  },
+  {
+    "sample": 18,
+    "natural_sep": true,
+    "raw_wordpiece_decode": "[C] [NH+expl] [C] [C] [N] [Branch2_1] [Ring2] [P] [C] [Branch1_2] [C] [=O] [C] [C] [=C] [C] [=C] [C] [=C] [Ring1] [Branch1_2] [N] [C] [=C] [C] [Branch2_1] [Ring1] [Branch2_1] [C] [=C] [Branch1_1] [Branch1_2] [C] [Branch1_1] [C] [N] [=O] [S] [Branch1_2] [C] [=O] [Branch1_2] [C] [=O] [C] [Branch1_1] [C] [F] [Branch1_1] [C] [F] [F] [=C] [Ring1] [P] [F] [C] [C] [Ring2] [Ring1] [P]",
+    "selfies": "[C][NH+expl][C][C][N][Branch2_1][Ring2][P][C][Branch1_2][C][=O][C][C][=C][C][=C][C][=C][Ring1][Branch1_2][N][C][=C][C][Branch2_1][Ring1][Branch2_1][C][=C][Branch1_1][Branch1_2][C][Branch1_1][C][N][=O][S][Branch1_2][C][=O][Branch1_2][C][=O][C][Branch1_1][C][F][Branch1_1][C][F][F][=C][Ring1][P][F][C][C][Ring2][Ring1][P]",
+    "smiles": "C2[NH+]CCN(C(=O)CC1=CC=CC=C1NC=CC(C=C(C(N)=O)S(=O)(=O)C(F)(F))F)CC2",
+    "valid_connected": true,
+    "canonical": "NC(=O)C(=CC(F)C=CNc1ccccc1CC(=O)N1CCC[NH+]CC1)S(=O)(=O)C(F)F",
+    "error": null
+  },
+  {
+    "sample": 19,
+    "natural_sep": true,
+    "raw_wordpiece_decode": "[C] [C] [C] [C] [Branch1_1] [C] [C] [Branch1_1] [C] [NH3+expl] [C] [Branch1_2] [C] [=O] [N] [C] [C] [=C] [Branch1_1] [Ring1] [O] [C] [C] [=C] [Branch1_1] [#C] [C] [=N] [C] [Branch1_1] [Branch1_2] [C] [Branch1_1] [C] [C] [C] [=N] [O] [Ring1] [Branch2_1] [C] [Expl=Ring1] [S]",
+    "selfies": "[C][C][C][C][Branch1_1][C][C][Branch1_1][C][NH3+expl][C][Branch1_2][C][=O][N][C][C][=C][Branch1_1][Ring1][O][C][C][=C][Branch1_1][#C][C][=N][C][Branch1_1][Branch1_2][C][Branch1_1][C][C][C][=N][O][Ring1][Branch2_1][C][Expl=Ring1][S]",
+    "smiles": "CCCC(C)([NH3+])C(=O)NC=2C=C(OC)C=C(C1=NC(C(C)C)=NO1)C=2",
+    "valid_connected": true,
+    "canonical": "CCCC(C)([NH3+])C(=O)Nc1cc(OC)cc(-c2nc(C(C)C)no2)c1",
+    "error": null
+  },
+  {
+    "sample": 20,
+    "natural_sep": true,
+    "raw_wordpiece_decode": "[C] [C] [=C] [C] [=C] [Branch1_1] [C] [C] [C] [Branch2_1] [Ring1] [=C] [C] [Branch1_1] [C] [C] [N] [C] [Branch1_2] [C] [=O] [C] [C] [N] [C] [Branch1_2] [C] [=O] [N] [Branch1_1] [C] [C] [C] [C] [=C] [C] [=C] [C] [=C] [Ring1] [Branch1_2] [=C] [Ring2] [Ring1] [Branch2_3]",
+    "selfies": "[C][C][=C][C][=C][Branch1_1][C][C][C][Branch2_1][Ring1][=C][C][Branch1_1][C][C][N][C][Branch1_2][C][=O][C][C][N][C][Branch1_2][C][=O][N][Branch1_1][C][C][C][C][=C][C][=C][C][=C][Ring1][Branch1_2][=C][Ring2][Ring1][Branch2_3]",
+    "smiles": "CC2=CC=C(C)C(C(C)NC(=O)CCNC(=O)N(C)CC1=CC=CC=C1)=C2",
+    "valid_connected": true,
+    "canonical": "Cc1ccc(C)c(C(C)NC(=O)CCNC(=O)N(C)Cc2ccccc2)c1",
+    "error": null
+  },
+  {
+    "sample": 21,
+    "natural_sep": true,
+    "raw_wordpiece_decode": "[C] [C] [C] [Branch1_1] [C] [C] [N] [C] [Branch1_2] [C] [=O] [C] [=C] [C] [=C] [Branch1_1] [C] [C] [C] [Branch2_1] [Branch1_1] [C] [N] [C] [Branch1_2] [C] [=O] [C] [Branch1_1] [C] [C] [NH+expl] [C] [C] [C] [Branch2_1] [Ring1] [=N] [C] [Branch1_2] [C] [=O] [N] [C] [C] [C] [C] [Ring1] [Branch1_1] [C] [Branch1_2] [C] [=O] [N] [C] [=C] [C] [=C] [C] [Branch1_1] [C] [Cl] [=C] [Ring1] [Branch1_3] [C] [C] [C] [Ring2] [Ring1] [Branch2_1] [=C] [Ring2] [Ring2] [Ring2]",
+    "selfies": "[C][C][C][Branch1_1][C][C][N][C][Branch1_2][C][=O][C][=C][C][=C][Branch1_1][C][C][C][Branch2_1][Branch1_1][C][N][C][Branch1_2][C][=O][C][Branch1_1][C][C][NH+expl][C][C][C][Branch2_1][Ring1][=N][C][Branch1_2][C][=O][N][C][C][C][C][Ring1][Branch1_1][C][Branch1_2][C][=O][N][C][=C][C][=C][C][Branch1_1][C][Cl][=C][Ring1][Branch1_3][C][C][C][Ring2][Ring1][Branch2_1][=C][Ring2][Ring2][Ring2]",
+    "smiles": "CCC(C)NC(=O)C4=CC=C(C)C(NC(=O)C(C)[NH+]3CCC(C(=O)N1CCCC1C(=O)NC2=CC=CC(Cl)=C2C)CC3)=C4",
+    "valid_connected": true,
+    "canonical": "CCC(C)NC(=O)c1ccc(C)c(NC(=O)C(C)[NH+]2CCC(C(=O)N3CCCC3C(=O)Nc3cccc(Cl)c3C)CC2)c1",
+    "error": null
+  },
+  {
+    "sample": 22,
+    "natural_sep": true,
+    "raw_wordpiece_decode": "[C] [C] [N] [C] [=C] [Branch1_1] [=C] [N] [C] [C] [C] [N] [C] [Branch1_2] [C] [=O] [C] [Ring1] [Branch2_1] [C] [C] [=N] [Ring1] [=C]",
+    "selfies": "[C][C][N][C][=C][Branch1_1][=C][N][C][C][C][N][C][Branch1_2][C][=O][C][Ring1][Branch2_1][C][C][=N][Ring1][=C]",
+    "smiles": "CCN2C=C(N1CCCNC(=O)C1C)C=N2",
+    "valid_connected": true,
+    "canonical": "CCn1cc(N2CCCNC(=O)C2C)cn1",
+    "error": null
+  },
+  {
+    "sample": 23,
+    "natural_sep": true,
+    "raw_wordpiece_decode": "[NH3+expl] [C] [Branch2_1] [Ring2] [=C] [C] [C] [=C] [Branch1_1] [C] [NH3+expl] [C] [=C] [C] [=C] [Branch1_1] [C] [F] [C] [=C] [Ring1] [Branch1_3] [C] [=C] [Branch1_1] [Branch2_2] [C] [=C] [C] [=C] [Ring1] [Branch1_2] [Ring1] [S] [C] [=N] [C] [=C] [C] [=C] [Ring1] [Branch1_2] [C] [Ring1] [=C] [C] [C] [C] [O] [Ring1] [Ring1] [C] [Branch1_2] [C] [=O] [N] [C] [C] [Branch1_2] [C] [=O] [N] [C] [C] [C] [=O]",
+    "selfies": "[NH3+expl][C][Branch2_1][Ring2][=C][C][C][=C][Branch1_1][C][NH3+expl][C][=C][C][=C][Branch1_1][C][F][C][=C][Ring1][Branch1_3][C][=C][Branch1_1][Branch2_2][C][=C][C][=C][Ring1][Branch1_2][Ring1][S][C][=N][C][=C][C][=C][Ring1][Branch1_2][C][Ring1][=C][C][C][C][O][Ring1][Ring1][C][Branch1_2][C][=O][N][C][C][Branch1_2][C][=O][N][C][C][C][=O]",
+    "smiles": "[NH3+]C(CC3=C([NH3+])C1=CC=C(F)C=C1C2=C(C=CC=C23)C4=NC=CC=C4CCCC=O)(O)NCC(=O)NCCC=O",
+    "valid_connected": true,
+    "canonical": "[NH3+]c1c(CC([NH3+])(O)NCC(=O)NCCC=O)c2cccc(-c3ncccc3CCCC=O)c2c2cc(F)ccc12",
+    "error": null
+  },
+  {
+    "sample": 24,
+    "natural_sep": true,
+    "raw_wordpiece_decode": "[C] [C] [=C] [C] [=C] [Branch2_1] [Ring2] [Branch2_2] [C] [=C] [C] [=N] [C] [=C] [Branch2_1] [Ring1] [Branch1_2] [C] [Branch1_2] [C] [=O] [N] [C] [C] [C] [Branch1_1] [C] [C] [C] [C] [Ring1] [Branch1_3] [C] [C] [NH2+expl] [C] [Ring1] [Branch1_1] [C] [=N] [N] [Ring2] [Ring1] [C] [C] [Ring2] [Ring1] [Branch1_3] [C] [=C] [Ring2] [Ring1] [=N]",
+    "selfies": "[C][C][=C][C][=C][Branch2_1][Ring2][Branch2_2][C][=C][C][=N][C][=C][Branch2_1][Ring1][Branch1_2][C][Branch1_2][C][=O][N][C][C][C][Branch1_1][C][C][C][C][Ring1][Branch1_3][C][C][NH2+expl][C][Ring1][Branch1_1][C][=N][N][Ring2][Ring1][C][C][Ring2][Ring1][Branch1_3][C][=C][Ring2][Ring1][=N]",
+    "smiles": "CC5=CC=C(C4=CC=NC3=C(C(=O)N1CCC(C)CC12CC[NH2+]C2)C=NN3C4)C=C5",
+    "valid_connected": true,
+    "canonical": "Cc1ccc(C2=CC=Nc3c(C(=O)N4CCC(C)CC45CC[NH2+]C5)cnn3C2)cc1",
+    "error": null
+  },
+  {
+    "sample": 25,
+    "natural_sep": true,
+    "raw_wordpiece_decode": "[C] [C] [=C] [C] [=C] [Branch1_1] [C] [Cl] [C] [Branch2_1] [Ring1] [Ring2] [N] [C] [Branch1_2] [C] [=O] [N] [C] [C] [C] [C] [C] [Ring1] [Branch1_2] [C] [C] [Branch1_2] [C] [=O] [O-expl] [=C] [Ring2] [Ring1] [Ring2]",
+    "selfies": "[C][C][=C][C][=C][Branch1_1][C][Cl][C][Branch2_1][Ring1][Ring2][N][C][Branch1_2][C][=O][N][C][C][C][C][C][Ring1][Branch1_2][C][C][Branch1_2][C][=O][O-expl][=C][Ring2][Ring1][Ring2]",
+    "smiles": "CC2=CC=C(Cl)C(NC(=O)N1CCCCC1CC(=O)[O-])=C2",
+    "valid_connected": true,
+    "canonical": "Cc1ccc(Cl)c(NC(=O)N2CCCCC2CC(=O)[O-])c1",
+    "error": null
+  },
+  {
+    "sample": 26,
+    "natural_sep": true,
+    "raw_wordpiece_decode": "[C] [C] [O] [C] [Branch1_2] [C] [=O] [C] [C] [=N] [C] [=C] [Branch1_1] [C] [Br] [C] [Branch1_1] [C] [Cl] [=N] [Ring1] [Branch2_1]",
+    "selfies": "[C][C][O][C][Branch1_2][C][=O][C][C][=N][C][=C][Branch1_1][C][Br][C][Branch1_1][C][Cl][=N][Ring1][Branch2_1]",
+    "smiles": "CCOC(=O)CC1=NC=C(Br)C(Cl)=N1",
+    "valid_connected": true,
+    "canonical": "CCOC(=O)Cc1ncc(Br)c(Cl)n1",
+    "error": null
+  },
+  {
+    "sample": 27,
+    "natural_sep": true,
+    "raw_wordpiece_decode": "[C] [N] [C] [=C] [C] [Branch1_1] [C] [C] [=C] [C] [=C] [Ring1] [Branch1_3] [C] [Branch1_2] [C] [=O] [N] [C] [C] [C] [C] [Ring1] [Branch1_1] [C] [C] [O]",
+    "selfies": "[C][N][C][=C][C][Branch1_1][C][C][=C][C][=C][Ring1][Branch1_3][C][Branch1_2][C][=O][N][C][C][C][C][Ring1][Branch1_1][C][C][O]",
+    "smiles": "CNC1=CC(C)=CC=C1C(=O)N2CCCC2CCO",
+    "valid_connected": true,
+    "canonical": "CNc1cc(C)ccc1C(=O)N1CCCC1CCO",
+    "error": null
+  },
+  {
+    "sample": 28,
+    "natural_sep": true,
+    "raw_wordpiece_decode": "[N-expl] [C] [Branch1_2] [C] [=O] [Branch1_2] [C] [=O] [N] [C] [=C] [Branch1_1] [C] [F] [C] [=C] [Branch1_1] [C] [F] [C] [Branch1_1] [C] [F] [=C] [Ring1] [Branch2_2] [F]",
+    "selfies": "[N-expl][C][Branch1_2][C][=O][Branch1_2][C][=O][N][C][=C][Branch1_1][C][F][C][=C][Branch1_1][C][F][C][Branch1_1][C][F][=C][Ring1][Branch2_2][F]",
+    "smiles": "[N-]C(=O)C=O",
+    "valid_connected": true,
+    "canonical": "[N-]C(=O)C=O",
+    "error": null
+  },
+  {
+    "sample": 29,
+    "natural_sep": true,
+    "raw_wordpiece_decode": "[O] [=C] [Branch2_1] [Ring1] [Branch1_3] [C] [C] [C] [N] [Branch1_1] [=N] [C] [Branch1_2] [C] [=O] [C] [=C] [C] [=C] [C] [=C] [Ring1] [Branch1_2] [C] [C] [Ring1] [=C] [N] [C] [C] [C] [C] [C] [C] [C] [C] [C] [Ring1] [Branch1_2] [Ring1] [Branch2_3]",
+    "selfies": "[O][=C][Branch2_1][Ring1][Branch1_3][C][C][C][N][Branch1_1][=N][C][Branch1_2][C][=O][C][=C][C][=C][C][=C][Ring1][Branch1_2][C][C][Ring1][=C][N][C][C][C][C][C][C][C][C][C][Ring1][Branch1_2][Ring1][Branch2_3]",
+    "smiles": "O=C(C2CCN(C(=O)C1=CC=CC=C1)CC2)N4CCCC3CCCCC34",
+    "valid_connected": true,
+    "canonical": "O=C(c1ccccc1)N1CCC(C(=O)N2CCCC3CCCCC32)CC1",
+    "error": null
+  },
+  {
+    "sample": 30,
+    "natural_sep": true,
+    "raw_wordpiece_decode": "[C] [C] [NHexpl] [C] [=C] [C] [=C] [Branch1_1] [C] [F] [C] [=C] [Ring1] [Branch1_3] [C] [Expl=Ring1] [Branch2_3] [C] [C] [Branch1_2] [C] [=O] [N] [C] [Branch1_1] [Branch1_2] [C] [Branch1_2] [C] [=O] [O-expl] [C] [C] [O] [C] [C] [Ring1] [Branch2_2]",
+    "selfies": "[C][C][NHexpl][C][=C][C][=C][Branch1_1][C][F][C][=C][Ring1][Branch1_3][C][Expl=Ring1][Branch2_3][C][C][Branch1_2][C][=O][N][C][Branch1_1][Branch1_2][C][Branch1_2][C][=O][O-expl][C][C][O][C][C][Ring1][Branch2_2]",
+    "smiles": "CC=2[NH]C1=CC=C(F)C=C1C=2CC(=O)NC3(C(=O)[O-])CCOCC3",
+    "valid_connected": true,
+    "canonical": "Cc1[nH]c2ccc(F)cc2c1CC(=O)NC1(C(=O)[O-])CCOCC1",
+    "error": null
+  },
+  {
+    "sample": 31,
+    "natural_sep": true,
+    "raw_wordpiece_decode": "[C] [C] [C] [O] [C] [Branch1_1] [C] [N] [=C] [C] [=N] [C] [C] [Branch1_1] [C] [C] [Branch1_1] [=N] [C] [C] [=C] [C] [=C] [Branch1_1] [C] [F] [C] [=C] [Ring1] [Branch1_3] [=N] [C] [Branch1_1] [Branch1_2] [C] [Branch1_1] [C] [C] [O] [=C] [C] [Ring2] [Ring1] [C] [=C] [C] [N] [Branch1_1] [C] [C] [C] [Branch1_2] [C] [=O] [C] [Ring2] [Ring1] [O] [Ring1] [Branch2_2]",
+    "selfies": "[C][C][C][O][C][Branch1_1][C][N][=C][C][=N][C][C][Branch1_1][C][C][Branch1_1][=N][C][C][=C][C][=C][Branch1_1][C][F][C][=C][Ring1][Branch1_3][=N][C][Branch1_1][Branch1_2][C][Branch1_1][C][C][O][=C][C][Ring2][Ring1][C][=C][C][N][Branch1_1][C][C][C][Branch1_2][C][=O][C][Ring2][Ring1][O][Ring1][Branch2_2]",
+    "smiles": "CCCOC(N)=CC3=NC2C(C)(CC1=CC=C(F)C=C1)NC(C(C)O)=C4C2=CCN(C)C(=O)C34",
+    "valid_connected": true,
+    "canonical": "CCCOC(N)=CC1=NC2C3=CCN(C)C(=O)C1C3=C(C(C)O)NC2(C)Cc1ccc(F)cc1",
+    "error": null
+  }
+]

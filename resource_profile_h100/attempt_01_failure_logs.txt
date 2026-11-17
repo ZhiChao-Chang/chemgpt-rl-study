@@ -1,0 +1,17 @@
+{"level":"info","message":"job acp-explore-chemgpt-profile-20261104-01 scheduled successfully","time":"2026-11-04T16:58:40.057722571+08:00"}
+{"event": "bootstrap_started", "elapsed_seconds": 0.026, "task_id": "acp-explore-chemgpt-profile-20261104-01"}
+H100_PROFILE_ERROR {"status":"BOOTSTRAP_OR_PROFILE_FAILED","type":"TimeoutExpired","message":"Command '['/root/anaconda3/envs/deepdds/bin/python', '-m', 'venv', '--system-site-packages', '/zzc/260010120/cci_control/acp-tests/acp-explore-chemgpt-profile-20261104-01/venv']' timed out after 89.99997103586793 seconds","elapsed_seconds":90.02963540703058}
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "<string>", line 37, in <module>
+  File "/usr/lib/python3.8/subprocess.py", line 495, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/usr/lib/python3.8/subprocess.py", line 1028, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "/usr/lib/python3.8/subprocess.py", line 1894, in _communicate
+    self.wait(timeout=self._remaining_time(endtime))
+  File "/usr/lib/python3.8/subprocess.py", line 1083, in wait
+    return self._wait(timeout=timeout)
+  File "/usr/lib/python3.8/subprocess.py", line 1798, in _wait
+    raise TimeoutExpired(self.args, timeout)
+subprocess.TimeoutExpired: Command '['/root/anaconda3/envs/deepdds/bin/python', '-m', 'venv', '--system-site-packages', '/zzc/260010120/cci_control/acp-tests/acp-explore-chemgpt-profile-20261104-01/venv']' timed out after 89.99997103586793 seconds

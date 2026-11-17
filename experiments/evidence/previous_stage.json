@@ -1,0 +1,18 @@
+{
+  "current_stage": "proposal",
+  "entry": "proposal/PLAN.md",
+  "draft": "proposal/PROPOSAL_DRAFT_ZH.md",
+  "protocol": "proposal/protocol.json",
+  "state": "proposal/STAGE.json",
+  "previous_stages": [
+    "completion.json",
+    "selection/completion.json"
+  ],
+  "note": "English LaTeX is the current delivery; older Chinese drafts and technical plans retained as history",
+  "current_deliverable": "proposal/latex/proposal.pdf",
+  "editable_proposal": "proposal/latex/main.tex",
+  "source_archive": "proposal/chemgpt_rl_proposal_latex.zip",
+  "named_responsibilities_confirmed": true,
+  "publication_notice_removed": true,
+  "resources": "hardware only"
+}

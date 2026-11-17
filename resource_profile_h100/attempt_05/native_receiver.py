@@ -1,0 +1,32 @@
+import base64,hashlib,json,pathlib,sys,tarfile,zipfile
+R={'task_id': 'acp-explore-chemgpt-profile-20261104-05', 'remote_directory': '/zzc/260010120/cci_control/acp-tests/acp-explore-chemgpt-profile-20261104-05', 'bundle': {'path': '/tmp/chemgpt_h100_profile_20261104/input_bundle_fixed.tar.gz', 'bytes': 19254713, 'sha256': '618164ce583350c4f711eaf6dd6053f41622a2ef34afa7f63c478c8a9ca3d040', 'files': [{'path': 'profile_h100.py', 'bytes': 23872, 'sha256': '19927a5bef320cda611ecd9844a79d393038f481706d196d7fe4c7b859dd1a5a'}, {'path': 'model/config.json', 'bytes': 1284, 'sha256': '73a9eb113e31b2ac8a6b070469b749dbaa8110f72a197bea7899d93db462e8ba'}, {'path': 'model/tokenizer.json', 'bytes': 10789, 'sha256': 'fee4dad651e2edb49afb5d6aa3e4fea437e08c740c80b6d1d6e1909ad2b30100'}, {'path': 'model/tokenizer_config.json', 'bytes': 260, 'sha256': 'ee5b5daf3a4f292292f944d06fa34ca00c6f4b18aec68478c55ef223311ee145'}, {'path': 'model/special_tokens_map.json', 'bytes': 2, 'sha256': '44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a'}, {'path': 'model/README.md', 'bytes': 1942, 'sha256': '5732275e9233a8b8ca8f690b6beb624da9ff5b3e7906f7d446a8c6ff45597195'}, {'path': 'model/pytorch_model.bin', 'bytes': 70836865, 'sha256': 'a8a39c5ea1d50c450632e003d21c90f847d815a801934b03a12b02010b74d21b'}, {'path': 'selfies-1.0.4-py3-none-any.whl', 'bytes': 30220, 'sha256': 'e41009c1b5512d87ed8ea4d2a52ea9d833fbe6ddeb9ea34990b4a4d77b5b037c'}]}, 'max_total_seconds': 1200, 'max_profile_seconds': 600, 'scope': 'Network-free H100 profile using native authenticated terminal upload; no installs'}
+root=pathlib.Path(R['remote_directory']);tmp=pathlib.Path('/tmp')/R['task_id'];tmp.mkdir(exist_ok=True)
+p=tmp/'input_bundle.tar.gz';size=0
+print('NATIVE_BUNDLE_RECEIVER_READY',flush=True)
+with p.open('wb',buffering=1024*1024) as f:
+ for line in sys.stdin:
+  if line.strip()=='__END_BUNDLE__':break
+  data=base64.b64decode(line.strip(),validate=True);size+=len(data)
+  if size>R['bundle']['bytes']:raise RuntimeError('upload cap exceeded')
+  f.write(data)
+if size!=R['bundle']['bytes'] or hashlib.sha256(p.read_bytes()).hexdigest()!=R['bundle']['sha256']:raise RuntimeError('bundle hash/size mismatch')
+allowed={x['path']:x for x in R['bundle']['files']}
+with tarfile.open(p,'r:gz') as t:
+ if set(t.getnames())!=set(allowed):raise RuntimeError('bundle members mismatch')
+ for member in t.getmembers():
+  q=root/member.name
+  if not member.isfile() or not q.resolve().is_relative_to(root.resolve()):raise RuntimeError('unsafe member')
+  q.parent.mkdir(parents=True,exist_ok=True)
+  with t.extractfile(member) as src,q.open('wb',buffering=1024*1024) as dst:
+   while True:
+    b=src.read(1024*1024)
+    if not b:break
+    dst.write(b)
+  if hashlib.sha256(q.read_bytes()).hexdigest()!=allowed[member.name]['sha256']:raise RuntimeError('member hash mismatch')
+wheel=next(root.glob('selfies-1.0.4-*.whl'));vendor=root/'vendor';vendor.mkdir(exist_ok=True)
+with zipfile.ZipFile(wheel) as z:
+ for member in z.infolist():
+  if not (vendor/member.filename).resolve().is_relative_to(vendor.resolve()):raise RuntimeError('unsafe wheel path')
+ z.extractall(vendor)
+ready=root/'input_ready.json';part=root/'input_ready.json.tmp';part.write_text(json.dumps({'bundle_sha256':R['bundle']['sha256'],'bytes':size}));part.replace(ready)
+print('NATIVE_BUNDLE_UPLOAD_COMPLETE '+str(size),flush=True)

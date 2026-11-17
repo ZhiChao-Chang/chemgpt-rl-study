@@ -1,0 +1,30 @@
+{
+  "run": "development/perindopril__reinforce__s11",
+  "exact_token_replay": "PASS",
+  "replay_mismatches": [],
+  "canonical_descriptor_edges": [],
+  "stats": {
+    "search": {
+      "attempts": 513,
+      "original_mean": 0.1413355762946017,
+      "canonical_reread_mean": 0.1413355762946017,
+      "mean_absolute_reward_change": 0.0,
+      "max_absolute_reward_change": 0.0,
+      "original_unique_top10": 0.40791351402465503,
+      "reread_unique_top10": 0.40791351402465503
+    },
+    "evaluation": {
+      "attempts": 128,
+      "original_mean": 0.13546563727362188,
+      "canonical_reread_mean": 0.13546563727362188,
+      "mean_absolute_reward_change": 0.0,
+      "max_absolute_reward_change": 0.0,
+      "original_unique_top10": 0.3446373343218191,
+      "reread_unique_top10": 0.3446373343218191
+    }
+  },
+  "ledger_sha256": {
+    "search": "b0807c3a9cce3cbb6625ede58d05966a9a68b252239e2d895dcd2c5528243cd0",
+    "evaluation": "af6318252314eaf129d3a149d9d1c2bba432e3b872ab2e8796082c0e09581f26"
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "scope": "illustrative coordinates, not evidence of binding or generated model outputs",
+  "requested": 36,
+  "available": 35,
+  "details": [
+    {
+      "molId": "0695b4a532c68fc6c7f8",
+      "status": "available"
+    },
+    {
+      "molId": "0f8b4ba3ad716b77fbce",
+      "status": "available"
+    },
+    {
+      "molId": "113d805948acf436d1ec",
+      "status": "available"
+    },
+    {
+      "molId": "15c224bf972fd188cf32",
+      "status": "available"
+    },
+    {
+      "molId": "1e98b001bbfa8b32c1a4",
+      "status": "available"
+    },
+    {
+      "molId": "258a0ba4405bb51b2e8e",
+      "status": "available"
+    },
+    {
+      "molId": "28150e11cc5faf2bdf1b",
+      "status": "available"
+    },
+    {
+      "molId": "2f43e53902ae08f782aa",
+      "status": "available"
+    },
+    {
+      "molId": "317e63656b217a8249c9",
+      "status": "available"
+    },
+    {
+      "molId": "3202f8f79540168c9591",
+      "status": "available"
+    },
+    {
+      "molId": "3ba273095eea087ac8a2",
+      "status": "available"
+    },
+    {
+      "molId": "3d7b6463e0bceac247f4",
+      "status": "available"
+    },
+    {
+      "molId": "400c47409b6f7e685919",
+      "status": "available"
+    },
+    {
+      "molId": "43790f6c936e3e731147",
+      "status": "available"
+    },
+    {
+      "molId": "543e733daba946454e42",
+      "status": "available"
+    },
+    {
+      "molId": "5e1b2f41501fef2d96a0",
+      "status": "available"
+    },
+    {
+      "molId": "66a4d323932326f3e27a",
+      "status": "available"
+    },
+    {
+      "molId": "69014c3a1987a7a22322",
+      "status": "available"
+    },
+    {
+      "molId": "73e0373f60e958981f81",
+      "status": "available"
+    },
+    {
+      "molId": "73e4429dc5440c6d0fe3",
+      "status": "available"
+    },
+    {
+      "molId": "77b9d23787e6636cab3e",
+      "status": "available"
+    },
+    {
+      "molId": "81c1d41fe3b49a95e995",
+      "status": "available"
+    },
+    {
+      "molId": "928d3cc0a8fe7c87068e",
+      "status": "available"
+    },
+    {
+      "molId": "9579a818d87f6424f772",
+      "status": "available"
+    },
+    {
+      "molId": "a0ff54d71e7cedf1d8ac",
+      "status": "available"
+    },
+    {
+      "molId": "b2ea3eae03b777583b70",
+      "status": "available"
+    },
+    {
+      "molId": "cc138acea5ea17ba04a5",
+      "status": "available"
+    },
+    {
+      "molId": "ce9ad15f9a2fbc3721d5",
+      "status": "available"
+    },
+    {
+      "molId": "d11bb33a14d2c205c4e3",
+      "status": "available"
+    },
+    {
+      "molId": "e0281250d86043d5cb26",
+      "status": "available"
+    },
+    {
+      "molId": "e33981a7ea8fb06da7ed",
+      "status": "available"
+    },
+    {
+      "molId": "e693b5bba13c4ebf2fe8",
+      "status": "available"
+    },
+    {
+      "molId": "ea5f17eb1c26416a3145",
+      "status": "available"
+    },
+    {
+      "molId": "f512c9b9bd15827349c2",
+      "status": "available"
+    },
+    {
+      "molId": "f60b66062f03aa1cd2c0",
+      "status": "available"
+    },
+    {
+      "molId": "fb35c3cbd67bd41922e9",
+      "status": "unavailable"
+    }
+  ]
+}

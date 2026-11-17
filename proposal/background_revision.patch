@@ -1,0 +1,48 @@
+--- previous_submission_draft
++++ expanded_background_submission_draft
+@@ -6,18 +6,24 @@
+ 
+ ## 1 研究背景与问题
+ 
+-预训练分子语言模型能够学习已有化学结构的分布并生成候选分子，但常规生成并不直接保证输出满足特定设计要求。目标导向分子生成需要利用性质评价反馈，引导候选向期望的性质组合移动。另一方面，直接从原模型多次采样后筛选，也可能是一个很强的基线。因此，有必要在相同评价预算下检验强化学习更新的实际收益，并分析目标优化是否伴随生成分布退化。
++分子生成旨在从广阔的化学空间中提出满足用途的候选，支持从头设计、先导结构改良与多性质优化。领域既关注能否学习并重现合理的分子分布，也关注能否在有限评价预算下找到符合目标要求的结构。后者除生成合法性外，还涉及目标分数、多个条件的共同满足、结构多样性和计算成本[3,4]。
+ 
+-本项目拟回答两个问题：
++已有方法使用SMILES/SELFIES序列、原子键图、片段及三维坐标等表示，并采用自回归网络、变分自编码器、生成对抗网络、可逆流和扩散模型学习生成分布。例如，JT-VAE通过化学子结构及其连接生成分子图，MoFlow学习图与潜空间之间的可逆映射，EDM通过等变去噪联合生成原子类型和三维坐标；ChemGPT则采用自回归化学语言建模[1,7–9]。这些路线提供了不同的结构先验和生成方式。
++
++生成合理候选之后，还需要使输出满足具体设计目标。现有策略包括条件生成、采样后筛选、潜空间优化、遗传搜索和强化学习。强化学习可将外部性质评价用于更新生成策略，但收益取决于先验、反馈和优化规则，不能仅凭接入RL就认定优于同预算筛选；持续优化也可能改变有效性、重复率与结构覆盖[2,4,10–12]。
++
++据此，本项目拟回答两个问题：
+ 
+ 1. 在有限的新分子评价预算下，REINFORCE微调是否比同一预训练模型直接采样并筛选，更有效地获得高分候选？
+ 2. 相对初始模型的KL约束，如何影响目标分数、有效输出、重复和结构多样性之间的权衡？
+ 
+ ## 2 相关工作与项目定位
+ 
+-Frey等在Nature Machine Intelligence发表的工作提出了ChemGPT，并研究化学语言模型的规模规律[1]。REINVENT展示了利用反馈优化分子生成策略的路线[2]；GuacaMol提供了公开的目标导向分子生成任务[3]；PMO进一步强调在固定性质评价预算下比较分子优化方法[4]。
++**分子生成模型。** 序列模型将生成视为逐token预测，可利用大规模分子语料预训练，并直接计算采样轨迹概率；ChemGPT是这一路线的公开基础[1]。图和片段模型直接建模连接关系，JT-VAE结合子结构树与图消息传递；MolGAN将对抗生成和性质优化用于小分子图[7,10]。可逆流与三维扩散分别提供可逆潜表示和几何生成机制，例如MoFlow与EDM[8,9]。这些方法的表示与学习机制可以交叉，RL是利用目标反馈的优化机制，也可以与不同生成架构结合。
+ 
+-本项目将承接公开ChemGPT模型，独立接入基于REINFORCE的反馈优化，并对固定先验KL正则进行受控比较。预期贡献包括可审查的策略梯度实现、明确的基线和预算控制，以及对性能收益和失败情况的分析。
++**目标导向优化与RL。** 遗传算法等搜索方法可以作为有竞争力的优化基线[11]。REINVENT建立了生成先验与RL反馈更新相结合的路线，ChemRLformer进一步研究了Transformer、文本表示及策略优化中的设计选择[2,12]。因此，本项目沿用已有反馈优化思路，研究选定ChemGPT先验上的具体接入、预算收益及KL权衡，不以“首次对分子生成使用RL”为贡献。
++
++**评价与本项目切入点。** GuacaMol提供公开生成与目标优化任务，PMO强调评价调用预算及强基线[3,4]。本项目选择公开自回归模型，使终端奖励和轨迹概率能够清楚对应策略梯度；固定生成架构与任务定义，比较冻结先验、REINFORCE及REINFORCE加KL。预期贡献是正确的适配实现、统一评价预算下的受控证据，以及对质量、分布保持和成本关系的分析。
+ 
+ ## 3 模型与强化学习方法
+ 
+@@ -105,3 +111,16 @@
+ [5] ChemGPT作者公开模型. https://huggingface.co/ncfrey/ChemGPT-4.7M
+ 
+ [6] Williams. Simple statistical gradient-following algorithms for connectionist reinforcement learning. Machine Learning, 1992. https://doi.org/10.1007/BF00992696
++
++[7] Jin et al. Junction Tree Variational Autoencoder for Molecular Graph Generation. ICML, 2018. https://proceedings.mlr.press/v80/jin18a.html
++
++[8] Zang and Wang. MoFlow: An Invertible Flow Model for Generating Molecular Graphs. KDD, 2020. https://doi.org/10.1145/3394486.3403104
++
++[9] Hoogeboom et al. Equivariant Diffusion for Molecule Generation in 3D. ICML, 2022. https://proceedings.mlr.press/v162/hoogeboom22a.html
++
++[10] De Cao and Kipf. MolGAN: An implicit generative model for small molecular graphs. 2018 preprint. https://arxiv.org/abs/1805.11973
++
++[11] Jensen. A graph-based genetic algorithm and generative model/Monte Carlo tree search for the exploration of chemical space. Chemical Science, 2019. https://doi.org/10.1039/C8SC05372C
++
++[12] Ghugare et al. Searching for High-Value Molecules Using Reinforcement Learning and Transformers. ICLR, 2024. https://proceedings.iclr.cc/paper_files/paper/2024/hash/792a4eb351b014e1d61bcfaab0ddd555-Abstract-Conference.html
++

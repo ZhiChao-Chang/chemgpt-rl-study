@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "pages": 5,
+  "body_pages": 4,
+  "reference_pages": 1,
+  "citation_keys_resolved": 11,
+  "publication_notice_removed": true,
+  "author_note_retained": true,
+  "same_author_baseline": true,
+  "named_roles_preserved": true,
+  "hardware_only_resources_preserved": true,
+  "experiment_scope_unchanged": true,
+  "previous_source_word_count": 1623,
+  "current_source_word_count": 2150,
+  "overfull_boxes": 0,
+  "missing_glyphs": 0,
+  "undefined_references": 0,
+  "visual_review": "All five rendered pages inspected; equations, task table and shared-work schedule readable",
+  "compiler_note": "Upstream lineno legacy comment warning only; no replacement character in output PDF",
+  "submitted": false
+}

@@ -1,0 +1,25 @@
+{
+  "status": "DRAFT_WRITTEN",
+  "file": "SUBMISSION_DRAFT_ZH.md",
+  "sha256": "1c8ff856c692821b1c40d27498ce99767adac6fac9f18f2a6835614bbf729715",
+  "course_required_fields_checked": [
+    "team",
+    "question",
+    "approach",
+    "related_work",
+    "resources",
+    "division"
+  ],
+  "missing_fields": [
+    "team names and student IDs",
+    "actual contact",
+    "GPU type and availability",
+    "actual division"
+  ],
+  "submitted": false,
+  "previous_proposal_files_unchanged": true,
+  "updated_UTC": "2026-11-04T07:54:29.786852+00:00",
+  "previous_sha256": "8eb9dfe9b206a5758d3f978edda735e1f3ea46fe7cd2539233e9318d773b3094",
+  "revision": "Expanded field background, alternative generation/optimization methods and relevant RL precedents; experimental sections unchanged",
+  "background_revision_patch": "background_revision.patch"
+}

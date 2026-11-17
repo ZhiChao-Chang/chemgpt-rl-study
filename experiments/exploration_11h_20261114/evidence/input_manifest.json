@@ -1,0 +1,21 @@
+{
+  "task": "acp-me2502-explore-20261114-01",
+  "remote": "/zzc/260010120/cci_control/acp-tests/acp-me2502-explore-20261114-01",
+  "source_files": {
+    "contract.json": "d53a2b2dabc391ce26d18f61ebf8105baf1b5d839fd93023e6a7ae4af03b336e",
+    "src/campaign.py": "a57682bf3fd6354977709f245dfd3394292e3959da797013cbe238824052a596",
+    "src/check_theory.py": "e261d7714c4892fd0c2143856fbe9a6c550638b6d53dbe4310d4c9a26514913e",
+    "src/model_runtime.py": "19927a5bef320cda611ecd9844a79d393038f481706d196d7fe4c7b859dd1a5a",
+    "src/study.py": "48d95adfe1c44711eb2a47be5de86b9f5f2a2b2ada6f40ad31263c2a46d44094"
+  },
+  "bootstrap_sha256": "d7463cc9ccc11314cac2a84af8dae5dd5cc0597b65d6841e4dc0d686dd7aee8c",
+  "absolute_deadline": "2026-11-15T09:28:22+08:00",
+  "model_hashes": {
+    "tokenizer.json": "fee4dad651e2edb49afb5d6aa3e4fea437e08c740c80b6d1d6e1909ad2b30100",
+    "pytorch_model.bin": "a8a39c5ea1d50c450632e003d21c90f847d815a801934b03a12b02010b74d21b",
+    "README.md": "5732275e9233a8b8ca8f690b6beb624da9ff5b3e7906f7d446a8c6ff45597195",
+    "config.json": "73a9eb113e31b2ac8a6b070469b749dbaa8110f72a197bea7899d93db462e8ba",
+    "tokenizer_config.json": "ee5b5daf3a4f292292f944d06fa34ca00c6f4b18aec68478c55ef223311ee145",
+    "special_tokens_map.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+  }
+}

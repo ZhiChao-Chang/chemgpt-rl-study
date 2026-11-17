@@ -1,0 +1,30 @@
+{
+  "run": "main/osimertinib__frozen__s2026",
+  "exact_token_replay": "PASS",
+  "replay_mismatches": [],
+  "canonical_descriptor_edges": [],
+  "stats": {
+    "search": {
+      "attempts": 3005,
+      "original_mean": 0.1772032879014873,
+      "canonical_reread_mean": 0.17720328790148726,
+      "mean_absolute_reward_change": 6.82470113306056e-18,
+      "max_absolute_reward_change": 6.661338147750939e-16,
+      "original_unique_top10": 0.7674212342975825,
+      "reread_unique_top10": 0.7674212342975825
+    },
+    "evaluation": {
+      "attempts": 1024,
+      "original_mean": 0.17928103668410927,
+      "canonical_reread_mean": 0.17928103668410925,
+      "mean_absolute_reward_change": 7.411647332531097e-18,
+      "max_absolute_reward_change": 3.885780586188048e-16,
+      "original_unique_top10": 0.7549309250212336,
+      "reread_unique_top10": 0.7549309250212336
+    }
+  },
+  "ledger_sha256": {
+    "search": "2e2a043bc6fad38fb12264284f413c3bebe7884cb56bbbe3647604333a650a97",
+    "evaluation": "6f178331c27f2f1d413a24d80cebe2976c09c92b316d7aee68208a6441e3397a"
+  }
+}

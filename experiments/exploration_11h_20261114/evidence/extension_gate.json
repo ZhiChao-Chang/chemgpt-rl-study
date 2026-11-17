@@ -1,0 +1,5 @@
+{
+  "status": "PASS",
+  "scope": "three real-model single-update branches, original MPO separated from transformed training return, terminal KL recorded",
+  "planned_runs": 108
+}

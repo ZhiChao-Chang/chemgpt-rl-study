@@ -1,0 +1,42 @@
+{
+  "observed_UTC": "2026-11-04T09:14:33.139337+00:00",
+  "uid": "6895c5f133d146ccae034d86c878adc4",
+  "state": "FAILED",
+  "workers": [
+    {
+      "uid": "00666ff6-d67c-4096-a161-ab0898cace4b",
+      "id": "fcfbf390-78b6-4e7a-9172-2288d5d5f801",
+      "name": "pt-6895c5f133d146ccae034d86c878adc4-worker-0",
+      "namespace": "ns-zhicheng-f9bddac6",
+      "node_name": "host-10-115-72-58-10.115.72.58",
+      "ip": "10.120.6.35",
+      "host_ip": "10.115.72.58",
+      "phase": "Failed",
+      "init_containers": [],
+      "containers": [
+        {
+          "name": "pytorch",
+          "resources": {
+            "limits": {
+              "cpu": "4",
+              "device": "1",
+              "memory": "64",
+              "nvidia.com/gpu": "1"
+            },
+            "requests": {
+              "cpu": "4",
+              "device": "1",
+              "memory": "64",
+              "nvidia.com/gpu": "1"
+            }
+          },
+          "device_type": "N6lS"
+        }
+      ],
+      "node_spec_name": "n6ls.iu.i40",
+      "create_time": "2026-11-04T09:11:53.452176Z",
+      "update_time": "2026-11-04T09:14:18.381348Z"
+    }
+  ],
+  "elapsed_observer_seconds": 107.37478576903231
+}

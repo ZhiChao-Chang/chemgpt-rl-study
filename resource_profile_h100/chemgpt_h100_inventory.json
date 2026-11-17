@@ -1,0 +1,255 @@
+{
+  "queried_at": "2026-11-04T08:37:38.755477+00:00",
+  "app_name": "cci-autonomy-20261008-debug5090",
+  "uid": "8e30954fa2f442d2acc77a1c45c9c475",
+  "state": "SUSPENDED",
+  "workspace": "share-space",
+  "resource_pool": "debug-cluster",
+  "pool_zone": "cn-sh-01g",
+  "requested_spec": "n6ls.iu.i40.1.8c128g",
+  "requested_spec_details": {
+    "name": "n6ls.iu.i40.1.8c128g",
+    "chip_model": "NVIDIA N6LS-80G-SXM5",
+    "chip_count": 1,
+    "cpu_model": "Intel Xeon Platinum 8468V-2.4GHz",
+    "vcpus": 8,
+    "memory_gib": 128.0,
+    "zone": "cn-sh-01g",
+    "free_chips": null,
+    "available_to_user": null,
+    "aggregate_reserved_idle_fits": false
+  },
+  "gpu_preference": [
+    "H100",
+    "RTX5090",
+    "H100_MIG"
+  ],
+  "total_specifications": 18,
+  "specifications": [
+    {
+      "name": "n6ls.iu.i40.1",
+      "chip_model": "NVIDIA N6LS-80G-SXM5",
+      "chip_count": 1,
+      "cpu_model": "Intel Xeon Platinum 8468V-2.4GHz",
+      "vcpus": 22,
+      "memory_gib": 240.0,
+      "zone": "cn-sh-01g",
+      "free_chips": null,
+      "available_to_user": null,
+      "aggregate_reserved_idle_fits": false
+    },
+    {
+      "name": "n6ls.iu.i40.2",
+      "chip_model": "NVIDIA N6LS-80G-SXM5",
+      "chip_count": 2,
+      "cpu_model": "Intel Xeon Platinum 8468V-2.4GHz",
+      "vcpus": 44,
+      "memory_gib": 480.0,
+      "zone": "cn-sh-01g",
+      "free_chips": null,
+      "available_to_user": null,
+      "aggregate_reserved_idle_fits": false
+    },
+    {
+      "name": "n6ls.iu.i40.4",
+      "chip_model": "NVIDIA N6LS-80G-SXM5",
+      "chip_count": 4,
+      "cpu_model": "Intel Xeon Platinum 8468V-2.4GHz",
+      "vcpus": 88,
+      "memory_gib": 960.0,
+      "zone": "cn-sh-01g",
+      "free_chips": null,
+      "available_to_user": null,
+      "aggregate_reserved_idle_fits": false
+    },
+    {
+      "name": "n6ls.iu.i40.8",
+      "chip_model": "NVIDIA N6LS-80G-SXM5",
+      "chip_count": 8,
+      "cpu_model": "Intel Xeon Platinum 8468V-2.4GHz",
+      "vcpus": 176,
+      "memory_gib": 1920.0,
+      "zone": "cn-sh-01g",
+      "free_chips": null,
+      "available_to_user": null,
+      "aggregate_reserved_idle_fits": false
+    },
+    {
+      "name": "n6ls.iu.i40.1.8c128g",
+      "chip_model": "NVIDIA N6LS-80G-SXM5",
+      "chip_count": 1,
+      "cpu_model": "Intel Xeon Platinum 8468V-2.4GHz",
+      "vcpus": 8,
+      "memory_gib": 128.0,
+      "zone": "cn-sh-01g",
+      "free_chips": null,
+      "available_to_user": null,
+      "aggregate_reserved_idle_fits": false
+    },
+    {
+      "name": "n6ls.iu.i40.1.4c64g",
+      "chip_model": "NVIDIA N6LS-80G-SXM5",
+      "chip_count": 1,
+      "cpu_model": "Intel Xeon Platinum 8468V-2.4GHz",
+      "vcpus": 4,
+      "memory_gib": 64.0,
+      "zone": "cn-sh-01g",
+      "free_chips": null,
+      "available_to_user": null,
+      "aggregate_reserved_idle_fits": false
+    },
+    {
+      "name": "n6ls.iu.i40.2.8c128g",
+      "chip_model": "NVIDIA N6LS-80G-SXM5",
+      "chip_count": 2,
+      "cpu_model": "Intel Xeon Platinum 8468V-2.4GHz",
+      "vcpus": 8,
+      "memory_gib": 128.0,
+      "zone": "cn-sh-01g",
+      "free_chips": null,
+      "available_to_user": null,
+      "aggregate_reserved_idle_fits": false
+    },
+    {
+      "name": "n6ls.iu.i40.2.16c256g",
+      "chip_model": "NVIDIA N6LS-80G-SXM5",
+      "chip_count": 2,
+      "cpu_model": "Intel Xeon Platinum 8468V-2.4GHz",
+      "vcpus": 16,
+      "memory_gib": 256.0,
+      "zone": "cn-sh-01g",
+      "free_chips": null,
+      "available_to_user": null,
+      "aggregate_reserved_idle_fits": false
+    },
+    {
+      "name": "n6ls.iu.i40.4.16c256g",
+      "chip_model": "NVIDIA N6LS-80G-SXM5",
+      "chip_count": 4,
+      "cpu_model": "Intel Xeon Platinum 8468V-2.4GHz",
+      "vcpus": 16,
+      "memory_gib": 256.0,
+      "zone": "cn-sh-01g",
+      "free_chips": null,
+      "available_to_user": null,
+      "aggregate_reserved_idle_fits": false
+    },
+    {
+      "name": "n6ls.iu.i40.4.32c512g",
+      "chip_model": "NVIDIA N6LS-80G-SXM5",
+      "chip_count": 4,
+      "cpu_model": "Intel Xeon Platinum 8468V-2.4GHz",
+      "vcpus": 32,
+      "memory_gib": 512.0,
+      "zone": "cn-sh-01g",
+      "free_chips": null,
+      "available_to_user": null,
+      "aggregate_reserved_idle_fits": false
+    },
+    {
+      "name": "n6ls.iu.i40.8.32c512g",
+      "chip_model": "NVIDIA N6LS-80G-SXM5",
+      "chip_count": 8,
+      "cpu_model": "Intel Xeon Platinum 8468V-2.4GHz",
+      "vcpus": 32,
+      "memory_gib": 512.0,
+      "zone": "cn-sh-01g",
+      "free_chips": null,
+      "available_to_user": null,
+      "aggregate_reserved_idle_fits": false
+    },
+    {
+      "name": "n6ls.iu.i40.8.64c1024g",
+      "chip_model": "NVIDIA N6LS-80G-SXM5",
+      "chip_count": 8,
+      "cpu_model": "Intel Xeon Platinum 8468V-2.4GHz",
+      "vcpus": 64,
+      "memory_gib": 1024.0,
+      "zone": "cn-sh-01g",
+      "free_chips": null,
+      "available_to_user": null,
+      "aggregate_reserved_idle_fits": false
+    }
+  ],
+  "availability": "UNKNOWN",
+  "quota": "UNKNOWN",
+  "notes": [
+    "chip_count is capacity per configuration, not a free GPU count",
+    "platform chip labels are preserved; no unverified H100 alias is assumed",
+    "this query does not create, update, start or stop applications",
+    "aggregate_reserved_idle_fits checks only cluster totals; user quota, zone, node fragmentation and scheduling remain unverified"
+  ],
+  "cluster_usage": {
+    "queried_at": "2026-11-04T08:37:39.410962+00:00",
+    "app_name": "cci-autonomy-20261008-debug5090",
+    "uid": "8e30954fa2f442d2acc77a1c45c9c475",
+    "resource_pool": "debug-cluster",
+    "scope": "cluster",
+    "resources": {
+      "GPU_NUMBER": {
+        "reserved": {
+          "total": 48,
+          "used": 48,
+          "idle": 0,
+          "unaccounted": 0
+        },
+        "spot": {
+          "total": 0,
+          "used": 0,
+          "idle": 0,
+          "unaccounted": 0
+        }
+      },
+      "GPU_MEMORY (GB)": {
+        "reserved": {
+          "total": 3840,
+          "used": 3840,
+          "idle": 0,
+          "unaccounted": 0
+        },
+        "spot": {
+          "total": 0,
+          "used": 0,
+          "idle": 0,
+          "unaccounted": 0
+        }
+      },
+      "vCPU_NUMBER": {
+        "reserved": {
+          "total": 1056,
+          "used": 920,
+          "idle": 136,
+          "unaccounted": 0
+        },
+        "spot": {
+          "total": 0,
+          "used": 0,
+          "idle": 0,
+          "unaccounted": 0
+        }
+      },
+      "MEMORY (GiB)": {
+        "reserved": {
+          "total": 11520,
+          "used": 9509,
+          "idle": 2011,
+          "unaccounted": 0
+        },
+        "spot": {
+          "total": 0,
+          "used": 0,
+          "idle": 0,
+          "unaccounted": 0
+        }
+      }
+    },
+    "user_quota": "UNKNOWN",
+    "available_to_user": null,
+    "notes": [
+      "idle is a shared cluster snapshot, not a user allocation guarantee",
+      "aggregate counters do not prove same-node placement or capacity by SKU",
+      "GPU_MEMORY uses GB; host MEMORY uses GiB",
+      "unaccounted is total minus used minus idle; category unknown and never counted as available"
+    ]
+  }
+}

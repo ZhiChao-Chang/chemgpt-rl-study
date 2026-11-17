@@ -1,0 +1,16 @@
+{
+  "update": 93,
+  "attempts": 3008,
+  "unique": 3000,
+  "mean_reward": 0.5023319125175476,
+  "mean_training_reward": 0.5023319125175476,
+  "beta": 0.01,
+  "length_cost": 0,
+  "sample_trajectory_kl": 7.351807594299316,
+  "full_vocabulary_prefix_kl": 0.13407932221889496,
+  "elapsed_s": 188.6332521252334,
+  "loss": -0.19343018531799316,
+  "grad_norm": 21.382211685180664,
+  "advantage_variance": 0.01144473161548376,
+  "logprob_error": 0.000247955322265625
+}

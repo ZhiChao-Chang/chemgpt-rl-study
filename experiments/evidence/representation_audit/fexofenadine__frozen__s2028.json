@@ -1,0 +1,30 @@
+{
+  "run": "main/fexofenadine__frozen__s2028",
+  "exact_token_replay": "PASS",
+  "replay_mismatches": [],
+  "canonical_descriptor_edges": [],
+  "stats": {
+    "search": {
+      "attempts": 3001,
+      "original_mean": 0.23377943663594206,
+      "canonical_reread_mean": 0.23377943663594206,
+      "mean_absolute_reward_change": 4.855205937374601e-18,
+      "max_absolute_reward_change": 4.718447854656915e-16,
+      "original_unique_top10": 0.6907211658589463,
+      "reread_unique_top10": 0.6907211658589463
+    },
+    "evaluation": {
+      "attempts": 1024,
+      "original_mean": 0.2329644970469503,
+      "canonical_reread_mean": 0.23296449704713224,
+      "mean_absolute_reward_change": 1.8198875636099215e-13,
+      "max_absolute_reward_change": 1.8635086190926625e-10,
+      "original_unique_top10": 0.6731444874549526,
+      "reread_unique_top10": 0.6731444874549526
+    }
+  },
+  "ledger_sha256": {
+    "search": "cabed8c71a4ed9bad6c7cbb101cc3a23780387a8665be685e697969017297602",
+    "evaluation": "950775e92ac203bdd397fb0a127a76af93b7e4b2db05ac76e1260f244fe273dc"
+  }
+}

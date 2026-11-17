@@ -1,0 +1,10 @@
+{
+  "runs": 126,
+  "groups": 30,
+  "numeric_aggregates": "PASS",
+  "source_hashes": "126/126 match",
+  "data_unchanged": true,
+  "seed_counts": "core3,dose5,mechanism5,long3",
+  "mcs_pairs": 306,
+  "resource_operations": "none; local rendering only"
+}

@@ -1,0 +1,17 @@
+{"update": 0, "attempts": 32, "unique": 32, "mean_reward": 0.1266486942768097, "sample_trajectory_kl": -4.0531158447265625e-06, "full_vocabulary_prefix_kl": 0.0, "elapsed_s": 2.3030501529574394}
+{"update": 0, "attempts": 64, "unique": 64, "mean_reward": 0.14429199695587158, "sample_trajectory_kl": -2.5033950805664062e-06, "full_vocabulary_prefix_kl": 0.0, "elapsed_s": 3.3052700012922287}
+{"update": 0, "attempts": 96, "unique": 96, "mean_reward": 0.1718200147151947, "sample_trajectory_kl": 5.364418029785156e-06, "full_vocabulary_prefix_kl": 0.0, "elapsed_s": 4.281877487897873}
+{"update": 0, "attempts": 128, "unique": 128, "mean_reward": 0.12816381454467773, "sample_trajectory_kl": -1.5139579772949219e-05, "full_vocabulary_prefix_kl": 0.0, "elapsed_s": 5.673861458897591}
+{"update": 0, "attempts": 160, "unique": 160, "mean_reward": 0.14096900820732117, "sample_trajectory_kl": 1.2874603271484375e-05, "full_vocabulary_prefix_kl": 0.0, "elapsed_s": 7.004888687282801}
+{"update": 0, "attempts": 192, "unique": 192, "mean_reward": 0.14995929598808289, "sample_trajectory_kl": -1.7464160919189453e-05, "full_vocabulary_prefix_kl": 0.0, "elapsed_s": 8.42033639922738}
+{"update": 0, "attempts": 224, "unique": 224, "mean_reward": 0.16487199068069458, "sample_trajectory_kl": 7.927417755126953e-06, "full_vocabulary_prefix_kl": 0.0, "elapsed_s": 9.615783367305994}
+{"update": 0, "attempts": 256, "unique": 256, "mean_reward": 0.16452856361865997, "sample_trajectory_kl": 1.1205673217773438e-05, "full_vocabulary_prefix_kl": 0.0, "elapsed_s": 10.86721970140934}
+{"update": 0, "attempts": 288, "unique": 288, "mean_reward": 0.16360464692115784, "sample_trajectory_kl": 2.0265579223632812e-06, "full_vocabulary_prefix_kl": 0.0, "elapsed_s": 12.143519829958677}
+{"update": 0, "attempts": 320, "unique": 320, "mean_reward": 0.1617232859134674, "sample_trajectory_kl": -6.318092346191406e-06, "full_vocabulary_prefix_kl": 0.0, "elapsed_s": 15.162909116595984}
+{"update": 0, "attempts": 352, "unique": 352, "mean_reward": 0.1562257707118988, "sample_trajectory_kl": -1.043081283569336e-05, "full_vocabulary_prefix_kl": 0.0, "elapsed_s": 17.294227872043848}
+{"update": 0, "attempts": 384, "unique": 384, "mean_reward": 0.1505378782749176, "sample_trajectory_kl": 1.704692840576172e-05, "full_vocabulary_prefix_kl": 0.0, "elapsed_s": 18.31683724746108}
+{"update": 0, "attempts": 416, "unique": 416, "mean_reward": 0.19149093329906464, "sample_trajectory_kl": 2.7418136596679688e-06, "full_vocabulary_prefix_kl": 0.0, "elapsed_s": 19.68149919435382}
+{"update": 0, "attempts": 448, "unique": 448, "mean_reward": 0.1246022954583168, "sample_trajectory_kl": -8.58306884765625e-06, "full_vocabulary_prefix_kl": 0.0, "elapsed_s": 21.496993120759726}
+{"update": 0, "attempts": 480, "unique": 480, "mean_reward": 0.13960768282413483, "sample_trajectory_kl": 1.004338264465332e-05, "full_vocabulary_prefix_kl": 0.0, "elapsed_s": 22.863240372389555}
+{"update": 0, "attempts": 512, "unique": 511, "mean_reward": 0.13199152052402496, "sample_trajectory_kl": -1.1026859283447266e-05, "full_vocabulary_prefix_kl": 0.0, "elapsed_s": 26.51648761332035}
+{"update": 0, "attempts": 513, "unique": 512, "mean_reward": 0.2663118243217468, "sample_trajectory_kl": 1.52587890625e-05, "full_vocabulary_prefix_kl": 0.0, "elapsed_s": 27.194041464477777}

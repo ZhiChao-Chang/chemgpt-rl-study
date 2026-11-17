@@ -1,0 +1,12 @@
+--- previous_main.tex
++++ main.tex
+@@ -18,7 +18,8 @@
+ Reinforcement Learning Fine-Tuning of ChemGPT}
+ 
+ \author{%
+-  Zhang Zhichao\qquad Liao Yang\qquad Han Gaofei\\[0.5em]
++  Zhang Zhichao\qquad Liao Yang\qquad Han Gaofei\\[0.3em]
++  {\footnotesize Name order does not imply contribution ranking.}\\[0.4em]
+   {\small ME2502 Reinforcement Learning --- Final Project Proposal}
+ }
+ 

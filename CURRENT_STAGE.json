@@ -1,0 +1,16 @@
+{
+  "current_stage": "rl_exploration_11h",
+  "entry": "experiments/exploration_11h_20261114/contract.json",
+  "proposal": "proposal/latex/proposal.pdf",
+  "reading": "course_slides/index.html",
+  "development_report": "experiments/evidence/development_summary.html",
+  "remote_status": "experiments/evidence/remote_status.json",
+  "remote_job": "acp-me2502-chemgpt-20261113-01",
+  "note": "Original18-run comparison preserved; new explicit eleven-hour RL-only exploration until2026-11-15 09:28+08.",
+  "project_review": "experiments/project_review.html",
+  "case_gallery": "experiments/evidence/cases/index.html",
+  "active_extension": "experiments/exploration_11h_20261114/contract.json",
+  "extension_report": "experiments/exploration_11h_20261114/index.html",
+  "core_study": "experiments/contract.json",
+  "active_deadline": "2026-11-15T09:28:22+08:00"
+}

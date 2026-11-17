@@ -1,0 +1,94 @@
+\begin{thebibliography}{11}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Frey et~al.(2023)Frey, Soklaski, Axelrod, Samsi, G{\'o}mez-Bombarelli,
+  Coley, and Gadepally]{frey2023scaling}
+Nathan~C. Frey, Ryan Soklaski, Simon Axelrod, Siddharth Samsi, Rafael
+  G{\'o}mez-Bombarelli, Connor~W. Coley, and Vijay Gadepally.
+\newblock Neural scaling of deep chemical models.
+\newblock \emph{Nature Machine Intelligence}, 5:\penalty0 1297--1305, 2023.
+\newblock \doi{10.1038/s42256-023-00740-3}.
+
+\bibitem[Jin et~al.(2018)Jin, Barzilay, and Jaakkola]{jin2018junction}
+Wengong Jin, Regina Barzilay, and Tommi Jaakkola.
+\newblock Junction tree variational autoencoder for molecular graph generation.
+\newblock In \emph{Proceedings of the 35th International Conference on Machine
+  Learning}, volume~80 of \emph{Proceedings of Machine Learning Research},
+  pages 2323--2332, 2018.
+\newblock URL \url{https://proceedings.mlr.press/v80/jin18a.html}.
+
+\bibitem[{De Cao} and Kipf(2018)]{decao2018molgan}
+Nicola {De Cao} and Thomas Kipf.
+\newblock {MolGAN}: An implicit generative model for small molecular graphs.
+\newblock arXiv:1805.11973, 2018.
+\newblock URL \url{https://arxiv.org/abs/1805.11973}.
+
+\bibitem[Zang and Wang(2020)]{zang2020moflow}
+Chengxi Zang and Fei Wang.
+\newblock {MoFlow}: An invertible flow model for generating molecular graphs.
+\newblock In \emph{Proceedings of the 26th ACM SIGKDD International Conference
+  on Knowledge Discovery and Data Mining}, pages 617--626, 2020.
+\newblock \doi{10.1145/3394486.3403104}.
+
+\bibitem[Hoogeboom et~al.(2022)Hoogeboom, {Garcia Satorras}, Vignac, and
+  Welling]{hoogeboom2022edm}
+Emiel Hoogeboom, V{\'i}ctor {Garcia Satorras}, Cl{\'e}ment Vignac, and Max
+  Welling.
+\newblock Equivariant diffusion for molecule generation in {3D}.
+\newblock In \emph{Proceedings of the 39th International Conference on Machine
+  Learning}, volume 162 of \emph{Proceedings of Machine Learning Research},
+  pages 8867--8887, 2022.
+\newblock URL \url{https://proceedings.mlr.press/v162/hoogeboom22a.html}.
+
+\bibitem[Jensen(2019)]{jensen2019ga}
+Jan~H. Jensen.
+\newblock A graph-based genetic algorithm and generative model/{Monte Carlo}
+  tree search for the exploration of chemical space.
+\newblock \emph{Chemical Science}, 10:\penalty0 3567--3572, 2019.
+\newblock \doi{10.1039/C8SC05372C}.
+
+\bibitem[Olivecrona et~al.(2017)Olivecrona, Blaschke, Engkvist, and
+  Chen]{olivecrona2017reinvent}
+Marcus Olivecrona, Thomas Blaschke, Ola Engkvist, and Hongming Chen.
+\newblock Molecular de-novo design through deep reinforcement learning.
+\newblock \emph{Journal of Cheminformatics}, 9:\penalty0 48, 2017.
+\newblock \doi{10.1186/s13321-017-0235-x}.
+
+\bibitem[Ghugare et~al.(2024)Ghugare, Miret, Hugessen, Phielipp, and
+  Berseth]{ghugare2024chemrlformer}
+Raj Ghugare, Santiago Miret, Adriana Hugessen, Mariano Phielipp, and Glen
+  Berseth.
+\newblock Searching for high-value molecules using reinforcement learning and
+  transformers.
+\newblock In \emph{International Conference on Learning Representations}, 2024.
+\newblock URL
+  \url{https://proceedings.iclr.cc/paper_files/paper/2024/hash/792a4eb351b014e1d61bcfaab0ddd555-Abstract-Conference.html}.
+
+\bibitem[Brown et~al.(2019)Brown, Fiscato, Segler, and
+  Vaucher]{brown2019guacamol}
+Nathan Brown, Marco Fiscato, Marwin H.~S. Segler, and Alain~C. Vaucher.
+\newblock {GuacaMol}: Benchmarking models for de novo molecular design.
+\newblock \emph{Journal of Chemical Information and Modeling}, 59\penalty0
+  (3):\penalty0 1096--1108, 2019.
+\newblock \doi{10.1021/acs.jcim.8b00839}.
+
+\bibitem[Gao et~al.(2022)Gao, Fu, Sun, and Coley]{gao2022pmo}
+Wenhao Gao, Tianfan Fu, Jimeng Sun, and Connor~W. Coley.
+\newblock Sample efficiency matters: A benchmark for practical molecular
+  optimization.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~35, 2022.
+\newblock URL \url{https://arxiv.org/abs/2206.12411}.
+
+\bibitem[Williams(1992)]{williams1992reinforce}
+Ronald~J. Williams.
+\newblock Simple statistical gradient-following algorithms for connectionist
+  reinforcement learning.
+\newblock \emph{Machine Learning}, 8:\penalty0 229--256, 1992.
+\newblock \doi{10.1007/BF00992696}.
+
+\end{thebibliography}

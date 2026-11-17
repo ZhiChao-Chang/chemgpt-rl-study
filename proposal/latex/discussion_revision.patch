@@ -1,0 +1,82 @@
+--- previous_main.tex
++++ main.tex
+@@ -1,6 +1,11 @@
+ \documentclass{article}
+ \PassOptionsToPackage{numbers,sort&compress}{natbib}
+-\usepackage[preprint]{neurips_2026}
++\usepackage[nonanonymous]{neurips_2026}
++% Course-proposal adaptation: named authors, no venue notice or review line numbers.
++\makeatletter
++\renewcommand{\@notice}{}
++\makeatother
++\AtBeginDocument{\nolinenumbers}
+ \usepackage[T1]{fontenc}
+ \usepackage[utf8]{inputenc}
+ \usepackage{amsmath,amssymb,booktabs,tabularx}
+@@ -179,25 +184,39 @@
+ 
+ \section{Feasibility, resources, and work plan}
+ \paragraph{Feasibility and resources.}
+-An initial CPU interface check has loaded the actual ChemGPT checkpoint,
+-generated 32 naturally terminated, decodable single-molecule samples, verified
+-rollout/teacher-forcing log-probability agreement, and obtained finite nonzero
+-gradients. A separate enumerable two-step environment checked the KL
+-score-function and leave-one-out gradient construction. These are engineering
+-checks; ChemGPT RL performance experiments have not yet been run.
++Initial CPU checks loaded the public ChemGPT checkpoint, generated 32 naturally
++terminated and decodable single-molecule samples, verified rollout/teacher-forcing
++log-probability agreement, and obtained finite nonzero gradients. An enumerable
++two-step environment checked the KL score-function and leave-one-out gradient
++construction. H100 resource profiling has also been completed. These are
++feasibility checks; the formal 18-run comparison remains planned.
+ The planned computing resources are one NVIDIA H100 80GB GPU, 4 vCPUs,
+ 64 GiB of host RAM, and 10 GB of project storage.
+ 
+-\paragraph{Shared work and deliverables.}
+-All three team members will jointly undertake model/RL implementation,
+-scoring and budgeted experiments, and independent analysis and writing, with
+-rotating implementation and cross-review, and shared presentation preparation.
+-Deliverables are versioned
+-code and configurations, complete generation/scoring logs, per-seed metrics,
+-necessary checkpoints, and a reproducible final report. We will preserve
+-negative results, including cases where frozen sampling is sufficient or KL
+-reduces scores without a useful quality benefit. The schedule is summarized in
+-Table~\ref{tab:schedule}.
++\paragraph{Team responsibilities.}
++\textbf{Zhang Zhichao} will cover molecular-generation literature, research-question
++formulation, and overall study design; adapt ChemGPT loading, sampling, and
++decoding interfaces for integration with the RL framework; and coordinate the
++proposal's background, motivation, and overall narrative in the final report.
++
++\textbf{Liao Yang} will develop the GuacaMol task, property-scoring, and reward
++interfaces; implement evaluation budgets, duplicate-molecule caching, and the
++frozen-model baseline; organize comparison runs; and carry out metric
++verification, result analysis, figures, and experimental reporting.
++
++\textbf{Han Gaofei} will focus on RL-method design and implementation, including
++REINFORCE, the variance-reduction baseline, the frozen reference policy, and KL
++regularization; verify policy updates, gradient correctness, and training
++stability; develop training configurations; and write the methods section and
++interpret the optimization behavior.
++
++\paragraph{Joint work and deliverables.}
++All three members will jointly finalize experiments, cross-check code and
++results, discuss conclusions, integrate the report, prepare the presentation,
++and participate in Q\&A. Deliverables are versioned code and configurations,
++complete generation/scoring logs, per-seed metrics, necessary checkpoints,
++and a reproducible final report. Negative results and quality--diversity
++trade-offs will be retained. The schedule is summarized in Table~\ref{tab:schedule}.
+ 
+ \begin{table}[H]
+ \caption{Planned schedule and concrete outputs.}
+--- previous_references.bib
++++ references.bib
+@@ -16,7 +16,7 @@
+ @misc{decao2018molgan,
+   author = {{De Cao}, Nicola and Kipf, Thomas},
+   title = {{MolGAN}: An implicit generative model for small molecular graphs},
+-  year = {2018}, howpublished = {arXiv preprint arXiv:1805.11973},
++  year = {2018}, howpublished = {arXiv:1805.11973},
+   url = {https://arxiv.org/abs/1805.11973}
+ }
+ @inproceedings{zang2020moflow,

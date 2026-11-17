@@ -1,0 +1,973 @@
+{
+  "verified_runs": 108,
+  "runs": {
+    "kl_dose/fexofenadine__frozen__s4101": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/fexofenadine__frozen__s4101",
+      "phase": "kl_dose",
+      "method": "frozen",
+      "seed": 4101,
+      "original_metric_check": "PASS"
+    },
+    "kl_dose/fexofenadine__rf__s4101": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/fexofenadine__rf__s4101",
+      "phase": "kl_dose",
+      "method": "rf",
+      "seed": 4101,
+      "original_metric_check": "PASS"
+    },
+    "kl_dose/fexofenadine__kl_001__s4101": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/fexofenadine__kl_001__s4101",
+      "phase": "kl_dose",
+      "method": "kl_001",
+      "seed": 4101,
+      "original_metric_check": "PASS"
+    },
+    "kl_dose/fexofenadine__kl_0003__s4101": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/fexofenadine__kl_0003__s4101",
+      "phase": "kl_dose",
+      "method": "kl_0003",
+      "seed": 4101,
+      "original_metric_check": "PASS"
+    },
+    "kl_dose/fexofenadine__kl_003__s4101": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/fexofenadine__kl_003__s4101",
+      "phase": "kl_dose",
+      "method": "kl_003",
+      "seed": 4101,
+      "original_metric_check": "PASS"
+    },
+    "kl_dose/fexofenadine__kl_01__s4101": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/fexofenadine__kl_01__s4101",
+      "phase": "kl_dose",
+      "method": "kl_01",
+      "seed": 4101,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/osimertinib__frozen__s4101": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/osimertinib__frozen__s4101",
+      "phase": "kl_dose",
+      "method": "frozen",
+      "seed": 4101,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/osimertinib__rf__s4101": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/osimertinib__rf__s4101",
+      "phase": "kl_dose",
+      "method": "rf",
+      "seed": 4101,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/osimertinib__kl_001__s4101": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/osimertinib__kl_001__s4101",
+      "phase": "kl_dose",
+      "method": "kl_001",
+      "seed": 4101,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/osimertinib__kl_0003__s4101": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/osimertinib__kl_0003__s4101",
+      "phase": "kl_dose",
+      "method": "kl_0003",
+      "seed": 4101,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/osimertinib__kl_003__s4101": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/osimertinib__kl_003__s4101",
+      "phase": "kl_dose",
+      "method": "kl_003",
+      "seed": 4101,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/osimertinib__kl_01__s4101": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/osimertinib__kl_01__s4101",
+      "phase": "kl_dose",
+      "method": "kl_01",
+      "seed": 4101,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/fexofenadine__frozen__s4102": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/fexofenadine__frozen__s4102",
+      "phase": "kl_dose",
+      "method": "frozen",
+      "seed": 4102,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/fexofenadine__rf__s4102": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/fexofenadine__rf__s4102",
+      "phase": "kl_dose",
+      "method": "rf",
+      "seed": 4102,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/fexofenadine__kl_001__s4102": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/fexofenadine__kl_001__s4102",
+      "phase": "kl_dose",
+      "method": "kl_001",
+      "seed": 4102,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/fexofenadine__kl_0003__s4102": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/fexofenadine__kl_0003__s4102",
+      "phase": "kl_dose",
+      "method": "kl_0003",
+      "seed": 4102,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/fexofenadine__kl_003__s4102": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/fexofenadine__kl_003__s4102",
+      "phase": "kl_dose",
+      "method": "kl_003",
+      "seed": 4102,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/fexofenadine__kl_01__s4102": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/fexofenadine__kl_01__s4102",
+      "phase": "kl_dose",
+      "method": "kl_01",
+      "seed": 4102,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/osimertinib__frozen__s4102": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/osimertinib__frozen__s4102",
+      "phase": "kl_dose",
+      "method": "frozen",
+      "seed": 4102,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/osimertinib__rf__s4102": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/osimertinib__rf__s4102",
+      "phase": "kl_dose",
+      "method": "rf",
+      "seed": 4102,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/osimertinib__kl_001__s4102": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/osimertinib__kl_001__s4102",
+      "phase": "kl_dose",
+      "method": "kl_001",
+      "seed": 4102,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/osimertinib__kl_0003__s4102": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/osimertinib__kl_0003__s4102",
+      "phase": "kl_dose",
+      "method": "kl_0003",
+      "seed": 4102,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/osimertinib__kl_003__s4102": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/osimertinib__kl_003__s4102",
+      "phase": "kl_dose",
+      "method": "kl_003",
+      "seed": 4102,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/osimertinib__kl_01__s4102": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/osimertinib__kl_01__s4102",
+      "phase": "kl_dose",
+      "method": "kl_01",
+      "seed": 4102,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/fexofenadine__frozen__s4103": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/fexofenadine__frozen__s4103",
+      "phase": "kl_dose",
+      "method": "frozen",
+      "seed": 4103,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/fexofenadine__rf__s4103": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/fexofenadine__rf__s4103",
+      "phase": "kl_dose",
+      "method": "rf",
+      "seed": 4103,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/fexofenadine__kl_001__s4103": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/fexofenadine__kl_001__s4103",
+      "phase": "kl_dose",
+      "method": "kl_001",
+      "seed": 4103,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/fexofenadine__kl_0003__s4103": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/fexofenadine__kl_0003__s4103",
+      "phase": "kl_dose",
+      "method": "kl_0003",
+      "seed": 4103,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/fexofenadine__kl_003__s4103": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/fexofenadine__kl_003__s4103",
+      "phase": "kl_dose",
+      "method": "kl_003",
+      "seed": 4103,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/fexofenadine__kl_01__s4103": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/fexofenadine__kl_01__s4103",
+      "phase": "kl_dose",
+      "method": "kl_01",
+      "seed": 4103,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/osimertinib__frozen__s4103": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/osimertinib__frozen__s4103",
+      "phase": "kl_dose",
+      "method": "frozen",
+      "seed": 4103,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/osimertinib__rf__s4103": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/osimertinib__rf__s4103",
+      "phase": "kl_dose",
+      "method": "rf",
+      "seed": 4103,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/osimertinib__kl_001__s4103": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/osimertinib__kl_001__s4103",
+      "phase": "kl_dose",
+      "method": "kl_001",
+      "seed": 4103,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/osimertinib__kl_0003__s4103": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/osimertinib__kl_0003__s4103",
+      "phase": "kl_dose",
+      "method": "kl_0003",
+      "seed": 4103,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/osimertinib__kl_003__s4103": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/osimertinib__kl_003__s4103",
+      "phase": "kl_dose",
+      "method": "kl_003",
+      "seed": 4103,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/osimertinib__kl_01__s4103": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/osimertinib__kl_01__s4103",
+      "phase": "kl_dose",
+      "method": "kl_01",
+      "seed": 4103,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/fexofenadine__frozen__s4104": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/fexofenadine__frozen__s4104",
+      "phase": "kl_dose",
+      "method": "frozen",
+      "seed": 4104,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/fexofenadine__rf__s4104": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/fexofenadine__rf__s4104",
+      "phase": "kl_dose",
+      "method": "rf",
+      "seed": 4104,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/fexofenadine__kl_001__s4104": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/fexofenadine__kl_001__s4104",
+      "phase": "kl_dose",
+      "method": "kl_001",
+      "seed": 4104,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/fexofenadine__kl_0003__s4104": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/fexofenadine__kl_0003__s4104",
+      "phase": "kl_dose",
+      "method": "kl_0003",
+      "seed": 4104,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/fexofenadine__kl_003__s4104": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/fexofenadine__kl_003__s4104",
+      "phase": "kl_dose",
+      "method": "kl_003",
+      "seed": 4104,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/fexofenadine__kl_01__s4104": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/fexofenadine__kl_01__s4104",
+      "phase": "kl_dose",
+      "method": "kl_01",
+      "seed": 4104,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/osimertinib__frozen__s4104": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/osimertinib__frozen__s4104",
+      "phase": "kl_dose",
+      "method": "frozen",
+      "seed": 4104,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/osimertinib__rf__s4104": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/osimertinib__rf__s4104",
+      "phase": "kl_dose",
+      "method": "rf",
+      "seed": 4104,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/osimertinib__kl_001__s4104": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/osimertinib__kl_001__s4104",
+      "phase": "kl_dose",
+      "method": "kl_001",
+      "seed": 4104,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/osimertinib__kl_0003__s4104": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/osimertinib__kl_0003__s4104",
+      "phase": "kl_dose",
+      "method": "kl_0003",
+      "seed": 4104,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/osimertinib__kl_003__s4104": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/osimertinib__kl_003__s4104",
+      "phase": "kl_dose",
+      "method": "kl_003",
+      "seed": 4104,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/osimertinib__kl_01__s4104": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/osimertinib__kl_01__s4104",
+      "phase": "kl_dose",
+      "method": "kl_01",
+      "seed": 4104,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/fexofenadine__frozen__s4105": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/fexofenadine__frozen__s4105",
+      "phase": "kl_dose",
+      "method": "frozen",
+      "seed": 4105,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/fexofenadine__rf__s4105": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/fexofenadine__rf__s4105",
+      "phase": "kl_dose",
+      "method": "rf",
+      "seed": 4105,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/fexofenadine__kl_001__s4105": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/fexofenadine__kl_001__s4105",
+      "phase": "kl_dose",
+      "method": "kl_001",
+      "seed": 4105,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/fexofenadine__kl_0003__s4105": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/fexofenadine__kl_0003__s4105",
+      "phase": "kl_dose",
+      "method": "kl_0003",
+      "seed": 4105,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/fexofenadine__kl_003__s4105": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/fexofenadine__kl_003__s4105",
+      "phase": "kl_dose",
+      "method": "kl_003",
+      "seed": 4105,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/fexofenadine__kl_01__s4105": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/fexofenadine__kl_01__s4105",
+      "phase": "kl_dose",
+      "method": "kl_01",
+      "seed": 4105,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/osimertinib__frozen__s4105": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/osimertinib__frozen__s4105",
+      "phase": "kl_dose",
+      "method": "frozen",
+      "seed": 4105,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/osimertinib__rf__s4105": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/osimertinib__rf__s4105",
+      "phase": "kl_dose",
+      "method": "rf",
+      "seed": 4105,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/osimertinib__kl_001__s4105": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/osimertinib__kl_001__s4105",
+      "phase": "kl_dose",
+      "method": "kl_001",
+      "seed": 4105,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/osimertinib__kl_0003__s4105": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/osimertinib__kl_0003__s4105",
+      "phase": "kl_dose",
+      "method": "kl_0003",
+      "seed": 4105,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/osimertinib__kl_003__s4105": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/osimertinib__kl_003__s4105",
+      "phase": "kl_dose",
+      "method": "kl_003",
+      "seed": 4105,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "kl_dose/osimertinib__kl_01__s4105": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/kl_dose/osimertinib__kl_01__s4105",
+      "phase": "kl_dose",
+      "method": "kl_01",
+      "seed": 4105,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "mechanism/fexofenadine__frozen__s4201": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/mechanism/fexofenadine__frozen__s4201",
+      "phase": "mechanism",
+      "method": "frozen",
+      "seed": 4201,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "mechanism/fexofenadine__rf__s4201": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/mechanism/fexofenadine__rf__s4201",
+      "phase": "mechanism",
+      "method": "rf",
+      "seed": 4201,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "mechanism/fexofenadine__kl_001__s4201": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/mechanism/fexofenadine__kl_001__s4201",
+      "phase": "mechanism",
+      "method": "kl_001",
+      "seed": 4201,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "mechanism/fexofenadine__length_0001__s4201": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/mechanism/fexofenadine__length_0001__s4201",
+      "phase": "mechanism",
+      "method": "length_0001",
+      "seed": 4201,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "mechanism/fexofenadine__length_0003__s4201": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/mechanism/fexofenadine__length_0003__s4201",
+      "phase": "mechanism",
+      "method": "length_0003",
+      "seed": 4201,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "mechanism/fexofenadine__upper_tpsa150__s4201": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/mechanism/fexofenadine__upper_tpsa150__s4201",
+      "phase": "mechanism",
+      "method": "upper_tpsa150",
+      "seed": 4201,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "mechanism/fexofenadine__frozen__s4202": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/mechanism/fexofenadine__frozen__s4202",
+      "phase": "mechanism",
+      "method": "frozen",
+      "seed": 4202,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "mechanism/fexofenadine__rf__s4202": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/mechanism/fexofenadine__rf__s4202",
+      "phase": "mechanism",
+      "method": "rf",
+      "seed": 4202,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "mechanism/fexofenadine__kl_001__s4202": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/mechanism/fexofenadine__kl_001__s4202",
+      "phase": "mechanism",
+      "method": "kl_001",
+      "seed": 4202,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "mechanism/fexofenadine__length_0001__s4202": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/mechanism/fexofenadine__length_0001__s4202",
+      "phase": "mechanism",
+      "method": "length_0001",
+      "seed": 4202,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "mechanism/fexofenadine__length_0003__s4202": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/mechanism/fexofenadine__length_0003__s4202",
+      "phase": "mechanism",
+      "method": "length_0003",
+      "seed": 4202,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "mechanism/fexofenadine__upper_tpsa150__s4202": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/mechanism/fexofenadine__upper_tpsa150__s4202",
+      "phase": "mechanism",
+      "method": "upper_tpsa150",
+      "seed": 4202,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "mechanism/fexofenadine__frozen__s4203": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/mechanism/fexofenadine__frozen__s4203",
+      "phase": "mechanism",
+      "method": "frozen",
+      "seed": 4203,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "mechanism/fexofenadine__rf__s4203": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/mechanism/fexofenadine__rf__s4203",
+      "phase": "mechanism",
+      "method": "rf",
+      "seed": 4203,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "mechanism/fexofenadine__kl_001__s4203": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/mechanism/fexofenadine__kl_001__s4203",
+      "phase": "mechanism",
+      "method": "kl_001",
+      "seed": 4203,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "mechanism/fexofenadine__length_0001__s4203": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/mechanism/fexofenadine__length_0001__s4203",
+      "phase": "mechanism",
+      "method": "length_0001",
+      "seed": 4203,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "mechanism/fexofenadine__length_0003__s4203": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/mechanism/fexofenadine__length_0003__s4203",
+      "phase": "mechanism",
+      "method": "length_0003",
+      "seed": 4203,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "mechanism/fexofenadine__upper_tpsa150__s4203": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/mechanism/fexofenadine__upper_tpsa150__s4203",
+      "phase": "mechanism",
+      "method": "upper_tpsa150",
+      "seed": 4203,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "mechanism/fexofenadine__frozen__s4204": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/mechanism/fexofenadine__frozen__s4204",
+      "phase": "mechanism",
+      "method": "frozen",
+      "seed": 4204,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "mechanism/fexofenadine__rf__s4204": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/mechanism/fexofenadine__rf__s4204",
+      "phase": "mechanism",
+      "method": "rf",
+      "seed": 4204,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "mechanism/fexofenadine__kl_001__s4204": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/mechanism/fexofenadine__kl_001__s4204",
+      "phase": "mechanism",
+      "method": "kl_001",
+      "seed": 4204,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "mechanism/fexofenadine__length_0001__s4204": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/mechanism/fexofenadine__length_0001__s4204",
+      "phase": "mechanism",
+      "method": "length_0001",
+      "seed": 4204,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "mechanism/fexofenadine__length_0003__s4204": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/mechanism/fexofenadine__length_0003__s4204",
+      "phase": "mechanism",
+      "method": "length_0003",
+      "seed": 4204,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "mechanism/fexofenadine__upper_tpsa150__s4204": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/mechanism/fexofenadine__upper_tpsa150__s4204",
+      "phase": "mechanism",
+      "method": "upper_tpsa150",
+      "seed": 4204,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "mechanism/fexofenadine__frozen__s4205": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/mechanism/fexofenadine__frozen__s4205",
+      "phase": "mechanism",
+      "method": "frozen",
+      "seed": 4205,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "mechanism/fexofenadine__rf__s4205": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/mechanism/fexofenadine__rf__s4205",
+      "phase": "mechanism",
+      "method": "rf",
+      "seed": 4205,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "mechanism/fexofenadine__kl_001__s4205": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/mechanism/fexofenadine__kl_001__s4205",
+      "phase": "mechanism",
+      "method": "kl_001",
+      "seed": 4205,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "mechanism/fexofenadine__length_0001__s4205": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/mechanism/fexofenadine__length_0001__s4205",
+      "phase": "mechanism",
+      "method": "length_0001",
+      "seed": 4205,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "mechanism/fexofenadine__length_0003__s4205": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/mechanism/fexofenadine__length_0003__s4205",
+      "phase": "mechanism",
+      "method": "length_0003",
+      "seed": 4205,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "mechanism/fexofenadine__upper_tpsa150__s4205": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/mechanism/fexofenadine__upper_tpsa150__s4205",
+      "phase": "mechanism",
+      "method": "upper_tpsa150",
+      "seed": 4205,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "long_budget/fexofenadine__frozen__s4301": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/long_budget/fexofenadine__frozen__s4301",
+      "phase": "long_budget",
+      "method": "frozen",
+      "seed": 4301,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "long_budget/fexofenadine__rf__s4301": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/long_budget/fexofenadine__rf__s4301",
+      "phase": "long_budget",
+      "method": "rf",
+      "seed": 4301,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "long_budget/fexofenadine__kl_001__s4301": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/long_budget/fexofenadine__kl_001__s4301",
+      "phase": "long_budget",
+      "method": "kl_001",
+      "seed": 4301,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "long_budget/osimertinib__frozen__s4301": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/long_budget/osimertinib__frozen__s4301",
+      "phase": "long_budget",
+      "method": "frozen",
+      "seed": 4301,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "long_budget/osimertinib__rf__s4301": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/long_budget/osimertinib__rf__s4301",
+      "phase": "long_budget",
+      "method": "rf",
+      "seed": 4301,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "long_budget/osimertinib__kl_001__s4301": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/long_budget/osimertinib__kl_001__s4301",
+      "phase": "long_budget",
+      "method": "kl_001",
+      "seed": 4301,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "long_budget/fexofenadine__frozen__s4302": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/long_budget/fexofenadine__frozen__s4302",
+      "phase": "long_budget",
+      "method": "frozen",
+      "seed": 4302,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "long_budget/fexofenadine__rf__s4302": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/long_budget/fexofenadine__rf__s4302",
+      "phase": "long_budget",
+      "method": "rf",
+      "seed": 4302,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "long_budget/fexofenadine__kl_001__s4302": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/long_budget/fexofenadine__kl_001__s4302",
+      "phase": "long_budget",
+      "method": "kl_001",
+      "seed": 4302,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "long_budget/osimertinib__frozen__s4302": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/long_budget/osimertinib__frozen__s4302",
+      "phase": "long_budget",
+      "method": "frozen",
+      "seed": 4302,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "long_budget/osimertinib__rf__s4302": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/long_budget/osimertinib__rf__s4302",
+      "phase": "long_budget",
+      "method": "rf",
+      "seed": 4302,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "long_budget/osimertinib__kl_001__s4302": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/long_budget/osimertinib__kl_001__s4302",
+      "phase": "long_budget",
+      "method": "kl_001",
+      "seed": 4302,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "long_budget/fexofenadine__frozen__s4303": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/long_budget/fexofenadine__frozen__s4303",
+      "phase": "long_budget",
+      "method": "frozen",
+      "seed": 4303,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "long_budget/fexofenadine__rf__s4303": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/long_budget/fexofenadine__rf__s4303",
+      "phase": "long_budget",
+      "method": "rf",
+      "seed": 4303,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "long_budget/fexofenadine__kl_001__s4303": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/long_budget/fexofenadine__kl_001__s4303",
+      "phase": "long_budget",
+      "method": "kl_001",
+      "seed": 4303,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "long_budget/osimertinib__frozen__s4303": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/long_budget/osimertinib__frozen__s4303",
+      "phase": "long_budget",
+      "method": "frozen",
+      "seed": 4303,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "long_budget/osimertinib__rf__s4303": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/long_budget/osimertinib__rf__s4303",
+      "phase": "long_budget",
+      "method": "rf",
+      "seed": 4303,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    },
+    "long_budget/osimertinib__kl_001__s4303": {
+      "status": "PASS",
+      "run": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/exploration_11h_20261114/collected/results/long_budget/osimertinib__kl_001__s4303",
+      "phase": "long_budget",
+      "method": "kl_001",
+      "seed": 4303,
+      "original_metric_check": "PASS",
+      "exact_token_reward_replay_max_error": 0.0
+    }
+  },
+  "checked_runs": 108
+}

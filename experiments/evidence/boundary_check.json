@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "cache_duplicate_preserves_reward": true,
+  "truncation_zero": true,
+  "cases": [
+    {
+      "tail_batch": 1,
+      "attempts": 1,
+      "unique": 1,
+      "status": "PASS"
+    },
+    {
+      "tail_batch": 5,
+      "attempts": 5,
+      "unique": 5,
+      "status": "PASS"
+    }
+  ],
+  "checkpoint": "contains model/Adam/RNG/ledger state; no automatic cross-worker recovery claimed"
+}

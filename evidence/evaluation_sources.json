@@ -1,0 +1,286 @@
+{
+  "reviewed_on": "2026-11-04",
+  "scope": "Public literature, official code and metadata review only; no molecular design, model/data bulk download or experiment",
+  "source_count": 12,
+  "source_count_unit": "source families; multiple supporting URLs per family",
+  "sources": [
+    {
+      "id": "E01",
+      "title": "TamGen official implementation/data",
+      "date": "2024 paper; main checked 2026-11-04",
+      "urls": [
+        "https://github.com/microsoft/TamGen",
+        "https://github.com/microsoft/TamGen/blob/main/data/README.md",
+        "https://zenodo.org/records/13751391"
+      ],
+      "locations": [
+        "README: Build customized dataset / Model",
+        "data README directory tree"
+      ],
+      "claims": [
+        "PDB ID + center or ligand location for custom pocket input",
+        "checkpoints.zip and gpt_model.zip separate artifacts",
+        "Code MIT"
+      ],
+      "license": "Code MIT; weights/data require per-artifact terms; no inference from code",
+      "download_unit": "Separate zip archives; sizes not measured; no download",
+      "access_date": "2026-11-04",
+      "source_type": "primary_or_official"
+    },
+    {
+      "id": "E02",
+      "title": "CrossDocked2020 original dataset release",
+      "date": "v1.3",
+      "urls": [
+        "https://github.com/gnina/models/blob/master/data/CrossDocked2020/README.md"
+      ],
+      "locations": [
+        "Downloading / Extracting tarballs"
+      ],
+      "claims": [
+        "Full raw v1.3 has 52,126,979 files",
+        "types/full/downsampled/molcache artifacts distinct",
+        "Not same as downstream 100-pocket generation subset"
+      ],
+      "license": "Dataset redistribution terms not established by README; no inference from surrounding code",
+      "download_unit": "Original tarballs/types/molcache; none downloaded",
+      "access_date": "2026-11-04",
+      "source_type": "primary_or_official"
+    },
+    {
+      "id": "E03",
+      "title": "Pocket2Mol official implementation",
+      "date": "2022; main checked 2026-11-04",
+      "urls": [
+        "https://github.com/pengxingang/Pocket2Mol",
+        "https://raw.githubusercontent.com/pengxingang/Pocket2Mol/main/README.md"
+      ],
+      "locations": [
+        "Sampling for testset / PDB pockets"
+      ],
+      "claims": [
+        "test indices 0-99",
+        "custom structure and pocket center interface",
+        "MIT code"
+      ],
+      "license": "Code MIT; data/weight terms separate",
+      "download_unit": "Dataset/checkpoints separate; no download",
+      "access_date": "2026-11-04",
+      "source_type": "primary_or_official"
+    },
+    {
+      "id": "E04",
+      "title": "PDBbind official access",
+      "date": "current checked 2026-11-04",
+      "urls": [
+        "https://www.pdbbind-plus.org.cn/",
+        "https://www.pdbbind.org.cn/enroll.php"
+      ],
+      "locations": [
+        "official frontend / enroll"
+      ],
+      "claims": [
+        "PDBbind+ returns JavaScript shell",
+        "legacy enroll inaccessible in tool",
+        "Current exact licensing agreement NOT verified"
+      ],
+      "license": "UNKNOWN exact version-specific agreement; do not claim redistribution grant",
+      "download_unit": "Unknown; no download",
+      "verification_status": "Access limitation explicitly recorded",
+      "access_date": "2026-11-04",
+      "source_type": "primary_or_official"
+    },
+    {
+      "id": "E05",
+      "title": "GuacaMol official benchmark",
+      "date": "2018/2019; master checked 2026-11-04",
+      "urls": [
+        "https://github.com/BenevolentAI/guacamol",
+        "https://github.com/BenevolentAI/guacamol/blob/master/LICENSE"
+      ],
+      "locations": [
+        "Benchmarking models / Data / Download"
+      ],
+      "claims": [
+        "Distribution matching and goal-directed interfaces distinct",
+        "Standard ChEMBL files published with hashes",
+        "Separate train/validation/test/all"
+      ],
+      "license": "Code MIT; underlying ChEMBL rights separate",
+      "download_unit": "Individual SMILES files via Figshare; no download",
+      "access_date": "2026-11-04",
+      "source_type": "primary_or_official"
+    },
+    {
+      "id": "E06",
+      "title": "MOSES official benchmark",
+      "date": "2020; master checked 2026-11-04",
+      "urls": [
+        "https://github.com/molecularsets/moses",
+        "https://github.com/molecularsets/moses/blob/master/LICENSE"
+      ],
+      "locations": [
+        "Dataset / Metrics / Benchmarking"
+      ],
+      "claims": [
+        "1,936,962 filtered molecules",
+        "Ordinary and scaffold tests distinct",
+        "Novelty against training set",
+        "Recommends at least 30,000 samples for all metrics"
+      ],
+      "license": "Code MIT; source data rights separate",
+      "download_unit": "Per-split data/Git LFS; optional Docker; no download",
+      "access_date": "2026-11-04",
+      "source_type": "primary_or_official"
+    },
+    {
+      "id": "E07",
+      "title": "Sample Efficiency Matters: A Benchmark for Practical Molecular Optimization",
+      "date": "NeurIPS 2022; arXiv v2 2022-10-09",
+      "urls": [
+        "https://arxiv.org/abs/2206.12411",
+        "https://arxiv.org/html/2206.12411v2",
+        "https://github.com/wenhao-gao/mol_opt"
+      ],
+      "locations": [
+        "Introduction / Benchmark setup / repo overview"
+      ],
+      "claims": [
+        "23 tasks and 25 algorithms",
+        "10,000 oracle queries",
+        "top-10 score-vs-calls AUC",
+        "multiseed and tuning supported"
+      ],
+      "license": "Code MIT; article CC BY 4.0; individual upstream assets separate",
+      "download_unit": "Code plus processed data/pretrained assets; none downloaded",
+      "access_date": "2026-11-04",
+      "source_type": "primary_or_official"
+    },
+    {
+      "id": "E08",
+      "title": "TDC docking group and oracles",
+      "date": "current docs/main checked 2026-11-04",
+      "urls": [
+        "https://tdcommons.ai/benchmark/docking_group/overview/",
+        "https://tdcommons.ai/functions/oracles/",
+        "https://raw.githubusercontent.com/mims-harvard/TDC/main/tdc/metadata.py",
+        "https://raw.githubusercontent.com/mims-harvard/TDC/main/tdc/chem_utils/oracle/oracle.py"
+      ],
+      "locations": [
+        "Docking Group maximum calls / metrics",
+        "metadata docking_target_info",
+        "oracle penalized_logp / gsk3b / jnk3"
+      ],
+      "claims": [
+        "DRD3 webpage budgets 100/500/1000/5000 and >=3 seeds",
+        "Current metadata has 9 prepared targets, not just historical 5",
+        "penalized_logp standardized MolLogP/negative-SA/cycle composite",
+        "QSAR probability differs from docking"
+      ],
+      "license": "TDC code MIT; external assets/tools own terms; optional Molecule.one separately governed",
+      "download_unit": "Per-target receptor/oracle assets; none downloaded",
+      "verification_status": "Current moving main inspected, not a pinned reproducibility revision",
+      "access_date": "2026-11-04",
+      "source_type": "primary_or_official"
+    },
+    {
+      "id": "E09",
+      "title": "AutoDock Vina official manual",
+      "date": "checked 2026-11-04",
+      "urls": [
+        "https://vina.scripps.edu/manual/"
+      ],
+      "locations": [
+        "License / FAQ accuracy / Advanced options"
+      ],
+      "claims": [
+        "Target-specific accuracy varies",
+        "Size/property-matched decoys recommended",
+        "Score-only, local minimization, docking/search distinct",
+        "Stochastic docking/settings matter"
+      ],
+      "license": "Apache license per official manual; preparation tools separate",
+      "download_unit": "Binary/source software; no install/download",
+      "access_date": "2026-11-04",
+      "source_type": "primary_or_official"
+    },
+    {
+      "id": "E10",
+      "title": "PoseBusters: AI-based docking methods fail to generate physically valid poses or generalise to novel sequences",
+      "date": "Chemical Science 2024; doi:10.1039/D3SC04185A",
+      "urls": [
+        "https://doi.org/10.1039/D3SC04185A",
+        "https://pubs.rsc.org/ga/content/articlepdf/2024/sc/d3sc04185a",
+        "https://posebusters.readthedocs.io/en/latest/",
+        "https://raw.githubusercontent.com/maabuu/posebusters/main/LICENSE"
+      ],
+      "locations": [
+        "Abstract / quality check table / discussion"
+      ],
+      "claims": [
+        "RMSD alone misses physical implausibility",
+        "Chemical/geometric/intra/intermolecular checks",
+        "OOD sequence assessment important"
+      ],
+      "license": "Code MIT; article separately licensed",
+      "download_unit": "Package and benchmark; no install/download",
+      "verification_status": "2024 comparison applies to evaluated systems, not all future AI models",
+      "access_date": "2026-11-04",
+      "source_type": "primary_or_official"
+    },
+    {
+      "id": "E11",
+      "title": "PMO-Dock: Benchmarking Docking, Specificity, and Generalization in Molecular Optimization",
+      "date": "arXiv v1 submitted 2026-10-13; preprint",
+      "urls": [
+        "https://arxiv.org/abs/2610.19011",
+        "https://arxiv.org/html/2610.19011v1",
+        "https://github.com/YerevaNN/PMO-Dock",
+        "https://raw.githubusercontent.com/YerevaNN/PMO-Dock/main/pyproject.toml"
+      ],
+      "locations": [
+        "Sections 2.1-2.5 / Section 5 / Appendices G,H,I",
+        "pyproject project license"
+      ],
+      "claims": [
+        "25 hit/lead/specificity tasks",
+        "Held-out development/test tasks",
+        "hit budget 3000 / lead budget 1000",
+        "Different exhaustiveness/replication by task",
+        "Vina rescoring and PoseBusters analyses exist",
+        "Full sweeps use large compute"
+      ],
+      "license": "Package Apache-2.0 explicitly declared; upstream methods/assets own terms; arXiv perpetual non-exclusive paper license",
+      "download_unit": "Code and per-target assets; none downloaded",
+      "verification_status": "New preprint, not mature consensus or local reproduction",
+      "access_date": "2026-11-04",
+      "source_type": "primary_or_official"
+    },
+    {
+      "id": "E12",
+      "title": "RCSB PDB target/species records",
+      "date": "entries checked 2026-11-04",
+      "urls": [
+        "https://www.rcsb.org/structure/3PBL",
+        "https://www.rcsb.org/structure/3EML",
+        "https://www.rcsb.org/structure/3NY8",
+        "https://www.rcsb.org/structure/1IEP"
+      ],
+      "locations": [
+        "Entry title / organism / macromolecule entity tables"
+      ],
+      "claims": [
+        "3PBL human DRD3 fusion/mutations",
+        "3EML human A2A receptor fusion",
+        "3NY8 engineered human beta2 receptor fusion",
+        "1IEP Mus musculus, not human"
+      ],
+      "license": "RCSB/wwPDB terms apply; no rights inference for unrelated curated datasets",
+      "download_unit": "Per-entry coordinates/ligand records; none downloaded",
+      "verification_status": "Candidate metadata only, no target selection or model-ready receptor acceptance",
+      "access_date": "2026-11-04",
+      "source_type": "primary_or_official"
+    }
+  ]
+}
+

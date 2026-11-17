@@ -1,0 +1,67 @@
+{
+  "status": "FAILED",
+  "scope": "bounded DEV resource profile; no formal task scoring or saved weights",
+  "arguments": {
+    "model_dir": "/zzc/260010120/cci_control/acp-tests/acp-explore-chemgpt-profile-20261104-04/model",
+    "vendor_dir": "/zzc/260010120/cci_control/acp-tests/acp-explore-chemgpt-profile-20261104-04/vendor",
+    "out": "/zzc/260010120/cci_control/acp-tests/acp-explore-chemgpt-profile-20261104-04/profile.json",
+    "device": "cuda",
+    "batch_size": 32,
+    "steps": 4,
+    "max_length": 256,
+    "threads": 4,
+    "methods": [
+      "frozen",
+      "reinforce",
+      "reinforce_kl"
+    ],
+    "stress_shapes": true,
+    "seed": 11,
+    "learning_rate": 1e-05,
+    "kl_beta": 0.01
+  },
+  "model_revision": "7438a282460b3038e17a27e25b85b1376e9a23e2",
+  "methods": {},
+  "synthetic_stress": [],
+  "measurement_label": "ACTUAL_H100_IF_DEVICE_GATE_PASSES",
+  "no_cross_step_replay": true,
+  "fresh_batch_updates": 1,
+  "warmup": "one real warmup per method, excluded; model and Adam then reinitialized from original weights",
+  "reward": {
+    "name": "DEV Perindopril MPO",
+    "guacamol_commit": "60ebe1f6a396f16e08b834dce448e9343d259feb",
+    "reference_smiles": "O=C(OCC)C(NC(C(=O)N1C(C(=O)O)CC2CCCCC12)C)CCC",
+    "fingerprint": "unhashed count Morgan radius2; useFeatures=False",
+    "aromatic_rings_gaussian": {
+      "mu": 2.0,
+      "sigma": 0.5
+    },
+    "aggregation": "sqrt(similarity * gaussian)",
+    "invalid_or_truncated_reward": 0.0
+  },
+  "token_contract": {
+    "bos": 2,
+    "eos": 3,
+    "pad": 1,
+    "blocked": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "temperature": 1.0,
+    "token_type_ids": "all zero",
+    "length_normalization": false
+  },
+  "gpu_memory_policy": {
+    "allocator_fraction_hard_limit": 0.24,
+    "peak_reserved_limit_fraction": 0.25,
+    "scope": "PyTorch allocator; CUDA driver/context memory is outside allocator accounting"
+  },
+  "script_sha256": "951d6fd36287f404cd02712dd97e138dd59257adca4d3f3914c3fd4e7abe0e0f",
+  "error": {
+    "type": "ValueError",
+    "message": "Expected a torch.device with a specified index or an integer, but got:cuda",
+    "traceback": "Traceback (most recent call last):\n  File \"/zzc/260010120/cci_control/acp-tests/acp-explore-chemgpt-profile-20261104-04/profile_h100.py\", line 367, in main\n    torch.cuda.set_per_process_memory_fraction(0.24, device)\n  File \"/root/anaconda3/envs/ddc_encoding/lib/python3.10/site-packages/torch/cuda/memory.py\", line 185, in set_per_process_memory_fraction\n    device = _get_device_index(device)\n  File \"/root/anaconda3/envs/ddc_encoding/lib/python3.10/site-packages/torch/cuda/_utils.py\", line 38, in _get_device_index\n    return _torch_get_device_index(device, optional, allow_cpu)\n  File \"/root/anaconda3/envs/ddc_encoding/lib/python3.10/site-packages/torch/_utils.py\", line 853, in _get_device_index\n    raise ValueError(\nValueError: Expected a torch.device with a specified index or an integer, but got:cuda\n"
+  }
+}

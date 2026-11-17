@@ -1,0 +1,3600 @@
+{
+  "repo": {
+    "id": 781839387,
+    "node_id": "R_kgDOLpnsGw",
+    "name": "TamGen",
+    "full_name": "microsoft/TamGen",
+    "private": false,
+    "owner": {
+      "login": "microsoft",
+      "id": 6154722,
+      "node_id": "MDEyOk9yZ2FuaXphdGlvbjYxNTQ3MjI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6154722?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/microsoft",
+      "html_url": "https://github.com/microsoft",
+      "followers_url": "https://api.github.com/users/microsoft/followers",
+      "following_url": "https://api.github.com/users/microsoft/following{/other_user}",
+      "gists_url": "https://api.github.com/users/microsoft/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/microsoft/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/microsoft/subscriptions",
+      "organizations_url": "https://api.github.com/users/microsoft/orgs",
+      "repos_url": "https://api.github.com/users/microsoft/repos",
+      "events_url": "https://api.github.com/users/microsoft/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/microsoft/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "html_url": "https://github.com/microsoft/TamGen",
+    "description": null,
+    "fork": false,
+    "url": "https://api.github.com/repos/microsoft/TamGen",
+    "forks_url": "https://api.github.com/repos/microsoft/TamGen/forks",
+    "keys_url": "https://api.github.com/repos/microsoft/TamGen/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/microsoft/TamGen/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/microsoft/TamGen/teams",
+    "hooks_url": "https://api.github.com/repos/microsoft/TamGen/hooks",
+    "issue_events_url": "https://api.github.com/repos/microsoft/TamGen/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/microsoft/TamGen/events",
+    "assignees_url": "https://api.github.com/repos/microsoft/TamGen/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/microsoft/TamGen/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/microsoft/TamGen/tags",
+    "blobs_url": "https://api.github.com/repos/microsoft/TamGen/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/microsoft/TamGen/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/microsoft/TamGen/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/microsoft/TamGen/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/microsoft/TamGen/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/microsoft/TamGen/languages",
+    "stargazers_url": "https://api.github.com/repos/microsoft/TamGen/stargazers",
+    "contributors_url": "https://api.github.com/repos/microsoft/TamGen/contributors",
+    "subscribers_url": "https://api.github.com/repos/microsoft/TamGen/subscribers",
+    "subscription_url": "https://api.github.com/repos/microsoft/TamGen/subscription",
+    "commits_url": "https://api.github.com/repos/microsoft/TamGen/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/microsoft/TamGen/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/microsoft/TamGen/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/microsoft/TamGen/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/microsoft/TamGen/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/microsoft/TamGen/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/microsoft/TamGen/merges",
+    "archive_url": "https://api.github.com/repos/microsoft/TamGen/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/microsoft/TamGen/downloads",
+    "issues_url": "https://api.github.com/repos/microsoft/TamGen/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/microsoft/TamGen/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/microsoft/TamGen/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/microsoft/TamGen/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/microsoft/TamGen/labels{/name}",
+    "releases_url": "https://api.github.com/repos/microsoft/TamGen/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/microsoft/TamGen/deployments",
+    "created_at": "2024-04-04T06:19:26Z",
+    "updated_at": "2026-10-02T22:16:35Z",
+    "pushed_at": "2025-09-24T14:39:12Z",
+    "git_url": "git://github.com/microsoft/TamGen.git",
+    "ssh_url": "git@github.com:microsoft/TamGen.git",
+    "clone_url": "https://github.com/microsoft/TamGen.git",
+    "svn_url": "https://github.com/microsoft/TamGen",
+    "homepage": null,
+    "size": 9976,
+    "stargazers_count": 47,
+    "watchers_count": 47,
+    "language": "Python",
+    "has_issues": true,
+    "has_projects": true,
+    "has_downloads": false,
+    "has_wiki": true,
+    "has_pages": false,
+    "has_discussions": false,
+    "forks_count": 19,
+    "mirror_url": null,
+    "archived": false,
+    "disabled": false,
+    "open_issues_count": 6,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "allow_forking": true,
+    "is_template": false,
+    "web_commit_signoff_required": false,
+    "has_pull_requests": true,
+    "pull_request_creation_policy": "all",
+    "topics": [],
+    "visibility": "public",
+    "forks": 19,
+    "open_issues": 6,
+    "watchers": 47,
+    "default_branch": "main",
+    "temp_clone_token": null,
+    "custom_properties": {
+      "activeRepoStatus": "true",
+      "durableOwnershipDisable": "false",
+      "durableOwnershipNextCheckDate": "2024-04-15T17:06:21.613Z",
+      "durableOwnershipWarn": "false",
+      "global-rulesets-opt-out": "false"
+    },
+    "organization": {
+      "login": "microsoft",
+      "id": 6154722,
+      "node_id": "MDEyOk9yZ2FuaXphdGlvbjYxNTQ3MjI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6154722?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/microsoft",
+      "html_url": "https://github.com/microsoft",
+      "followers_url": "https://api.github.com/users/microsoft/followers",
+      "following_url": "https://api.github.com/users/microsoft/following{/other_user}",
+      "gists_url": "https://api.github.com/users/microsoft/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/microsoft/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/microsoft/subscriptions",
+      "organizations_url": "https://api.github.com/users/microsoft/orgs",
+      "repos_url": "https://api.github.com/users/microsoft/repos",
+      "events_url": "https://api.github.com/users/microsoft/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/microsoft/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "network_count": 19,
+    "subscribers_count": 4
+  },
+  "commit": {
+    "sha": "9f49e6cee3a861c143600db2f1a9bc10bb1c5279",
+    "node_id": "C_kwDOLpnsG9oAKDlmNDllNmNlZTNhODYxYzE0MzYwMGRiMmYxYTliYzEwYmIxYzUyNzk",
+    "commit": {
+      "author": {
+        "name": "Maik Riechert",
+        "email": "letmaik@outlook.com",
+        "date": "2025-09-24T14:39:12Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-09-24T14:39:12Z"
+      },
+      "message": "Merge pull request #4 from temporaer/isolate-pyg-install\n\nfix(setup): remove pypi index fallback for pyg installation",
+      "tree": {
+        "sha": "6dfbfe5650f4c341dcee87f7f7415d67d455a70d",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/6dfbfe5650f4c341dcee87f7f7415d67d455a70d"
+      },
+      "url": "https://api.github.com/repos/microsoft/TamGen/git/commits/9f49e6cee3a861c143600db2f1a9bc10bb1c5279",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJo1AKQCRC1aQ7uu5UhlAAA75EQAAuxrq7DAY+KTjE4UZWQgsdE\nAQzGZncHmeZmtYUl+TfpCxLeeX+2uOIYabsg2CS85+Tt2t0WRqN5gZE7+2XwFoMz\nOHi9in4QWkXzOt6zIKIFu8nqQlJMPHtVZkNfW+gM9/ULigyBxY/hAfkbAgBLEw1L\nisv2yyQevw/k5XaoTyiq1t93X/zuuMMhOx53+56+NZYhmNCtFFCKP8RiK+kKg0L9\nI22jrZVbfmzQ1oh5TzbpQygRaEnjAG1p2Grr5zHBtCOzxW5IiXafJpS9JqV6VCdV\nGFX9gj8oKUUOqpabR/9e6NoOxV2ljtNQWrPvqdGqsDbLbtPQcfwGHHYMXCY3WAS3\np7bfzoiR6gO9wpVmbxr7bbZybw4kXlo85PLLSK20bG1pqz3dDsVqXpd7ivMtKF9V\nBvewFamATeOUCZZl1xi/YK1wTCiMV0cJWKfrA15uT+35ApJqqrcjSbyVR6bhUcUg\n2rniIKu3TohExsbkEAIUEKFNi0JELMh+GvAuFQ8hCCr3LsY9VTz+OOwPoBBt+Id6\nLQJtaSuDn06g1Hn/V0zV3e+PG1YVOQo/6gffs4Q/qzXGC8lEvDZG3UQ8z9Frkmc3\nPvZCXnSubDs6Ctx107VSdZBXfbBZaHRfywY83lqq/mn4qa5ZE4zfAdsT3NoBaJRX\n5fNMfBFgqg2Cd4OEbL8u\n=tc5l\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 6dfbfe5650f4c341dcee87f7f7415d67d455a70d\nparent fce985b22a7d4c279c3b388062c4a32c044601d4\nparent 85c970e5bb118750a48232b15b5bd9c12bb510bb\nauthor Maik Riechert <letmaik@outlook.com> 1758724752 +0200\ncommitter GitHub <noreply@github.com> 1758724752 +0200\n\nMerge pull request #4 from temporaer/isolate-pyg-install\n\nfix(setup): remove pypi index fallback for pyg installation",
+        "verified_at": "2025-09-24T14:39:12Z"
+      }
+    },
+    "url": "https://api.github.com/repos/microsoft/TamGen/commits/9f49e6cee3a861c143600db2f1a9bc10bb1c5279",
+    "html_url": "https://github.com/microsoft/TamGen/commit/9f49e6cee3a861c143600db2f1a9bc10bb1c5279",
+    "comments_url": "https://api.github.com/repos/microsoft/TamGen/commits/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/comments",
+    "author": {
+      "login": "letmaik",
+      "id": 530988,
+      "node_id": "MDQ6VXNlcjUzMDk4OA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/530988?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/letmaik",
+      "html_url": "https://github.com/letmaik",
+      "followers_url": "https://api.github.com/users/letmaik/followers",
+      "following_url": "https://api.github.com/users/letmaik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/letmaik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/letmaik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/letmaik/subscriptions",
+      "organizations_url": "https://api.github.com/users/letmaik/orgs",
+      "repos_url": "https://api.github.com/users/letmaik/repos",
+      "events_url": "https://api.github.com/users/letmaik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/letmaik/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "fce985b22a7d4c279c3b388062c4a32c044601d4",
+        "url": "https://api.github.com/repos/microsoft/TamGen/commits/fce985b22a7d4c279c3b388062c4a32c044601d4",
+        "html_url": "https://github.com/microsoft/TamGen/commit/fce985b22a7d4c279c3b388062c4a32c044601d4"
+      },
+      {
+        "sha": "85c970e5bb118750a48232b15b5bd9c12bb510bb",
+        "url": "https://api.github.com/repos/microsoft/TamGen/commits/85c970e5bb118750a48232b15b5bd9c12bb510bb",
+        "html_url": "https://github.com/microsoft/TamGen/commit/85c970e5bb118750a48232b15b5bd9c12bb510bb"
+      }
+    ],
+    "stats": {
+      "total": 7,
+      "additions": 4,
+      "deletions": 3
+    },
+    "files": [
+      {
+        "sha": "a1b9782f7eb3b5d2d106100eb1f17079384079b9",
+        "filename": "setup_env.sh",
+        "status": "modified",
+        "additions": 4,
+        "deletions": 3,
+        "changes": 7,
+        "blob_url": "https://github.com/microsoft/TamGen/blob/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/setup_env.sh",
+        "raw_url": "https://github.com/microsoft/TamGen/raw/9f49e6cee3a861c143600db2f1a9bc10bb1c5279/setup_env.sh",
+        "contents_url": "https://api.github.com/repos/microsoft/TamGen/contents/setup_env.sh?ref=9f49e6cee3a861c143600db2f1a9bc10bb1c5279",
+        "patch": "@@ -1,16 +1,17 @@\n ## You need to first give a name of your environment\n+set -ex\n \n conda install pytorch==2.3.0 pytorch-cuda=12.1 -c pytorch -c nvidia\n-pip install torch_geometric\n-pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.3.0+cu121.html\n+pip install torch_geometric scipy\n+pip install --no-index pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.3.0+cu121.html\n pip install rdkit==2024.03.1\n pip install tensorboardX\n pip install einops\n pip install ipykernel\n \n python -m pip install -e .[chem]\n \n-pip -y uninstall numpy\n+pip uninstall -y numpy\n pip install numpy==1.26.4\n pip install pandas\n "
+      }
+    ]
+  },
+  "tree": {
+    "sha": "9f49e6cee3a861c143600db2f1a9bc10bb1c5279",
+    "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/9f49e6cee3a861c143600db2f1a9bc10bb1c5279",
+    "tree": [
+      {
+        "path": ".gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8a30d258ed9d0288d3e2889b3d0e2174b2028225",
+        "size": 6860,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/8a30d258ed9d0288d3e2889b3d0e2174b2028225"
+      },
+      {
+        "path": "CODE_OF_CONDUCT.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f9ba8cf65f3e3104dd061c178066ec8247811f33",
+        "size": 444,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/f9ba8cf65f3e3104dd061c178066ec8247811f33"
+      },
+      {
+        "path": "LICENSE",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "22aed37e650bbf933b6983cda9c2c5db65dcdd04",
+        "size": 1074,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/22aed37e650bbf933b6983cda9c2c5db65dcdd04"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "660c9e7227789a2c78409049318370eb3deaa192",
+        "size": 6748,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/660c9e7227789a2c78409049318370eb3deaa192"
+      },
+      {
+        "path": "SECURITY.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b3c89efc852e22f71eabf5dfbc6ac62493425eb6",
+        "size": 2656,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/b3c89efc852e22f71eabf5dfbc6ac62493425eb6"
+      },
+      {
+        "path": "SUPPORT.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c457354fc4fb360f288948b0e0d3c574eeb256f4",
+        "size": 628,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/c457354fc4fb360f288948b0e0d3c574eeb256f4"
+      },
+      {
+        "path": "TamGen_Demo.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fb65df64797dd6139c97ac4a07e7ba973bd6997e",
+        "size": 8765,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/fb65df64797dd6139c97ac4a07e7ba973bd6997e"
+      },
+      {
+        "path": "TamGen_Demo_Data",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "006be27e378f3f41d98c2e916f3bc6ec75d3cd1f",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/006be27e378f3f41d98c2e916f3bc6ec75d3cd1f"
+      },
+      {
+        "path": "TamGen_Demo_Data/dict.m1.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8b5ffddb2a16fbb83e7e2bf5e84dcc9e83f0f0dd",
+        "size": 9030,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/8b5ffddb2a16fbb83e7e2bf5e84dcc9e83f0f0dd"
+      },
+      {
+        "path": "TamGen_Demo_Data/dict.tg.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "89bb4a61c0987ad2353137d87c126464dc2e8be9",
+        "size": 247,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/89bb4a61c0987ad2353137d87c126464dc2e8be9"
+      },
+      {
+        "path": "assets",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "29ddefd382d5b60e183f9677b446ed70d82de8ac",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/29ddefd382d5b60e183f9677b446ed70d82de8ac"
+      },
+      {
+        "path": "assets/TamGen-logo.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "34bf2cf0b7ffbe46516b034e4dc0b4924b51d285",
+        "size": 52944,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/34bf2cf0b7ffbe46516b034e4dc0b4924b51d285"
+      },
+      {
+        "path": "customized_example",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c9ec8b8c33be52e7ed44067f4cbe8757e80f294b",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/c9ec8b8c33be52e7ed44067f4cbe8757e80f294b"
+      },
+      {
+        "path": "customized_example/README.MD",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "21e155428bc524609eae0f9198f7b94ca7d6925f",
+        "size": 1749,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/21e155428bc524609eae0f9198f7b94ca7d6925f"
+      },
+      {
+        "path": "customized_example/augment_smiles.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8a17ee3a7d60b2a78f73e444865a848ae166d457",
+        "size": 1304,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/8a17ee3a7d60b2a78f73e444865a848ae166d457"
+      },
+      {
+        "path": "customized_example/build_bindata.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "814041490f4343e912f06875ccf1f43a16617fb2",
+        "size": 248,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/814041490f4343e912f06875ccf1f43a16617fb2"
+      },
+      {
+        "path": "customized_example/generator-7vh8.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9e8b198a5b267aa8d65921ff710cc120dce59f87",
+        "size": 1039,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/9e8b198a5b267aa8d65921ff710cc120dce59f87"
+      },
+      {
+        "path": "customized_example/get_drug_center.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "652b97d255b7d43fc1074d6e4f1b1c2e1da30ce9",
+        "size": 2489,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/652b97d255b7d43fc1074d6e4f1b1c2e1da30ce9"
+      },
+      {
+        "path": "customized_example/post_process_7vh8.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fe9768eb412a8393b877785c98dc6f32191d0dcf",
+        "size": 5014,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/fe9768eb412a8393b877785c98dc6f32191d0dcf"
+      },
+      {
+        "path": "customized_example/reference_results",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "de12dde3b4d8ab5608131a5815e1cc075e47f601",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/de12dde3b4d8ab5608131a5815e1cc075e47f601"
+      },
+      {
+        "path": "customized_example/reference_results/7vh8.cif",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "47610a85da5246b802563917d50ecdca88fc2bc7",
+        "size": 692972,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/47610a85da5246b802563917d50ecdca88fc2bc7"
+      },
+      {
+        "path": "customized_example/reference_results/7vh8_nonvae_flatten.tsv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1fe5991236c2a16b7dbbf762e5669f1c0b662307",
+        "size": 141204,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/1fe5991236c2a16b7dbbf762e5669f1c0b662307"
+      },
+      {
+        "path": "customized_example/reference_results/7vh8_out.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "043b98f0c647598a805edfaf745f2b682254745a",
+        "size": 101,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/043b98f0c647598a805edfaf745f2b682254745a"
+      },
+      {
+        "path": "customized_example/reference_results/7vh8_vae_flatten.tsv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "900d45ad568c63af2f4d9e5787390171da4d43c1",
+        "size": 179505,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/900d45ad568c63af2f4d9e5787390171da4d43c1"
+      },
+      {
+        "path": "customized_example/reference_results/seed_cmpd_7vh8.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6c05aa3be995d2ecb9af25ea20428a6bb7760ab2",
+        "size": 2085,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/6c05aa3be995d2ecb9af25ea20428a6bb7760ab2"
+      },
+      {
+        "path": "customized_example/reverse_SMILES.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0a6c87f0a28238f15e8991a4839a84285eeec032",
+        "size": 3315,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/0a6c87f0a28238f15e8991a4839a84285eeec032"
+      },
+      {
+        "path": "data",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c29d5aa97ddbb8d5916fc8c9ae9326dcdf371122",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/c29d5aa97ddbb8d5916fc8c9ae9326dcdf371122"
+      },
+      {
+        "path": "data/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ad5d01d03f758765f5887ba42230add44a84bf07",
+        "size": 1674,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/ad5d01d03f758765f5887ba42230add44a84bf07"
+      },
+      {
+        "path": "data/build_crossdocked_dataset.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0d35db440ea023d690238486ef7f83e612339b60",
+        "size": 586,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/0d35db440ea023d690238486ef7f83e612339b60"
+      },
+      {
+        "path": "data/dump_coord.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9aedf54f2a56c68c402f0cebb31106fd07724de9",
+        "size": 620,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/9aedf54f2a56c68c402f0cebb31106fd07724de9"
+      },
+      {
+        "path": "database",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b6d0b597af9bd4ec71c9c54f98d4d576ff041161",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/b6d0b597af9bd4ec71c9c54f98d4d576ff041161"
+      },
+      {
+        "path": "database/PdbCCD",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ac96068f1b67865c8415d4c796a96e2b3f51bfb7",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/ac96068f1b67865c8415d4c796a96e2b3f51bfb7"
+      },
+      {
+        "path": "database/PdbCCD/basic_info.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c8fcaf496c681cf6ce27186a7f046187c875b79d",
+        "size": 11063868,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/c8fcaf496c681cf6ce27186a7f046187c875b79d"
+      },
+      {
+        "path": "dict",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "006be27e378f3f41d98c2e916f3bc6ec75d3cd1f",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/006be27e378f3f41d98c2e916f3bc6ec75d3cd1f"
+      },
+      {
+        "path": "dict/dict.m1.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8b5ffddb2a16fbb83e7e2bf5e84dcc9e83f0f0dd",
+        "size": 9030,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/8b5ffddb2a16fbb83e7e2bf5e84dcc9e83f0f0dd"
+      },
+      {
+        "path": "dict/dict.tg.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "89bb4a61c0987ad2353137d87c126464dc2e8be9",
+        "size": 247,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/89bb4a61c0987ad2353137d87c126464dc2e8be9"
+      },
+      {
+        "path": "eval_lm.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e2da64fc1de86ea363e32b376b689816e4f27f31",
+        "size": 7962,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/e2da64fc1de86ea363e32b376b689816e4f27f31"
+      },
+      {
+        "path": "fairseq",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f7f48dd3192dbe21c1d4ec52b6a88862a52ab252",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/f7f48dd3192dbe21c1d4ec52b6a88862a52ab252"
+      },
+      {
+        "path": "fairseq/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "08e29ab85a1cb567748a15a51cb5101b5e12ffda",
+        "size": 441,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/08e29ab85a1cb567748a15a51cb5101b5e12ffda"
+      },
+      {
+        "path": "fairseq/binarizer.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "44dcb256c47baafe521941fbfbdd628dc52a94ef",
+        "size": 2169,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/44dcb256c47baafe521941fbfbdd628dc52a94ef"
+      },
+      {
+        "path": "fairseq/bleu.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0deffdd00dfaf7ca1d1afd50bb3c549b15004399",
+        "size": 12001,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/0deffdd00dfaf7ca1d1afd50bb3c549b15004399"
+      },
+      {
+        "path": "fairseq/checkpoint_utils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9ae57479b95959fb70436a7210c72863c91cab90",
+        "size": 13849,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/9ae57479b95959fb70436a7210c72863c91cab90"
+      },
+      {
+        "path": "fairseq/clib",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ed7da13d5c0e48e41ec4e6aa2dc2f0ee39f8e76d",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/ed7da13d5c0e48e41ec4e6aa2dc2f0ee39f8e76d"
+      },
+      {
+        "path": "fairseq/clib/libbleu",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "485e1b9ccf5a1f11ff5b93a0281bce301f81380f",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/485e1b9ccf5a1f11ff5b93a0281bce301f81380f"
+      },
+      {
+        "path": "fairseq/clib/libbleu/libbleu.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d95bef2de79e58eb279264968be0cb6f939da32d",
+        "size": 2791,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/d95bef2de79e58eb279264968be0cb6f939da32d"
+      },
+      {
+        "path": "fairseq/clib/libbleu/module.cpp",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8ed9a84b1c028bfe9ed1d45be6857b6e79b3459f",
+        "size": 791,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/8ed9a84b1c028bfe9ed1d45be6857b6e79b3459f"
+      },
+      {
+        "path": "fairseq/codegen_utils",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "90ec63defbf5a13f2d36df87a4fc394155149640",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/90ec63defbf5a13f2d36df87a4fc394155149640"
+      },
+      {
+        "path": "fairseq/codegen_utils/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "25d5cd92b87b429ead8a7c5c9c95218e321657a0",
+        "size": 83,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/25d5cd92b87b429ead8a7c5c9c95218e321657a0"
+      },
+      {
+        "path": "fairseq/codegen_utils/codegen_scorer.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cbf6303de0b093b0bfd331985133e152a5ca094c",
+        "size": 2887,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/cbf6303de0b093b0bfd331985133e152a5ca094c"
+      },
+      {
+        "path": "fairseq/codegen_utils/java_utils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ee40db0e248179348e99ad5238cae6dacbe2b5bb",
+        "size": 2427,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/ee40db0e248179348e99ad5238cae6dacbe2b5bb"
+      },
+      {
+        "path": "fairseq/criterions",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "5dbdfdaa81b0df29e7a9996e36b395a45b397408",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/5dbdfdaa81b0df29e7a9996e36b395a45b397408"
+      },
+      {
+        "path": "fairseq/criterions/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6a8257bccf0c8e9da5630b043c36254aa6a8795b",
+        "size": 891,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/6a8257bccf0c8e9da5630b043c36254aa6a8795b"
+      },
+      {
+        "path": "fairseq/criterions/adaptive_loss.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6f282001c058a9cab00f3f84502e97de450efefc",
+        "size": 3600,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/6f282001c058a9cab00f3f84502e97de450efefc"
+      },
+      {
+        "path": "fairseq/criterions/binary_cross_entropy.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fba2cdcba43f421653f602ba915c67d84769839c",
+        "size": 2468,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/fba2cdcba43f421653f602ba915c67d84769839c"
+      },
+      {
+        "path": "fairseq/criterions/composite_loss.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a638d268c7457d23848cea2ddcc9145b4ea70022",
+        "size": 3386,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/a638d268c7457d23848cea2ddcc9145b4ea70022"
+      },
+      {
+        "path": "fairseq/criterions/cross_entropy.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d6e8ff545fa2263e92ed4360650b39ef093ffaa0",
+        "size": 2535,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/d6e8ff545fa2263e92ed4360650b39ef093ffaa0"
+      },
+      {
+        "path": "fairseq/criterions/fairseq_criterion.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2df081918327b3d903295bb931b5f650b3f6e5cf",
+        "size": 1359,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/2df081918327b3d903295bb931b5f650b3f6e5cf"
+      },
+      {
+        "path": "fairseq/criterions/label_smoothed_cross_entropy.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "668771872551279e01b69e9de36a1385c1b32cb1",
+        "size": 3671,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/668771872551279e01b69e9de36a1385c1b32cb1"
+      },
+      {
+        "path": "fairseq/criterions/label_smoothed_cross_entropy_with_vae.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "00387ff13c5c5a51f1c42404c30317019eb067a3",
+        "size": 3557,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/00387ff13c5c5a51f1c42404c30317019eb067a3"
+      },
+      {
+        "path": "fairseq/criterions/legacy_masked_lm.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fe3c7bf2a6d53092e03b8034b9ff9b06c405bb91",
+        "size": 6360,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/fe3c7bf2a6d53092e03b8034b9ff9b06c405bb91"
+      },
+      {
+        "path": "fairseq/criterions/masked_lm.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a133b5fa4109178beaef3c43be74d90d56d77941",
+        "size": 2330,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/a133b5fa4109178beaef3c43be74d90d56d77941"
+      },
+      {
+        "path": "fairseq/criterions/sentence_ranking.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "05edca972378de68d9f6a29820e63e55fb8290e4",
+        "size": 3874,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/05edca972378de68d9f6a29820e63e55fb8290e4"
+      },
+      {
+        "path": "fairseq/data",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "cbd5faf83f7b88fe3876248c747775410a456f7a",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/cbd5faf83f7b88fe3876248c747775410a456f7a"
+      },
+      {
+        "path": "fairseq/data/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "99497c9a3dec5c3c0e4677a3716f4300724f999e",
+        "size": 2998,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/99497c9a3dec5c3c0e4677a3716f4300724f999e"
+      },
+      {
+        "path": "fairseq/data/audio",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6874b84470d071ccb5b8d6a3b1504e8188357477",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/6874b84470d071ccb5b8d6a3b1504e8188357477"
+      },
+      {
+        "path": "fairseq/data/audio/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "fairseq/data/audio/raw_audio_dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "59bee890663e9485cc1b033aa6b2f25a72fd3cc6",
+        "size": 3998,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/59bee890663e9485cc1b033aa6b2f25a72fd3cc6"
+      },
+      {
+        "path": "fairseq/data/backtranslation_dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0007a015064cdb025b39201b3ea1647caee04ec9",
+        "size": 6235,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/0007a015064cdb025b39201b3ea1647caee04ec9"
+      },
+      {
+        "path": "fairseq/data/base_wrapper_dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d14c3c76f33693196d4c38760855c402bb5d399f",
+        "size": 1352,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/d14c3c76f33693196d4c38760855c402bb5d399f"
+      },
+      {
+        "path": "fairseq/data/concat_dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "659af9ae75fdba3a458df553568765bf460a2458",
+        "size": 3040,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/659af9ae75fdba3a458df553568765bf460a2458"
+      },
+      {
+        "path": "fairseq/data/concat_sentences_dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8a9336d3604317f736433136babc3b6156c1f94e",
+        "size": 1397,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/8a9336d3604317f736433136babc3b6156c1f94e"
+      },
+      {
+        "path": "fairseq/data/data_utils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8a9f3410e086def01a09b2eb4005639b0677a70e",
+        "size": 9738,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/8a9f3410e086def01a09b2eb4005639b0677a70e"
+      },
+      {
+        "path": "fairseq/data/dictionary.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "417105e50b0a8d368e5eaadd645a98f8248a4155",
+        "size": 11033,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/417105e50b0a8d368e5eaadd645a98f8248a4155"
+      },
+      {
+        "path": "fairseq/data/encoders",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "62a3599def29a27e14cd7471b6676d1c33212f66",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/62a3599def29a27e14cd7471b6676d1c33212f66"
+      },
+      {
+        "path": "fairseq/data/encoders/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c0909b669757e4e5731be8ac28cf9c221a1583ea",
+        "size": 746,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/c0909b669757e4e5731be8ac28cf9c221a1583ea"
+      },
+      {
+        "path": "fairseq/data/encoders/fastbpe.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "376e22cd85be1bf380079e4fef622e3bbaf2bcd4",
+        "size": 1105,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/376e22cd85be1bf380079e4fef622e3bbaf2bcd4"
+      },
+      {
+        "path": "fairseq/data/encoders/gpt2_bpe.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "04a485add27e95e20d5234af4a4fcae9b20397ee",
+        "size": 1548,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/04a485add27e95e20d5234af4a4fcae9b20397ee"
+      },
+      {
+        "path": "fairseq/data/encoders/gpt2_bpe_utils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "90b7b199d51eaade54d03d7388c8fa3846e80e67",
+        "size": 4454,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/90b7b199d51eaade54d03d7388c8fa3846e80e67"
+      },
+      {
+        "path": "fairseq/data/encoders/moses_tokenizer.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b1e7478b9deecc12aaf2bfac066572fca109d0cd",
+        "size": 1938,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/b1e7478b9deecc12aaf2bfac066572fca109d0cd"
+      },
+      {
+        "path": "fairseq/data/encoders/nltk_tokenizer.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3db8ee56525196a68383dee5c04a22835e45625b",
+        "size": 707,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/3db8ee56525196a68383dee5c04a22835e45625b"
+      },
+      {
+        "path": "fairseq/data/encoders/sentencepiece_bpe.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ecfe865c56c80106460f115a290e243f8297f362",
+        "size": 1076,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/ecfe865c56c80106460f115a290e243f8297f362"
+      },
+      {
+        "path": "fairseq/data/encoders/space_tokenizer.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "670001a8e8514e910c91281a88876261514f9374",
+        "size": 543,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/670001a8e8514e910c91281a88876261514f9374"
+      },
+      {
+        "path": "fairseq/data/encoders/subword_nmt_bpe.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "78f19b43eaec7745ef86f693359946c7b60bd14c",
+        "size": 1642,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/78f19b43eaec7745ef86f693359946c7b60bd14c"
+      },
+      {
+        "path": "fairseq/data/fairseq_dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6144beca4ebc44da3f00b75487f1750b57598763",
+        "size": 1611,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/6144beca4ebc44da3f00b75487f1750b57598763"
+      },
+      {
+        "path": "fairseq/data/helper_datasets.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2f00da6d61d2114a98bd6153542c5a82b4a0b8a4",
+        "size": 361,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/2f00da6d61d2114a98bd6153542c5a82b4a0b8a4"
+      },
+      {
+        "path": "fairseq/data/id_dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6a73ba1ff74e53d8789581c24880c0b6485cffa7",
+        "size": 424,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/6a73ba1ff74e53d8789581c24880c0b6485cffa7"
+      },
+      {
+        "path": "fairseq/data/indexed_dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8d0782bf6aebc4dbd5beb0b1ac3d9b427aa8e9af",
+        "size": 27222,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/8d0782bf6aebc4dbd5beb0b1ac3d9b427aa8e9af"
+      },
+      {
+        "path": "fairseq/data/iterators.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0f1ec7e4040c2ca094ed61c5a491d5367f2112e4",
+        "size": 10725,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/0f1ec7e4040c2ca094ed61c5a491d5367f2112e4"
+      },
+      {
+        "path": "fairseq/data/language_pair_dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2c4e9e5a08410327c611057db59e0cc294819137",
+        "size": 8990,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/2c4e9e5a08410327c611057db59e0cc294819137"
+      },
+      {
+        "path": "fairseq/data/legacy",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "cbd36236a78dd3a1a51ae68b720655254207d19b",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/cbd36236a78dd3a1a51ae68b720655254207d19b"
+      },
+      {
+        "path": "fairseq/data/legacy/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1acaafeb09176dfda2a8bb30bab7e0ea764faa23",
+        "size": 453,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/1acaafeb09176dfda2a8bb30bab7e0ea764faa23"
+      },
+      {
+        "path": "fairseq/data/legacy/block_pair_dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b9fc8141471984f644edbc97915647897f1de617",
+        "size": 12878,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/b9fc8141471984f644edbc97915647897f1de617"
+      },
+      {
+        "path": "fairseq/data/legacy/masked_lm_dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "953aa85dd42bcaacd2b0ff2be9309395c212eb13",
+        "size": 12468,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/953aa85dd42bcaacd2b0ff2be9309395c212eb13"
+      },
+      {
+        "path": "fairseq/data/legacy/masked_lm_dictionary.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "254b0eb7406381f24338650ba448124a52528146",
+        "size": 1528,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/254b0eb7406381f24338650ba448124a52528146"
+      },
+      {
+        "path": "fairseq/data/list_dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4d3b01d7bf5b88949ae5b163f7c5ad90bfed6a87",
+        "size": 654,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/4d3b01d7bf5b88949ae5b163f7c5ad90bfed6a87"
+      },
+      {
+        "path": "fairseq/data/lm_context_window_dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "17ba08bc7f5a7026e234967b20cde4e9d53a0069",
+        "size": 2910,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/17ba08bc7f5a7026e234967b20cde4e9d53a0069"
+      },
+      {
+        "path": "fairseq/data/lru_cache_dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "833a2c75cb7c2280dd63a80c020f16b385f9317d",
+        "size": 571,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/833a2c75cb7c2280dd63a80c020f16b385f9317d"
+      },
+      {
+        "path": "fairseq/data/mask_tokens_dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "84d313a09633f6db6d03af5330ceed21c9c1ac6c",
+        "size": 6814,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/84d313a09633f6db6d03af5330ceed21c9c1ac6c"
+      },
+      {
+        "path": "fairseq/data/molecule",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "48573d503a07b4179cf66fa1fd1417a2c16a3def",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/48573d503a07b4179cf66fa1fd1417a2c16a3def"
+      },
+      {
+        "path": "fairseq/data/molecule/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f4c45337e08bfe64ede1e2b4880a5cead6cc5130",
+        "size": 116,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/f4c45337e08bfe64ede1e2b4880a5cead6cc5130"
+      },
+      {
+        "path": "fairseq/data/molecule/language_pair_coord_dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "84a750d746ea22b783e9f02e49b1dd26b1c36548",
+        "size": 5955,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/84a750d746ea22b783e9f02e49b1dd26b1c36548"
+      },
+      {
+        "path": "fairseq/data/monolingual_dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "76c377237470fe01331bddc1a5d9f059641e817e",
+        "size": 7469,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/76c377237470fe01331bddc1a5d9f059641e817e"
+      },
+      {
+        "path": "fairseq/data/multi_corpus_sampled_dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4d32d00fda07299f28589ee7c1023b2432f770f2",
+        "size": 5120,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/4d32d00fda07299f28589ee7c1023b2432f770f2"
+      },
+      {
+        "path": "fairseq/data/nested_dictionary_dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2795f895ddeeb70b53368c3624d466436810c7f9",
+        "size": 3776,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/2795f895ddeeb70b53368c3624d466436810c7f9"
+      },
+      {
+        "path": "fairseq/data/noising.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bd67e7336c656982c11e2dac2d8ef853d89c3d7f",
+        "size": 12177,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/bd67e7336c656982c11e2dac2d8ef853d89c3d7f"
+      },
+      {
+        "path": "fairseq/data/num_samples_dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9d7ea440192d5ba91efcc5fa6dfae781c60c74f0",
+        "size": 405,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/9d7ea440192d5ba91efcc5fa6dfae781c60c74f0"
+      },
+      {
+        "path": "fairseq/data/numel_dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "50087e5857cb9c988ff4eadba1bf59cf5527a47f",
+        "size": 787,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/50087e5857cb9c988ff4eadba1bf59cf5527a47f"
+      },
+      {
+        "path": "fairseq/data/offset_tokens_dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a6fd559a304d2f9ef06704dee7dbec19a3843b10",
+        "size": 445,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/a6fd559a304d2f9ef06704dee7dbec19a3843b10"
+      },
+      {
+        "path": "fairseq/data/pad_dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4c13b549aab2fbe09feae8b9054934840d89512b",
+        "size": 837,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/4c13b549aab2fbe09feae8b9054934840d89512b"
+      },
+      {
+        "path": "fairseq/data/plasma_utils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "33f250eea943ee492a400f331b2bcbe8d69f9018",
+        "size": 2640,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/33f250eea943ee492a400f331b2bcbe8d69f9018"
+      },
+      {
+        "path": "fairseq/data/prepend_token_dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9dac71badf9f182ed5a1afdca99815a63717e214",
+        "size": 1067,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/9dac71badf9f182ed5a1afdca99815a63717e214"
+      },
+      {
+        "path": "fairseq/data/raw_label_dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e67170f1a5e1dc5f861dd651ec126a05a09cb085",
+        "size": 547,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/e67170f1a5e1dc5f861dd651ec126a05a09cb085"
+      },
+      {
+        "path": "fairseq/data/round_robin_zip_datasets.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5bfc966ce8fb33080152c6c910969b5350610b71",
+        "size": 4153,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/5bfc966ce8fb33080152c6c910969b5350610b71"
+      },
+      {
+        "path": "fairseq/data/sort_dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9b510b93a0f22d2c9ba98ce36d5a79921f456a77",
+        "size": 622,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/9b510b93a0f22d2c9ba98ce36d5a79921f456a77"
+      },
+      {
+        "path": "fairseq/data/strip_token_dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "69e7ecf9cba8a732f02c3ae988b9c49e9d4f161d",
+        "size": 495,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/69e7ecf9cba8a732f02c3ae988b9c49e9d4f161d"
+      },
+      {
+        "path": "fairseq/data/token_block_dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3d69cfcda450e2c5a4a21335c0029c418deb4bc0",
+        "size": 8673,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/3d69cfcda450e2c5a4a21335c0029c418deb4bc0"
+      },
+      {
+        "path": "fairseq/data/transform_eos_dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "84350c21cd00ecfa076537e2ad224fefc7a1d3a2",
+        "size": 4300,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/84350c21cd00ecfa076537e2ad224fefc7a1d3a2"
+      },
+      {
+        "path": "fairseq/data/transform_eos_lang_pair_dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9e19da328be02157d6ef2e2e5c24e579f31c66be",
+        "size": 2559,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/9e19da328be02157d6ef2e2e5c24e579f31c66be"
+      },
+      {
+        "path": "fairseq/data/truncate_dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "efd1c6d1cbcf7e4f8b4a899e7fc4cb3dcf39924e",
+        "size": 870,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/efd1c6d1cbcf7e4f8b4a899e7fc4cb3dcf39924e"
+      },
+      {
+        "path": "fairseq/debug_utils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e878c211c2ac6ac845c16563f8508608fa0e6666",
+        "size": 3004,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/e878c211c2ac6ac845c16563f8508608fa0e6666"
+      },
+      {
+        "path": "fairseq/distributed_utils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6da6ae115b4a3c527312c9184afb8988c2d8593c",
+        "size": 6851,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/6da6ae115b4a3c527312c9184afb8988c2d8593c"
+      },
+      {
+        "path": "fairseq/file_utils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d3f14dde549add320e973a7bf8b1160f4a6295a9",
+        "size": 10466,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/d3f14dde549add320e973a7bf8b1160f4a6295a9"
+      },
+      {
+        "path": "fairseq/hub_utils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4e44a69f97731a7a2c95cebba2856b706e7dee53",
+        "size": 7601,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/4e44a69f97731a7a2c95cebba2856b706e7dee53"
+      },
+      {
+        "path": "fairseq/legacy_distributed_data_parallel.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2e9c82539b6d432f3426b5e60fd1675de398d59d",
+        "size": 6724,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/2e9c82539b6d432f3426b5e60fd1675de398d59d"
+      },
+      {
+        "path": "fairseq/meters.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bfa9a24fb477d6ae6e3c021755ac540ef05acac6",
+        "size": 1632,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/bfa9a24fb477d6ae6e3c021755ac540ef05acac6"
+      },
+      {
+        "path": "fairseq/models",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6062c28c52794b477fe7ed3faa7c834956035aae",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/6062c28c52794b477fe7ed3faa7c834956035aae"
+      },
+      {
+        "path": "fairseq/models/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6386e7491cd0742358fef3cfd1c6349c645b9a07",
+        "size": 4766,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/6386e7491cd0742358fef3cfd1c6349c645b9a07"
+      },
+      {
+        "path": "fairseq/models/composite_encoder.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bae48e344c5d504a09ea4404488764920d6130b1",
+        "size": 1898,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/bae48e344c5d504a09ea4404488764920d6130b1"
+      },
+      {
+        "path": "fairseq/models/distributed_fairseq_model.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a1d9a28d48269c00fe22e15281f0f26a4ea02d3a",
+        "size": 2446,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/a1d9a28d48269c00fe22e15281f0f26a4ea02d3a"
+      },
+      {
+        "path": "fairseq/models/fairseq_decoder.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f301b96bbdc8c1a6da0d2f132b47bc246980937a",
+        "size": 2829,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/f301b96bbdc8c1a6da0d2f132b47bc246980937a"
+      },
+      {
+        "path": "fairseq/models/fairseq_encoder.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "934d6dc0180c0f59b2ac2004c4674610621e6307",
+        "size": 1396,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/934d6dc0180c0f59b2ac2004c4674610621e6307"
+      },
+      {
+        "path": "fairseq/models/fairseq_incremental_decoder.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9eccaf3d50cb95fdc9e7df37e9e7cbf7383865b6",
+        "size": 3739,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/9eccaf3d50cb95fdc9e7df37e9e7cbf7383865b6"
+      },
+      {
+        "path": "fairseq/models/fairseq_model.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5845e6db29a257e735dc38d2c9c6953460bc4d81",
+        "size": 15726,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/5845e6db29a257e735dc38d2c9c6953460bc4d81"
+      },
+      {
+        "path": "fairseq/models/fconv.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c0295a917263704db541be4a8459f8042cda64db",
+        "size": 27433,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/c0295a917263704db541be4a8459f8042cda64db"
+      },
+      {
+        "path": "fairseq/models/fconv_lm.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f2320b170059be09a815f20aa99fcecd56bece22",
+        "size": 4757,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/f2320b170059be09a815f20aa99fcecd56bece22"
+      },
+      {
+        "path": "fairseq/models/fconv_self_att.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "17400825720e7025b2780ee7c01e0990182d202a",
+        "size": 23316,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/17400825720e7025b2780ee7c01e0990182d202a"
+      },
+      {
+        "path": "fairseq/models/lightconv.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "20ff4f0e6a1de13371b773e570b9ba0b655a428d",
+        "size": 34238,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/20ff4f0e6a1de13371b773e570b9ba0b655a428d"
+      },
+      {
+        "path": "fairseq/models/lightconv_lm.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a0aa13fbd1ce79be50fd6c802383454c2776401c",
+        "size": 9865,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/a0aa13fbd1ce79be50fd6c802383454c2776401c"
+      },
+      {
+        "path": "fairseq/models/lstm.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6b51350f966b911dc5bf595fad43e525b1776a2b",
+        "size": 24256,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/6b51350f966b911dc5bf595fad43e525b1776a2b"
+      },
+      {
+        "path": "fairseq/models/masked_lm.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1ff9f90a3d8f717f55cee20d7de4c68e8be677f5",
+        "size": 15476,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/1ff9f90a3d8f717f55cee20d7de4c68e8be677f5"
+      },
+      {
+        "path": "fairseq/models/multilingual_transformer.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9d17cd6470df0c90e4d13941913033534cc988a9",
+        "size": 8947,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/9d17cd6470df0c90e4d13941913033534cc988a9"
+      },
+      {
+        "path": "fairseq/models/roberta",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "131590ed74ae21052cb30a7c032d4a5cb4b812af",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/131590ed74ae21052cb30a7c032d4a5cb4b812af"
+      },
+      {
+        "path": "fairseq/models/roberta/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f4f5b280593aba4ca1298e43e7cf879924c492ec",
+        "size": 275,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/f4f5b280593aba4ca1298e43e7cf879924c492ec"
+      },
+      {
+        "path": "fairseq/models/roberta/alignment_utils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "85da2c4c01b5609bd4094a9b9bba7bf80d5b5efd",
+        "size": 4078,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/85da2c4c01b5609bd4094a9b9bba7bf80d5b5efd"
+      },
+      {
+        "path": "fairseq/models/roberta/d_model.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5e50a47afcf612c8a22464935a649b73ff5dbc5e",
+        "size": 29131,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/5e50a47afcf612c8a22464935a649b73ff5dbc5e"
+      },
+      {
+        "path": "fairseq/models/roberta/decompose.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9d24b21e1f775ec263f81224b76328cd49dac114",
+        "size": 6839,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/9d24b21e1f775ec263f81224b76328cd49dac114"
+      },
+      {
+        "path": "fairseq/models/roberta/decompose_gd.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "02655901d410580a744f4129bbedac3715ad6e1f",
+        "size": 1906,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/02655901d410580a744f4129bbedac3715ad6e1f"
+      },
+      {
+        "path": "fairseq/models/roberta/hub_interface.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e40e4ab92ac777da320a49e02f79dade73e0077f",
+        "size": 8050,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/e40e4ab92ac777da320a49e02f79dade73e0077f"
+      },
+      {
+        "path": "fairseq/models/roberta/model.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dd78a8dc59bf4e23d5088cc5f1fa2e4f066387c0",
+        "size": 13937,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/dd78a8dc59bf4e23d5088cc5f1fa2e4f066387c0"
+      },
+      {
+        "path": "fairseq/models/roberta/run_d_roberta.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "72e25601d33c216a1c3c15931211b61d485e807f",
+        "size": 1086,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/72e25601d33c216a1c3c15931211b61d485e807f"
+      },
+      {
+        "path": "fairseq/models/tgt2drug",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "786256f9ee6203a201a1877c2c7853a4d5b80a70",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/786256f9ee6203a201a1877c2c7853a4d5b80a70"
+      },
+      {
+        "path": "fairseq/models/tgt2drug/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d43f548d886123da68d6ab59d076ec440f2e4946",
+        "size": 30,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/d43f548d886123da68d6ab59d076ec440f2e4946"
+      },
+      {
+        "path": "fairseq/models/tgt2drug/transformer_3d.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6c359277f1735debc5ea4f076b06ab725f65b917",
+        "size": 25738,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/6c359277f1735debc5ea4f076b06ab725f65b917"
+      },
+      {
+        "path": "fairseq/models/transformer.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a74af6ff09c31f6dee357069386f60fe9e3e879f",
+        "size": 27377,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/a74af6ff09c31f6dee357069386f60fe9e3e879f"
+      },
+      {
+        "path": "fairseq/models/transformer_from_pretrained_xlm.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bd03c8450fa35221e7cb6c10ccad7479bff517ce",
+        "size": 6085,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/bd03c8450fa35221e7cb6c10ccad7479bff517ce"
+      },
+      {
+        "path": "fairseq/models/transformer_lm.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "87c7719209d9549a0e07cf3f2c3c818df0c82580",
+        "size": 14538,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/87c7719209d9549a0e07cf3f2c3c818df0c82580"
+      },
+      {
+        "path": "fairseq/models/wav2vec.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "62807764efaa987d930a2690fa456be8295b37db",
+        "size": 18388,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/62807764efaa987d930a2690fa456be8295b37db"
+      },
+      {
+        "path": "fairseq/modules",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a7652c232440eb8b66550db674ea8aecead5671b",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/a7652c232440eb8b66550db674ea8aecead5671b"
+      },
+      {
+        "path": "fairseq/modules/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7cedb81d56e26fa5d41f8faafe8d0dffd8781dc9",
+        "size": 2657,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/7cedb81d56e26fa5d41f8faafe8d0dffd8781dc9"
+      },
+      {
+        "path": "fairseq/modules/adaptive_input.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1234b77237fd9e91eb67bf5930982470e12e57be",
+        "size": 2283,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/1234b77237fd9e91eb67bf5930982470e12e57be"
+      },
+      {
+        "path": "fairseq/modules/adaptive_softmax.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2ab7282813d0ad0b4ca1f1f5262b4990c07fa8fe",
+        "size": 7207,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/2ab7282813d0ad0b4ca1f1f5262b4990c07fa8fe"
+      },
+      {
+        "path": "fairseq/modules/basic_modules.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "148c5f82ab0a34e52533dbff523387bd6dd1df81",
+        "size": 3323,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/148c5f82ab0a34e52533dbff523387bd6dd1df81"
+      },
+      {
+        "path": "fairseq/modules/beamable_mm.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "df77105a946258a58f3615fd51f399454223c0e2",
+        "size": 1779,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/df77105a946258a58f3615fd51f399454223c0e2"
+      },
+      {
+        "path": "fairseq/modules/character_token_embedder.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "47aeed1f15c28b15a0beb56af1c72f880509c9a6",
+        "size": 5298,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/47aeed1f15c28b15a0beb56af1c72f880509c9a6"
+      },
+      {
+        "path": "fairseq/modules/conv_tbc.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1aa3eff9dca20a07ba84438312823d16e2493c12",
+        "size": 1356,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/1aa3eff9dca20a07ba84438312823d16e2493c12"
+      },
+      {
+        "path": "fairseq/modules/downsampled_multihead_attention.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5c401e4f8e1111cd8de6bc404dd701cf058653ab",
+        "size": 9815,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/5c401e4f8e1111cd8de6bc404dd701cf058653ab"
+      },
+      {
+        "path": "fairseq/modules/dynamic_convolution.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a8fa47225d25cc5abebd27cab22cdde06748ca72",
+        "size": 9929,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/a8fa47225d25cc5abebd27cab22cdde06748ca72"
+      },
+      {
+        "path": "fairseq/modules/gelu.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "09fefd850bc5a0b44f30b0397e846ea0339c4324",
+        "size": 790,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/09fefd850bc5a0b44f30b0397e846ea0339c4324"
+      },
+      {
+        "path": "fairseq/modules/grad_multiply.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "08d15f55dfda9c61a1cf8641ea31424fe1d97f57",
+        "size": 442,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/08d15f55dfda9c61a1cf8641ea31424fe1d97f57"
+      },
+      {
+        "path": "fairseq/modules/highway.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "85212ff44f25c23a24a6de954e53ac28bd4aba3e",
+        "size": 1745,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/85212ff44f25c23a24a6de954e53ac28bd4aba3e"
+      },
+      {
+        "path": "fairseq/modules/layer_norm.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c4872da92fd2cfc0631bbc5726ba1d79d1276d28",
+        "size": 590,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/c4872da92fd2cfc0631bbc5726ba1d79d1276d28"
+      },
+      {
+        "path": "fairseq/modules/learned_positional_embedding.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e52b8d471563623aba405c0e0139f773d8fa0873",
+        "size": 1886,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/e52b8d471563623aba405c0e0139f773d8fa0873"
+      },
+      {
+        "path": "fairseq/modules/lightweight_convolution.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6191d495016e0ee4ff00b73e1a2d96860ae9e2b0",
+        "size": 9398,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/6191d495016e0ee4ff00b73e1a2d96860ae9e2b0"
+      },
+      {
+        "path": "fairseq/modules/linearized_convolution.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "83cff25879f452ee3f110686f88725dfa43ecae1",
+        "size": 3578,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/83cff25879f452ee3f110686f88725dfa43ecae1"
+      },
+      {
+        "path": "fairseq/modules/logsumexp_moe.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0379f226b099aaeb27db0897c6ff29ddb59f4758",
+        "size": 835,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/0379f226b099aaeb27db0897c6ff29ddb59f4758"
+      },
+      {
+        "path": "fairseq/modules/mean_pool_gating_network.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a22d9bd6e444caed12c6032b344b5ab0919028ab",
+        "size": 2048,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/a22d9bd6e444caed12c6032b344b5ab0919028ab"
+      },
+      {
+        "path": "fairseq/modules/multihead_attention.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5238966dd166a637f1e21aaceab80c2391e4ab68",
+        "size": 15310,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/5238966dd166a637f1e21aaceab80c2391e4ab68"
+      },
+      {
+        "path": "fairseq/modules/pointcloud",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "261033c9835a0070148973e4a025f33687bddb1b",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/261033c9835a0070148973e4a025f33687bddb1b"
+      },
+      {
+        "path": "fairseq/modules/pointcloud/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "168e8ddd6429a3a87d196976ee653ba1fcb5aabe",
+        "size": 128,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/168e8ddd6429a3a87d196976ee653ba1fcb5aabe"
+      },
+      {
+        "path": "fairseq/modules/pointcloud/distance_attention.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "df8acfe65ea63738aca9971e7767a54a6c2e4ac7",
+        "size": 4203,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/df8acfe65ea63738aca9971e7767a54a6c2e4ac7"
+      },
+      {
+        "path": "fairseq/modules/pointcloud/hengshuang-codebase",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "5b3e11946fe08d6c10c01f52d8ba614d995dc323",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/5b3e11946fe08d6c10c01f52d8ba614d995dc323"
+      },
+      {
+        "path": "fairseq/modules/pointcloud/hengshuang-codebase/point_transformer_block_.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e5671aba840b9209aaee4eeadedec36fe053cee5",
+        "size": 5877,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/e5671aba840b9209aaee4eeadedec36fe053cee5"
+      },
+      {
+        "path": "fairseq/modules/pointcloud/hengshuang-codebase/pointops_.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2f382e5dcd6a007af10e8e87f4f1996bfa805e25",
+        "size": 8137,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/2f382e5dcd6a007af10e8e87f4f1996bfa805e25"
+      },
+      {
+        "path": "fairseq/modules/pointcloud/point_transformer_block.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "130345e50dc322d74eedd189b1fc254a2cc70ff4",
+        "size": 5528,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/130345e50dc322d74eedd189b1fc254a2cc70ff4"
+      },
+      {
+        "path": "fairseq/modules/pointcloud/point_transformer_layer.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0b03daf31fe3c82789bf129750112e46f4a4f25d",
+        "size": 3027,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/0b03daf31fe3c82789bf129750112e46f4a4f25d"
+      },
+      {
+        "path": "fairseq/modules/pointcloud/point_transformer_layer_multihead.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "675f7256276c4b5473f6c77f20bdb00b17dae4a2",
+        "size": 13990,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/675f7256276c4b5473f6c77f20bdb00b17dae4a2"
+      },
+      {
+        "path": "fairseq/modules/positional_embedding.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2ba50113d701cc4fdf79e3911d43c3db4e7ec4c1",
+        "size": 1287,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/2ba50113d701cc4fdf79e3911d43c3db4e7ec4c1"
+      },
+      {
+        "path": "fairseq/modules/scalar_bias.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c96247c75914fabb8a2b7ff731bb82b588f72690",
+        "size": 888,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/c96247c75914fabb8a2b7ff731bb82b588f72690"
+      },
+      {
+        "path": "fairseq/modules/sinusoidal_positional_embedding.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9a3c5617806e20731c4e9c4a6060d751d294362c",
+        "size": 3623,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/9a3c5617806e20731c4e9c4a6060d751d294362c"
+      },
+      {
+        "path": "fairseq/modules/sparse_multihead_attention.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "61430195c253fc0346814f7ba92e2a588553e99d",
+        "size": 4525,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/61430195c253fc0346814f7ba92e2a588553e99d"
+      },
+      {
+        "path": "fairseq/modules/sparse_transformer_sentence_encoder.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "771a41e687e59c2c920b6f96f91c806f51119751",
+        "size": 3164,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/771a41e687e59c2c920b6f96f91c806f51119751"
+      },
+      {
+        "path": "fairseq/modules/sparse_transformer_sentence_encoder_layer.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f14540074a0e2fdc71021cccffb1070ed81c2b73",
+        "size": 1622,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/f14540074a0e2fdc71021cccffb1070ed81c2b73"
+      },
+      {
+        "path": "fairseq/modules/transformer_layer.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5da4909ca2588fd713dd91916102d6913bd57f69",
+        "size": 11788,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/5da4909ca2588fd713dd91916102d6913bd57f69"
+      },
+      {
+        "path": "fairseq/modules/transformer_sentence_encoder.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "169929125301dfc17109d60014ea040e31d5b8cd",
+        "size": 7758,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/169929125301dfc17109d60014ea040e31d5b8cd"
+      },
+      {
+        "path": "fairseq/modules/transformer_sentence_encoder_layer.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8982ff0ea94eb709e5240b24c863f5670ffbf7f0",
+        "size": 2922,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/8982ff0ea94eb709e5240b24c863f5670ffbf7f0"
+      },
+      {
+        "path": "fairseq/modules/unfold.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3a142db69868ff1e36241c7f032d0f886b6b9428",
+        "size": 570,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/3a142db69868ff1e36241c7f032d0f886b6b9428"
+      },
+      {
+        "path": "fairseq/modules/vggblock.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "193026b16f367a9de73ba0e682bbdbdc6b05ca84",
+        "size": 3983,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/193026b16f367a9de73ba0e682bbdbdc6b05ca84"
+      },
+      {
+        "path": "fairseq/molecule_utils",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2f70da1f69a5c27ed7da9a16261303b35bb2686e",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/2f70da1f69a5c27ed7da9a16261303b35bb2686e"
+      },
+      {
+        "path": "fairseq/molecule_utils/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5162161d72d336fa0625522a4888e5084db594e4",
+        "size": 120,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/5162161d72d336fa0625522a4888e5084db594e4"
+      },
+      {
+        "path": "fairseq/molecule_utils/af2_utils",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "9da393b00186f6a3d776bda6a030e13295502681",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/9da393b00186f6a3d776bda6a030e13295502681"
+      },
+      {
+        "path": "fairseq/molecule_utils/af2_utils/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a2d63fd7b2d057e224e5094061d61fa2b9f1f44b",
+        "size": 2019,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/a2d63fd7b2d057e224e5094061d61fa2b9f1f44b"
+      },
+      {
+        "path": "fairseq/molecule_utils/af2_utils/common",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c0434ff95c22a5f4a83eea7087e38b96e615f988",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/c0434ff95c22a5f4a83eea7087e38b96e615f988"
+      },
+      {
+        "path": "fairseq/molecule_utils/af2_utils/common/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2ee30b883de57c5a3359669984fd84ae698da228",
+        "size": 105,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/2ee30b883de57c5a3359669984fd84ae698da228"
+      },
+      {
+        "path": "fairseq/molecule_utils/af2_utils/common/protein.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2a4e92bc6517263f895f0a89b67c22758db390bc",
+        "size": 8328,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/2a4e92bc6517263f895f0a89b67c22758db390bc"
+      },
+      {
+        "path": "fairseq/molecule_utils/af2_utils/common/residue_constants.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f918341339339508442226206080ca00f77b3a17",
+        "size": 35619,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/f918341339339508442226206080ca00f77b3a17"
+      },
+      {
+        "path": "fairseq/molecule_utils/af2_utils/config.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2a404cb30cf1edbc3cf6d35ccdc7737281226c2c",
+        "size": 2563,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/2a404cb30cf1edbc3cf6d35ccdc7737281226c2c"
+      },
+      {
+        "path": "fairseq/molecule_utils/af2_utils/data_transforms.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4ac2f25dec0d24a6adb47560c1f3518dedc7771d",
+        "size": 6051,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/4ac2f25dec0d24a6adb47560c1f3518dedc7771d"
+      },
+      {
+        "path": "fairseq/molecule_utils/af2_utils/parse_templates.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "369afcb899edfc1c6c9ae55babb31f557e23205e",
+        "size": 3617,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/369afcb899edfc1c6c9ae55babb31f557e23205e"
+      },
+      {
+        "path": "fairseq/molecule_utils/af2_utils/protein_features.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0c2b63a13306dc1d80f9236f7c8df346bbc22ac0",
+        "size": 5138,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/0c2b63a13306dc1d80f9236f7c8df346bbc22ac0"
+      },
+      {
+        "path": "fairseq/molecule_utils/af2_utils/proteins_dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fac1bfca5c883b2d7f6cc5fa34373b328cdced6a",
+        "size": 3755,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/fac1bfca5c883b2d7f6cc5fa34373b328cdced6a"
+      },
+      {
+        "path": "fairseq/molecule_utils/basic",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d8e0befd4f058abf8c23d0309aad27e7b45206c4",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/d8e0befd4f058abf8c23d0309aad27e7b45206c4"
+      },
+      {
+        "path": "fairseq/molecule_utils/basic/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ff87c0dda015a88cf170ffcebec1ab9c8b600e4c",
+        "size": 228,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/ff87c0dda015a88cf170ffcebec1ab9c8b600e4c"
+      },
+      {
+        "path": "fairseq/molecule_utils/basic/clf_py36.pkl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d75af921d5c69833b038d4da4eae9f16387d3e8d",
+        "size": 35417604,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/d75af921d5c69833b038d4da4eae9f16387d3e8d"
+      },
+      {
+        "path": "fairseq/molecule_utils/basic/dataset_utils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ce33225eb85190526e3017882ebccc117516dc27",
+        "size": 2459,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/ce33225eb85190526e3017882ebccc117516dc27"
+      },
+      {
+        "path": "fairseq/molecule_utils/basic/fasta_utils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f13c6edeee180f841aaa8df8f484ebe0c7713514",
+        "size": 1236,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/f13c6edeee180f841aaa8df8f484ebe0c7713514"
+      },
+      {
+        "path": "fairseq/molecule_utils/basic/fpscores.pkl.gz",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6c5738b515707d0c22630458c263537e9efb2e69",
+        "size": 3848394,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/6c5738b515707d0c22630458c263537e9efb2e69"
+      },
+      {
+        "path": "fairseq/molecule_utils/basic/lipinski.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f29f8744009f7d692fd09f6dba3b1f6abada62fa",
+        "size": 2275,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/f29f8744009f7d692fd09f6dba3b1f6abada62fa"
+      },
+      {
+        "path": "fairseq/molecule_utils/basic/mol_scores.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "eaf92ecdd1fc6b6d98623f417897111a6015f22e",
+        "size": 8755,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/eaf92ecdd1fc6b6d98623f417897111a6015f22e"
+      },
+      {
+        "path": "fairseq/molecule_utils/basic/run_docking.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cfa56e86a66e04ce317459a895f5e99cc4237d88",
+        "size": 5831,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/cfa56e86a66e04ce317459a895f5e99cc4237d88"
+      },
+      {
+        "path": "fairseq/molecule_utils/basic/smiles_utils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "36e33123215be69f976d408253c629fd3479416d",
+        "size": 6453,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/36e33123215be69f976d408253c629fd3479416d"
+      },
+      {
+        "path": "fairseq/molecule_utils/config.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "91316adbef88b497e4e3d334632cc80e90743a3d",
+        "size": 3645,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/91316adbef88b497e4e3d334632cc80e90743a3d"
+      },
+      {
+        "path": "fairseq/molecule_utils/coordinate_utils",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f046ee1ae51881ec95c747ec740b8e62e744e5dc",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/f046ee1ae51881ec95c747ec740b8e62e744e5dc"
+      },
+      {
+        "path": "fairseq/molecule_utils/coordinate_utils/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d2180450936980b67561bcffa7ea0194ee720bf1",
+        "size": 251,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/d2180450936980b67561bcffa7ea0194ee720bf1"
+      },
+      {
+        "path": "fairseq/molecule_utils/coordinate_utils/atom_positions.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "30354a67d7f0e4571e6b90945cff53028c553e46",
+        "size": 4873,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/30354a67d7f0e4571e6b90945cff53028c553e46"
+      },
+      {
+        "path": "fairseq/molecule_utils/coordinate_utils/binding_site_utils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "42f5e93baf341e62309eac4248f3f0cbd1555141",
+        "size": 13023,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/42f5e93baf341e62309eac4248f3f0cbd1555141"
+      },
+      {
+        "path": "fairseq/molecule_utils/database",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c71a43e05d3030909dd636edbc60a9ea8b100326",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/c71a43e05d3030909dd636edbc60a9ea8b100326"
+      },
+      {
+        "path": "fairseq/molecule_utils/database/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6d3a2b7e98dff4c112a3c36e8fc566506809927d",
+        "size": 615,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/6d3a2b7e98dff4c112a3c36e8fc566506809927d"
+      },
+      {
+        "path": "fairseq/molecule_utils/database/af2_mmcif_parsing.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ba64bdf5abfe3c125bbe81b40f8151e3b86d9e54",
+        "size": 15427,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/ba64bdf5abfe3c125bbe81b40f8151e3b86d9e54"
+      },
+      {
+        "path": "fairseq/molecule_utils/database/caching_utils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9e87ddde9f31c67f9dd5cda7b3ab871eb17c19e0",
+        "size": 3890,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/9e87ddde9f31c67f9dd5cda7b3ab871eb17c19e0"
+      },
+      {
+        "path": "fairseq/molecule_utils/database/common_utils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ffae01e825698ead62c402d7ee613bde3c160182",
+        "size": 1202,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/ffae01e825698ead62c402d7ee613bde3c160182"
+      },
+      {
+        "path": "fairseq/molecule_utils/database/fasta_file.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "95c19917c7d7d3684df108f353fa32f601fdab2c",
+        "size": 2189,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/95c19917c7d7d3684df108f353fa32f601fdab2c"
+      },
+      {
+        "path": "fairseq/molecule_utils/database/mappings.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "84465ac0b7e15d0c4eb2ac15dd45c338f76f5a12",
+        "size": 6302,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/84465ac0b7e15d0c4eb2ac15dd45c338f76f5a12"
+      },
+      {
+        "path": "fairseq/molecule_utils/database/mmcif_utils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "83e71c300372f8d33ee7c67ca42d0f07d2a0fbb0",
+        "size": 7438,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/83e71c300372f8d33ee7c67ca42d0f07d2a0fbb0"
+      },
+      {
+        "path": "fairseq/molecule_utils/database/pdb_helper_datasets.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e09849148e7f8fcd9249ce0ee3da408af38e693a",
+        "size": 5225,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/e09849148e7f8fcd9249ce0ee3da408af38e693a"
+      },
+      {
+        "path": "fairseq/molecule_utils/database/split_complex.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dfc3a8f4713230a8172971d51d8488921974e9e9",
+        "size": 18431,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/dfc3a8f4713230a8172971d51d8488921974e9e9"
+      },
+      {
+        "path": "fairseq/molecule_utils/database/structure_file.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cf61d14669a6cebd823ca9b0563b118bb43fd2a9",
+        "size": 5217,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/cf61d14669a6cebd823ca9b0563b118bb43fd2a9"
+      },
+      {
+        "path": "fairseq/molecule_utils/exceptions.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5a5e87fac9bdaf8854a7796557c35ac3955aa5cd",
+        "size": 533,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/5a5e87fac9bdaf8854a7796557c35ac3955aa5cd"
+      },
+      {
+        "path": "fairseq/molecule_utils/external",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "11f06f3f3dd300ab076927b1287b9fa054e2b633",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/11f06f3f3dd300ab076927b1287b9fa054e2b633"
+      },
+      {
+        "path": "fairseq/molecule_utils/external/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e7954c14620a91b51c6ed67e3ce5abb0cc444713",
+        "size": 68,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/e7954c14620a91b51c6ed67e3ce5abb0cc444713"
+      },
+      {
+        "path": "fairseq/molecule_utils/external/fairseq_dataset_build_utils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9dde9c2b425ad074b97b001517ccbba3b75fddf8",
+        "size": 60679,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/9dde9c2b425ad074b97b001517ccbba3b75fddf8"
+      },
+      {
+        "path": "fairseq/molecule_utils/external/sbdd_protein_ligand.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "23e847f01bc575eb53ea96052f3ce44985ca0f95",
+        "size": 10696,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/23e847f01bc575eb53ea96052f3ce44985ca0f95"
+      },
+      {
+        "path": "fairseq/molecule_utils/external_tools",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a93cb07420a58300bf52aac929f034ce1f00ff7b",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/a93cb07420a58300bf52aac929f034ce1f00ff7b"
+      },
+      {
+        "path": "fairseq/molecule_utils/external_tools/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "df05229a7236fb452809b75883afac69d6b0b83a",
+        "size": 43,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/df05229a7236fb452809b75883afac69d6b0b83a"
+      },
+      {
+        "path": "fairseq/molecule_utils/external_tools/autodock_smina.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fb69e1216b0d6ad1d3788726c3369c7415621ef2",
+        "size": 4448,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/fb69e1216b0d6ad1d3788726c3369c7415621ef2"
+      },
+      {
+        "path": "fairseq/molecule_utils/external_tools/mmseqs2.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ebff5fe907747a01eaffe58958ae41f97d334f5a",
+        "size": 5226,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/ebff5fe907747a01eaffe58958ae41f97d334f5a"
+      },
+      {
+        "path": "fairseq/molecule_utils/tgt2drug_evaluator.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c701262f5c934bf0a70f0b23e4dbd215c5fc6673",
+        "size": 20635,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/c701262f5c934bf0a70f0b23e4dbd215c5fc6673"
+      },
+      {
+        "path": "fairseq/optim",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "45d1ed982de696e15694d2419a504a52df5eadab",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/45d1ed982de696e15694d2419a504a52df5eadab"
+      },
+      {
+        "path": "fairseq/optim/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "268291be76b6214359a8c2ab2cd295e0f07c8343",
+        "size": 1161,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/268291be76b6214359a8c2ab2cd295e0f07c8343"
+      },
+      {
+        "path": "fairseq/optim/adadelta.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "27079a402b269c85e7a0511cef3ca3484205ca6a",
+        "size": 1760,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/27079a402b269c85e7a0511cef3ca3484205ca6a"
+      },
+      {
+        "path": "fairseq/optim/adafactor.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1c026244b568c30daec9fe9130578c664550a201",
+        "size": 9539,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/1c026244b568c30daec9fe9130578c664550a201"
+      },
+      {
+        "path": "fairseq/optim/adagrad.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "15b3a1c25ac96c8d344aa2fd6005591a2fd53e47",
+        "size": 1203,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/15b3a1c25ac96c8d344aa2fd6005591a2fd53e47"
+      },
+      {
+        "path": "fairseq/optim/adam.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "baf221ae1ecf5fb6e73445218e75be5866423dbd",
+        "size": 13537,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/baf221ae1ecf5fb6e73445218e75be5866423dbd"
+      },
+      {
+        "path": "fairseq/optim/adamax.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2a2e7698ad08609a026e4438029174b7b6f77354",
+        "size": 5827,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/2a2e7698ad08609a026e4438029174b7b6f77354"
+      },
+      {
+        "path": "fairseq/optim/bmuf.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "12e18adc0334088f684e85b01a9f9aa295fdf138",
+        "size": 7076,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/12e18adc0334088f684e85b01a9f9aa295fdf138"
+      },
+      {
+        "path": "fairseq/optim/fairseq_optimizer.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "58bc7fc2d7bcd5f1df10ab2ea859db9bbf8154b2",
+        "size": 3577,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/58bc7fc2d7bcd5f1df10ab2ea859db9bbf8154b2"
+      },
+      {
+        "path": "fairseq/optim/fp16_optimizer.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b3ae1ef49cf39d2408dceed2f75df031d0008478",
+        "size": 14027,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/b3ae1ef49cf39d2408dceed2f75df031d0008478"
+      },
+      {
+        "path": "fairseq/optim/lr_scheduler",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "83f13952cc81cd067e70b35226ac2267528f08d4",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/83f13952cc81cd067e70b35226ac2267528f08d4"
+      },
+      {
+        "path": "fairseq/optim/lr_scheduler/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "edd0a6a13e1a10e91a8653371a420b36bcb2cc27",
+        "size": 788,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/edd0a6a13e1a10e91a8653371a420b36bcb2cc27"
+      },
+      {
+        "path": "fairseq/optim/lr_scheduler/cosine_lr_scheduler.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9137e11b786a860cd6ab9fdcf35523c088989781",
+        "size": 4752,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/9137e11b786a860cd6ab9fdcf35523c088989781"
+      },
+      {
+        "path": "fairseq/optim/lr_scheduler/fairseq_lr_scheduler.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8b7884829a6311deea1f1160b452791f1485d4d3",
+        "size": 1329,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/8b7884829a6311deea1f1160b452791f1485d4d3"
+      },
+      {
+        "path": "fairseq/optim/lr_scheduler/fixed_schedule.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1b9ca3a6392c525f976c3b5839918375b7e2288e",
+        "size": 2403,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/1b9ca3a6392c525f976c3b5839918375b7e2288e"
+      },
+      {
+        "path": "fairseq/optim/lr_scheduler/inverse_sqrt_es_schedule.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "64f40ef3365acdbac57a09846aa2cac492b170f4",
+        "size": 4955,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/64f40ef3365acdbac57a09846aa2cac492b170f4"
+      },
+      {
+        "path": "fairseq/optim/lr_scheduler/inverse_square_root_schedule.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f98a7c3b997e2aa2f77911da25686e9bdccbad5b",
+        "size": 2952,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/f98a7c3b997e2aa2f77911da25686e9bdccbad5b"
+      },
+      {
+        "path": "fairseq/optim/lr_scheduler/polynomial_decay_schedule.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "aff57f9b93d0221c3685467be50cde258e965327",
+        "size": 2983,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/aff57f9b93d0221c3685467be50cde258e965327"
+      },
+      {
+        "path": "fairseq/optim/lr_scheduler/reduce_lr_on_plateau.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "715c714b652e62f92b3777f5db67452e837782aa",
+        "size": 2229,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/715c714b652e62f92b3777f5db67452e837782aa"
+      },
+      {
+        "path": "fairseq/optim/lr_scheduler/triangular_lr_scheduler.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fed0cf7ef119852c84825eaae89b35226991eedc",
+        "size": 2711,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/fed0cf7ef119852c84825eaae89b35226991eedc"
+      },
+      {
+        "path": "fairseq/optim/nag.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c916b6fadbfe775e7613a07a27afb940f91cc912",
+        "size": 3218,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/c916b6fadbfe775e7613a07a27afb940f91cc912"
+      },
+      {
+        "path": "fairseq/optim/sgd.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c34b9590dd0b6e86d4673ad16eba2e6347749b42",
+        "size": 1367,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/c34b9590dd0b6e86d4673ad16eba2e6347749b42"
+      },
+      {
+        "path": "fairseq/options.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1a961ac96f0301d16a3738c833124a4c77cb3192",
+        "size": 29955,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/1a961ac96f0301d16a3738c833124a4c77cb3192"
+      },
+      {
+        "path": "fairseq/pdb.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f1ce3c46bca47fd8a47272770d6c61fcd9c13f75",
+        "size": 1089,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/f1ce3c46bca47fd8a47272770d6c61fcd9c13f75"
+      },
+      {
+        "path": "fairseq/progress_bar.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "17c3b78730221755dbec709af9369c62af77b637",
+        "size": 10490,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/17c3b78730221755dbec709af9369c62af77b637"
+      },
+      {
+        "path": "fairseq/registry.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ed24258c57713075fd42383a8bfa9461c45cf1b1",
+        "size": 2631,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/ed24258c57713075fd42383a8bfa9461c45cf1b1"
+      },
+      {
+        "path": "fairseq/search.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9c8cccc34f2ce83de9f061ab049c65209f9d607c",
+        "size": 11324,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/9c8cccc34f2ce83de9f061ab049c65209f9d607c"
+      },
+      {
+        "path": "fairseq/sequence_generator.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f5d527c1b17ba4140c0991b70913ed2726e056ce",
+        "size": 26048,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/f5d527c1b17ba4140c0991b70913ed2726e056ce"
+      },
+      {
+        "path": "fairseq/sequence_generator_hint.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e9147efff66d2ced5b4f2782d5ea7e1306b5644d",
+        "size": 26702,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/e9147efff66d2ced5b4f2782d5ea7e1306b5644d"
+      },
+      {
+        "path": "fairseq/sequence_scorer.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d125422340418b761f7474599c6c95ecf1a262fd",
+        "size": 4256,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/d125422340418b761f7474599c6c95ecf1a262fd"
+      },
+      {
+        "path": "fairseq/tasks",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f83c06f700686889c7bc23677602baa435664238",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/f83c06f700686889c7bc23677602baa435664238"
+      },
+      {
+        "path": "fairseq/tasks/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "92f9d53190d0779fc407d6a8cdfd932a63079362",
+        "size": 2494,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/92f9d53190d0779fc407d6a8cdfd932a63079362"
+      },
+      {
+        "path": "fairseq/tasks/audio_pretraining.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "76e072866b9e5ca51188f75bfaf2207c18b36ed3",
+        "size": 2103,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/76e072866b9e5ca51188f75bfaf2207c18b36ed3"
+      },
+      {
+        "path": "fairseq/tasks/cross_lingual_lm.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b171b761c1062e4619f6bc0365ba15e74478cd71",
+        "size": 6339,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/b171b761c1062e4619f6bc0365ba15e74478cd71"
+      },
+      {
+        "path": "fairseq/tasks/fairseq_task.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3dea0716298732753ca57518dc8e83ab1aad61cd",
+        "size": 10434,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/3dea0716298732753ca57518dc8e83ab1aad61cd"
+      },
+      {
+        "path": "fairseq/tasks/language_modeling.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f6d0d70b625365d57210acf36c1ed8eb63f5fd1c",
+        "size": 8913,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/f6d0d70b625365d57210acf36c1ed8eb63f5fd1c"
+      },
+      {
+        "path": "fairseq/tasks/legacy_masked_lm.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "12453d3f32f0bba394c95303d52331d8d75111b4",
+        "size": 4755,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/12453d3f32f0bba394c95303d52331d8d75111b4"
+      },
+      {
+        "path": "fairseq/tasks/masked_lm.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cd677dd0ac596466deaa120529389b61879e6f0b",
+        "size": 8172,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/cd677dd0ac596466deaa120529389b61879e6f0b"
+      },
+      {
+        "path": "fairseq/tasks/molecule",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "50886d9a43a4d32ac81a626332d1354161c5f2d6",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/50886d9a43a4d32ac81a626332d1354161c5f2d6"
+      },
+      {
+        "path": "fairseq/tasks/molecule/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e5219faff16b9a8b00e6e80ab370a14aaaae6e6d",
+        "size": 108,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/e5219faff16b9a8b00e6e80ab370a14aaaae6e6d"
+      },
+      {
+        "path": "fairseq/tasks/molecule/translation_coord.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ed93a462849e57f7e5f6dd0b7795b16022de59fd",
+        "size": 9891,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/ed93a462849e57f7e5f6dd0b7795b16022de59fd"
+      },
+      {
+        "path": "fairseq/tasks/multilingual_translation.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7b359ea8687b3ea049b6bf45107230bb37540013",
+        "size": 16543,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/7b359ea8687b3ea049b6bf45107230bb37540013"
+      },
+      {
+        "path": "fairseq/tasks/semisupervised_translation.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "612ea48c46b1e28a4ab39522ac6f3323d0e6316a",
+        "size": 19504,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/612ea48c46b1e28a4ab39522ac6f3323d0e6316a"
+      },
+      {
+        "path": "fairseq/tasks/sentence_ranking.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "76e7294c078a3fe4f3ce4c1a76dc366e1f25aa97",
+        "size": 6301,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/76e7294c078a3fe4f3ce4c1a76dc366e1f25aa97"
+      },
+      {
+        "path": "fairseq/tasks/translation.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "aee9389138cbf4344bdee38c2f443857431448df",
+        "size": 8344,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/aee9389138cbf4344bdee38c2f443857431448df"
+      },
+      {
+        "path": "fairseq/tasks/translation_from_pretrained_xlm.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "347a6eccb7657e6d20d1f1304b76fe31bc731393",
+        "size": 1106,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/347a6eccb7657e6d20d1f1304b76fe31bc731393"
+      },
+      {
+        "path": "fairseq/tasks/translation_moe.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ae8817a306200d0872a4caf0381093eecab6d639",
+        "size": 8872,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/ae8817a306200d0872a4caf0381093eecab6d639"
+      },
+      {
+        "path": "fairseq/tokenizer.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8c4d694aa08be0e73179290785c565419247618b",
+        "size": 345,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/8c4d694aa08be0e73179290785c565419247618b"
+      },
+      {
+        "path": "fairseq/trainer.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e8f777cbf934adc6b8c840628fcfc60aa9bffeee",
+        "size": 23004,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/e8f777cbf934adc6b8c840628fcfc60aa9bffeee"
+      },
+      {
+        "path": "fairseq/utils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f2f7a8df246a36bd93eeb69ba9ece1ba23036439",
+        "size": 11474,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/f2f7a8df246a36bd93eeb69ba9ece1ba23036439"
+      },
+      {
+        "path": "fairseq_cli",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "04a5cfad079b4a59388998b61ba4cac2b08c7d30",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/04a5cfad079b4a59388998b61ba4cac2b08c7d30"
+      },
+      {
+        "path": "fairseq_cli/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "fairseq_cli/eval_lm.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e76c59d1d3fb4a873845cf145026fb8e43022428",
+        "size": 13,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/e76c59d1d3fb4a873845cf145026fb8e43022428"
+      },
+      {
+        "path": "fairseq_cli/generate.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "df5aa8c47c82b80403a5655850c39bc5201823dd",
+        "size": 14,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/df5aa8c47c82b80403a5655850c39bc5201823dd"
+      },
+      {
+        "path": "fairseq_cli/interactive.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a197936f1933dc98a18cbd6563444e9ac3a536fd",
+        "size": 17,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/a197936f1933dc98a18cbd6563444e9ac3a536fd"
+      },
+      {
+        "path": "fairseq_cli/preprocess.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e1757d594a52a7beaa288e69dd30546db8baa63c",
+        "size": 16,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/e1757d594a52a7beaa288e69dd30546db8baa63c"
+      },
+      {
+        "path": "fairseq_cli/score.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "037fd1bca2a4a29f16bf41f7c3c69602937dd846",
+        "size": 11,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/037fd1bca2a4a29f16bf41f7c3c69602937dd846"
+      },
+      {
+        "path": "fairseq_cli/setup.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f8f80fc25438ba8cc37ac8d42b532ab2bdf88997",
+        "size": 11,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/f8f80fc25438ba8cc37ac8d42b532ab2bdf88997"
+      },
+      {
+        "path": "fairseq_cli/train.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c015d7120134644e496a31d4b8eb79d06c563aaa",
+        "size": 11,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/c015d7120134644e496a31d4b8eb79d06c563aaa"
+      },
+      {
+        "path": "generate.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ba7be702f148c1816b6b38478e4e2493b792998f",
+        "size": 9757,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/ba7be702f148c1816b6b38478e4e2493b792998f"
+      },
+      {
+        "path": "generate_multiseed.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "40e882770c0057180f75927922ef97c20d4f2881",
+        "size": 10356,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/40e882770c0057180f75927922ef97c20d4f2881"
+      },
+      {
+        "path": "gpt_model",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "1b38c05cb158367b5ee46277c7f6772d57c9bae3",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/1b38c05cb158367b5ee46277c7f6772d57c9bae3"
+      },
+      {
+        "path": "gpt_model/dict.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "45e7134a950b6a5f75f13ab9b8e6c4313bb42832",
+        "size": 9132,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/45e7134a950b6a5f75f13ab9b8e6c4313bb42832"
+      },
+      {
+        "path": "hubconf.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "34179c9dba131826a2b1e7c230440a6a4b07847d",
+        "size": 765,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/34179c9dba131826a2b1e7c230440a6a4b07847d"
+      },
+      {
+        "path": "interactive.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d9d547a974a562ca95bf4bfca67407135c1160e9",
+        "size": 6442,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/d9d547a974a562ca95bf4bfca67407135c1160e9"
+      },
+      {
+        "path": "interctive_decode.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bff5bb02d889996395776f641289011c663fa75c",
+        "size": 127037,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/bff5bb02d889996395776f641289011c663fa75c"
+      },
+      {
+        "path": "misc",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e67901ebfc64d650c9e650fe90f14978559939b3",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/e67901ebfc64d650c9e650fe90f14978559939b3"
+      },
+      {
+        "path": "misc/dict.revised_cmpd.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c5a80412635d83af3ed7fa15d8244fb3b80fe19e",
+        "size": 9117,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/c5a80412635d83af3ed7fa15d8244fb3b80fe19e"
+      },
+      {
+        "path": "misc/scaffold_inchi.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3ca6c22a9658b749c867e8825af49fe2b93bdb10",
+        "size": 2074467,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/3ca6c22a9658b749c867e8825af49fe2b93bdb10"
+      },
+      {
+        "path": "misc/scaffold_smiles.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "36dea17b09a85ef16c61df781dc2e2acea59d373",
+        "size": 696135,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/36dea17b09a85ef16c61df781dc2e2acea59d373"
+      },
+      {
+        "path": "misc/scaffold_smiles_top100.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3fa322f601224cbf91be68c948bb617ad128a083",
+        "size": 4154,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/3fa322f601224cbf91be68c948bb617ad128a083"
+      },
+      {
+        "path": "model",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2606d8f36522c35365d14951391e2caca4e83aa5",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/2606d8f36522c35365d14951391e2caca4e83aa5"
+      },
+      {
+        "path": "model/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d8ea95ac6d718a17b0a3950deed207a7dd7f4498",
+        "size": 181,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/d8ea95ac6d718a17b0a3950deed207a7dd7f4498"
+      },
+      {
+        "path": "preprocess.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f1f9318e97e5a56f24562d5fed31a14e5177cb08",
+        "size": 10352,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/f1f9318e97e5a56f24562d5fed31a14e5177cb08"
+      },
+      {
+        "path": "score.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6d9ac89a12322086b851d536dfcb2394b5e94972",
+        "size": 3050,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/6d9ac89a12322086b851d536dfcb2394b5e94972"
+      },
+      {
+        "path": "scripts",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3eb29a8c3bb95df5b66f7ecf1e93cd943efbf7a5",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/3eb29a8c3bb95df5b66f7ecf1e93cd943efbf7a5"
+      },
+      {
+        "path": "scripts/build_data",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2f8c22e33b08427faecfaafaf5475602e7530b3e",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/2f8c22e33b08427faecfaafaf5475602e7530b3e"
+      },
+      {
+        "path": "scripts/build_data/filter_pdb_ids.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f686895599960f3f6b08e4734b6890775094de08",
+        "size": 3150,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/f686895599960f3f6b08e4734b6890775094de08"
+      },
+      {
+        "path": "scripts/build_data/merge_datasets.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d900a5e99bab1f6ce3b626076760fc6766227dca",
+        "size": 2000,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/d900a5e99bab1f6ce3b626076760fc6766227dca"
+      },
+      {
+        "path": "scripts/build_data/prepare_crossdocked.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6fc798c990ed838b660898d41fb783c8289b1bbb",
+        "size": 10005,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/6fc798c990ed838b660898d41fb783c8289b1bbb"
+      },
+      {
+        "path": "scripts/build_data/prepare_pdb_ids.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5d338a2f7e1ad988948a0a6455e33ed226f5bfe3",
+        "size": 2916,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/5d338a2f7e1ad988948a0a6455e33ed226f5bfe3"
+      },
+      {
+        "path": "scripts/build_data/prepare_pdb_ids_center.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "aee24552c375abdb5d160b69e3cf2ac607d4f83c",
+        "size": 2727,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/aee24552c375abdb5d160b69e3cf2ac607d4f83c"
+      },
+      {
+        "path": "scripts/build_data/prepare_pdb_ids_center_scaffold.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6ec3a4460f3533899a26d1fc223e825e92571dbf",
+        "size": 2996,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/6ec3a4460f3533899a26d1fc223e825e92571dbf"
+      },
+      {
+        "path": "scripts/build_data/prepare_pdb_ids_res_ids.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1b25d0037ea6863acf6c91e207744f9449707914",
+        "size": 3129,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/1b25d0037ea6863acf6c91e207744f9449707914"
+      },
+      {
+        "path": "scripts/build_data/sample_dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "241e3c57b3d9f992d0cef4378ef0b170f9f3c00b",
+        "size": 2086,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/241e3c57b3d9f992d0cef4378ef0b170f9f3c00b"
+      },
+      {
+        "path": "scripts/eval_tgt2drug_v2.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "895e8b4721a7d66a3ab76560c8b074c65258abd6",
+        "size": 6835,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/895e8b4721a7d66a3ab76560c8b074c65258abd6"
+      },
+      {
+        "path": "scripts/example_inference.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c0cec6f3d65773eb64494d39e158bfd72e221e00",
+        "size": 558,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/c0cec6f3d65773eb64494d39e158bfd72e221e00"
+      },
+      {
+        "path": "scripts/format_output.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "123eeec521816288535961263a2c7ee4eb8d13a6",
+        "size": 1242,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/123eeec521816288535961263a2c7ee4eb8d13a6"
+      },
+      {
+        "path": "scripts/generate.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fa2f1dafbc2be1a4667bc4c6f3786dce1d6d7ae1",
+        "size": 2246,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/fa2f1dafbc2be1a4667bc4c6f3786dce1d6d7ae1"
+      },
+      {
+        "path": "scripts/get_fasta_from_pdb.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d51c2ce58ba970f649bcde1cc29ad3eb6ad4f66e",
+        "size": 1523,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/d51c2ce58ba970f649bcde1cc29ad3eb6ad4f66e"
+      },
+      {
+        "path": "scripts/get_fasta_from_uniprot.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d9f14cf7fe8dfd0b1ac273af59c9c777ea5ecf8d",
+        "size": 1321,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/d9f14cf7fe8dfd0b1ac273af59c9c777ea5ecf8d"
+      },
+      {
+        "path": "scripts/get_structure_file.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1ba3199555f896d68b914833db35c36aa7964d72",
+        "size": 1203,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/1ba3199555f896d68b914833db35c36aa7964d72"
+      },
+      {
+        "path": "scripts/plot_smiles.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4200b5ee20c19d5ced385f7ba66a17cf29fc20b0",
+        "size": 523,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/4200b5ee20c19d5ced385f7ba66a17cf29fc20b0"
+      },
+      {
+        "path": "scripts/quick_query_aa.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7472d2c001bc5c5937083b137be4d2a01fc781c0",
+        "size": 763,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/7472d2c001bc5c5937083b137be4d2a01fc781c0"
+      },
+      {
+        "path": "scripts/run_docking.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "886303e2e9ee6a65f9162281904aa8f550366b12",
+        "size": 3288,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/886303e2e9ee6a65f9162281904aa8f550366b12"
+      },
+      {
+        "path": "scripts/split_complex.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4e8b8d88ebfe205b081638289771dfafcb206b0b",
+        "size": 1297,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/4e8b8d88ebfe205b081638289771dfafcb206b0b"
+      },
+      {
+        "path": "scripts/train.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fcf1713284966439a7255d6da33cd29408e6f32b",
+        "size": 4271,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/fcf1713284966439a7255d6da33cd29408e6f32b"
+      },
+      {
+        "path": "scripts/utils",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "04b716d097c6c22b1e4dee3808ed816c8aa28995",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/04b716d097c6c22b1e4dee3808ed816c8aa28995"
+      },
+      {
+        "path": "scripts/utils/average_checkpoints.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e5e9bce156a637dcb129f3a7d9d4189e82de45ab",
+        "size": 5300,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/e5e9bce156a637dcb129f3a7d9d4189e82de45ab"
+      },
+      {
+        "path": "scripts/utils/binarize_array.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4f52991a1850f4ea72e939d11f1eea9e0031c095",
+        "size": 2514,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/4f52991a1850f4ea72e939d11f1eea9e0031c095"
+      },
+      {
+        "path": "scripts/utils/dataset_info.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "125b4890e26afef5d7208f943f827069af24fc77",
+        "size": 3834,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/125b4890e26afef5d7208f943f827069af24fc77"
+      },
+      {
+        "path": "scripts/utils/read_binarized.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f48409beb4d6fea124c9b99c34aa7539784eaaf7",
+        "size": 1365,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/f48409beb4d6fea124c9b99c34aa7539784eaaf7"
+      },
+      {
+        "path": "scripts/utils/read_checkpoint.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a02d2bf3fe73980232d0953199eabc7780366593",
+        "size": 3228,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/a02d2bf3fe73980232d0953199eabc7780366593"
+      },
+      {
+        "path": "setup.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5f901b4d70f4c5f060d87dda29e1aa93e207d4d6",
+        "size": 2188,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/5f901b4d70f4c5f060d87dda29e1aa93e207d4d6"
+      },
+      {
+        "path": "setup_env.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a1b9782f7eb3b5d2d106100eb1f17079384079b9",
+        "size": 1238,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/a1b9782f7eb3b5d2d106100eb1f17079384079b9"
+      },
+      {
+        "path": "tests",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e982b95a8a4b1b7d88f0a778fa14b3b691e2fa1c",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/e982b95a8a4b1b7d88f0a778fa14b3b691e2fa1c"
+      },
+      {
+        "path": "tests/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "tests/data",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "9c3d19abe94e1d6c602fb44416bfa43f1b6b2560",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/9c3d19abe94e1d6c602fb44416bfa43f1b6b2560"
+      },
+      {
+        "path": "tests/data/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "df05229a7236fb452809b75883afac69d6b0b83a",
+        "size": 43,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/df05229a7236fb452809b75883afac69d6b0b83a"
+      },
+      {
+        "path": "tests/data/test_indexed_dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3ec3fcb470d23187c9fcb310384957cebb60babd",
+        "size": 1734,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/3ec3fcb470d23187c9fcb310384957cebb60babd"
+      },
+      {
+        "path": "tests/molecule",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4aaec16a0b0f847808a657d767737bc32b8ec73b",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/4aaec16a0b0f847808a657d767737bc32b8ec73b"
+      },
+      {
+        "path": "tests/molecule/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "df05229a7236fb452809b75883afac69d6b0b83a",
+        "size": 43,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/df05229a7236fb452809b75883afac69d6b0b83a"
+      },
+      {
+        "path": "tests/molecule/af2",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6d00bcf0b98cdfe5fafc55b22150e4b959e4473c",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/6d00bcf0b98cdfe5fafc55b22150e4b959e4473c"
+      },
+      {
+        "path": "tests/molecule/af2/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "df05229a7236fb452809b75883afac69d6b0b83a",
+        "size": 43,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/df05229a7236fb452809b75883afac69d6b0b83a"
+      },
+      {
+        "path": "tests/molecule/af2/common",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ec38bc59d320520388b5868674fdf915475f191c",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/ec38bc59d320520388b5868674fdf915475f191c"
+      },
+      {
+        "path": "tests/molecule/af2/common/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "df05229a7236fb452809b75883afac69d6b0b83a",
+        "size": 43,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/df05229a7236fb452809b75883afac69d6b0b83a"
+      },
+      {
+        "path": "tests/molecule/af2/common/test_protein.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "253774696398513ca47a087417225cd6d71c2522",
+        "size": 3592,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/253774696398513ca47a087417225cd6d71c2522"
+      },
+      {
+        "path": "tests/molecule/af2/common/test_residue_constants.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "53ff7d50658ccce27fd8dea626779a06dc006d39",
+        "size": 11682,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/53ff7d50658ccce27fd8dea626779a06dc006d39"
+      },
+      {
+        "path": "tests/molecule/af2/test_af2_template_processing.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e929faa5861a6580e5d5d90b15d886cfdb08a09b",
+        "size": 2593,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/e929faa5861a6580e5d5d90b15d886cfdb08a09b"
+      },
+      {
+        "path": "tests/molecule/af2/test_parse_templates.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3bacc3c651b1d252335883f670d9a7d6d3942c7f",
+        "size": 1536,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/3bacc3c651b1d252335883f670d9a7d6d3942c7f"
+      },
+      {
+        "path": "tests/molecule/af2/test_protein_features.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "62bc63043c4b8bb2593d8c5907fde45dd7324227",
+        "size": 1667,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/62bc63043c4b8bb2593d8c5907fde45dd7324227"
+      },
+      {
+        "path": "tests/molecule/basic",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b5faf7b6676a47f672d5cddc1da96a7306f17043",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/b5faf7b6676a47f672d5cddc1da96a7306f17043"
+      },
+      {
+        "path": "tests/molecule/basic/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "df05229a7236fb452809b75883afac69d6b0b83a",
+        "size": 43,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/df05229a7236fb452809b75883afac69d6b0b83a"
+      },
+      {
+        "path": "tests/molecule/basic/test_run_docking.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6f1f4b840bfa24c9b85e4358e012825a3ba1da33",
+        "size": 1112,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/6f1f4b840bfa24c9b85e4358e012825a3ba1da33"
+      },
+      {
+        "path": "tests/molecule/basic/test_smiles_utils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4549bb11cf0b2d9b858970bfb8eb35d6840fe386",
+        "size": 2549,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/4549bb11cf0b2d9b858970bfb8eb35d6840fe386"
+      },
+      {
+        "path": "tests/molecule/coordinate_utils",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "586133eb102a0cedf3b4115e8aa237d6013223d9",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/586133eb102a0cedf3b4115e8aa237d6013223d9"
+      },
+      {
+        "path": "tests/molecule/coordinate_utils/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "df05229a7236fb452809b75883afac69d6b0b83a",
+        "size": 43,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/df05229a7236fb452809b75883afac69d6b0b83a"
+      },
+      {
+        "path": "tests/molecule/coordinate_utils/test_atom_positions.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d0609f7fb5bfe42803a29495d21f62b7030a34f0",
+        "size": 990,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/d0609f7fb5bfe42803a29495d21f62b7030a34f0"
+      },
+      {
+        "path": "tests/molecule/coordinate_utils/test_binding_site_utils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bf17b32ec4ad8f9fff631d3effdf89188c1c2dc4",
+        "size": 2199,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/bf17b32ec4ad8f9fff631d3effdf89188c1c2dc4"
+      },
+      {
+        "path": "tests/molecule/database",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "7e6edf6f6b4f0253203161950973e39e443b3895",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/7e6edf6f6b4f0253203161950973e39e443b3895"
+      },
+      {
+        "path": "tests/molecule/database/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "df05229a7236fb452809b75883afac69d6b0b83a",
+        "size": 43,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/df05229a7236fb452809b75883afac69d6b0b83a"
+      },
+      {
+        "path": "tests/molecule/database/test_af2_mmcif_parsing.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d8d4288268073cadb531fe3cce7de7fcf238c57c",
+        "size": 1109,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/d8d4288268073cadb531fe3cce7de7fcf238c57c"
+      },
+      {
+        "path": "tests/molecule/database/test_caching_utils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c1580f23179244803a4a395ce5577f654cee7bbe",
+        "size": 853,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/c1580f23179244803a4a395ce5577f654cee7bbe"
+      },
+      {
+        "path": "tests/molecule/database/test_get_files.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "98eb6ee6dba2a903d1777d538621877ef489f9d9",
+        "size": 2189,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/98eb6ee6dba2a903d1777d538621877ef489f9d9"
+      },
+      {
+        "path": "tests/molecule/database/test_mappings.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bd4436e4ca23d6f5bcaf00ddcd0cc77341d91411",
+        "size": 793,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/bd4436e4ca23d6f5bcaf00ddcd0cc77341d91411"
+      },
+      {
+        "path": "tests/molecule/database/test_mmcif_utils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e3811c9d10fbd33693a27ae61c113eed81f014a1",
+        "size": 1718,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/e3811c9d10fbd33693a27ae61c113eed81f014a1"
+      },
+      {
+        "path": "tests/molecule/database/test_split_complex.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2f679a5fb6bf4b43025e32bac7c411e4366e4094",
+        "size": 2870,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/2f679a5fb6bf4b43025e32bac7c411e4366e4094"
+      },
+      {
+        "path": "tests/molecule/datasets",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "5892fa3c9b564777d326f879ce3c354bc444faf9",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/5892fa3c9b564777d326f879ce3c354bc444faf9"
+      },
+      {
+        "path": "tests/molecule/datasets/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "df05229a7236fb452809b75883afac69d6b0b83a",
+        "size": 43,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/df05229a7236fb452809b75883afac69d6b0b83a"
+      },
+      {
+        "path": "tests/molecule/datasets/test_language_pair_coord_dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ba989d7782d5a4f89b35a77548e6f35237e51d65",
+        "size": 4110,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/ba989d7782d5a4f89b35a77548e6f35237e51d65"
+      },
+      {
+        "path": "tests/molecule/datasets/test_language_pair_feature_dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "45539b6e64281d1fc2eaac133ca510e7608ae97f",
+        "size": 4408,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/45539b6e64281d1fc2eaac133ca510e7608ae97f"
+      },
+      {
+        "path": "tests/molecule/datasets/test_translation_protein_dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d23a71afcf8f6584e42eef081e4cb4565435c08e",
+        "size": 2904,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/d23a71afcf8f6584e42eef081e4cb4565435c08e"
+      },
+      {
+        "path": "tests/molecule/external_tools",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "724aa44c0c383dfd95a15fbcadce59aedf1fd8f0",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/724aa44c0c383dfd95a15fbcadce59aedf1fd8f0"
+      },
+      {
+        "path": "tests/molecule/external_tools/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "df05229a7236fb452809b75883afac69d6b0b83a",
+        "size": 43,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/df05229a7236fb452809b75883afac69d6b0b83a"
+      },
+      {
+        "path": "tests/molecule/external_tools/test_autodock_smina.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4b6d5d6b21cf1c5f36aaa8226800c234bc1ca5b7",
+        "size": 1232,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/4b6d5d6b21cf1c5f36aaa8226800c234bc1ca5b7"
+      },
+      {
+        "path": "tests/molecule/external_tools/test_mmseqs2.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ec4113c0242ce2311b138ac7487ab341bc286fc6",
+        "size": 1498,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/ec4113c0242ce2311b138ac7487ab341bc286fc6"
+      },
+      {
+        "path": "tests/molecule/helper.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "67246d1aa5028a682f5efaf8f6f471b7c382805e",
+        "size": 2194,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/67246d1aa5028a682f5efaf8f6f471b7c382805e"
+      },
+      {
+        "path": "tests/molecule/test_data",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2bde3b26d1ab0939733f7df702be3a63854d75ad",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/2bde3b26d1ab0939733f7df702be3a63854d75ad"
+      },
+      {
+        "path": "tests/molecule/test_data/1h00.cif",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e3b64fd6d715c74a83b5e9da90435751ad6cc0a9",
+        "size": 287538,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/e3b64fd6d715c74a83b5e9da90435751ad6cc0a9"
+      },
+      {
+        "path": "tests/molecule/test_data/2rbg.cif",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b978f7d47f522c6145577c6062504229b9e40931",
+        "size": 260815,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/b978f7d47f522c6145577c6062504229b9e40931"
+      },
+      {
+        "path": "tests/molecule/test_data/3ny8.cif",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fe3074fcaea9962bd033fd825441c26c3e23421c",
+        "size": 405079,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/fe3074fcaea9962bd033fd825441c26c3e23421c"
+      },
+      {
+        "path": "tests/molecule/test_data/SplitPdb",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "06377e6e4a4be99f9e905262b3d35317dd972601",
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/trees/06377e6e4a4be99f9e905262b3d35317dd972601"
+      },
+      {
+        "path": "tests/molecule/test_data/SplitPdb/stub-3ny8-ligand0.cif",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "991c7b5d005b837a63325bd3f9b76a7cd0f1c8e7",
+        "size": 2454,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/991c7b5d005b837a63325bd3f9b76a7cd0f1c8e7"
+      },
+      {
+        "path": "tests/molecule/test_data/SplitPdb/stub-3ny8-no-ligand.cif",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "658bcc16ba3b38f92a2f6ac4cb64bacbafdfb951",
+        "size": 268490,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/658bcc16ba3b38f92a2f6ac4cb64bacbafdfb951"
+      },
+      {
+        "path": "tests/molecule/test_data/p24941.fasta",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8f5f05e03399016e15ce29727bb2dff03a7c85af",
+        "size": 392,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/8f5f05e03399016e15ce29727bb2dff03a7c85af"
+      },
+      {
+        "path": "tests/molecule/test_data/q975b5.fasta",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5a86652454236ee8b3001a7d4415be74425ee3f8",
+        "size": 292,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/5a86652454236ee8b3001a7d4415be74425ee3f8"
+      },
+      {
+        "path": "tests/molecule/test_data/wrong.cif",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "92d9c2db662632c0215665429efd5de09d35285e",
+        "size": 52,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/92d9c2db662632c0215665429efd5de09d35285e"
+      },
+      {
+        "path": "tests/test_average_checkpoints.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "21f12cb4214e286e8a0c9b4b571e7bb80bd75c9a",
+        "size": 4495,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/21f12cb4214e286e8a0c9b4b571e7bb80bd75c9a"
+      },
+      {
+        "path": "tests/test_backtranslation_dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b0db3e78c28762978bd20ddcb9721ada81dba456",
+        "size": 4032,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/b0db3e78c28762978bd20ddcb9721ada81dba456"
+      },
+      {
+        "path": "tests/test_binaries.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b51727827384b503ec4df0884b958ef022aa4f98",
+        "size": 23004,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/b51727827384b503ec4df0884b958ef022aa4f98"
+      },
+      {
+        "path": "tests/test_character_token_embedder.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "81042c2a3fac3335e019f455f80da850cf58fb95",
+        "size": 1656,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/81042c2a3fac3335e019f455f80da850cf58fb95"
+      },
+      {
+        "path": "tests/test_concat_dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dbdb2ac51823807dcf72d224c10b7797235c8b4a",
+        "size": 1943,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/dbdb2ac51823807dcf72d224c10b7797235c8b4a"
+      },
+      {
+        "path": "tests/test_convtbc.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fc2ac0b5dceace4a031d23e294240c40027ebee3",
+        "size": 1679,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/fc2ac0b5dceace4a031d23e294240c40027ebee3"
+      },
+      {
+        "path": "tests/test_dictionary.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b41838b54f98402a86f4712774c90dae28171b72",
+        "size": 1863,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/b41838b54f98402a86f4712774c90dae28171b72"
+      },
+      {
+        "path": "tests/test_iterators.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e2751d2b17583dc01384d2ab0a3cfae8c4d7f93b",
+        "size": 709,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/e2751d2b17583dc01384d2ab0a3cfae8c4d7f93b"
+      },
+      {
+        "path": "tests/test_label_smoothing.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "38a627c76cd2358b15aa54ab040bc5c0d5ad5f32",
+        "size": 4139,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/38a627c76cd2358b15aa54ab040bc5c0d5ad5f32"
+      },
+      {
+        "path": "tests/test_memory_efficient_fp16.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "78e0ac02e898d64e3380eaafe90717ddea9967b5",
+        "size": 1750,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/78e0ac02e898d64e3380eaafe90717ddea9967b5"
+      },
+      {
+        "path": "tests/test_multi_corpus_sampled_dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "05b20328c5605178767d138cc75e070824679842",
+        "size": 3105,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/05b20328c5605178767d138cc75e070824679842"
+      },
+      {
+        "path": "tests/test_noising.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "da792a18261a985ab8d31fc9d1ddc6e6ede5aab0",
+        "size": 19779,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/da792a18261a985ab8d31fc9d1ddc6e6ede5aab0"
+      },
+      {
+        "path": "tests/test_reproducibility.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dc67379c22ee898586b2fe5b5f83c785e8c3d21b",
+        "size": 3049,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/dc67379c22ee898586b2fe5b5f83c785e8c3d21b"
+      },
+      {
+        "path": "tests/test_sequence_generator.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1dace6e9c3d3a1870ecabcdbc02aecb78b7336d8",
+        "size": 14876,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/1dace6e9c3d3a1870ecabcdbc02aecb78b7336d8"
+      },
+      {
+        "path": "tests/test_sequence_scorer.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a7c2a53a90e241149f4f7fa325edc1c70ec43575",
+        "size": 3949,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/a7c2a53a90e241149f4f7fa325edc1c70ec43575"
+      },
+      {
+        "path": "tests/test_sparse_multihead_attention.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "eaf9742cdf97d2719ec90e83f93ba2e1667bf220",
+        "size": 2545,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/eaf9742cdf97d2719ec90e83f93ba2e1667bf220"
+      },
+      {
+        "path": "tests/test_token_block_dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "41abb194dad3f8ae32fae3d83d903ff29d7475db",
+        "size": 2970,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/41abb194dad3f8ae32fae3d83d903ff29d7475db"
+      },
+      {
+        "path": "tests/test_train.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7f2eb4020451306de11ae48174a67bc2eb295b44",
+        "size": 4691,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/7f2eb4020451306de11ae48174a67bc2eb295b44"
+      },
+      {
+        "path": "tests/test_utils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "906289f54705cd8ae9a1669d3ce6d7cbd6556d14",
+        "size": 2131,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/906289f54705cd8ae9a1669d3ce6d7cbd6556d14"
+      },
+      {
+        "path": "tests/utils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9c0cea15a66324cfa32bfce571f853b4184d27e7",
+        "size": 7442,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/9c0cea15a66324cfa32bfce571f853b4184d27e7"
+      },
+      {
+        "path": "train.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e447bf864f9450c22f65f30ccb4853bc8337d8f0",
+        "size": 13037,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/e447bf864f9450c22f65f30ccb4853bc8337d8f0"
+      },
+      {
+        "path": "validate.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ed8f41e40085fd3c080068188473a553dae80e42",
+        "size": 3245,
+        "url": "https://api.github.com/repos/microsoft/TamGen/git/blobs/ed8f41e40085fd3c080068188473a553dae80e42"
+      }
+    ],
+    "truncated": false
+  }
+}

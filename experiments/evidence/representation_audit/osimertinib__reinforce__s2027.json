@@ -1,0 +1,54 @@
+{
+  "run": "main/osimertinib__reinforce__s2027",
+  "exact_token_replay": "PASS",
+  "replay_mismatches": [],
+  "canonical_descriptor_edges": [
+    {
+      "ledger": "search",
+      "row": 108,
+      "identity": "C(=CC1C=c2c3ccc(N(c4ccccc4)c4ccc(-c5ccccc5)cc4)c2c3C=N1)C=c1c2cc3ccc(cc3)n(-c3ccccc3)c1c1ccccc1n2",
+      "component_delta": 0.00658373553972269,
+      "original_components": [
+        0.25109170305676853,
+        1.0,
+        2.366397910389413e-10,
+        1.7378517167040967e-25
+      ],
+      "reread_components": [
+        0.2576754385964912,
+        1.0,
+        2.366397910389413e-10,
+        1.8523784831217717e-20
+      ],
+      "original_reward": 1.7925992615701247e-09,
+      "reread_reward": 3.260037765986152e-08,
+      "raw_logP": 11.678199999999984,
+      "reread_logP": 10.532599999999992,
+      "canonical_idempotent": false
+    }
+  ],
+  "stats": {
+    "search": {
+      "attempts": 3008,
+      "original_mean": 0.45680845774013284,
+      "canonical_reread_mean": 0.45680845775037476,
+      "mean_absolute_reward_change": 1.024196049812648e-11,
+      "max_absolute_reward_change": 3.08077783982914e-08,
+      "original_unique_top10": 0.7886861461632939,
+      "reread_unique_top10": 0.7886861461632939
+    },
+    "evaluation": {
+      "attempts": 1024,
+      "original_mean": 0.6063432119053843,
+      "canonical_reread_mean": 0.6063432119053843,
+      "mean_absolute_reward_change": 9.432850688584967e-18,
+      "max_absolute_reward_change": 9.992007221626409e-16,
+      "original_unique_top10": 0.7833558822449824,
+      "reread_unique_top10": 0.7833558822449824
+    }
+  },
+  "ledger_sha256": {
+    "search": "8de9698dcedca727d977350d0e43a0da63cc4a5dfe4c1c012a1b727036c3b63e",
+    "evaluation": "b122016ae65963dccca8917947ad2feadf57a00838c5c231fcd67b1518117153"
+  }
+}

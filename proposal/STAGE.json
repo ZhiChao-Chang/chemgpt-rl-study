@@ -1,0 +1,17 @@
+{
+  "status": "COMPLETE_PROPOSAL_DETAIL_AND_CPU_INTERFACE_CHECKS",
+  "updated_UTC": "2026-11-04T07:40:20.237885+00:00",
+  "entry": "PLAN.md",
+  "proposal": "PROPOSAL_DRAFT_ZH.md",
+  "protocol": "protocol.json",
+  "supersedes": "selection/DECISION.md replay-first recommendation; original artifacts remain unchanged",
+  "model": "ncfrey/ChemGPT-4.7M",
+  "chosen_user_direction": "pretrained molecular LM plus RL and fixed-prior KL ablation",
+  "training_started": false,
+  "submission_sent": false,
+  "only_missing_user_fields": [
+    "team names and actual division",
+    "GPU model and available slots"
+  ],
+  "no_remote_or_shared_env_changes": true
+}

@@ -1,0 +1,272 @@
+{
+  "as_of": "2026-11-04",
+  "scope": "Field-wide molecular generation/optimizationRL extension; no privileged model/algorithm choice. Read-only primarysource/code metadata review.",
+  "source_count": 13,
+  "sources": [
+    {
+      "id": "F01",
+      "title": "Learning to Navigate The Synthetically Accessible Chemical Space Using Reinforcement Learning",
+      "publication_or_version_date": "2020",
+      "venue_or_status": "ICML 2020, PMLR119",
+      "primary_url": "https://proceedings.mlr.press/v119/gottipati20a.html",
+      "evidence_location": [
+        "Paper §3.1–3.2, PDF pp.4–5"
+      ],
+      "verified_scope": "PGFS; reaction-based MDP, continuous reactant representation with environment nearest-neighbor selection, TD3 training.",
+      "limits": "Virtual synthesis feasibility is model-relative; only benign methodological/property context used, not paper biological-target design cases. Apollo1060 source mentioned for case data/predictors, full training code not confirmed.",
+      "accessed": "2026-11-04",
+      "execution_or_model_download": false,
+      "additional_primary_links": [
+        "https://proceedings.mlr.press/v119/gottipati20a/gottipati20a.pdf"
+      ]
+    },
+    {
+      "id": "F02",
+      "title": "Molecular Design in Synthetically Accessible Chemical Space via Deep Reinforcement Learning",
+      "publication_or_version_date": "2020; inspected author arXiv v2",
+      "venue_or_status": "ACS Omega; DOI10.1021/acsomega.0c04153",
+      "primary_url": "https://arxiv.org/html/2004.14308v2",
+      "evidence_location": [
+        "§3.1 Policy optimization",
+        "§3.2 Framework definition and trajectories"
+      ],
+      "verified_scope": "REACTOR A2C; action masks, reaction templates and stop; heuristic reactant/product selection collapsed into environment; terminal feedback.",
+      "limits": "Routes are theoretical; original text admits route not necessarily chemist first choice. Full official training repo not verified.",
+      "accessed": "2026-11-04",
+      "execution_or_model_download": false,
+      "additional_primary_links": [
+        "https://doi.org/10.1021/acsomega.0c04153",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7774092/"
+      ]
+    },
+    {
+      "id": "F03",
+      "title": "Directly optimizing for synthesizability in generative molecular design using retrosynthesis models",
+      "publication_or_version_date": "2025-03-21 publisher PDF online date",
+      "venue_or_status": "Chemical Science16:6943–6956; DOI10.1039/d5sc01476j",
+      "primary_url": "https://pubs.rsc.org/en/content/articlepdf/2025/sc/d5sc01476j",
+      "evidence_location": [
+        "§2.2.4 and §3",
+        "§4.5.2 General results"
+      ],
+      "verified_scope": "Retrosynthesis directly in optimization loop; wall-time/heuristic comparison; domain-dependent value of explicit planning.",
+      "limits": "Do not replace solved-by-planner with experimental synthesis. Search intermediary gave inconsistent date; publisher PDF explicitly says21March2025.",
+      "accessed": "2026-11-04",
+      "execution_or_model_download": false,
+      "official_code_or_docs": [
+        "https://github.com/schwallergroup/saturn"
+      ]
+    },
+    {
+      "id": "F04",
+      "title": "TANGO: direct optimization of constrained synthesizability for generative molecular design",
+      "publication_or_version_date": "2026-03-03; antecedent preprint2024-10-15",
+      "venue_or_status": "Nature Computational Science6:260–270; DOI10.1038/s43588-026-00959-1",
+      "primary_url": "https://www.nature.com/articles/s43588-026-00959-1",
+      "evidence_location": [
+        "Results: making constrained synthesizability learnable",
+        "Methods:TANGO reward function",
+        "Code availability"
+      ],
+      "verified_scope": "Continuous similarity/substructure feedback on predicted route nodes for starting-material, intermediate and divergent synthesis constraints; used with RL generation.",
+      "limits": "Synthesizable explicitly means deemed by retrosynthesis model; no wet-lab validation inferred. Nature direct open redirected; publisher/PMC indexed full text read. TANGO* is a different synthesis planning work.",
+      "accessed": "2026-11-04",
+      "execution_or_model_download": false,
+      "official_code_or_docs": [
+        "https://github.com/schwallergroup/saturn"
+      ],
+      "additional_primary_links": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13658032/",
+        "https://pubmed.ncbi.nlm.nih.gov/41776358/",
+        "https://doi.org/10.6084/m9.figshare.27225483"
+      ]
+    },
+    {
+      "id": "F05",
+      "title": "SynFlowNet: Design of Diverse and Novel Molecules with Synthesis Constraints",
+      "publication_or_version_date": "2025; initial preprint2024-05-02",
+      "venue_or_status": "ICLR2025",
+      "primary_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/7495fa446f10e9edef6e47b2d327596e-Abstract-Conference.html",
+      "evidence_location": [
+        "Abstract",
+        "Paper synthesis MDP and backward-policy methods"
+      ],
+      "verified_scope": "GFlowNet over reactions and purchasable reactants; independent retrosynthesis evaluation and backward-policy challenges.",
+      "limits": "Computational synthesis assessment, not demonstrated synthesis for every generated molecule; no runtime verification.",
+      "accessed": "2026-11-04",
+      "execution_or_model_download": false,
+      "additional_primary_links": [
+        "https://proceedings.iclr.cc/paper_files/paper/2025/file/7495fa446f10e9edef6e47b2d327596e-Paper-Conference.pdf",
+        "https://arxiv.org/abs/2405.01155"
+      ]
+    },
+    {
+      "id": "F06",
+      "title": "Generative Flows on Synthetic Pathway for Drug Design",
+      "publication_or_version_date": "2025; initial preprint2024-10-06",
+      "venue_or_status": "ICLR2025",
+      "primary_url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/24d36eee157559e0d2549455fba28f6a-Paper-Conference.pdf",
+      "evidence_location": [
+        "Abstract and methods on action subsampling",
+        "Pocket-specific versus conditional experiments"
+      ],
+      "verified_scope": "RxnFlow reaction-based GFlowNet and action subsampling for large building-block action spaces.",
+      "limits": "Conference paper, workshop/arXiv versions and current README may differ; no numeric claims pooled. Docking and planner outputs remain proxies.",
+      "accessed": "2026-11-04",
+      "execution_or_model_download": false,
+      "official_code_or_docs": [
+        "https://github.com/SeonghwanSeo/RxnFlow"
+      ],
+      "additional_primary_links": [
+        "https://arxiv.org/abs/2410.04542"
+      ]
+    },
+    {
+      "id": "F07",
+      "title": "Compositional Flows for 3D Molecule and Synthesis Pathway Co-design",
+      "publication_or_version_date": "2025; inspected author arXivv2",
+      "venue_or_status": "ICML2025 confirmed by author official repository",
+      "primary_url": "https://arxiv.org/html/2504.08051v2",
+      "evidence_location": [
+        "§3 CGFlow methods",
+        "AppendixA compositional and state flow recipe"
+      ],
+      "verified_scope": "CGFlow combines compositional structure/synthesis decisions with continuous3D state flows; GFlowNet reward-guided compositional objective.",
+      "limits": "Molecule/pose/route co-design is computational, not wet-lab; official README distinguishes current application code from submission version.",
+      "accessed": "2026-11-04",
+      "execution_or_model_download": false,
+      "official_code_or_docs": [
+        "https://github.com/tsa87/cgflow"
+      ],
+      "additional_primary_links": [
+        "https://openreview.net/pdf?id=4aXfSLfM0Z"
+      ]
+    },
+    {
+      "id": "F08",
+      "title": "Aligning Target-Aware Molecule Diffusion Models with Exact Energy Optimization",
+      "publication_or_version_date": "2024",
+      "venue_or_status": "NeurIPS2024",
+      "primary_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/4ddfe69f164eae70abc86f0f9cbed7e8-Paper-Conference.pdf",
+      "evidence_location": [
+        "§3 preference/energy alignment and E2PO",
+        "§4 CrossDocked evaluation"
+      ],
+      "verified_scope": "AliDiff aligns target-conditioned diffusion models with energy preferences and regularized distribution matching.",
+      "limits": "Oracle-derived preferences not human feedback; Vina score is not measured affinity. No inference or generated structures.",
+      "accessed": "2026-11-04",
+      "execution_or_model_download": false,
+      "official_code_or_docs": [
+        "https://github.com/MinkaiXu/AliDiff"
+      ],
+      "additional_primary_links": [
+        "https://arxiv.org/abs/2407.01648"
+      ]
+    },
+    {
+      "id": "F09",
+      "title": "Decomposed Direct Preference Optimization for Structure-Based Drug Design",
+      "publication_or_version_date": "2025-09 TMLR; initialpreprint2024-07",
+      "venue_or_status": "TMLR2025, inspected arXivv3 and journal PDFheader",
+      "primary_url": "https://arxiv.org/html/2407.13981v3",
+      "evidence_location": [
+        "Multi-granularity preference methods",
+        "Physics-informed energy regularization",
+        "CrossDocked experiments"
+      ],
+      "verified_scope": "DecompDPO molecular/substructure preference pairs for diffusion model alignment and targeted subpocket optimization.",
+      "limits": "Computational validation; do not equate named High Affinity metric with experimental binding.",
+      "accessed": "2026-11-04",
+      "execution_or_model_download": false,
+      "official_code_or_docs": [
+        "https://github.com/laviaf/DecompDPO"
+      ],
+      "additional_primary_links": [
+        "https://openreview.net/pdf/706705fd0990884bd3d299ea9c9a34938336af91.pdf"
+      ]
+    },
+    {
+      "id": "F10",
+      "title": "Guiding Diffusion Models with Reinforcement Learning for Stable Molecule Generation",
+      "publication_or_version_date": "2025-08-22 v1",
+      "venue_or_status": "arXiv2508.16521v1; no later acceptance asserted",
+      "primary_url": "https://arxiv.org/html/2508.16521v1",
+      "evidence_location": [
+        "§4 RLPF: denoising MDP, policy gradient and physical reward",
+        "§5 QM9/GEOM-drug",
+        "AppendixA fairness/rejection sampling"
+      ],
+      "verified_scope": "RLPF DDPO/PPO-style fine-tuning with force-field stability feedback.",
+      "limits": "Force-field/geometry metrics not measured biological efficacy; no local reproduction.",
+      "accessed": "2026-11-04",
+      "execution_or_model_download": false,
+      "official_code_or_docs": [
+        "https://github.com/ZhijianZhou/RLPF/tree/verl_diffusion"
+      ]
+    },
+    {
+      "id": "F11",
+      "title": "Controllable molecular generation with fine-tuned flow-matching model",
+      "publication_or_version_date": "2026-09-05",
+      "venue_or_status": "Communications Chemistry9:291; DOI10.1038/s42004-026-02188-z",
+      "primary_url": "https://www.nature.com/articles/s42004-026-02188-z",
+      "evidence_location": [
+        "Methods: reinforcement learning framework",
+        "Algorithm1",
+        "Experimental details:agent models"
+      ],
+      "verified_scope": "SemlaFlow reward-weighted FM objective, online sampling/scoring, continuous/discrete features and learnable molecule-size sampler; prior regularization.",
+      "limits": "Not the same objective as clipped PPO; parameter proximity is not automatically distributionalKL. Properties/predictors/interaction scores remain computational.",
+      "accessed": "2026-11-04",
+      "execution_or_model_download": false,
+      "official_code_or_docs": [
+        "https://github.com/MolecularAI/flow_matching_rl"
+      ],
+      "additional_primary_links": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13546285/"
+      ]
+    },
+    {
+      "id": "F12",
+      "title": "Graph-GRPO: Training Graph Flow Models with Reinforcement Learning",
+      "publication_or_version_date": "2026-07 conference; preprint2026-03-11",
+      "venue_or_status": "ICML2026, PMLR306:166740–166759",
+      "primary_url": "https://proceedings.mlr.press/v306/zhu26b.html",
+      "evidence_location": [
+        "Official conference abstract",
+        "Transition-probability and refinement method",
+        "Official README"
+      ],
+      "verified_scope": "Discrete graph flow model onlineGRPO, analytical transition probabilities, perturbation/regeneration refinement.",
+      "limits": "Not3D coordinate generation; not same-title multiagent topology paper. Reported molecular benchmarks use proxies; official environment/runtime claims are author reports, not reproduced.",
+      "accessed": "2026-11-04",
+      "execution_or_model_download": false,
+      "official_code_or_docs": [
+        "https://github.com/Zhubaoheng/Graph-GRPO"
+      ],
+      "additional_primary_links": [
+        "https://arxiv.org/abs/2603.10395"
+      ]
+    },
+    {
+      "id": "F13",
+      "title": "Targeted molecular generation with latent reinforcement learning",
+      "publication_or_version_date": "2025-04-30",
+      "venue_or_status": "Scientific Reports15:15202; DOI10.1038/s41598-025-99785-0",
+      "primary_url": "https://www.nature.com/articles/s41598-025-99785-0",
+      "evidence_location": [
+        "Methods:MOLRL components",
+        "Methods:Reinforcement learning"
+      ],
+      "verified_scope": "Fixed encoder–decoder, learned PPO policy for continuous latent modifications; one-step reward setting; per-batch repeated updates are described as off-line steps.",
+      "limits": "Not strict fixed-dataset offlineRL. Predictive/property tasks, not new wet-lab efficacy. No runtime validation.",
+      "official_code_or_docs": [
+        "https://github.com/Cellarity/MolRL"
+      ],
+      "accessed": "2026-11-04",
+      "execution_or_model_download": false
+    }
+  ],
+  "related_existing_sources": "ClassicSMILES/graph/fragmentRL, originalGFlowNet, PMO/ACEGEN, DPO/ERA and conditional examples are recorded in rl_method_sources.json.",
+  "no_execution": true
+}

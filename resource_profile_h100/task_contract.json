@@ -1,0 +1,30 @@
+{
+  "task": "H100 resource profiling for the ME2502 ChemGPT proposal",
+  "authorization": "2026-11-04 user explicitly requested H100 for resource determination",
+  "scope": "small development-objective profile only; no full campaign; discuss estimates before changing proposal",
+  "device": "one full H100",
+  "platform": "ACP, separate from CCI debug pools",
+  "task_id": "acp-explore-chemgpt-profile-20261104-01",
+  "uid": "504dcf43724a47b5a100e906db927822",
+  "journal": "/home/zhangzhichao/codex-cci-control/state/acp/jobs/acp-explore-chemgpt-profile-20261104-01.json",
+  "worker_request": {
+    "gpus": 1,
+    "cpus": 4,
+    "ram_gib": 64
+  },
+  "hard_runtime_seconds": 1200,
+  "profile_subprocess_seconds": 600,
+  "budget_full_gpu_hours_upper": 1,
+  "no_model_saves": true,
+  "shared_CCI_untouched": true,
+  "other_jobs_untouched": true,
+  "proposal_unchanged": true,
+  "created_UTC": "2026-11-04T08:51:08.725878+00:00",
+  "status": "COMPLETE",
+  "successful_task_id": "acp-explore-chemgpt-profile-20261104-05",
+  "successful_uid": "2ae6600d22da4606a1685c6e4dcd5de6",
+  "all_gpu_allocations_released": true,
+  "result": "actual_h100_profile.json",
+  "estimate": "campaign_estimate.json",
+  "report": "RESOURCE_ESTIMATE_H100.md"
+}

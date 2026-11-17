@@ -1,0 +1,93 @@
+{"level":"info","message":"job acp-explore-chemgpt-profile-20261104-03 scheduled successfully","time":"2026-11-04T17:12:55.382879404+08:00"}
+{"event": "bootstrap_started", "elapsed_seconds": 0.025, "task_id": "acp-explore-chemgpt-profile-20261104-03"}
+{"event": "existing_encoding_environment_ready", "elapsed_seconds": 1.816, "versions": "2.7.1+cu128 4.51.3 0.21.4 2025.09.6"}
+H100_PROFILE_ERROR {"status":"BOOTSTRAP_OR_PROFILE_FAILED","type":"URLError","message":"<urlopen error [Errno 101] Network is unreachable>","elapsed_seconds":121.99889949336648}
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/deepdds/lib/python3.10/urllib/request.py", line 1348, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/root/anaconda3/envs/deepdds/lib/python3.10/http/client.py", line 1331, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/root/anaconda3/envs/deepdds/lib/python3.10/http/client.py", line 1377, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/root/anaconda3/envs/deepdds/lib/python3.10/http/client.py", line 1326, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/root/anaconda3/envs/deepdds/lib/python3.10/http/client.py", line 1086, in _send_output
+    self.send(msg)
+  File "/root/anaconda3/envs/deepdds/lib/python3.10/http/client.py", line 1024, in send
+    self.connect()
+  File "/root/anaconda3/envs/deepdds/lib/python3.10/http/client.py", line 1496, in connect
+    super().connect()
+  File "/root/anaconda3/envs/deepdds/lib/python3.10/http/client.py", line 990, in connect
+    self.sock = self._create_connection(
+  File "/root/anaconda3/envs/deepdds/lib/python3.10/socket.py", line 857, in create_connection
+    raise err
+  File "/root/anaconda3/envs/deepdds/lib/python3.10/socket.py", line 845, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] Network is unreachable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "<string>", line 42, in <module>
+  File "<string>", line 12, in fetch
+  File "/root/anaconda3/envs/deepdds/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/root/anaconda3/envs/deepdds/lib/python3.10/urllib/request.py", line 519, in open
+    response = self._open(req, data)
+  File "/root/anaconda3/envs/deepdds/lib/python3.10/urllib/request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/root/anaconda3/envs/deepdds/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/root/anaconda3/envs/deepdds/lib/python3.10/urllib/request.py", line 1391, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/root/anaconda3/envs/deepdds/lib/python3.10/urllib/request.py", line 1351, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 101] Network is unreachable>
+{"level":"info","message":"job acp-explore-chemgpt-profile-20261104-03 scheduled successfully","time":"2026-11-04T17:14:33.550141032+08:00"}
+{"level":"error","message":"job execution has failed","time":"2026-11-04T17:14:33.55021614+08:00"}
+{"event": "bootstrap_started", "elapsed_seconds": 0.025, "task_id": "acp-explore-chemgpt-profile-20261104-03"}
+{"event": "existing_encoding_environment_ready", "elapsed_seconds": 1.816, "versions": "2.7.1+cu128 4.51.3 0.21.4 2025.09.6"}
+H100_PROFILE_ERROR {"status":"BOOTSTRAP_OR_PROFILE_FAILED","type":"URLError","message":"<urlopen error [Errno 101] Network is unreachable>","elapsed_seconds":121.99889949336648}
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/deepdds/lib/python3.10/urllib/request.py", line 1348, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/root/anaconda3/envs/deepdds/lib/python3.10/http/client.py", line 1331, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/root/anaconda3/envs/deepdds/lib/python3.10/http/client.py", line 1377, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/root/anaconda3/envs/deepdds/lib/python3.10/http/client.py", line 1326, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/root/anaconda3/envs/deepdds/lib/python3.10/http/client.py", line 1086, in _send_output
+    self.send(msg)
+  File "/root/anaconda3/envs/deepdds/lib/python3.10/http/client.py", line 1024, in send
+    self.connect()
+  File "/root/anaconda3/envs/deepdds/lib/python3.10/http/client.py", line 1496, in connect
+    super().connect()
+  File "/root/anaconda3/envs/deepdds/lib/python3.10/http/client.py", line 990, in connect
+    self.sock = self._create_connection(
+  File "/root/anaconda3/envs/deepdds/lib/python3.10/socket.py", line 857, in create_connection
+    raise err
+  File "/root/anaconda3/envs/deepdds/lib/python3.10/socket.py", line 845, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] Network is unreachable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "<string>", line 42, in <module>
+  File "<string>", line 12, in fetch
+  File "/root/anaconda3/envs/deepdds/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/root/anaconda3/envs/deepdds/lib/python3.10/urllib/request.py", line 519, in open
+    response = self._open(req, data)
+  File "/root/anaconda3/envs/deepdds/lib/python3.10/urllib/request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/root/anaconda3/envs/deepdds/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/root/anaconda3/envs/deepdds/lib/python3.10/urllib/request.py", line 1391, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/root/anaconda3/envs/deepdds/lib/python3.10/urllib/request.py", line 1351, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 101] Network is unreachable>

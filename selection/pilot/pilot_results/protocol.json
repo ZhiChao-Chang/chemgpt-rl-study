@@ -1,0 +1,40 @@
+{
+  "purpose": "exploratory course feasibility, not a published-benchmark reproduction",
+  "task": "Fexofenadine MPO, official-definition reimplementation",
+  "seeds": [
+    19,
+    23,
+    29
+  ],
+  "methods": [
+    "frozen",
+    "dap",
+    "elite_replay",
+    "scaffold_replay"
+  ],
+  "budget_unique_valid": 512,
+  "generation_cap": 1536,
+  "batch_size": 32,
+  "lr": 0.0001,
+  "sigma": 60,
+  "replay_size": 16,
+  "archive_capacity": 128,
+  "max_length": 140,
+  "frozen_policy_evaluation_attempts": 128,
+  "hit_thresholds": [
+    0.5,
+    0.7,
+    0.8
+  ],
+  "scope": "CPU only; no new dependencies, GPU, docking, QSAR, synthesis or server jobs",
+  "decisions": [
+    "configuration fixed before comparative pilot",
+    "memory stores raw stationary MPO, never history-dependent novelty rewards",
+    "elite and scaffold replay use equal memory capacity/replay size/update count per batch",
+    "no-replay compute differs: report training trajectory count, no compute-matched superiority claim",
+    "main discovery budget excludes fixed final-policy evaluation, reported separately",
+    "scaffold grouping is an archive heuristic, not biological diversity truth",
+    "final-policy sampling has a separate fixed attempt budget; scoring recorded and charged separately",
+    "do not choose hyperparameters or formal test tasks by pilot winner"
+  ]
+}

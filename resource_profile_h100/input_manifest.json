@@ -1,0 +1,104 @@
+{
+  "status": "STATIC_INPUT_IDENTITY_ONLY_NOT_A_RUN",
+  "model_dir": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/proposal/implementation/chemgpt",
+  "vendor_dir": "/tmp/chemgpt_proposal_20261104/vendor",
+  "files": [
+    {
+      "path": "/tmp/chemgpt_h100_profile_20261104/profile_h100.py",
+      "bytes": 23839,
+      "sha256": "951d6fd36287f404cd02712dd97e138dd59257adca4d3f3914c3fd4e7abe0e0f"
+    },
+    {
+      "path": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/proposal/implementation/selfies-1.0.4-py3-none-any.whl",
+      "bytes": 30220,
+      "sha256": "e41009c1b5512d87ed8ea4d2a52ea9d833fbe6ddeb9ea34990b4a4d77b5b037c"
+    },
+    {
+      "path": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/proposal/implementation/chemgpt/README.md",
+      "bytes": 1942,
+      "sha256": "5732275e9233a8b8ca8f690b6beb624da9ff5b3e7906f7d446a8c6ff45597195"
+    },
+    {
+      "path": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/proposal/implementation/chemgpt/config.json",
+      "bytes": 1284,
+      "sha256": "73a9eb113e31b2ac8a6b070469b749dbaa8110f72a197bea7899d93db462e8ba"
+    },
+    {
+      "path": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/proposal/implementation/chemgpt/pytorch_model.bin",
+      "bytes": 70836865,
+      "sha256": "a8a39c5ea1d50c450632e003d21c90f847d815a801934b03a12b02010b74d21b"
+    },
+    {
+      "path": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/proposal/implementation/chemgpt/special_tokens_map.json",
+      "bytes": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "path": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/proposal/implementation/chemgpt/tokenizer.json",
+      "bytes": 10789,
+      "sha256": "fee4dad651e2edb49afb5d6aa3e4fea437e08c740c80b6d1d6e1909ad2b30100"
+    },
+    {
+      "path": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/proposal/implementation/chemgpt/tokenizer_config.json",
+      "bytes": 260,
+      "sha256": "ee5b5daf3a4f292292f944d06fa34ca00c6f4b18aec68478c55ef223311ee145"
+    },
+    {
+      "path": "/tmp/chemgpt_proposal_20261104/vendor/selfies/__init__.py",
+      "bytes": 1980,
+      "sha256": "4e69fe5973b327ec2c93c2aa5364d99cacc085ebb5c01ff41c60346db7a97579"
+    },
+    {
+      "path": "/tmp/chemgpt_proposal_20261104/vendor/selfies/decoder.py",
+      "bytes": 14408,
+      "sha256": "59d98440bc82c055114d50a5f2680706327d247fa157063ff7583bdae4b5a112"
+    },
+    {
+      "path": "/tmp/chemgpt_proposal_20261104/vendor/selfies/encoder.py",
+      "bytes": 10058,
+      "sha256": "5ced23cfffd8901eba76b9f20dcd59da1c384bd8c957b8c6d0ddefa937cf3139"
+    },
+    {
+      "path": "/tmp/chemgpt_proposal_20261104/vendor/selfies/grammar_rules.py",
+      "bytes": 14349,
+      "sha256": "2c45b2585229cdaede6db79e202cced1df31a98e61999537a680c235b1bb3d8c"
+    },
+    {
+      "path": "/tmp/chemgpt_proposal_20261104/vendor/selfies/kekulize.py",
+      "bytes": 18768,
+      "sha256": "8424d9739048e2b61969fcd8cab3492fd68bb5414a659af1f6f42621cc707ac2"
+    },
+    {
+      "path": "/tmp/chemgpt_proposal_20261104/vendor/selfies/utils.py",
+      "bytes": 9810,
+      "sha256": "bb6210b878b13fcb5f96dcb3d664d784f9a3ad4555bf3de0b7abaaa040939ef7"
+    },
+    {
+      "path": "/tmp/chemgpt_proposal_20261104/vendor/selfies-1.0.4.dist-info/LICENSE",
+      "bytes": 11542,
+      "sha256": "2ab549edd605affddc2edb34089bfc91595f77fead5205731a005a098dd98616"
+    },
+    {
+      "path": "/tmp/chemgpt_proposal_20261104/vendor/selfies-1.0.4.dist-info/METADATA",
+      "bytes": 10721,
+      "sha256": "f364ebf7e5fdcb9bb17cb9809ff03c299e498fb51ab4fcba8abc1d38c3d09923"
+    },
+    {
+      "path": "/tmp/chemgpt_proposal_20261104/vendor/selfies-1.0.4.dist-info/RECORD",
+      "bytes": 847,
+      "sha256": "b17da29fac0aee59bcac95c84669c45904ed821d4ce92973e6e159f4d4261fd6"
+    },
+    {
+      "path": "/tmp/chemgpt_proposal_20261104/vendor/selfies-1.0.4.dist-info/WHEEL",
+      "bytes": 97,
+      "sha256": "2d14be19214dc983cb04968927a931764e14aed6f890455759ce43a40f22bfaa"
+    },
+    {
+      "path": "/tmp/chemgpt_proposal_20261104/vendor/selfies-1.0.4.dist-info/top_level.txt",
+      "bytes": 8,
+      "sha256": "2168d517356f43c10d9d6b451238281df615440c79ade539e7cc34f280261eb2"
+    }
+  ],
+  "script_syntax": "python3 -m py_compile passed",
+  "no_download_install_model_training_or_remote_execution_in_this_subtask": true
+}

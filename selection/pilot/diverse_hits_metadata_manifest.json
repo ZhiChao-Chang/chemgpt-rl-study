@@ -1,0 +1,36 @@
+{
+  "commit": "6e10c418f5b420dc8198875f7e66eee0568e2f11",
+  "files": [
+    {
+      "path": "data/scoring_functions/drd2/stats.json",
+      "url": "https://raw.githubusercontent.com/ml-jku/diverse-hits/6e10c418f5b420dc8198875f7e66eee0568e2f11/data/scoring_functions/drd2/stats.json",
+      "bytes": 1416,
+      "sha256": "f3ae66bcae3cdc46ec7adcf79043c3c690576899ba2c937083790193c76ce575"
+    },
+    {
+      "path": "data/scoring_functions/gsk3/stats.json",
+      "url": "https://raw.githubusercontent.com/ml-jku/diverse-hits/6e10c418f5b420dc8198875f7e66eee0568e2f11/data/scoring_functions/gsk3/stats.json",
+      "bytes": 1414,
+      "sha256": "254eb9c8d7ca2fecd615e37101cf213f83f0372fd1d7cfed7434e7e7aa41dd49"
+    },
+    {
+      "path": "data/scoring_functions/jnk3/stats.json",
+      "url": "https://raw.githubusercontent.com/ml-jku/diverse-hits/6e10c418f5b420dc8198875f7e66eee0568e2f11/data/scoring_functions/jnk3/stats.json",
+      "bytes": 1411,
+      "sha256": "403ea39a3af5ac2ca8c263bb569373abb59e21666993416e2cf517f87364b738"
+    },
+    {
+      "path": "data/scoring_functions/guacamol_thresholds.json",
+      "url": "https://raw.githubusercontent.com/ml-jku/diverse-hits/6e10c418f5b420dc8198875f7e66eee0568e2f11/data/scoring_functions/guacamol_thresholds.json",
+      "bytes": 160,
+      "sha256": "51ce6cb121773251f3bc641673bebdc9e694617cd60677b0e62525e4e06ac899"
+    },
+    {
+      "path": "data/global_settings.json",
+      "url": "https://raw.githubusercontent.com/ml-jku/diverse-hits/6e10c418f5b420dc8198875f7e66eee0568e2f11/data/global_settings.json",
+      "bytes": 130,
+      "sha256": "242e46886a64471faf600dcba440c543306476b56a83b12ca42c78537cb292a9"
+    }
+  ],
+  "classifiers_downloaded_or_loaded": false
+}

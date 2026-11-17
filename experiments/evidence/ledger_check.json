@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "verified_runs": 6,
+  "runs": [
+    {
+      "path": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/results/cpu_gate/development/perindopril__frozen__s11",
+      "status": "PASS",
+      "attempts": 512,
+      "unique": 512,
+      "evaluation": 128
+    },
+    {
+      "path": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/results/cpu_gate/development/perindopril__frozen__s17",
+      "status": "PASS",
+      "attempts": 512,
+      "unique": 512,
+      "evaluation": 128
+    },
+    {
+      "path": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/results/cpu_gate/development/perindopril__reinforce__s11",
+      "status": "PASS",
+      "attempts": 512,
+      "unique": 512,
+      "evaluation": 128
+    },
+    {
+      "path": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/results/cpu_gate/development/perindopril__reinforce__s17",
+      "status": "PASS",
+      "attempts": 512,
+      "unique": 512,
+      "evaluation": 128
+    },
+    {
+      "path": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/results/cpu_gate/development/perindopril__reinforce_kl__s11",
+      "status": "PASS",
+      "attempts": 512,
+      "unique": 512,
+      "evaluation": 128
+    },
+    {
+      "path": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/results/cpu_gate/development/perindopril__reinforce_kl__s17",
+      "status": "PASS",
+      "attempts": 512,
+      "unique": 512,
+      "evaluation": 128
+    }
+  ]
+}

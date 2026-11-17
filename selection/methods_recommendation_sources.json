@@ -1,0 +1,175 @@
+{
+  "as_of": "2026-11-04",
+  "purpose": "Rank3 concrete course projects; document hypothesis,framework,controlled experiments,risks and static findings.",
+  "preferred_project": "A:Top-score versus scaffold-balanced replay under fixed oracle/training budgets",
+  "proposed_not_run": true,
+  "no_install_training_generation_remote": true,
+  "sources": [
+    {
+      "id": "M01",
+      "title": "ACEGEN: Reinforcement Learning of Generative Chemical Agents for Drug Discovery (2024)",
+      "primary_url": "https://arxiv.org/html/2405.04657v2",
+      "accessed": "2026-11-04",
+      "evidence_location": [
+        "§2.4",
+        "§3.3"
+      ],
+      "supports": "Common framework and replay/prior/highlikelihood-penalty ablations motivate controlled comparisons.",
+      "limits": "Not proof proposed buffer will outperform; no local reproduction.",
+      "executed": false,
+      "official_related_links": [
+        "https://doi.org/10.1021/acs.jcim.4c00895"
+      ]
+    },
+    {
+      "id": "M02",
+      "title": "ACEGEN official README, configuration and REINVENT training source",
+      "primary_url": "https://raw.githubusercontent.com/Acellera/acegen-open/main/scripts/reinvent/reinvent.py",
+      "accessed": "2026-11-04",
+      "evidence_location": [
+        "run_reinvent:replay buffer, loss combination, penalty, update",
+        "compute_loss:DAP"
+      ],
+      "supports": "Script has replay and unconditional added high-likelihood penalty; stored historical reward; fixed-source changes needed for controlled loss.",
+      "limits": "Dynamic main, no commit pinned or execution; penalty effect not empirically reverified.",
+      "executed": false,
+      "official_related_links": [
+        "https://raw.githubusercontent.com/Acellera/acegen-open/main/scripts/reinvent/config_denovo.yaml",
+        "https://raw.githubusercontent.com/Acellera/acegen-open/main/README.md"
+      ]
+    },
+    {
+      "id": "M03",
+      "title": "ACEGEN official DPO implementation",
+      "primary_url": "https://raw.githubusercontent.com/Acellera/acegen-open/main/scripts/dpo/dpo.py",
+      "accessed": "2026-11-04",
+      "evidence_location": [
+        "run_dpo:online sampling",
+        "compute_loss:negative mask"
+      ],
+      "supports": "Fresh scored samples each loop; neg_mask defined but negative likelihood uses pos_mask in inspected main source.",
+      "limits": "Static mask risk, not runtime diagnosis; fix/test required before reuse. No upstream contact performed.",
+      "executed": false
+    },
+    {
+      "id": "M04",
+      "title": "Diverse Hits in De Novo Molecule Design: Diversity-Based Comparison of Goal-Directed Generators (2024-07-19 online)",
+      "primary_url": "https://pubs.acs.org/doi/abs/10.1021/acs.jcim.4c00519",
+      "accessed": "2026-11-04",
+      "evidence_location": [
+        "Benchmark Setup:Diverse Hits",
+        "Scoring Functions",
+        "Compute Constraints"
+      ],
+      "supports": "Diverse-hit evaluation, property filters, RF scores, sample/time constraints; directly relevant competing evaluation.",
+      "limits": "Predicted hits not measured activity; source settings are protocol-specific.",
+      "executed": false,
+      "official_related_links": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11323242/",
+        "https://github.com/ml-jku/diverse-hits"
+      ]
+    },
+    {
+      "id": "M05",
+      "title": "diverse-hits official code",
+      "primary_url": "https://github.com/ml-jku/diverse-hits",
+      "accessed": "2026-11-04",
+      "evidence_location": [
+        "README:divopt and reproducibility"
+      ],
+      "supports": "Scoring package tracks unique molecule queries, time limits and diversity; optimizer integration possible.",
+      "limits": "No install/run; full dependency setup deliberately not invoked.",
+      "executed": false
+    },
+    {
+      "id": "M06",
+      "title": "Sample-efficient generative molecular design using memory manipulation (2026-03-17)",
+      "primary_url": "https://doi.org/10.1038/s42256-026-01200-4",
+      "accessed": "2026-11-04",
+      "evidence_location": [
+        "Optimization dynamics",
+        "Methods:Augmented Memory"
+      ],
+      "supports": "Saturn/replay/augmentation efficiency-diversity relationship; closely competing prior work.",
+      "limits": "No innovation claim for memory/diversity combination; computed proxy evidence.",
+      "executed": false,
+      "official_related_links": [
+        "https://github.com/schwallergroup/saturn",
+        "https://pubmed.ncbi.nlm.nih.gov/42871027/"
+      ]
+    },
+    {
+      "id": "M07",
+      "title": "Sample Efficiency Matters: A Benchmark for Practical Molecular Optimization (NeurIPS2022)",
+      "primary_url": "https://proceedings.nips.cc/paper_files/paper/2022/hash/8644353f7d307baaf29bc1e56fe8e0ec-Abstract-Datasets_and_Benchmarks.html",
+      "accessed": "2026-11-04",
+      "evidence_location": [
+        "Budget and AUC benchmark protocol"
+      ],
+      "supports": "Oracle-budget comparisons and top-k AUC; strong baseline evaluation.",
+      "limits": "Proposed diverse-hits protocol is not automatically same as PMO.",
+      "executed": false,
+      "official_related_links": [
+        "https://github.com/wenhao-gao/mol_opt"
+      ]
+    },
+    {
+      "id": "M08",
+      "title": "REINVENT4 (2024) and official scoring/RL documentation",
+      "primary_url": "https://link.springer.com/article/10.1186/s13321-024-00812-5",
+      "accessed": "2026-11-04",
+      "evidence_location": [
+        "RL,diversity,inception",
+        "Official scoring tutorial"
+      ],
+      "supports": "Mature reward composition and diversity mechanisms; these components are existing methods.",
+      "limits": "Not built-in proof of primal-dual CMDP or scaffold-balanced replay effect.",
+      "executed": false,
+      "official_related_links": [
+        "https://github.com/MolecularAI/REINVENT4/blob/main/contrib/reinvent-doc/tutorials/scoring.md",
+        "https://github.com/MolecularAI/REINVENT4/blob/main/contrib/reinvent-doc/tutorials/rl.md"
+      ]
+    },
+    {
+      "id": "M09",
+      "title": "DrugEx v2 (2021)",
+      "primary_url": "https://link.springer.com/article/10.1186/s13321-021-00561-9",
+      "accessed": "2026-11-04",
+      "evidence_location": [
+        "Methods:Reinforcement learning,WS/PF"
+      ],
+      "supports": "Existing multiple-objective scalar/Pareto work contextualizes candidateB.",
+      "limits": "CandidateB primal-dual formulation is this project proposal, not attributed to DrugEx.",
+      "executed": false
+    },
+    {
+      "id": "M10",
+      "title": "Preference Optimization for Molecular Language Models (2023-10-18 preprint)",
+      "primary_url": "https://arxiv.org/html/2310.12304v1",
+      "accessed": "2026-11-04",
+      "evidence_location": [
+        "§2.1",
+        "§3.1–3.2"
+      ],
+      "supports": "MolecularDPO already applied to filters/predicted bioactivity; fixed-reference preference training precedent.",
+      "limits": "No novelty claim for SMILESDPO; oracle labels not human feedback.",
+      "executed": false,
+      "official_related_links": [
+        "https://github.com/Harmonic-Discovery/pref-opt-for-mols"
+      ]
+    },
+    {
+      "id": "M11",
+      "title": "Augmented Memory official repository maintenance note",
+      "primary_url": "https://github.com/schwallergroup/augmented_memory",
+      "accessed": "2026-11-04",
+      "evidence_location": [
+        "README:Note"
+      ],
+      "supports": "Official repo says no longer updated and points to Saturn.",
+      "limits": "Does not prove old code unusable; course engineering preference only.",
+      "executed": false
+    }
+  ],
+  "source_count": 11
+}

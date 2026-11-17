@@ -1,0 +1,28 @@
+{
+  "created_on": "2026-11-13",
+  "scope": "Prespecified descriptive examples and diagnostics for completed main runs. Main outcomes do not select training configurations.",
+  "selection_rules": {
+    "typical_terminal": "Valid natural-EOS output nearest median reward among valid terminal samples, deterministic identity/index tie break. Report all-attempt validity separately; this is not an all-attempt median if invalid outputs exist.",
+    "best_discovered": "Highest-reward distinct search candidate, canonical-string tie break; explicitly an extreme example.",
+    "component_tradeoff": "Highest aggregate reward among distinct search candidates having at least one normalized component below 0.5. If none exists, report none, do not relax threshold.",
+    "closest_terminal_pair": "Most similar pair among all unique valid terminal molecules using Morgan radius2 2048-bit Tanimoto. It is an extreme pair, not average diversity.",
+    "failure": "First invalid/disconnected/truncated search attempt in original order; display failure metadata instead of inventing a molecular structure. If no failure, report none."
+  },
+  "coverage": "All methods and seeds shown when raw completed-run ledgers are available; missing runs explicitly listed.",
+  "metrics": [
+    "all-attempt reward distribution",
+    "normalized reward components",
+    "MW/logP/TPSA/length",
+    "exact unique-output fingerprint diversity using all pairs",
+    "scaffold counts and acyclic fraction",
+    "repetition and failure rates"
+  ],
+  "boundaries": [
+    "No claim of binding, drug efficacy, novelty, safety or synthetic accessibility from these proxies",
+    "Do not select only attractive chemical structures",
+    "Do not interpret a selected extreme pair as evidence of global collapse",
+    "Do not pool terminal samples as independent training replicates",
+    "No clipping or removal of inconvenient valid molecules"
+  ],
+  "timing": "Rules written after first formal summary scores were known, before inspecting or selecting individual molecular cases. This is exploratory case analysis, not preregistration before the main experiment."
+}

@@ -1,0 +1,106 @@
+{
+  "reviewed_on": "2026-11-04",
+  "recommendation": "Sparse multi-property feasibility and fixed dense-to-sparse curriculum, using explicit GuacaMol Fexofenadine MPO-derived task",
+  "status": "Independent design recommendation; no experiment performed by this agent",
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://raw.githubusercontent.com/BenevolentAI/guacamol/master/guacamol/standard_benchmarks.py",
+      "location": "hard_fexofenadine lines98-119 in viewed source",
+      "verified": [
+        "AP similarity clipped at0.8",
+        "TPSA MaxGaussian(mu90,sigma10)",
+        "Crippen logP MinGaussian(mu4,sigma1)",
+        "geometric mean"
+      ],
+      "license": "GuacaMol code MIT",
+      "limits": "Binary feasibility and tau0.6 are proposed course derivatives, not published benchmark"
+    },
+    {
+      "id": "S02",
+      "url": "https://raw.githubusercontent.com/wenhao-gao/mol_opt/main/main/reinvent/run.py",
+      "location": "prior load, augmented likelihood, experience replay",
+      "verified": [
+        "Prior.ckpt and Voc path",
+        "Augmented likelihood squared error",
+        "Replay already included",
+        "Code comments warn naive replay not theoretically sound for policy training"
+      ],
+      "license": "PMO code MIT; model/data terms separate",
+      "limits": "Old implementation is not clean REINFORCE or PPO; no runtime test by this agent"
+    },
+    {
+      "id": "S03",
+      "url": "https://raw.githubusercontent.com/MolecularAI/REINVENT4/main/configs/staged_learning.toml",
+      "location": "learning_strategy and stage blocks",
+      "verified": [
+        "Existing multistage curriculum config",
+        "DAP is the only supported strategy in current example",
+        "Generic and Mol2Mol prior options"
+      ],
+      "license": "Apache-2.0 code; priors separate",
+      "limits": "Demonstration configuration must be adapted; not turnkey PPO comparison"
+    },
+    {
+      "id": "S04",
+      "url": "https://arxiv.org/abs/2206.12411",
+      "location": "benchmark setup",
+      "verified": [
+        "Sample efficiency and oracle budget matter",
+        "Strong GA/screening alternatives"
+      ],
+      "license": "Article and repository separate terms"
+    },
+    {
+      "id": "S05",
+      "url": "https://arxiv.org/abs/2310.12304",
+      "supporting_url": "https://github.com/Harmonic-Discovery/pref-opt-for-mols",
+      "verified": [
+        "Molecular DPO existing primary work",
+        "Offline preference fitting differs from online PG"
+      ],
+      "license": "No explicit code LICENSE observed at root; do not assume reuse grant"
+    },
+    {
+      "id": "S06",
+      "url": "https://github.com/REAL-Lab-NU/POLO",
+      "doi": "10.1145/3770855.3819016",
+      "verified": [
+        "KDD2026 PGPO combines PPO and turn-level preference feedback",
+        "Data/oracle accounting requires care"
+      ],
+      "license": "Main MIT; upstream dependencies/assets separate"
+    },
+    {
+      "id": "I01",
+      "source_type": "Parent-agent communication, 2026-11-04 current task",
+      "commit": "2da631be85af8d10a2bb43f2de76a03171166190",
+      "files": {
+        "main/reinvent/data/Prior.ckpt": 16697208,
+        "main/reinvent/data/Voc": 206
+      },
+      "reported_by_parent": [
+        "Checkpoint downloaded",
+        "torch.load(weights_only=True) succeeded",
+        "Three GRU layers hidden512 embedding128 vocab55"
+      ],
+      "limits": "Not independently loaded/sampled by this agent; supports feasibility, not effectiveness"
+    }
+  ],
+  "proposed_matrix": {
+    "groups": 5,
+    "seeds": 3,
+    "main_tasks": 1,
+    "unique_budget_per_run": 3000,
+    "maximum_generation_attempts": "5B proposed; freeze before study",
+    "groups_names": [
+      "Frozen prior best-of-B",
+      "Graph GA",
+      "Sparse RL",
+      "Dense RL",
+      "Fixed curriculum RL"
+    ],
+    "optional": "Second difficulty/task only after core; GA may be removed if integration exceeds course scope, with limitation disclosed"
+  }
+}
+

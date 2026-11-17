@@ -1,0 +1,255 @@
+{
+  "as_of": "2026-11-04",
+  "scope": "metadata,tiny tokenizer/config/source static review only; no weights,install,tokenizer/model execution",
+  "hf": {
+    "repo": "ncfrey/ChemGPT-4.7M",
+    "revision": "7438a282460b3038e17a27e25b85b1376e9a23e2",
+    "lastModified": "2022-06-15T15:17:11.000Z",
+    "metadata_url": "https://huggingface.co/api/models/ncfrey/ChemGPT-4.7M?blobs=true",
+    "license_field": null,
+    "files": [
+      {
+        "rfilename": ".gitattributes",
+        "blobId": "ac481c8eb05e4d2496fbe076a38a7b4835dd733d",
+        "size": 1173
+      },
+      {
+        "rfilename": "README.md",
+        "blobId": "2cbece6c94c5e9110241a65b067a43ba66f60808",
+        "size": 1942
+      },
+      {
+        "rfilename": "config.json",
+        "blobId": "a018b2365735c23113cbfdf9561b3e4807e9c32f",
+        "size": 1284
+      },
+      {
+        "rfilename": "pytorch_model.bin",
+        "blobId": "0ae5dad05ef6d2875fd87320f4f3dd9cefdbad52",
+        "size": 70836865,
+        "lfs": {
+          "sha256": "a8a39c5ea1d50c450632e003d21c90f847d815a801934b03a12b02010b74d21b",
+          "size": 70836865,
+          "pointerSize": 133
+        }
+      },
+      {
+        "rfilename": "special_tokens_map.json",
+        "blobId": "9e26dfeeb6e641a33dae4961196235bdb965b21b",
+        "size": 2
+      },
+      {
+        "rfilename": "tokenizer.json",
+        "blobId": "0c6a1f8e8b8d254dac468ff11d2a164629c1e91d",
+        "size": 10789
+      },
+      {
+        "rfilename": "tokenizer_config.json",
+        "blobId": "bdbf1e93f44c4cdfc0c94a24d220de80b6d398ae",
+        "size": 260
+      }
+    ]
+  },
+  "litmatter": {
+    "repo": "ncfrey/litmatter",
+    "commit": "d355ccac45e3b6299d1773c536ad7617e49a6b8a",
+    "date": "2023-10-23T16:05:07Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    }
+  },
+  "files": [
+    {
+      "local_path": ".gitattributes",
+      "bytes": 1173,
+      "sha256": "983f034a5d3898b49e1c02cf4941beaf38849e8f01912ad6d8697e96270ee997",
+      "url": "https://huggingface.co/ncfrey/ChemGPT-4.7M/blob/7438a282460b3038e17a27e25b85b1376e9a23e2/.gitattributes"
+    },
+    {
+      "local_path": "README.md",
+      "bytes": 1942,
+      "sha256": "5732275e9233a8b8ca8f690b6beb624da9ff5b3e7906f7d446a8c6ff45597195",
+      "url": "https://huggingface.co/ncfrey/ChemGPT-4.7M/blob/7438a282460b3038e17a27e25b85b1376e9a23e2/README.md"
+    },
+    {
+      "local_path": "chemgpt/README.md",
+      "bytes": 1942,
+      "sha256": "5732275e9233a8b8ca8f690b6beb624da9ff5b3e7906f7d446a8c6ff45597195",
+      "url": null
+    },
+    {
+      "local_path": "chemgpt/config.json",
+      "bytes": 1284,
+      "sha256": "73a9eb113e31b2ac8a6b070469b749dbaa8110f72a197bea7899d93db462e8ba",
+      "url": null
+    },
+    {
+      "local_path": "chemgpt/pytorch_model.bin",
+      "bytes": 70836865,
+      "sha256": "a8a39c5ea1d50c450632e003d21c90f847d815a801934b03a12b02010b74d21b",
+      "url": null
+    },
+    {
+      "local_path": "chemgpt/special_tokens_map.json",
+      "bytes": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "url": null
+    },
+    {
+      "local_path": "chemgpt/tokenizer.json",
+      "bytes": 10789,
+      "sha256": "fee4dad651e2edb49afb5d6aa3e4fea437e08c740c80b6d1d6e1909ad2b30100",
+      "url": null
+    },
+    {
+      "local_path": "chemgpt/tokenizer_config.json",
+      "bytes": 260,
+      "sha256": "ee5b5daf3a4f292292f944d06fa34ca00c6f4b18aec68478c55ef223311ee145",
+      "url": null
+    },
+    {
+      "local_path": "config.json",
+      "bytes": 1284,
+      "sha256": "73a9eb113e31b2ac8a6b070469b749dbaa8110f72a197bea7899d93db462e8ba",
+      "url": "https://huggingface.co/ncfrey/ChemGPT-4.7M/blob/7438a282460b3038e17a27e25b85b1376e9a23e2/config.json"
+    },
+    {
+      "local_path": "download_manifest.json",
+      "bytes": 2274,
+      "sha256": "8885a39a89e9ba573d86defd95a2a8df93259910a4f21d7355d7634e22629ff6",
+      "url": null
+    },
+    {
+      "local_path": "evaluation_review.md",
+      "bytes": 15254,
+      "sha256": "0348a3b21801622a1855386748e4939da0c8642a75ea8f1cd8bc8cea48f791da",
+      "url": null
+    },
+    {
+      "local_path": "evaluation_sources.json",
+      "bytes": 5025,
+      "sha256": "7d597a09ab81fbc7f668599724a1a053220ac8cb25c8f8753ea8a81da3e6b954",
+      "url": null
+    },
+    {
+      "local_path": "hf_model_metadata.json",
+      "bytes": 2423,
+      "sha256": "f0243ed79126abcccb334571afa274264f606346ed6eb81919b1b10a5815d954",
+      "url": null
+    },
+    {
+      "local_path": "litmatter/LICENSE",
+      "bytes": 1068,
+      "sha256": "2b8688f0e955bd9c2277e4fa9b234b8d586611b8c24888ce2be8347a4278a1ff",
+      "url": "https://github.com/ncfrey/litmatter/blob/d355ccac45e3b6299d1773c536ad7617e49a6b8a/LICENSE"
+    },
+    {
+      "local_path": "litmatter/LitHF.ipynb",
+      "bytes": 6114,
+      "sha256": "94ece261c104bd0dea8c345abb4913b73f74f6e4ce75ccf099ffd3e8b0ac820b",
+      "url": "https://github.com/ncfrey/litmatter/blob/d355ccac45e3b6299d1773c536ad7617e49a6b8a/LitHF.ipynb"
+    },
+    {
+      "local_path": "litmatter/README.md",
+      "bytes": 5352,
+      "sha256": "34b09f6390605c49e1aa7404067904e5f0f2ffbd5b8b8b8680192520b575a65c",
+      "url": "https://github.com/ncfrey/litmatter/blob/d355ccac45e3b6299d1773c536ad7617e49a6b8a/README.md"
+    },
+    {
+      "local_path": "litmatter/lit_models/lit_chemgpt.py",
+      "bytes": 6770,
+      "sha256": "a67f09b1f50eb58f6ccdef2f76ec6fd73a90f25cec71b6851cbf7901a1028299",
+      "url": "https://github.com/ncfrey/litmatter/blob/d355ccac45e3b6299d1773c536ad7617e49a6b8a/lit_models/lit_chemgpt.py"
+    },
+    {
+      "local_path": "litmatter/requirements.txt",
+      "bytes": 143,
+      "sha256": "ced771e3da74440d284867b33d036904dc85139e316b930223b3807ae3d593d5",
+      "url": "https://github.com/ncfrey/litmatter/blob/d355ccac45e3b6299d1773c536ad7617e49a6b8a/requirements.txt"
+    },
+    {
+      "local_path": "litmatter/tokenizers/pubchem10M_tokenizer/tokenizer.json",
+      "bytes": 10789,
+      "sha256": "fee4dad651e2edb49afb5d6aa3e4fea437e08c740c80b6d1d6e1909ad2b30100",
+      "url": "https://github.com/ncfrey/litmatter/blob/d355ccac45e3b6299d1773c536ad7617e49a6b8a/tokenizers/pubchem10M_tokenizer/tokenizer.json"
+    },
+    {
+      "local_path": "litmatter/tokenizers/pubchem10M_tokenizer/tokenizer_config.json",
+      "bytes": 46,
+      "sha256": "98fece87a533726e5d34601535095b6caae9515770e720d06bb2a62e8017641f",
+      "url": "https://github.com/ncfrey/litmatter/blob/d355ccac45e3b6299d1773c536ad7617e49a6b8a/tokenizers/pubchem10M_tokenizer/tokenizer_config.json"
+    },
+    {
+      "local_path": "litmatter_metadata.json",
+      "bytes": 24812,
+      "sha256": "65cb05a3bc9b2189261e074e92635761afe8934ed648d8852378356184bd66b5",
+      "url": null
+    },
+    {
+      "local_path": "selfies-1.0.4-py3-none-any.whl",
+      "bytes": 30220,
+      "sha256": "e41009c1b5512d87ed8ea4d2a52ea9d833fbe6ddeb9ea34990b4a4d77b5b037c",
+      "url": null
+    },
+    {
+      "local_path": "selfies_CHANGELOG.md",
+      "bytes": 7577,
+      "sha256": "601212b30ea1932afd8e46d263342ddb178f49ee9c3b9956f45a87f4a3731c3c",
+      "url": null
+    },
+    {
+      "local_path": "special_tokens_map.json",
+      "bytes": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "url": "https://huggingface.co/ncfrey/ChemGPT-4.7M/blob/7438a282460b3038e17a27e25b85b1376e9a23e2/special_tokens_map.json"
+    },
+    {
+      "local_path": "tokenizer.json",
+      "bytes": 10789,
+      "sha256": "fee4dad651e2edb49afb5d6aa3e4fea437e08c740c80b6d1d6e1909ad2b30100",
+      "url": "https://huggingface.co/ncfrey/ChemGPT-4.7M/blob/7438a282460b3038e17a27e25b85b1376e9a23e2/tokenizer.json"
+    },
+    {
+      "local_path": "tokenizer_config.json",
+      "bytes": 260,
+      "sha256": "ee5b5daf3a4f292292f944d06fa34ca00c6f4b18aec68478c55ef223311ee145",
+      "url": "https://huggingface.co/ncfrey/ChemGPT-4.7M/blob/7438a282460b3038e17a27e25b85b1376e9a23e2/tokenizer_config.json"
+    },
+    {
+      "local_path": "transformers_4.10.2/src/transformers/models/gpt_neo/configuration_gpt_neo.py",
+      "bytes": 15189,
+      "sha256": "b2cdd8eebbd5e306fb0149d25ae3c397069c3dc02364fd859ca776b15fd6dcbc",
+      "url": "https://github.com/huggingface/transformers/blob/v4.10.2/src/transformers/models/gpt_neo/configuration_gpt_neo.py"
+    },
+    {
+      "local_path": "transformers_4.10.2/src/transformers/models/gpt_neo/modeling_gpt_neo.py",
+      "bytes": 48645,
+      "sha256": "2707c839ffccd039242255ac19cf1c3bb6834361f91ef028f2a8b406fe240974",
+      "url": "https://github.com/huggingface/transformers/blob/v4.10.2/src/transformers/models/gpt_neo/modeling_gpt_neo.py"
+    }
+  ],
+  "external_sources": [
+    {
+      "url": "https://doi.org/10.1038/s42256-023-00740-3",
+      "role": "formal paper",
+      "published": "2023-10-23"
+    },
+    {
+      "url": "https://selfiesv2.readthedocs.io/en/latest/selfies.html#selfies.decoder",
+      "role": "compatible mode explicitly not equivalent backward compatibility"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/aspuru-guzik-group/selfies/master/CHANGELOG.md",
+      "role": "SELFIES1 to2 syntax changes; local retrieved snapshot hash in files"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ncfrey/litmatter/d355ccac45e3b6299d1773c536ad7617e49a6b8a/lit_data/lm_data.py",
+      "role": "data collator static inspection via web tool; not saved locally"
+    }
+  ],
+  "runtime_status": "NOT_RUN_IN_THIS_SUBTASK"
+}

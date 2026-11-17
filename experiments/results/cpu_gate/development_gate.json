@@ -1,0 +1,5 @@
+{
+  "status": "PASS",
+  "runs": 6,
+  "selection": "fixed proposal hyperparameters; no main-task tuning"
+}

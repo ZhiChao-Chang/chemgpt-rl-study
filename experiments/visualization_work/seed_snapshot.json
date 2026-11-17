@@ -1,0 +1,21 @@
+{
+  "title": "ChemGPT 强化学习研究",
+  "surface": "report",
+  "status": "computed",
+  "generatedAt": "2026-11-17T00:00:00Z",
+  "report": {
+    "asOf": "2026-11-15",
+    "presentationOnly": true
+  },
+  "filters": [],
+  "queries": {
+    "runs": {
+      "rows": [],
+      "source": {
+        "provider": "Local ME2502 experiment artifacts",
+        "files": [],
+        "metricDefinitions": []
+      }
+    }
+  }
+}

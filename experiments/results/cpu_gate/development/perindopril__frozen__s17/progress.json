@@ -1,0 +1,8 @@
+{
+  "update": 0,
+  "attempts": 512,
+  "unique": 512,
+  "mean_reward": 0.15874212980270386,
+  "sample_trajectory_kl": -8.285045623779297e-06,
+  "elapsed_s": 20.063471185974777
+}

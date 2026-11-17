@@ -1,0 +1,119 @@
+{
+  "reviewed_on": "2026-11-04",
+  "scope": "Evaluation protocol for user-approved ChemGPT4.7M SELFIES LM/REINFORCE course project; review only",
+  "proposed_protocol": {
+    "methods": [
+      "Frozen same-model best-of-B",
+      "REINFORCE",
+      "REINFORCE+fixed-prior KL"
+    ],
+    "tasks": [
+      "Fexofenadine MPO, GuacaMol v2, exploratory benchmark because earlier GRU already explored it",
+      "Osimertinib MPO, GuacaMol v2, final task only if no results used for tuning"
+    ],
+    "development_task": "Perindopril MPO, GuacaMol v2 perindopril_rings()",
+    "seeds": 3,
+    "primary_budget": 3000,
+    "extension_budget": 10000,
+    "batch": 64,
+    "attempt_cap": "5B",
+    "update_cap": "5*ceil(B/64)",
+    "time_cap": "Freeze using dev throughput before final task results; 60/180min provisional candidates, not measured demands",
+    "primary_metric": "Normalized trapezoid Top10 MPO AUC on uniform100-call grid; exact definition recorded",
+    "secondary": [
+      "endpoint Top1/10/100",
+      "MPO>=0.8 unique count",
+      "raw percomponent and strict joint feasibility",
+      "fixed1024-attempt independent final-policy sample",
+      "diversity, duplicates, invalids and compute"
+    ],
+    "key_caveats": [
+      "two tasks share correlated target definitions, not broad generalization",
+      "MPO>=0.8 is not strict joint feasibility",
+      "global-cache reuse never exempts perrun novel logical evaluation budget",
+      "duplicate sampled trajectories remain in on-policy loss using cached rewards",
+      "Fexofenadine cannot be called new blind test after oldGRU exploration",
+      "do not pick best test checkpoint or seed",
+      "no promise of RL or KL improvement"
+    ]
+  },
+  "sources": [
+    {
+      "id": "C01",
+      "title": "GuacaMol benchmark suites",
+      "url": "https://raw.githubusercontent.com/BenevolentAI/guacamol/master/guacamol/benchmark_suites.py",
+      "verified_claims": [
+        "v1 hard_fexofenadine/hard_osimertinib use arithmetic mean",
+        "v2 uses default geometric mean",
+        "v2 includes perindopril_rings"
+      ],
+      "version_status": "Moving master inspected 2026-11-04; pin commit/hash for experiments",
+      "license": "Code MIT; underlying assets separate",
+      "accessed": "2026-11-04",
+      "source_type": "primary_author_official_source"
+    },
+    {
+      "id": "C02",
+      "title": "GuacaMol task definitions",
+      "url": "https://raw.githubusercontent.com/BenevolentAI/guacamol/master/guacamol/standard_benchmarks.py",
+      "verified_claims": [
+        "Fexofenadine: AP similarity clip0.8, TPSA MaxGaussian90/10, logP MinGaussian4/1",
+        "Osimertinib: FCFP4 clip0.8, ECFP6 MinGaussian0.85/0.1, TPSA MaxGaussian100/10, logP MinGaussian1/1",
+        "Perindopril: ECFP4 similarity and aromatic rings Gaussian2/0.5"
+      ],
+      "limits": "Joint raw-condition success is proposed diagnostic; official scalar MPO threshold is a different criterion",
+      "license": "Code MIT",
+      "accessed": "2026-11-04",
+      "source_type": "primary_author_official_source"
+    },
+    {
+      "id": "C03",
+      "title": "GuacaMol score modifiers",
+      "url": "https://raw.githubusercontent.com/BenevolentAI/guacamol/master/guacamol/score_modifier.py",
+      "verified_claims": [
+        "MinGaussian plateau x<=mu",
+        "MaxGaussian plateau x>=mu",
+        "Gaussian exp(-0.5*((x-mu)/sigma)^2)",
+        "Clipped linear modifier saturation"
+      ],
+      "license": "Code MIT",
+      "accessed": "2026-11-04",
+      "source_type": "primary_author_official_source"
+    },
+    {
+      "id": "C04",
+      "title": "PMO optimizer and AUC code",
+      "url": "https://raw.githubusercontent.com/wenhao-gao/mol_opt/main/main/optimizer.py",
+      "publication": "https://arxiv.org/abs/2206.12411",
+      "verified_claims": [
+        "top_auc integrates top-n score vs first-evaluation order",
+        "normalizes by maximum budget",
+        "finish branch carries last score to budget for incomplete run"
+      ],
+      "limits": "Proposed ChemGPT protocol is PMO-inspired, not claiming identical original benchmark/pretraining data",
+      "license": "Code MIT",
+      "accessed": "2026-11-04",
+      "source_type": "primary_author_official_source"
+    },
+    {
+      "id": "C05",
+      "title": "ChemGPT-4.7M original model card",
+      "url": "https://huggingface.co/ncfrey/ChemGPT-4.7M",
+      "verified_claims": [
+        "GPT-Neo-based molecular model",
+        "PubChem10M pretraining",
+        "SMILES converted to SELFIES1.0.4",
+        "Intended for investigations of pretraining/fine-tuning"
+      ],
+      "limits": [
+        "No full-pretraining novelty audit performed",
+        "Model card alone does not establish downstream effectiveness",
+        "This review did not download or run model"
+      ],
+      "license": "Model/asset terms must be verified in root artifact review; no claim inferred from framework",
+      "accessed": "2026-11-04",
+      "source_type": "primary_author_official_source"
+    }
+  ]
+}
+

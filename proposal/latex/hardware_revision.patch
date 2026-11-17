@@ -1,0 +1,13 @@
+--- previous_main.tex
++++ main.tex
+@@ -185,8 +185,8 @@
+ gradients. A separate enumerable two-step environment checked the KL
+ score-function and leave-one-out gradient construction. These are engineering
+ checks; ChemGPT RL performance experiments have not yet been run.
+-We plan single-GPU sequential training with CPU property evaluation and reserve
+-up to approximately 12 GPU-hours, subject to development profiling.
++The planned computing resources are one NVIDIA H100 80GB GPU, 4 vCPUs,
++64 GiB of host RAM, and 10 GB of project storage.
+ 
+ \paragraph{Shared work and deliverables.}
+ All three team members will jointly undertake model/RL implementation,

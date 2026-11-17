@@ -1,0 +1,226 @@
+{
+  "status": "SCENARIO_ESTIMATE_FROM_ACTUAL_H100_PROFILE",
+  "gpu": {
+    "name": "NVIDIA H100 80GB HBM3",
+    "total_memory_bytes": 85017624576,
+    "compute_capability": [
+      9,
+      0
+    ],
+    "multiprocessor_count": 132
+  },
+  "runtime": {
+    "python": "3.10.21",
+    "torch": "2.7.1+cu128",
+    "transformers": "4.51.3",
+    "rdkit": "2025.09.6",
+    "selfies_distribution": "1.0.4",
+    "selfies_module": "1.0.3",
+    "selfies_origin": "/zzc/260010120/cci_control/acp-tests/acp-explore-chemgpt-profile-20261104-05/vendor/selfies/__init__.py",
+    "cuda_runtime": "12.8",
+    "actual_parameter_count": 5099264,
+    "weight_sha256": "a8a39c5ea1d50c450632e003d21c90f847d815a801934b03a12b02010b74d21b",
+    "loading_info": {
+      "missing_keys": [],
+      "unexpected_keys": [],
+      "mismatched_keys": [],
+      "error_msgs": []
+    }
+  },
+  "measured_methods": {
+    "frozen": {
+      "measured_step_seconds_mean": 1.2865781113505363,
+      "measured_step_seconds_min": 0.8848313689231873,
+      "measured_step_seconds_max": 2.1732796989381313,
+      "mean_timing_stages": {
+        "sampling_seconds": 1.2706875456497073,
+        "decoding_scoring_seconds": 0.015836520120501518,
+        "reference_forward_seconds": 0.0,
+        "actor_forward_seconds": 0.0,
+        "actor_backward_seconds": 0.0,
+        "adam_step_seconds": 0.0,
+        "optimizer_statistics_seconds": 0.0
+      },
+      "maximum_pytorch_allocated_gib": 0.3791623115539551,
+      "maximum_pytorch_reserved_gib": 0.501953125,
+      "mean_batch_max_sequence_length": 91.25,
+      "mean_per_molecule_sequence_length": 39.140625,
+      "natural_eos_fraction": 1.0
+    },
+    "reinforce": {
+      "measured_step_seconds_mean": 1.6953468713909388,
+      "measured_step_seconds_min": 0.9730960763990879,
+      "measured_step_seconds_max": 2.305346079170704,
+      "mean_timing_stages": {
+        "sampling_seconds": 1.6248481515794992,
+        "decoding_scoring_seconds": 0.016578644514083862,
+        "reference_forward_seconds": 0.0,
+        "actor_forward_seconds": 0.022920779883861542,
+        "actor_backward_seconds": 0.025255441665649414,
+        "adam_step_seconds": 0.004816948436200619,
+        "optimizer_statistics_seconds": 0.00018414296209812164
+      },
+      "maximum_pytorch_allocated_gib": 2.948272705078125,
+      "maximum_pytorch_reserved_gib": 3.251953125,
+      "mean_batch_max_sequence_length": 114,
+      "mean_per_molecule_sequence_length": 42.6796875,
+      "natural_eos_fraction": 1.0
+    },
+    "reinforce_kl": {
+      "measured_step_seconds_mean": 1.7188572064042091,
+      "measured_step_seconds_min": 0.9932983219623566,
+      "measured_step_seconds_max": 2.3252686262130737,
+      "mean_timing_stages": {
+        "sampling_seconds": 1.6118541043251753,
+        "decoding_scoring_seconds": 0.01693854760378599,
+        "reference_forward_seconds": 0.01824021525681019,
+        "actor_forward_seconds": 0.038408433087170124,
+        "actor_backward_seconds": 0.026612713932991028,
+        "adam_step_seconds": 0.004832504317164421,
+        "optimizer_statistics_seconds": 0.0012205913662910461
+      },
+      "maximum_pytorch_allocated_gib": 3.059566020965576,
+      "maximum_pytorch_reserved_gib": 3.4140625,
+      "mean_batch_max_sequence_length": 114,
+      "mean_per_molecule_sequence_length": 42.625,
+      "natural_eos_fraction": 1.0
+    }
+  },
+  "scenarios": [
+    {
+      "effective_new_valid_identity_per_attempt": 0.95,
+      "methods": {
+        "frozen": {
+          "approximate_discovery_batches": 99,
+          "discovery_minutes": 2.122853883728385,
+          "extra_1024_attempt_evaluation_minutes": 0.686146168410778,
+          "per_run_total_minutes": 2.809000052139163,
+          "six_runs_minutes": 16.854000312834977
+        },
+        "reinforce": {
+          "approximate_discovery_batches": 99,
+          "discovery_minutes": 2.797322337795049,
+          "extra_1024_attempt_evaluation_minutes": 0.8754276245832443,
+          "per_run_total_minutes": 3.672749962378293,
+          "six_runs_minutes": 22.03649977426976
+        },
+        "reinforce_kl": {
+          "approximate_discovery_batches": 99,
+          "discovery_minutes": 2.8361143905669453,
+          "extra_1024_attempt_evaluation_minutes": 0.8686894143621127,
+          "per_run_total_minutes": 3.7048038049290577,
+          "six_runs_minutes": 22.228822829574348
+        }
+      },
+      "eighteen_runs_including_final_sampling_minutes": 61.11932291667909,
+      "twofold_timing_margin_minutes": 122.23864583335818
+    },
+    {
+      "effective_new_valid_identity_per_attempt": 0.5,
+      "methods": {
+        "frozen": {
+          "approximate_discovery_batches": 188,
+          "discovery_minutes": 4.0312780822316805,
+          "extra_1024_attempt_evaluation_minutes": 0.686146168410778,
+          "per_run_total_minutes": 4.717424250642458,
+          "six_runs_minutes": 28.30454550385475
+        },
+        "reinforce": {
+          "approximate_discovery_batches": 188,
+          "discovery_minutes": 5.312086863691608,
+          "extra_1024_attempt_evaluation_minutes": 0.8754276245832443,
+          "per_run_total_minutes": 6.187514488274853,
+          "six_runs_minutes": 37.125086929649115
+        },
+        "reinforce_kl": {
+          "approximate_discovery_batches": 188,
+          "discovery_minutes": 5.385752580066522,
+          "extra_1024_attempt_evaluation_minutes": 0.8686894143621127,
+          "per_run_total_minutes": 6.2544419944286345,
+          "six_runs_minutes": 37.526651966571805
+        }
+      },
+      "eighteen_runs_including_final_sampling_minutes": 102.95628440007567,
+      "twofold_timing_margin_minutes": 205.91256880015135
+    },
+    {
+      "effective_new_valid_identity_per_attempt": 0.2,
+      "methods": {
+        "frozen": {
+          "approximate_discovery_batches": 469,
+          "discovery_minutes": 10.056752237056692,
+          "extra_1024_attempt_evaluation_minutes": 0.686146168410778,
+          "per_run_total_minutes": 10.74289840546747,
+          "six_runs_minutes": 64.45739043280483
+        },
+        "reinforce": {
+          "approximate_discovery_batches": 469,
+          "discovery_minutes": 13.251961378039171,
+          "extra_1024_attempt_evaluation_minutes": 0.8754276245832443,
+          "per_run_total_minutes": 14.127389002622415,
+          "six_runs_minutes": 84.76433401573449
+        },
+        "reinforce_kl": {
+          "approximate_discovery_batches": 469,
+          "discovery_minutes": 13.435733830059569,
+          "extra_1024_attempt_evaluation_minutes": 0.8686894143621127,
+          "per_run_total_minutes": 14.304423244421681,
+          "six_runs_minutes": 85.82653946653008
+        }
+      },
+      "eighteen_runs_including_final_sampling_minutes": 235.04826391506938,
+      "twofold_timing_margin_minutes": 470.09652783013877
+    }
+  ],
+  "synthetic_stress": [
+    {
+      "kind": "synthetic_teacherforce_backward_Adam_NOT_molecular_performance",
+      "batch_size": 32,
+      "sequence_length": 128,
+      "seconds": 0.07184683904051781,
+      "gradient_norm_before_clip": 1109.1761474609375,
+      "memory": {
+        "peak_allocated_bytes": 2459889664,
+        "peak_reserved_bytes": 2606759936,
+        "allocated_bytes": 249410560,
+        "reserved_bytes": 2606759936
+      }
+    },
+    {
+      "kind": "synthetic_teacherforce_backward_Adam_NOT_molecular_performance",
+      "batch_size": 32,
+      "sequence_length": 256,
+      "seconds": 0.07371910661458969,
+      "gradient_norm_before_clip": 1338.9442138671875,
+      "memory": {
+        "peak_allocated_bytes": 6542590976,
+        "peak_reserved_bytes": 6759120896,
+        "allocated_bytes": 249447424,
+        "reserved_bytes": 6759120896
+      }
+    }
+  ],
+  "fixed_counts": {
+    "formal_runs": 18,
+    "trained_runs": 12,
+    "frozen_runs": 6,
+    "unique_valid_query_budget_total": 54000,
+    "maximum_discovery_attempts_total": 270000,
+    "final_policy_attempts_total": 18432,
+    "maximum_optimizer_steps_total": 5640,
+    "formal_search_train_hard_cap_hours": 9
+  },
+  "storage_planning": {
+    "one_published_checkpoint_mb_decimal": 70.836865,
+    "outputs_and_selected_weights_budget_gb": 5,
+    "project_workspace_budget_gb": 10
+  },
+  "limits": [
+    "These are arithmetic scenarios, not an end-to-end 18-run measurement.",
+    "Novelty rates are assumptions, not sustained rates inferred from four batches.",
+    "Training can alter length, validity and repetition; raw timing tables retain length statistics.",
+    "H100 allocation startup and dependency installation are separate one-off overheads.",
+    "Allocator peaks exclude CUDA context/driver accounting.",
+    "Budget tails use smaller batches; constant-batch approximation is not an exact simulator."
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "status": "PROPOSED_NOT_TRAINED",
+  "as_of": "2026-11-04",
+  "question": "Does on-policy RL improve finite-budget target-directed molecular generation, and what is the effect of a fixed-prior KL regularizer?",
+  "model": {
+    "id": "ncfrey/ChemGPT-4.7M",
+    "revision": "7438a282460b3038e17a27e25b85b1376e9a23e2",
+    "actual_total_parameters": 5099264,
+    "pretrained_reference": "same checkpoint, frozen",
+    "resize_token_embeddings": false
+  },
+  "tasks": {
+    "source": "GuacaMol",
+    "suite": "v2",
+    "commit": "60ebe1f6a396f16e08b834dce448e9343d259feb",
+    "dev": "Perindopril MPO",
+    "formal": [
+      "Fexofenadine MPO",
+      "Osimertinib MPO"
+    ],
+    "disclosure": "Fexofenadine was explored earlier using a different GRU; no fresh-blind claim"
+  },
+  "methods": [
+    "frozen_best_of_budget",
+    "reinforce",
+    "reinforce_reference_kl"
+  ],
+  "formal_seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "development_seeds": [
+    11,
+    17
+  ],
+  "formal_run_count": 18,
+  "sampling": {
+    "bos_token_id": 2,
+    "eos_token_id": 3,
+    "pad_token_id": 1,
+    "vocab_size": 684,
+    "blocked_ids": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "temperature": 1.0,
+    "top_k": null,
+    "top_p": null,
+    "max_generated_tokens": 256,
+    "mode": "eval with actor autograd",
+    "token_type_ids": "all zeros, rollout/current/reference consistent",
+    "no_termination_reward": 0,
+    "invalid_empty_disconnected_reward": 0
+  },
+  "optimization": {
+    "algorithm": "on-policy REINFORCE with optional sequence KL in detached return",
+    "objective": "E[R] - beta KL(p_theta || p_0)",
+    "loss": "-mean(stopgrad(R-beta*(L-L0)-baseline)*L)",
+    "baseline": "leave-one-out regularized returns for N>1; previous-batch EMA if N=1",
+    "ema_decay": 0.9,
+    "ema_init": 0.0,
+    "ema_update_timing": "after current update, detached current regularized-return batch mean",
+    "optimizer": "Adam",
+    "learning_rate": 1e-05,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "weight_decay": 0.0,
+    "reference_kl_beta": 0.01,
+    "kl_aggregation": "sum across actual trajectory actions including sampled SEP",
+    "batch_size": 32,
+    "updates_per_fresh_batch": 1,
+    "gradient_clip_global_norm": 1.0,
+    "dtype": "float32",
+    "replay": false,
+    "reward_whitening": false,
+    "length_normalization": false
+  },
+  "budget": {
+    "unique_valid_new_molecules_per_run": 3000,
+    "max_generation_attempts": 15000,
+    "max_optimizer_updates": 470,
+    "max_search_train_seconds_per_run": 1800,
+    "tail_batch": "min(32, B - past_unique), chosen before sampling; keep every raw trajectory",
+    "stop": "first limit reached",
+    "final_policy_attempts_per_run": 1024,
+    "final_policy_budget": "additional, uniform, never used for training or selection",
+    "physical_compute_cache_accounting": "per-run first identity counts logically even if global physical cache reused",
+    "planned_single_gpu_campaign_cap_hours": 12,
+    "server_authorization": false
+  },
+  "evaluation": {
+    "primary": "normalized Top10 MPO AUC vs unique valid new evaluations",
+    "grid_step": 100,
+    "top10_missing_slots": "zero",
+    "early_stop_auc": "last observed value carried forward with explicit actual unique count and stop reason; also report observed curve",
+    "secondary": [
+      "search top1/10/100",
+      "MPO>=0.8 candidate count",
+      "strict raw-component joint success",
+      "final-policy mean MPO with invalid=0",
+      "validity",
+      "unique valid output",
+      "duplicate rate",
+      "Morgan radius2 2048bit internal diversity",
+      "Murcko scaffold count and concentration",
+      "raw descriptors",
+      "sequence KL",
+      "token length",
+      "actual calls/update/token/time"
+    ],
+    "statistics": "all seeds, mean/SD and paired differences; descriptive two-task result"
+  },
+  "engineering_checks_passed": [
+    "pinned weight hash and missing-key-free load",
+    "32 CPU samples + decoding",
+    "cached rollout vs teacher-forcing logprob agreement",
+    "nonzero gradient without optimizer step",
+    "exact finite-MDP gradient and LOO baseline check",
+    "task reference token encodability"
+  ],
+  "remaining_before_formal": [
+    "cache and per-run budget acceptance",
+    "tail N=1 baseline test",
+    "reference immutability during optimizer step",
+    "dev short runs and timing",
+    "freeze final runtime configuration"
+  ],
+  "not_executed": [
+    "ChemGPT RL training",
+    "formal task optimization",
+    "formal 18-run campaign",
+    "GPU measurement",
+    "remote resources",
+    "submission"
+  ]
+}

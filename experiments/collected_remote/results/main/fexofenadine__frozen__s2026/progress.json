@@ -1,0 +1,9 @@
+{
+  "update": 0,
+  "attempts": 3005,
+  "unique": 3000,
+  "mean_reward": 0.4855213463306427,
+  "sample_trajectory_kl": -1.9073486328125e-06,
+  "full_vocabulary_prefix_kl": 0.0,
+  "elapsed_s": 147.77254937961698
+}

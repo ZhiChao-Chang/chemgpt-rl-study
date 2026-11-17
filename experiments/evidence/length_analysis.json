@@ -1,0 +1,884 @@
+{
+  "status": "EXPLORATORY",
+  "bin_rule": "fixed 32-token blocks up to128;129-256 tail. Each eligible bin >=10 valid samples in EVERY method; baseline bin weights renormalized over eligible bins.",
+  "causal_boundary": "Token length is an outcome/mediator of the policy; conditioning on it is not a causal adjustment. Coarse bins also leave residual length differences. This analysis cannot prove how much gain is caused by length.",
+  "primary_unchanged": "All-attempt primary terminal metrics and original search endpoints unchanged. Excluded-bin coverage explicitly reported, no samples removed from primary analysis.",
+  "runs": [
+    {
+      "task": "fexofenadine",
+      "seed": 2026,
+      "bins": [
+        {
+          "low": 1,
+          "high": 32,
+          "methods": {
+            "frozen": {
+              "n": 362,
+              "fraction_all_attempts": 0.353515625,
+              "reward_mean": 0.10255794585663044,
+              "length_mean": 26.450276243093924
+            },
+            "reinforce": {
+              "n": 25,
+              "fraction_all_attempts": 0.0244140625,
+              "reward_mean": 0.294990871325798,
+              "length_mean": 27.72
+            },
+            "reinforce_kl": {
+              "n": 80,
+              "fraction_all_attempts": 0.078125,
+              "reward_mean": 0.2849903457052138,
+              "length_mean": 27.6125
+            }
+          },
+          "common_support_min10": true
+        },
+        {
+          "low": 33,
+          "high": 64,
+          "methods": {
+            "frozen": {
+              "n": 586,
+              "fraction_all_attempts": 0.572265625,
+              "reward_mean": 0.2919952452767651,
+              "length_mean": 44.725255972696246
+            },
+            "reinforce": {
+              "n": 289,
+              "fraction_all_attempts": 0.2822265625,
+              "reward_mean": 0.5496680947609542,
+              "length_mean": 53.1522491349481
+            },
+            "reinforce_kl": {
+              "n": 652,
+              "fraction_all_attempts": 0.63671875,
+              "reward_mean": 0.516873336733429,
+              "length_mean": 49.510736196319016
+            }
+          },
+          "common_support_min10": true
+        },
+        {
+          "low": 65,
+          "high": 96,
+          "methods": {
+            "frozen": {
+              "n": 63,
+              "fraction_all_attempts": 0.0615234375,
+              "reward_mean": 0.368684375939915,
+              "length_mean": 76.17460317460318
+            },
+            "reinforce": {
+              "n": 476,
+              "fraction_all_attempts": 0.46484375,
+              "reward_mean": 0.581841144833398,
+              "length_mean": 78.05252100840336
+            },
+            "reinforce_kl": {
+              "n": 230,
+              "fraction_all_attempts": 0.224609375,
+              "reward_mean": 0.5731511752640912,
+              "length_mean": 74.7304347826087
+            }
+          },
+          "common_support_min10": true
+        },
+        {
+          "low": 97,
+          "high": 128,
+          "methods": {
+            "frozen": {
+              "n": 5,
+              "fraction_all_attempts": 0.0048828125,
+              "reward_mean": 0.28013014972913464,
+              "length_mean": 105.2
+            },
+            "reinforce": {
+              "n": 149,
+              "fraction_all_attempts": 0.1455078125,
+              "reward_mean": 0.5715986975574753,
+              "length_mean": 109.21476510067114
+            },
+            "reinforce_kl": {
+              "n": 46,
+              "fraction_all_attempts": 0.044921875,
+              "reward_mean": 0.5600841589419578,
+              "length_mean": 107.17391304347827
+            }
+          },
+          "common_support_min10": false
+        },
+        {
+          "low": 129,
+          "high": 256,
+          "methods": {
+            "frozen": {
+              "n": 6,
+              "fraction_all_attempts": 0.005859375,
+              "reward_mean": 0.23320373368731265,
+              "length_mean": 162.33333333333334
+            },
+            "reinforce": {
+              "n": 84,
+              "fraction_all_attempts": 0.08203125,
+              "reward_mean": 0.5488106991835663,
+              "length_mean": 150.28571428571428
+            },
+            "reinforce_kl": {
+              "n": 14,
+              "fraction_all_attempts": 0.013671875,
+              "reward_mean": 0.4502640794153338,
+              "length_mean": 154.35714285714286
+            }
+          },
+          "common_support_min10": false
+        }
+      ],
+      "frozen_bin_weighted_common_support_mean": {
+        "frozen": 0.22894392266716046,
+        "reinforce": 0.4604828794009517,
+        "reinforce_kl": 0.4373519332469975
+      },
+      "common_support_all_attempt_coverage": {
+        "frozen": 0.9873046875,
+        "reinforce": 0.771484375,
+        "reinforce_kl": 0.939453125
+      },
+      "raw_all_attempt_mean": {
+        "frozen": 0.2287716591477234,
+        "reinforce": 0.5609897859152749,
+        "reinforce_kl": 0.5114189276762681
+      }
+    },
+    {
+      "task": "fexofenadine",
+      "seed": 2027,
+      "bins": [
+        {
+          "low": 1,
+          "high": 32,
+          "methods": {
+            "frozen": {
+              "n": 369,
+              "fraction_all_attempts": 0.3603515625,
+              "reward_mean": 0.12111382526502887,
+              "length_mean": 26.51761517615176
+            },
+            "reinforce": {
+              "n": 31,
+              "fraction_all_attempts": 0.0302734375,
+              "reward_mean": 0.32326120565514216,
+              "length_mean": 26.322580645161292
+            },
+            "reinforce_kl": {
+              "n": 62,
+              "fraction_all_attempts": 0.060546875,
+              "reward_mean": 0.2513079487619867,
+              "length_mean": 27.370967741935484
+            }
+          },
+          "common_support_min10": true
+        },
+        {
+          "low": 33,
+          "high": 64,
+          "methods": {
+            "frozen": {
+              "n": 571,
+              "fraction_all_attempts": 0.5576171875,
+              "reward_mean": 0.2839881436089626,
+              "length_mean": 44.190893169877405
+            },
+            "reinforce": {
+              "n": 381,
+              "fraction_all_attempts": 0.3720703125,
+              "reward_mean": 0.5377261289158392,
+              "length_mean": 52.59317585301837
+            },
+            "reinforce_kl": {
+              "n": 633,
+              "fraction_all_attempts": 0.6181640625,
+              "reward_mean": 0.5102018431937658,
+              "length_mean": 49.88309636650869
+            }
+          },
+          "common_support_min10": true
+        },
+        {
+          "low": 65,
+          "high": 96,
+          "methods": {
+            "frozen": {
+              "n": 72,
+              "fraction_all_attempts": 0.0703125,
+              "reward_mean": 0.3691917513836498,
+              "length_mean": 75.44444444444444
+            },
+            "reinforce": {
+              "n": 399,
+              "fraction_all_attempts": 0.3896484375,
+              "reward_mean": 0.5783599081578552,
+              "length_mean": 78.62406015037594
+            },
+            "reinforce_kl": {
+              "n": 262,
+              "fraction_all_attempts": 0.255859375,
+              "reward_mean": 0.5647825256604202,
+              "length_mean": 76.00381679389314
+            }
+          },
+          "common_support_min10": true
+        },
+        {
+          "low": 97,
+          "high": 128,
+          "methods": {
+            "frozen": {
+              "n": 6,
+              "fraction_all_attempts": 0.005859375,
+              "reward_mean": 0.19637585567212537,
+              "length_mean": 113.83333333333333
+            },
+            "reinforce": {
+              "n": 115,
+              "fraction_all_attempts": 0.1123046875,
+              "reward_mean": 0.5635071106994473,
+              "length_mean": 110.28695652173913
+            },
+            "reinforce_kl": {
+              "n": 41,
+              "fraction_all_attempts": 0.0400390625,
+              "reward_mean": 0.5346814154745761,
+              "length_mean": 109.63414634146342
+            }
+          },
+          "common_support_min10": false
+        },
+        {
+          "low": 129,
+          "high": 256,
+          "methods": {
+            "frozen": {
+              "n": 4,
+              "fraction_all_attempts": 0.00390625,
+              "reward_mean": 0.33190597542478684,
+              "length_mean": 163.25
+            },
+            "reinforce": {
+              "n": 83,
+              "fraction_all_attempts": 0.0810546875,
+              "reward_mean": 0.5396594316767817,
+              "length_mean": 168.13253012048193
+            },
+            "reinforce_kl": {
+              "n": 22,
+              "fraction_all_attempts": 0.021484375,
+              "reward_mean": 0.47187816139028954,
+              "length_mean": 165.45454545454547
+            }
+          },
+          "common_support_min10": false
+        }
+      ],
+      "frozen_bin_weighted_common_support_mean": {
+        "frozen": 0.23066209251298028,
+        "reinforce": 0.4624179030484754,
+        "reinforce_kl": 0.4196859954588574
+      },
+      "common_support_all_attempt_coverage": {
+        "frozen": 0.98828125,
+        "reinforce": 0.7919921875,
+        "reinforce_kl": 0.9345703125
+      },
+      "raw_all_attempt_mean": {
+        "frozen": 0.23040616861217575,
+        "reinforce": 0.5422416078191774,
+        "reinforce_kl": 0.5066554090556358
+      }
+    },
+    {
+      "task": "fexofenadine",
+      "seed": 2028,
+      "bins": [
+        {
+          "low": 1,
+          "high": 32,
+          "methods": {
+            "frozen": {
+              "n": 373,
+              "fraction_all_attempts": 0.3642578125,
+              "reward_mean": 0.12481175676281511,
+              "length_mean": 26.72117962466488
+            },
+            "reinforce": {
+              "n": 16,
+              "fraction_all_attempts": 0.015625,
+              "reward_mean": 0.31037657637428406,
+              "length_mean": 27.125
+            },
+            "reinforce_kl": {
+              "n": 67,
+              "fraction_all_attempts": 0.0654296875,
+              "reward_mean": 0.2798096252161699,
+              "length_mean": 26.746268656716417
+            }
+          },
+          "common_support_min10": true
+        },
+        {
+          "low": 33,
+          "high": 64,
+          "methods": {
+            "frozen": {
+              "n": 553,
+              "fraction_all_attempts": 0.5400390625,
+              "reward_mean": 0.2846842581998309,
+              "length_mean": 44.68535262206148
+            },
+            "reinforce": {
+              "n": 271,
+              "fraction_all_attempts": 0.2646484375,
+              "reward_mean": 0.5381023962261943,
+              "length_mean": 52.84132841328413
+            },
+            "reinforce_kl": {
+              "n": 619,
+              "fraction_all_attempts": 0.6044921875,
+              "reward_mean": 0.5147321201190054,
+              "length_mean": 49.374798061389335
+            }
+          },
+          "common_support_min10": true
+        },
+        {
+          "low": 65,
+          "high": 96,
+          "methods": {
+            "frozen": {
+              "n": 78,
+              "fraction_all_attempts": 0.076171875,
+              "reward_mean": 0.3836055967296211,
+              "length_mean": 76.48717948717949
+            },
+            "reinforce": {
+              "n": 448,
+              "fraction_all_attempts": 0.4375,
+              "reward_mean": 0.5784903438768949,
+              "length_mean": 79.02901785714286
+            },
+            "reinforce_kl": {
+              "n": 281,
+              "fraction_all_attempts": 0.2744140625,
+              "reward_mean": 0.5657180222055808,
+              "length_mean": 76.11743772241992
+            }
+          },
+          "common_support_min10": true
+        },
+        {
+          "low": 97,
+          "high": 128,
+          "methods": {
+            "frozen": {
+              "n": 13,
+              "fraction_all_attempts": 0.0126953125,
+              "reward_mean": 0.312274368689388,
+              "length_mean": 110.15384615384616
+            },
+            "reinforce": {
+              "n": 170,
+              "fraction_all_attempts": 0.166015625,
+              "reward_mean": 0.5561212939156279,
+              "length_mean": 110.58823529411765
+            },
+            "reinforce_kl": {
+              "n": 40,
+              "fraction_all_attempts": 0.0390625,
+              "reward_mean": 0.5298786723132611,
+              "length_mean": 106.875
+            }
+          },
+          "common_support_min10": true
+        },
+        {
+          "low": 129,
+          "high": 256,
+          "methods": {
+            "frozen": {
+              "n": 4,
+              "fraction_all_attempts": 0.00390625,
+              "reward_mean": 0.14741539529200479,
+              "length_mean": 163
+            },
+            "reinforce": {
+              "n": 113,
+              "fraction_all_attempts": 0.1103515625,
+              "reward_mean": 0.5305189257756466,
+              "length_mean": 163.31858407079645
+            },
+            "reinforce_kl": {
+              "n": 14,
+              "fraction_all_attempts": 0.013671875,
+              "reward_mean": 0.5466990158034359,
+              "length_mean": 161
+            }
+          },
+          "common_support_min10": false
+        }
+      ],
+      "frozen_bin_weighted_common_support_mean": {
+        "frozen": 0.23398818426244739,
+        "reinforce": 0.4579084677915382,
+        "reinforce_kl": 0.4326748093446892
+      },
+      "common_support_all_attempt_coverage": {
+        "frozen": 0.9931640625,
+        "reinforce": 0.8837890625,
+        "reinforce_kl": 0.9833984375
+      },
+      "raw_all_attempt_mean": {
+        "frozen": 0.23296449704695024,
+        "reinforce": 0.5512155344086337,
+        "reinforce_kl": 0.5128731685514595
+      }
+    },
+    {
+      "task": "osimertinib",
+      "seed": 2026,
+      "bins": [
+        {
+          "low": 1,
+          "high": 32,
+          "methods": {
+            "frozen": {
+              "n": 362,
+              "fraction_all_attempts": 0.353515625,
+              "reward_mean": 0.10364703366518806,
+              "length_mean": 26.450276243093924
+            },
+            "reinforce": {
+              "n": 64,
+              "fraction_all_attempts": 0.0625,
+              "reward_mean": 0.4568104484555702,
+              "length_mean": 27.296875
+            },
+            "reinforce_kl": {
+              "n": 211,
+              "fraction_all_attempts": 0.2060546875,
+              "reward_mean": 0.47819768098466153,
+              "length_mean": 27.075829383886255
+            }
+          },
+          "common_support_min10": true
+        },
+        {
+          "low": 33,
+          "high": 64,
+          "methods": {
+            "frozen": {
+              "n": 586,
+              "fraction_all_attempts": 0.572265625,
+              "reward_mean": 0.22469671778372166,
+              "length_mean": 44.725255972696246
+            },
+            "reinforce": {
+              "n": 569,
+              "fraction_all_attempts": 0.5556640625,
+              "reward_mean": 0.6396932064552673,
+              "length_mean": 49.76274165202109
+            },
+            "reinforce_kl": {
+              "n": 676,
+              "fraction_all_attempts": 0.66015625,
+              "reward_mean": 0.6230369330540381,
+              "length_mean": 46.25295857988166
+            }
+          },
+          "common_support_min10": true
+        },
+        {
+          "low": 65,
+          "high": 96,
+          "methods": {
+            "frozen": {
+              "n": 63,
+              "fraction_all_attempts": 0.0615234375,
+              "reward_mean": 0.20541311120089117,
+              "length_mean": 76.17460317460318
+            },
+            "reinforce": {
+              "n": 321,
+              "fraction_all_attempts": 0.3134765625,
+              "reward_mean": 0.6362850099102696,
+              "length_mean": 76.25856697819314
+            },
+            "reinforce_kl": {
+              "n": 114,
+              "fraction_all_attempts": 0.111328125,
+              "reward_mean": 0.6409718853529088,
+              "length_mean": 74.70175438596492
+            }
+          },
+          "common_support_min10": true
+        },
+        {
+          "low": 97,
+          "high": 128,
+          "methods": {
+            "frozen": {
+              "n": 5,
+              "fraction_all_attempts": 0.0048828125,
+              "reward_mean": 0.0975400650142361,
+              "length_mean": 105.2
+            },
+            "reinforce": {
+              "n": 45,
+              "fraction_all_attempts": 0.0439453125,
+              "reward_mean": 0.6270545186897801,
+              "length_mean": 107.8
+            },
+            "reinforce_kl": {
+              "n": 17,
+              "fraction_all_attempts": 0.0166015625,
+              "reward_mean": 0.633412061056303,
+              "length_mean": 105.94117647058823
+            }
+          },
+          "common_support_min10": false
+        },
+        {
+          "low": 129,
+          "high": 256,
+          "methods": {
+            "frozen": {
+              "n": 6,
+              "fraction_all_attempts": 0.005859375,
+              "reward_mean": 0.16042540429024527,
+              "length_mean": 162.33333333333334
+            },
+            "reinforce": {
+              "n": 21,
+              "fraction_all_attempts": 0.0205078125,
+              "reward_mean": 0.5636240650323533,
+              "length_mean": 175.95238095238096
+            },
+            "reinforce_kl": {
+              "n": 6,
+              "fraction_all_attempts": 0.005859375,
+              "reward_mean": 0.611062751907449,
+              "length_mean": 183.5
+            }
+          },
+          "common_support_min10": false
+        }
+      ],
+      "frozen_bin_weighted_common_support_mean": {
+        "frozen": 0.1801518583716272,
+        "reinforce": 0.5739975835292286,
+        "reinforce_kl": 0.5722932067886717
+      },
+      "common_support_all_attempt_coverage": {
+        "frozen": 0.9873046875,
+        "reinforce": 0.931640625,
+        "reinforce_kl": 0.9775390625
+      },
+      "raw_all_attempt_mean": {
+        "frozen": 0.17928103668410916,
+        "reinforce": 0.6225804199825388,
+        "reinforce_kl": 0.5952908729608659
+      }
+    },
+    {
+      "task": "osimertinib",
+      "seed": 2027,
+      "bins": [
+        {
+          "low": 1,
+          "high": 32,
+          "methods": {
+            "frozen": {
+              "n": 369,
+              "fraction_all_attempts": 0.3603515625,
+              "reward_mean": 0.13450587457836166,
+              "length_mean": 26.51761517615176
+            },
+            "reinforce": {
+              "n": 73,
+              "fraction_all_attempts": 0.0712890625,
+              "reward_mean": 0.45330217524315264,
+              "length_mean": 26.52054794520548
+            },
+            "reinforce_kl": {
+              "n": 147,
+              "fraction_all_attempts": 0.1435546875,
+              "reward_mean": 0.44702372719511835,
+              "length_mean": 27.482993197278912
+            }
+          },
+          "common_support_min10": true
+        },
+        {
+          "low": 33,
+          "high": 64,
+          "methods": {
+            "frozen": {
+              "n": 571,
+              "fraction_all_attempts": 0.5576171875,
+              "reward_mean": 0.21166138779283494,
+              "length_mean": 44.190893169877405
+            },
+            "reinforce": {
+              "n": 470,
+              "fraction_all_attempts": 0.458984375,
+              "reward_mean": 0.6287709428297504,
+              "length_mean": 51.11914893617021
+            },
+            "reinforce_kl": {
+              "n": 703,
+              "fraction_all_attempts": 0.6865234375,
+              "reward_mean": 0.6191538285457274,
+              "length_mean": 46.68421052631579
+            }
+          },
+          "common_support_min10": true
+        },
+        {
+          "low": 65,
+          "high": 96,
+          "methods": {
+            "frozen": {
+              "n": 72,
+              "fraction_all_attempts": 0.0703125,
+              "reward_mean": 0.19791380649833853,
+              "length_mean": 75.44444444444444
+            },
+            "reinforce": {
+              "n": 345,
+              "fraction_all_attempts": 0.3369140625,
+              "reward_mean": 0.6167095828187037,
+              "length_mean": 78.92463768115942
+            },
+            "reinforce_kl": {
+              "n": 136,
+              "fraction_all_attempts": 0.1328125,
+              "reward_mean": 0.6145852230824084,
+              "length_mean": 76.32352941176471
+            }
+          },
+          "common_support_min10": true
+        },
+        {
+          "low": 97,
+          "high": 128,
+          "methods": {
+            "frozen": {
+              "n": 6,
+              "fraction_all_attempts": 0.005859375,
+              "reward_mean": 0.1280654221857284,
+              "length_mean": 113.83333333333333
+            },
+            "reinforce": {
+              "n": 91,
+              "fraction_all_attempts": 0.0888671875,
+              "reward_mean": 0.5925704293630565,
+              "length_mean": 110.02197802197803
+            },
+            "reinforce_kl": {
+              "n": 25,
+              "fraction_all_attempts": 0.0244140625,
+              "reward_mean": 0.6541239320577943,
+              "length_mean": 106.6
+            }
+          },
+          "common_support_min10": false
+        },
+        {
+          "low": 129,
+          "high": 256,
+          "methods": {
+            "frozen": {
+              "n": 4,
+              "fraction_all_attempts": 0.00390625,
+              "reward_mean": 0.3187994183623028,
+              "length_mean": 163.25
+            },
+            "reinforce": {
+              "n": 44,
+              "fraction_all_attempts": 0.04296875,
+              "reward_mean": 0.5816666346338236,
+              "length_mean": 158.75
+            },
+            "reinforce_kl": {
+              "n": 11,
+              "fraction_all_attempts": 0.0107421875,
+              "reward_mean": 0.5654196191138521,
+              "length_mean": 161.9090909090909
+            }
+          },
+          "common_support_min10": false
+        }
+      ],
+      "frozen_bin_weighted_common_support_mean": {
+        "frozen": 0.18255050811956974,
+        "reinforce": 0.5639326096674481,
+        "reinforce_kl": 0.5560659362614057
+      },
+      "common_support_all_attempt_coverage": {
+        "frozen": 0.98828125,
+        "reinforce": 0.8671875,
+        "reinforce_kl": 0.962890625
+      },
+      "raw_all_attempt_mean": {
+        "frozen": 0.1824069379136408,
+        "reinforce": 0.6063432119053829,
+        "reinforce_kl": 0.5929042322424155
+      }
+    },
+    {
+      "task": "osimertinib",
+      "seed": 2028,
+      "bins": [
+        {
+          "low": 1,
+          "high": 32,
+          "methods": {
+            "frozen": {
+              "n": 373,
+              "fraction_all_attempts": 0.3642578125,
+              "reward_mean": 0.1315914996107298,
+              "length_mean": 26.72117962466488
+            },
+            "reinforce": {
+              "n": 79,
+              "fraction_all_attempts": 0.0771484375,
+              "reward_mean": 0.4452993292834339,
+              "length_mean": 27.670886075949365
+            },
+            "reinforce_kl": {
+              "n": 170,
+              "fraction_all_attempts": 0.166015625,
+              "reward_mean": 0.44700808656389035,
+              "length_mean": 27.21764705882353
+            }
+          },
+          "common_support_min10": true
+        },
+        {
+          "low": 33,
+          "high": 64,
+          "methods": {
+            "frozen": {
+              "n": 553,
+              "fraction_all_attempts": 0.5400390625,
+              "reward_mean": 0.22192542521352598,
+              "length_mean": 44.68535262206148
+            },
+            "reinforce": {
+              "n": 554,
+              "fraction_all_attempts": 0.541015625,
+              "reward_mean": 0.6087682287339948,
+              "length_mean": 49.498194945848375
+            },
+            "reinforce_kl": {
+              "n": 677,
+              "fraction_all_attempts": 0.6611328125,
+              "reward_mean": 0.6187569199544916,
+              "length_mean": 46.809453471196456
+            }
+          },
+          "common_support_min10": true
+        },
+        {
+          "low": 65,
+          "high": 96,
+          "methods": {
+            "frozen": {
+              "n": 78,
+              "fraction_all_attempts": 0.076171875,
+              "reward_mean": 0.23062596198862384,
+              "length_mean": 76.48717948717949
+            },
+            "reinforce": {
+              "n": 272,
+              "fraction_all_attempts": 0.265625,
+              "reward_mean": 0.6089046490894059,
+              "length_mean": 78.23897058823529
+            },
+            "reinforce_kl": {
+              "n": 143,
+              "fraction_all_attempts": 0.1396484375,
+              "reward_mean": 0.6296418915878657,
+              "length_mean": 75.3076923076923
+            }
+          },
+          "common_support_min10": true
+        },
+        {
+          "low": 97,
+          "high": 128,
+          "methods": {
+            "frozen": {
+              "n": 13,
+              "fraction_all_attempts": 0.0126953125,
+              "reward_mean": 0.25435110665076854,
+              "length_mean": 110.15384615384616
+            },
+            "reinforce": {
+              "n": 73,
+              "fraction_all_attempts": 0.0712890625,
+              "reward_mean": 0.5851414451223738,
+              "length_mean": 109.73972602739725
+            },
+            "reinforce_kl": {
+              "n": 25,
+              "fraction_all_attempts": 0.0244140625,
+              "reward_mean": 0.5470639329232377,
+              "length_mean": 106.76
+            }
+          },
+          "common_support_min10": true
+        },
+        {
+          "low": 129,
+          "high": 256,
+          "methods": {
+            "frozen": {
+              "n": 4,
+              "fraction_all_attempts": 0.00390625,
+              "reward_mean": 0.03911984495056305,
+              "length_mean": 163
+            },
+            "reinforce": {
+              "n": 42,
+              "fraction_all_attempts": 0.041015625,
+              "reward_mean": 0.5701317786637359,
+              "length_mean": 159.8095238095238
+            },
+            "reinforce_kl": {
+              "n": 8,
+              "fraction_all_attempts": 0.0078125,
+              "reward_mean": 0.5983552242469903,
+              "length_mean": 156.875
+            }
+          },
+          "common_support_min10": false
+        }
+      ],
+      "frozen_bin_weighted_common_support_mean": {
+        "frozen": 0.18987588880969003,
+        "reinforce": 0.5485220075990016,
+        "reinforce_kl": 0.5556838659734715
+      },
+      "common_support_all_attempt_coverage": {
+        "frozen": 0.9931640625,
+        "reinforce": 0.955078125,
+        "reinforce_kl": 0.9912109375
+      },
+      "raw_all_attempt_mean": {
+        "frozen": 0.18873072099536814,
+        "reinforce": 0.5905460649239775,
+        "reinforce_kl": 0.5892500391984119
+      }
+    }
+  ]
+}

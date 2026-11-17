@@ -1,0 +1,869 @@
+{
+  "status": "PROVISIONAL",
+  "matched_seed_count": 6,
+  "claim_records": [
+    {
+      "id": "T1",
+      "type": "mathematical_identity_and_exact_check",
+      "claim": "固定确定性解码下，轨迹KL分解为输出KL与条件编码KL。",
+      "evidence": "evidence/theory.json",
+      "boundary": "标准KL链式法则的项目应用；不声称新通用定理或已估计全分子KL。"
+    },
+    {
+      "id": "T2",
+      "type": "mathematical_counterexample",
+      "claim": "优化期望奖励不一般保证best-of-B、top-k或独特候选发现改善。",
+      "evidence": "evidence/objective_mismatch.json",
+      "boundary": "例子证明不存在一般蕴含；不直接证明真实训练的具体机制。"
+    },
+    {
+      "id": "E1",
+      "type": "empirical_observation_pending_full_matrix",
+      "claim": "比较终态均值提升与搜索AUC提升是否同幅度。",
+      "evidence": "evidence/claim_ledger.json#matched_seed_observations",
+      "boundary": "全部匹配种子逐项列出；不以单种子或样本级伪重复声称显著。"
+    },
+    {
+      "id": "E2",
+      "type": "exploratory_empirical_diagnostic",
+      "claim": "检查奖励分量改善与MW、TPSA和生成长度漂移是否共同出现。",
+      "evidence": "evidence/cases/cases.json",
+      "boundary": "性质诊断是观察，不把分量均值变化当成总奖励的精确因果分解。"
+    },
+    {
+      "id": "E3",
+      "type": "exploratory_empirical_diagnostic",
+      "claim": "比较KL对策略偏离和输出性质漂移的影响，同时单独报告各多样性指标。",
+      "evidence": "evidence/cases/cases.json",
+      "boundary": "训练末期KL来自相继策略的最后若干batch，不是终态分子分布KL；不能据此保证所有多样性指标改善。"
+    },
+    {
+      "id": "E4",
+      "type": "exploratory_conditional_summary",
+      "claim": "在共同支持的粗长度分箱内，检查不同方法的奖励差异。",
+      "evidence": "evidence/length_analysis.html",
+      "boundary": "长度是策略影响的结果，分箱不是因果调整；保留覆盖率与残余差异说明。"
+    },
+    {
+      "id": "H1",
+      "type": "hypothesis_not_established",
+      "claim": "模型可能更多利用了奖励中容易满足且无上限的性质，而未同等改善目标相似度。",
+      "evidence": "evidence/cases/index.html",
+      "boundary": "需要跨种子、跨任务及聚焦干预；现有分析不足以称为reward hacking或证明因果。"
+    }
+  ],
+  "matched_seed_observations": [
+    {
+      "task": "fexofenadine",
+      "seed": 2026,
+      "methods": {
+        "frozen": {
+          "search_auc": 0.6777648354873727,
+          "terminal_mean_reward": 0.2287716591477234,
+          "median_MW": 325.3815,
+          "median_TPSA": 63.545,
+          "median_tokens": 37.0,
+          "fingerprint_diversity_all_unique_pairs": 0.898903945284044,
+          "unique_scaffolds": 826,
+          "validity": 0.998046875,
+          "repetition_among_valid": 0.0,
+          "late_search_drift": {
+            "batches": 20,
+            "attempts": 605,
+            "actions": 24475,
+            "sample_trajectory_logratio_mean": 1.477012913462452e-06,
+            "full_vocabulary_prefix_kl_token_weighted_mean": 0.0,
+            "interpretation": "Last up-to-20 search batches, weighted by actual batch size/actions. Mixture of successive policies BEFORE their updates; not final-policy molecular KL."
+          },
+          "normalized_components": {
+            "AP similarity / 0.8 (clipped)": {
+              "mean": 0.16178311111749435,
+              "p10": 0.08079847908745247,
+              "median": 0.15526254181034593,
+              "p90": 0.2581227436823104
+            },
+            "TPSA >= 90 modifier": {
+              "mean": 0.3475158717546753,
+              "p10": 3.5945465041611903e-09,
+              "median": 0.03021930289308357,
+              "p90": 1.0
+            },
+            "logP <= 4 modifier": {
+              "mean": 0.8842318570421077,
+              "p10": 0.3821189983044255,
+              "median": 1.0,
+              "p90": 1.0
+            }
+          },
+          "source_result_sha256": "57a4ec2312c1a09e0a6afcd40c2200eaa0a2b384292f7583c0ae91d7f1485edb"
+        },
+        "reinforce": {
+          "search_auc": 0.6794728291335048,
+          "terminal_mean_reward": 0.560989785915275,
+          "median_MW": 623.7350000000001,
+          "median_TPSA": 177.42,
+          "median_tokens": 74,
+          "fingerprint_diversity_all_unique_pairs": 0.8877007114384184,
+          "unique_scaffolds": 965,
+          "validity": 0.9990234375,
+          "repetition_among_valid": 0.0,
+          "late_search_drift": {
+            "batches": 20,
+            "attempts": 614,
+            "actions": 49712,
+            "sample_trajectory_logratio_mean": 37.77428464858462,
+            "full_vocabulary_prefix_kl_token_weighted_mean": 0.4707754141023718,
+            "interpretation": "Last up-to-20 search batches, weighted by actual batch size/actions. Mixture of successive policies BEFORE their updates; not final-policy molecular KL."
+          },
+          "normalized_components": {
+            "AP similarity / 0.8 (clipped)": {
+              "mean": 0.2039209937085779,
+              "p10": 0.13604353393085786,
+              "median": 0.20537124802527645,
+              "p90": 0.2699704142011834
+            },
+            "TPSA >= 90 modifier": {
+              "mean": 0.9685310013708573,
+              "p10": 1.0,
+              "median": 1.0,
+              "p90": 1.0
+            },
+            "logP <= 4 modifier": {
+              "mean": 0.9656910504585287,
+              "p10": 1.0,
+              "median": 1.0,
+              "p90": 1.0
+            }
+          },
+          "source_result_sha256": "0090083ed434734aaafebf27098e456db1443cc325224e058e4b0301cb2f80c5"
+        },
+        "reinforce_kl": {
+          "search_auc": 0.6796093049496714,
+          "terminal_mean_reward": 0.511418927676268,
+          "median_MW": 460.6305000000003,
+          "median_TPSA": 125.59,
+          "median_tokens": 54.0,
+          "fingerprint_diversity_all_unique_pairs": 0.8872314325295921,
+          "unique_scaffolds": 959,
+          "validity": 0.998046875,
+          "repetition_among_valid": 0.0,
+          "late_search_drift": {
+            "batches": 20,
+            "attempts": 637,
+            "actions": 35633,
+            "sample_trajectory_logratio_mean": 6.000077527583675,
+            "full_vocabulary_prefix_kl_token_weighted_mean": 0.11075154397302836,
+            "interpretation": "Last up-to-20 search batches, weighted by actual batch size/actions. Mixture of successive policies BEFORE their updates; not final-policy molecular KL."
+          },
+          "normalized_components": {
+            "AP similarity / 0.8 (clipped)": {
+              "mean": 0.18867631656336856,
+              "p10": 0.10998307952622674,
+              "median": 0.18699269658647344,
+              "p90": 0.2711907164480323
+            },
+            "TPSA >= 90 modifier": {
+              "mean": 0.8748257786770915,
+              "p10": 0.2597379606074984,
+              "median": 1.0,
+              "p90": 1.0
+            },
+            "logP <= 4 modifier": {
+              "mean": 0.9707900946722886,
+              "p10": 1.0,
+              "median": 1.0,
+              "p90": 1.0
+            }
+          },
+          "source_result_sha256": "39691589db6515444b719117db2c1c8dbe0df5a92ae39782004828a460ec3453"
+        }
+      }
+    },
+    {
+      "task": "fexofenadine",
+      "seed": 2027,
+      "methods": {
+        "frozen": {
+          "search_auc": 0.6741473739496925,
+          "terminal_mean_reward": 0.23040616861217575,
+          "median_MW": 333.39900000000006,
+          "median_TPSA": 65.64,
+          "median_tokens": 37.0,
+          "fingerprint_diversity_all_unique_pairs": 0.8987197142995095,
+          "unique_scaffolds": 826,
+          "validity": 0.998046875,
+          "repetition_among_valid": 0.0,
+          "late_search_drift": {
+            "batches": 20,
+            "attempts": 605,
+            "actions": 25188,
+            "sample_trajectory_logratio_mean": -3.4474144537725356e-06,
+            "full_vocabulary_prefix_kl_token_weighted_mean": 0.0,
+            "interpretation": "Last up-to-20 search batches, weighted by actual batch size/actions. Mixture of successive policies BEFORE their updates; not final-policy molecular KL."
+          },
+          "normalized_components": {
+            "AP similarity / 0.8 (clipped)": {
+              "mean": 0.1613958886403426,
+              "p10": 0.07325141776937617,
+              "median": 0.1571348404681738,
+              "p90": 0.25705645161290325
+            },
+            "TPSA >= 90 modifier": {
+              "mean": 0.3559934549418372,
+              "p10": 1.154448503683102e-08,
+              "median": 0.05146310576555424,
+              "p90": 1.0
+            },
+            "logP <= 4 modifier": {
+              "mean": 0.8861593656327659,
+              "p10": 0.40343359391329936,
+              "median": 1.0,
+              "p90": 1.0
+            }
+          },
+          "source_result_sha256": "2a1f417ea174db4fe8131d98c5f8d1098f4d65c2a5c631bfed070f9b86a6a88e"
+        },
+        "reinforce": {
+          "search_auc": 0.6830182752955972,
+          "terminal_mean_reward": 0.5422416078191774,
+          "median_MW": 567.6940000000001,
+          "median_TPSA": 170.33999999999997,
+          "median_tokens": 70,
+          "fingerprint_diversity_all_unique_pairs": 0.8908169655262439,
+          "unique_scaffolds": 855,
+          "validity": 0.9853515625,
+          "repetition_among_valid": 0.0,
+          "late_search_drift": {
+            "batches": 20,
+            "attempts": 640,
+            "actions": 48145,
+            "sample_trajectory_logratio_mean": 50.52025146484375,
+            "full_vocabulary_prefix_kl_token_weighted_mean": 0.6774359151833971,
+            "interpretation": "Last up-to-20 search batches, weighted by actual batch size/actions. Mixture of successive policies BEFORE their updates; not final-policy molecular KL."
+          },
+          "normalized_components": {
+            "AP similarity / 0.8 (clipped)": {
+              "mean": 0.19186660214297538,
+              "p10": 0.11939010356731876,
+              "median": 0.19292091836734693,
+              "p90": 0.2607458912768647
+            },
+            "TPSA >= 90 modifier": {
+              "mean": 0.9562380344664104,
+              "p10": 1.0,
+              "median": 1.0,
+              "p90": 1.0
+            },
+            "logP <= 4 modifier": {
+              "mean": 0.9814609237851559,
+              "p10": 1.0,
+              "median": 1.0,
+              "p90": 1.0
+            }
+          },
+          "source_result_sha256": "18df9a102342666fea77235092576c8fbaac6ae3f2aa7b9c1a93660ef6653692"
+        },
+        "reinforce_kl": {
+          "search_auc": 0.69518850716076,
+          "terminal_mean_reward": 0.5066554090556357,
+          "median_MW": 472.0850000000002,
+          "median_TPSA": 125.34,
+          "median_tokens": 55.0,
+          "fingerprint_diversity_all_unique_pairs": 0.8853964880135136,
+          "unique_scaffolds": 959,
+          "validity": 0.99609375,
+          "repetition_among_valid": 0.0,
+          "late_search_drift": {
+            "batches": 20,
+            "attempts": 639,
+            "actions": 37502,
+            "sample_trajectory_logratio_mean": 7.067050418197082,
+            "full_vocabulary_prefix_kl_token_weighted_mean": 0.12369277049715274,
+            "interpretation": "Last up-to-20 search batches, weighted by actual batch size/actions. Mixture of successive policies BEFORE their updates; not final-policy molecular KL."
+          },
+          "normalized_components": {
+            "AP similarity / 0.8 (clipped)": {
+              "mean": 0.19319997400625485,
+              "p10": 0.11241007194244604,
+              "median": 0.1908221072226569,
+              "p90": 0.2724358974358974
+            },
+            "TPSA >= 90 modifier": {
+              "mean": 0.8744443040438673,
+              "p10": 0.2838570535800073,
+              "median": 1.0,
+              "p90": 1.0
+            },
+            "logP <= 4 modifier": {
+              "mean": 0.9472544719173929,
+              "p10": 0.9265094263115043,
+              "median": 1.0,
+              "p90": 1.0
+            }
+          },
+          "source_result_sha256": "b36ecbe8e21ff5bcb4a97af0510c01694b4107e3c0484b4c7f87129512a70498"
+        }
+      }
+    },
+    {
+      "task": "fexofenadine",
+      "seed": 2028,
+      "methods": {
+        "frozen": {
+          "search_auc": 0.672388904852435,
+          "terminal_mean_reward": 0.23296449704695021,
+          "median_MW": 333.1569999999999,
+          "median_TPSA": 66.42999999999999,
+          "median_tokens": 38,
+          "fingerprint_diversity_all_unique_pairs": 0.8990845687652274,
+          "unique_scaffolds": 831,
+          "validity": 0.9970703125,
+          "repetition_among_valid": 0.0,
+          "late_search_drift": {
+            "batches": 20,
+            "attempts": 633,
+            "actions": 25981,
+            "sample_trajectory_logratio_mean": 2.058008080685733e-06,
+            "full_vocabulary_prefix_kl_token_weighted_mean": 0.0,
+            "interpretation": "Last up-to-20 search batches, weighted by actual batch size/actions. Mixture of successive policies BEFORE their updates; not final-policy molecular KL."
+          },
+          "normalized_components": {
+            "AP similarity / 0.8 (clipped)": {
+              "mean": 0.16319286493332025,
+              "p10": 0.0761070110701107,
+              "median": 0.1564475347661188,
+              "p90": 0.2618838028169014
+            },
+            "TPSA >= 90 modifier": {
+              "mean": 0.35004622082157055,
+              "p10": 1.4868692634648497e-08,
+              "median": 0.06217983673739234,
+              "p90": 1.0
+            },
+            "logP <= 4 modifier": {
+              "mean": 0.8739250364663534,
+              "p10": 0.3128441533692201,
+              "median": 1.0,
+              "p90": 1.0
+            }
+          },
+          "source_result_sha256": "b9b547601f231ecbd47a9943a334bb2d8a69e4fb21df1e9ead85ec3082409c79"
+        },
+        "reinforce": {
+          "search_auc": 0.6723511461099803,
+          "terminal_mean_reward": 0.5512155344086337,
+          "median_MW": 630.817,
+          "median_TPSA": 182.09,
+          "median_tokens": 78.0,
+          "fingerprint_diversity_all_unique_pairs": 0.8889754082924423,
+          "unique_scaffolds": 906,
+          "validity": 0.994140625,
+          "repetition_among_valid": 0.0,
+          "late_search_drift": {
+            "batches": 20,
+            "attempts": 618,
+            "actions": 51972,
+            "sample_trajectory_logratio_mean": 39.45240304693821,
+            "full_vocabulary_prefix_kl_token_weighted_mean": 0.46800108998497814,
+            "interpretation": "Last up-to-20 search batches, weighted by actual batch size/actions. Mixture of successive policies BEFORE their updates; not final-policy molecular KL."
+          },
+          "normalized_components": {
+            "AP similarity / 0.8 (clipped)": {
+              "mean": 0.20338927999668674,
+              "p10": 0.13541666666666666,
+              "median": 0.2061897191931313,
+              "p90": 0.27270210409745294
+            },
+            "TPSA >= 90 modifier": {
+              "mean": 0.9569571657158283,
+              "p10": 1.0,
+              "median": 1.0,
+              "p90": 1.0
+            },
+            "logP <= 4 modifier": {
+              "mean": 0.965859544931414,
+              "p10": 1.0,
+              "median": 1.0,
+              "p90": 1.0
+            }
+          },
+          "source_result_sha256": "1c9c1e60035cc0e741a40fa3d8fabfd9b62960a423d3d76de00a11b879faee28"
+        },
+        "reinforce_kl": {
+          "search_auc": 0.6853487199836582,
+          "terminal_mean_reward": 0.5128731685514594,
+          "median_MW": 468.9580000000003,
+          "median_TPSA": 123.94000000000001,
+          "median_tokens": 55,
+          "fingerprint_diversity_all_unique_pairs": 0.8858092556401667,
+          "unique_scaffolds": 949,
+          "validity": 0.9970703125,
+          "repetition_among_valid": 0.0,
+          "late_search_drift": {
+            "batches": 20,
+            "attempts": 639,
+            "actions": 37902,
+            "sample_trajectory_logratio_mean": 7.601021051779973,
+            "full_vocabulary_prefix_kl_token_weighted_mean": 0.12748223281290078,
+            "interpretation": "Last up-to-20 search batches, weighted by actual batch size/actions. Mixture of successive policies BEFORE their updates; not final-policy molecular KL."
+          },
+          "normalized_components": {
+            "AP similarity / 0.8 (clipped)": {
+              "mean": 0.18949686049137093,
+              "p10": 0.11086956521739129,
+              "median": 0.1876675603217158,
+              "p90": 0.2706185567010309
+            },
+            "TPSA >= 90 modifier": {
+              "mean": 0.8878495013318075,
+              "p10": 0.3685110799860591,
+              "median": 1.0,
+              "p90": 1.0
+            },
+            "logP <= 4 modifier": {
+              "mean": 0.9549815763462685,
+              "p10": 0.9975179603667628,
+              "median": 1.0,
+              "p90": 1.0
+            }
+          },
+          "source_result_sha256": "90ee89ac055bb0cc556038506c3ff5f70e297a4fec689894892318902fc645fc"
+        }
+      }
+    },
+    {
+      "task": "osimertinib",
+      "seed": 2026,
+      "methods": {
+        "frozen": {
+          "search_auc": 0.7399672902367406,
+          "terminal_mean_reward": 0.17928103668410916,
+          "median_MW": 325.3815,
+          "median_TPSA": 63.545,
+          "median_tokens": 37.0,
+          "fingerprint_diversity_all_unique_pairs": 0.898903945284044,
+          "unique_scaffolds": 826,
+          "validity": 0.998046875,
+          "repetition_among_valid": 0.0,
+          "late_search_drift": {
+            "batches": 20,
+            "attempts": 605,
+            "actions": 24475,
+            "sample_trajectory_logratio_mean": 1.477012913462452e-06,
+            "full_vocabulary_prefix_kl_token_weighted_mean": 0.0,
+            "interpretation": "Last up-to-20 search batches, weighted by actual batch size/actions. Mixture of successive policies BEFORE their updates; not final-policy molecular KL."
+          },
+          "normalized_components": {
+            "FCFP4 similarity / 0.8 (clipped)": {
+              "mean": 0.24919124063581427,
+              "p10": 0.12755102040816327,
+              "median": 0.25,
+              "p90": 0.3620689655172414
+            },
+            "ECFP6 <= 0.85 modifier": {
+              "mean": 1.0,
+              "p10": 1.0,
+              "median": 1.0,
+              "p90": 1.0
+            },
+            "TPSA >= 100 modifier": {
+              "mean": 0.25356960513847615,
+              "p10": 4.268118577310408e-12,
+              "median": 0.0013008847122163978,
+              "p90": 1.0
+            },
+            "logP <= 1 modifier": {
+              "mean": 0.4333335113044951,
+              "p10": 6.616736416659803e-05,
+              "median": 0.28359434720741405,
+              "p90": 1.0
+            }
+          },
+          "source_result_sha256": "6f341f29c1f410dd34d6d0884d200edea6c046122de39bcbbd0ae0016d797303"
+        },
+        "reinforce": {
+          "search_auc": 0.7605929276177694,
+          "terminal_mean_reward": 0.6225804199825387,
+          "median_MW": 489.5775000000002,
+          "median_TPSA": 177.17000000000002,
+          "median_tokens": 58.5,
+          "fingerprint_diversity_all_unique_pairs": 0.8889319402900474,
+          "unique_scaffolds": 877,
+          "validity": 0.99609375,
+          "repetition_among_valid": 0.0,
+          "late_search_drift": {
+            "batches": 20,
+            "attempts": 639,
+            "actions": 37246,
+            "sample_trajectory_logratio_mean": 18.529726526920037,
+            "full_vocabulary_prefix_kl_token_weighted_mean": 0.31590047096124957,
+            "interpretation": "Last up-to-20 search batches, weighted by actual batch size/actions. Mixture of successive policies BEFORE their updates; not final-policy molecular KL."
+          },
+          "normalized_components": {
+            "FCFP4 similarity / 0.8 (clipped)": {
+              "mean": 0.20567391425130513,
+              "p10": 0.12032085561497326,
+              "median": 0.19967845989480604,
+              "p90": 0.3014705882352941
+            },
+            "ECFP6 <= 0.85 modifier": {
+              "mean": 1.0,
+              "p10": 1.0,
+              "median": 1.0,
+              "p90": 1.0
+            },
+            "TPSA >= 100 modifier": {
+              "mean": 0.9429205769460847,
+              "p10": 1.0,
+              "median": 1.0,
+              "p90": 1.0
+            },
+            "logP <= 1 modifier": {
+              "mean": 0.9399267313424021,
+              "p10": 0.8829378198973673,
+              "median": 1.0,
+              "p90": 1.0
+            }
+          },
+          "source_result_sha256": "ee59a6ef84336284a6d375bca0bc7b02cfcbe102d756c85453814013490dfcc0"
+        },
+        "reinforce_kl": {
+          "search_auc": 0.758542066745416,
+          "terminal_mean_reward": 0.5952908729608659,
+          "median_MW": 382.43100000000015,
+          "median_TPSA": 134.365,
+          "median_tokens": 44.0,
+          "fingerprint_diversity_all_unique_pairs": 0.8873065562762864,
+          "unique_scaffolds": 783,
+          "validity": 1.0,
+          "repetition_among_valid": 0.0,
+          "late_search_drift": {
+            "batches": 20,
+            "attempts": 639,
+            "actions": 30853,
+            "sample_trajectory_logratio_mean": 9.130366993995153,
+            "full_vocabulary_prefix_kl_token_weighted_mean": 0.18792087178964328,
+            "interpretation": "Last up-to-20 search batches, weighted by actual batch size/actions. Mixture of successive policies BEFORE their updates; not final-policy molecular KL."
+          },
+          "normalized_components": {
+            "FCFP4 similarity / 0.8 (clipped)": {
+              "mean": 0.2248062667704787,
+              "p10": 0.1324503311258278,
+              "median": 0.21756661991584852,
+              "p90": 0.3269230769230769
+            },
+            "ECFP6 <= 0.85 modifier": {
+              "mean": 1.0,
+              "p10": 1.0,
+              "median": 1.0,
+              "p90": 1.0
+            },
+            "TPSA >= 100 modifier": {
+              "mean": 0.8486522183170002,
+              "p10": 0.13132074673344013,
+              "median": 1.0,
+              "p90": 1.0
+            },
+            "logP <= 1 modifier": {
+              "mean": 0.9025130669559289,
+              "p10": 0.5469936034796555,
+              "median": 1.0,
+              "p90": 1.0
+            }
+          },
+          "source_result_sha256": "79f41bbf9669e02cd019951463463c0fc05ebcb0384718b427e8e8a5b3c26dea"
+        }
+      }
+    },
+    {
+      "task": "osimertinib",
+      "seed": 2027,
+      "methods": {
+        "frozen": {
+          "search_auc": 0.7530460907420797,
+          "terminal_mean_reward": 0.18240693791364077,
+          "median_MW": 333.39900000000006,
+          "median_TPSA": 65.64,
+          "median_tokens": 37.0,
+          "fingerprint_diversity_all_unique_pairs": 0.8987197142995095,
+          "unique_scaffolds": 826,
+          "validity": 0.998046875,
+          "repetition_among_valid": 0.0,
+          "late_search_drift": {
+            "batches": 20,
+            "attempts": 605,
+            "actions": 25188,
+            "sample_trajectory_logratio_mean": -3.4474144537725356e-06,
+            "full_vocabulary_prefix_kl_token_weighted_mean": 0.0,
+            "interpretation": "Last up-to-20 search batches, weighted by actual batch size/actions. Mixture of successive policies BEFORE their updates; not final-policy molecular KL."
+          },
+          "normalized_components": {
+            "FCFP4 similarity / 0.8 (clipped)": {
+              "mean": 0.24870518193594413,
+              "p10": 0.13333333333333333,
+              "median": 0.2462812430878124,
+              "p90": 0.3645833333333333
+            },
+            "ECFP6 <= 0.85 modifier": {
+              "mean": 1.0,
+              "p10": 1.0,
+              "median": 1.0,
+              "p90": 1.0
+            },
+            "TPSA >= 100 modifier": {
+              "mean": 0.25788297660224063,
+              "p10": 1.657612017397357e-11,
+              "median": 0.0027320521401132357,
+              "p90": 1.0
+            },
+            "logP <= 1 modifier": {
+              "mean": 0.43175204967054864,
+              "p10": 7.869402080111318e-05,
+              "median": 0.2548882490620677,
+              "p90": 1.0
+            }
+          },
+          "source_result_sha256": "63b5d7e474c340bfab524df5de88c6673faa7de439e4ca4ec362061234415c73"
+        },
+        "reinforce": {
+          "search_auc": 0.7603449202821857,
+          "terminal_mean_reward": 0.6063432119053828,
+          "median_MW": 500.4230000000001,
+          "median_TPSA": 186.26,
+          "median_tokens": 62,
+          "fingerprint_diversity_all_unique_pairs": 0.8948981865256257,
+          "unique_scaffolds": 782,
+          "validity": 0.9990234375,
+          "repetition_among_valid": 0.0,
+          "late_search_drift": {
+            "batches": 20,
+            "attempts": 640,
+            "actions": 42648,
+            "sample_trajectory_logratio_mean": 38.5211422920227,
+            "full_vocabulary_prefix_kl_token_weighted_mean": 0.5803378630220566,
+            "interpretation": "Last up-to-20 search batches, weighted by actual batch size/actions. Mixture of successive policies BEFORE their updates; not final-policy molecular KL."
+          },
+          "normalized_components": {
+            "FCFP4 similarity / 0.8 (clipped)": {
+              "mean": 0.1886786448800055,
+              "p10": 0.11322463768115941,
+              "median": 0.17703862660944206,
+              "p90": 0.2828467153284671
+            },
+            "ECFP6 <= 0.85 modifier": {
+              "mean": 1.0,
+              "p10": 1.0,
+              "median": 1.0,
+              "p90": 1.0
+            },
+            "TPSA >= 100 modifier": {
+              "mean": 0.9429146489402975,
+              "p10": 1.0,
+              "median": 1.0,
+              "p90": 1.0
+            },
+            "logP <= 1 modifier": {
+              "mean": 0.9335251906873535,
+              "p10": 0.8415419795701733,
+              "median": 1.0,
+              "p90": 1.0
+            }
+          },
+          "source_result_sha256": "fba990f2a48df806ba3e2a250e3ce7787a151b3c0daeb43898a14a609ff94287"
+        },
+        "reinforce_kl": {
+          "search_auc": 0.767613497210201,
+          "terminal_mean_reward": 0.5929042322424155,
+          "median_MW": 402.1555000000002,
+          "median_TPSA": 133.675,
+          "median_tokens": 47.0,
+          "fingerprint_diversity_all_unique_pairs": 0.8915045220466988,
+          "unique_scaffolds": 866,
+          "validity": 0.998046875,
+          "repetition_among_valid": 0.0,
+          "late_search_drift": {
+            "batches": 20,
+            "attempts": 636,
+            "actions": 32629,
+            "sample_trajectory_logratio_mean": 9.402217394151029,
+            "full_vocabulary_prefix_kl_token_weighted_mean": 0.18559347243902566,
+            "interpretation": "Last up-to-20 search batches, weighted by actual batch size/actions. Mixture of successive policies BEFORE their updates; not final-policy molecular KL."
+          },
+          "normalized_components": {
+            "FCFP4 similarity / 0.8 (clipped)": {
+              "mean": 0.2341435572927788,
+              "p10": 0.13364779874213836,
+              "median": 0.23214285714285715,
+              "p90": 0.33279220779220775
+            },
+            "ECFP6 <= 0.85 modifier": {
+              "mean": 1.0,
+              "p10": 1.0,
+              "median": 1.0,
+              "p90": 1.0
+            },
+            "TPSA >= 100 modifier": {
+              "mean": 0.8603747896072816,
+              "p10": 0.17016920728171253,
+              "median": 1.0,
+              "p90": 1.0
+            },
+            "logP <= 1 modifier": {
+              "mean": 0.8732547948147655,
+              "p10": 0.32387382112948826,
+              "median": 1.0,
+              "p90": 1.0
+            }
+          },
+          "source_result_sha256": "13bf8ff2d8f9ed5ae3436500dfccaa3ea211d0cb55f4459d641b40cbfb385c4f"
+        }
+      }
+    },
+    {
+      "task": "osimertinib",
+      "seed": 2028,
+      "methods": {
+        "frozen": {
+          "search_auc": 0.7530293531674687,
+          "terminal_mean_reward": 0.18873072099536814,
+          "median_MW": 333.1569999999999,
+          "median_TPSA": 66.42999999999999,
+          "median_tokens": 38,
+          "fingerprint_diversity_all_unique_pairs": 0.8990845687652274,
+          "unique_scaffolds": 831,
+          "validity": 0.9970703125,
+          "repetition_among_valid": 0.0,
+          "late_search_drift": {
+            "batches": 20,
+            "attempts": 633,
+            "actions": 25981,
+            "sample_trajectory_logratio_mean": 2.058008080685733e-06,
+            "full_vocabulary_prefix_kl_token_weighted_mean": 0.0,
+            "interpretation": "Last up-to-20 search batches, weighted by actual batch size/actions. Mixture of successive policies BEFORE their updates; not final-policy molecular KL."
+          },
+          "normalized_components": {
+            "FCFP4 similarity / 0.8 (clipped)": {
+              "mean": 0.2533407269532256,
+              "p10": 0.13596491228070176,
+              "median": 0.2554744525547445,
+              "p90": 0.360576923076923
+            },
+            "ECFP6 <= 0.85 modifier": {
+              "mean": 1.0,
+              "p10": 1.0,
+              "median": 1.0,
+              "p90": 1.0
+            },
+            "TPSA >= 100 modifier": {
+              "mean": 0.2506865050300959,
+              "p10": 2.2264937149442252e-11,
+              "median": 0.003571661090316087,
+              "p90": 1.0
+            },
+            "logP <= 1 modifier": {
+              "mean": 0.43840463112991995,
+              "p10": 3.587212146547031e-05,
+              "median": 0.2787941885012701,
+              "p90": 1.0
+            }
+          },
+          "source_result_sha256": "c2111627908f66270caf6ac648fafadbd8a5b6946aca0fe56c0c3e54130cfdee"
+        },
+        "reinforce": {
+          "search_auc": 0.7472188333501479,
+          "terminal_mean_reward": 0.5905460649239775,
+          "median_MW": 464.89800000000025,
+          "median_TPSA": 173.6,
+          "median_tokens": 58.0,
+          "fingerprint_diversity_all_unique_pairs": 0.895670952457371,
+          "unique_scaffolds": 705,
+          "validity": 0.99609375,
+          "repetition_among_valid": 0.0,
+          "late_search_drift": {
+            "batches": 20,
+            "attempts": 611,
+            "actions": 40885,
+            "sample_trajectory_logratio_mean": 52.89669298462314,
+            "full_vocabulary_prefix_kl_token_weighted_mean": 0.7880775011138315,
+            "interpretation": "Last up-to-20 search batches, weighted by actual batch size/actions. Mixture of successive policies BEFORE their updates; not final-policy molecular KL."
+          },
+          "normalized_components": {
+            "FCFP4 similarity / 0.8 (clipped)": {
+              "mean": 0.17600201400108814,
+              "p10": 0.11306532663316583,
+              "median": 0.15851639688879543,
+              "p90": 0.2663934426229508
+            },
+            "ECFP6 <= 0.85 modifier": {
+              "mean": 1.0,
+              "p10": 1.0,
+              "median": 1.0,
+              "p90": 1.0
+            },
+            "TPSA >= 100 modifier": {
+              "mean": 0.9221112292765491,
+              "p10": 0.927130914080088,
+              "median": 1.0,
+              "p90": 1.0
+            },
+            "logP <= 1 modifier": {
+              "mean": 0.9426088224749186,
+              "p10": 0.8963133510425849,
+              "median": 1.0,
+              "p90": 1.0
+            }
+          },
+          "source_result_sha256": "8959cdd88cd764c440e92109a8e6169c141d289812803e552e18f5560e5e0731"
+        },
+        "reinforce_kl": {
+          "search_auc": 0.7568694743968959,
+          "terminal_mean_reward": 0.5892500391984119,
+          "median_MW": 397.37100000000004,
+          "median_TPSA": 132.52,
+          "median_tokens": 46,
+          "fingerprint_diversity_all_unique_pairs": 0.8907658177843071,
+          "unique_scaffolds": 778,
+          "validity": 0.9990234375,
+          "repetition_among_valid": 0.0,
+          "late_search_drift": {
+            "batches": 20,
+            "attempts": 609,
+            "actions": 31287,
+            "sample_trajectory_logratio_mean": 7.815540031846521,
+            "full_vocabulary_prefix_kl_token_weighted_mean": 0.1538160933245881,
+            "interpretation": "Last up-to-20 search batches, weighted by actual batch size/actions. Mixture of successive policies BEFORE their updates; not final-policy molecular KL."
+          },
+          "normalized_components": {
+            "FCFP4 similarity / 0.8 (clipped)": {
+              "mean": 0.2253649271029822,
+              "p10": 0.12773722627737225,
+              "median": 0.21915584415584416,
+              "p90": 0.32967032967032966
+            },
+            "ECFP6 <= 0.85 modifier": {
+              "mean": 1.0,
+              "p10": 1.0,
+              "median": 1.0,
+              "p90": 1.0
+            },
+            "TPSA >= 100 modifier": {
+              "mean": 0.8542826414126181,
+              "p10": 0.19861202109969295,
+              "median": 1.0,
+              "p90": 1.0
+            },
+            "logP <= 1 modifier": {
+              "mean": 0.8841362741609033,
+              "p10": 0.3780482220266602,
+              "median": 1.0,
+              "p90": 1.0
+            }
+          },
+          "source_result_sha256": "1fa079c3a80fef303811083f72d7e92674454e5f188b8f9576d8939b55c9bca5"
+        }
+      }
+    }
+  ],
+  "historical_hypothesis": "最初提出重复塌缩的可能性；必须报告实际重复率，若未出现则保留这个负结果，不把性质漂移偷换成已证明的重复塌缩。",
+  "case_protocol_sha256": "0318db9069da14b6f2473a20ca468806fd4f6b5113a13948712d3f304a2c5d22"
+}

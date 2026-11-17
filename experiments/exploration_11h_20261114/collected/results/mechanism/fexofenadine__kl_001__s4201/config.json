@@ -1,0 +1,79 @@
+{
+  "task": "fexofenadine",
+  "method": "kl_001",
+  "seed": 4201,
+  "limits": {
+    "name": "mechanism",
+    "purpose": "Prospective follow-up interventions informed by original case analysis. Distinguish KL from explicit per-action cost; explore task reward incompleteness. Original MPO always reported separately.",
+    "tasks": [
+      "fexofenadine"
+    ],
+    "seeds": [
+      4201,
+      4202,
+      4203,
+      4204,
+      4205
+    ],
+    "unique_budget": 3000,
+    "max_attempts": 15000,
+    "max_updates": 470,
+    "evaluation_attempts": 512,
+    "run_wall_seconds": 1200,
+    "conditions": [
+      {
+        "id": "frozen",
+        "beta": 0,
+        "length_cost": 0,
+        "transform": "raw"
+      },
+      {
+        "id": "rf",
+        "beta": 0,
+        "length_cost": 0,
+        "transform": "raw"
+      },
+      {
+        "id": "kl_001",
+        "beta": 0.01,
+        "length_cost": 0,
+        "transform": "raw"
+      },
+      {
+        "id": "length_0001",
+        "beta": 0,
+        "length_cost": 0.001,
+        "transform": "raw"
+      },
+      {
+        "id": "length_0003",
+        "beta": 0,
+        "length_cost": 0.003,
+        "transform": "raw"
+      },
+      {
+        "id": "upper_tpsa150",
+        "beta": 0,
+        "length_cost": 0,
+        "transform": "upper_tpsa",
+        "upper_tpsa": 150,
+        "tpsa_sigma": 30
+      }
+    ]
+  },
+  "settings": {
+    "batch_size": 32,
+    "horizon": 256,
+    "lr": 1e-05,
+    "beta": 0.01,
+    "gradient_norm_clip": 1,
+    "temperature": 1,
+    "dtype": "float32",
+    "id": "kl_001",
+    "length_cost": 0,
+    "transform": "raw",
+    "beta_override": 0.01,
+    "phase_name": "mechanism"
+  },
+  "beta": 0.01
+}

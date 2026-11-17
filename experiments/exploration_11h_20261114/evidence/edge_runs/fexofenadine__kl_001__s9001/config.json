@@ -1,0 +1,27 @@
+{
+  "task": "fexofenadine",
+  "method": "kl_001",
+  "seed": 9001,
+  "limits": {
+    "unique_budget": 5,
+    "max_attempts": 5,
+    "max_updates": 1,
+    "evaluation_attempts": 4,
+    "run_wall_seconds": 120
+  },
+  "settings": {
+    "batch_size": 32,
+    "horizon": 256,
+    "lr": 1e-05,
+    "beta": 0.01,
+    "gradient_norm_clip": 1,
+    "temperature": 1,
+    "dtype": "float32",
+    "id": "kl_001",
+    "length_cost": 0,
+    "transform": "raw",
+    "beta_override": 0.01,
+    "phase_name": "edge"
+  },
+  "beta": 0.01
+}

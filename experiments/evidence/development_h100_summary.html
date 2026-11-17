@@ -1,0 +1,8 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>ME2502 实验进展</title><style>body{font:16px/1.8 system-ui;max-width:1100px;margin:40px auto;padding:20px;color:#243045}td,th{padding:10px;border-bottom:1px solid #ddd;text-align:left}table{border-collapse:collapse;width:100%}code{white-space:pre-wrap}aside{background:#edf3fa;padding:18px}</style>
+<h1>ChemGPT 强化学习 · 实验进展</h1><p>Development / exploratory · 已完成 6 次运行</p>
+<aside>问题：固定评分预算下，RL 改善候选发现还是终态生成分布？这两种结果必须分开；KL 的收益不预设。下表是已完成运行的描述性均值，不能作为显著性结论。</aside>
+<table><tr><th>任务</th><th>方法</th><th>种子数</th><th>发现 AUC</th><th>终点 top10</th><th>独立采样均值</th><th>有效率</th></tr><tr><td>perindopril</td><td>frozen</td><td>2</td><td>0.3734</td><td>0.4065</td><td>0.1387</td><td>100.00%</td></tr><tr><td>perindopril</td><td>reinforce</td><td>2</td><td>0.3628</td><td>0.4019</td><td>0.1449</td><td>100.00%</td></tr><tr><td>perindopril</td><td>reinforce_kl</td><td>2</td><td>0.3656</td><td>0.4080</td><td>0.1574</td><td>100.00%</td></tr></table>
+<h2>理论与实现</h2><p>在固定解码映射 f 与共同支持下，轨迹 KL = 分子输出 KL + 按分子概率加权的条件编码 KL。它说明轨迹约束比输出约束更强，不证明真实训练的分子 KL 已被估计。</p>
+<p>精确枚举四条轨迹：策略梯度误差 2.78e-17，LOO 误差 4.16e-17，KL 分解误差 3.34e-17。均为小环境正确性证据，不是分子性能证据。</p>
+<h2>如何解释当前结果</h2><p>分别检查逐种子差异、全预算曲线、终态独立采样、有效率与结构覆盖。小幅均值改善不能替代种子稳定性；best-found 改善不能替代生成分布改善。所有记录仍需独立账本复算。</p>
+<p>协议、代码和证据位于本目录；原 proposal 与旧验证保留。远程日志汇总不替代原始账本验收；每次收取后的核验范围见 remote_ledger_check.json。正式结论须以 H100 固定输入版本运行及完整证据为准。</p></html>

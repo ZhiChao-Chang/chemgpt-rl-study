@@ -1,0 +1,174 @@
+{
+  "status": "PASS",
+  "verified_runs": 24,
+  "runs": [
+    {
+      "path": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/collected_remote/results/development/perindopril__frozen__s11",
+      "status": "PASS",
+      "attempts": 513,
+      "unique": 512,
+      "evaluation": 128
+    },
+    {
+      "path": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/collected_remote/results/development/perindopril__frozen__s17",
+      "status": "PASS",
+      "attempts": 512,
+      "unique": 512,
+      "evaluation": 128
+    },
+    {
+      "path": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/collected_remote/results/development/perindopril__reinforce__s11",
+      "status": "PASS",
+      "attempts": 513,
+      "unique": 512,
+      "evaluation": 128
+    },
+    {
+      "path": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/collected_remote/results/development/perindopril__reinforce__s17",
+      "status": "PASS",
+      "attempts": 514,
+      "unique": 512,
+      "evaluation": 128
+    },
+    {
+      "path": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/collected_remote/results/development/perindopril__reinforce_kl__s11",
+      "status": "PASS",
+      "attempts": 513,
+      "unique": 512,
+      "evaluation": 128
+    },
+    {
+      "path": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/collected_remote/results/development/perindopril__reinforce_kl__s17",
+      "status": "PASS",
+      "attempts": 512,
+      "unique": 512,
+      "evaluation": 128
+    },
+    {
+      "path": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/collected_remote/results/main/fexofenadine__frozen__s2026",
+      "status": "PASS",
+      "attempts": 3005,
+      "unique": 3000,
+      "evaluation": 1024
+    },
+    {
+      "path": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/collected_remote/results/main/fexofenadine__frozen__s2027",
+      "status": "PASS",
+      "attempts": 3005,
+      "unique": 3000,
+      "evaluation": 1024
+    },
+    {
+      "path": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/collected_remote/results/main/fexofenadine__frozen__s2028",
+      "status": "PASS",
+      "attempts": 3001,
+      "unique": 3000,
+      "evaluation": 1024
+    },
+    {
+      "path": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/collected_remote/results/main/fexofenadine__reinforce__s2026",
+      "status": "PASS",
+      "attempts": 3014,
+      "unique": 3000,
+      "evaluation": 1024
+    },
+    {
+      "path": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/collected_remote/results/main/fexofenadine__reinforce__s2027",
+      "status": "PASS",
+      "attempts": 3008,
+      "unique": 3000,
+      "evaluation": 1024
+    },
+    {
+      "path": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/collected_remote/results/main/fexofenadine__reinforce__s2028",
+      "status": "PASS",
+      "attempts": 3018,
+      "unique": 3000,
+      "evaluation": 1024
+    },
+    {
+      "path": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/collected_remote/results/main/fexofenadine__reinforce_kl__s2026",
+      "status": "PASS",
+      "attempts": 3005,
+      "unique": 3000,
+      "evaluation": 1024
+    },
+    {
+      "path": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/collected_remote/results/main/fexofenadine__reinforce_kl__s2027",
+      "status": "PASS",
+      "attempts": 3007,
+      "unique": 3000,
+      "evaluation": 1024
+    },
+    {
+      "path": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/collected_remote/results/main/fexofenadine__reinforce_kl__s2028",
+      "status": "PASS",
+      "attempts": 3007,
+      "unique": 3000,
+      "evaluation": 1024
+    },
+    {
+      "path": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/collected_remote/results/main/osimertinib__frozen__s2026",
+      "status": "PASS",
+      "attempts": 3005,
+      "unique": 3000,
+      "evaluation": 1024
+    },
+    {
+      "path": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/collected_remote/results/main/osimertinib__frozen__s2027",
+      "status": "PASS",
+      "attempts": 3005,
+      "unique": 3000,
+      "evaluation": 1024
+    },
+    {
+      "path": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/collected_remote/results/main/osimertinib__frozen__s2028",
+      "status": "PASS",
+      "attempts": 3001,
+      "unique": 3000,
+      "evaluation": 1024
+    },
+    {
+      "path": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/collected_remote/results/main/osimertinib__reinforce__s2026",
+      "status": "PASS",
+      "attempts": 3007,
+      "unique": 3000,
+      "evaluation": 1024
+    },
+    {
+      "path": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/collected_remote/results/main/osimertinib__reinforce__s2027",
+      "status": "PASS",
+      "attempts": 3008,
+      "unique": 3000,
+      "evaluation": 1024
+    },
+    {
+      "path": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/collected_remote/results/main/osimertinib__reinforce__s2028",
+      "status": "PASS",
+      "attempts": 3011,
+      "unique": 3000,
+      "evaluation": 1024
+    },
+    {
+      "path": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/collected_remote/results/main/osimertinib__reinforce_kl__s2026",
+      "status": "PASS",
+      "attempts": 3007,
+      "unique": 3000,
+      "evaluation": 1024
+    },
+    {
+      "path": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/collected_remote/results/main/osimertinib__reinforce_kl__s2027",
+      "status": "PASS",
+      "attempts": 3004,
+      "unique": 3000,
+      "evaluation": 1024
+    },
+    {
+      "path": "/home/zhangzhichao/projects/explore/tasks/rl_molecular_generation_course_20261104/experiments/collected_remote/results/main/osimertinib__reinforce_kl__s2028",
+      "status": "PASS",
+      "attempts": 3009,
+      "unique": 3000,
+      "evaluation": 1024
+    }
+  ]
+}

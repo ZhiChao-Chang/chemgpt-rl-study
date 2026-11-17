@@ -1,0 +1,30 @@
+{
+  "commit": "60ebe1f6a396f16e08b834dce448e9343d259feb",
+  "suite": "v2",
+  "files": [
+    {
+      "name": "benchmark_suites.py",
+      "url": "https://raw.githubusercontent.com/BenevolentAI/guacamol/60ebe1f6a396f16e08b834dce448e9343d259feb/guacamol/benchmark_suites.py",
+      "bytes": 6618,
+      "sha256": "5a837b25b468e0007093df88af231f608dc4d5dea8ce8df64a3d5dab259027a0"
+    },
+    {
+      "name": "standard_benchmarks.py",
+      "url": "https://raw.githubusercontent.com/BenevolentAI/guacamol/60ebe1f6a396f16e08b834dce448e9343d259feb/guacamol/standard_benchmarks.py",
+      "bytes": 21205,
+      "sha256": "02782338b20dedb5dd49b077dd9c6ce3322559eea5b7b050bcec4e5a98f3e085"
+    },
+    {
+      "name": "score_modifier.py",
+      "url": "https://raw.githubusercontent.com/BenevolentAI/guacamol/60ebe1f6a396f16e08b834dce448e9343d259feb/guacamol/score_modifier.py",
+      "bytes": 6418,
+      "sha256": "837876c6c7ddbe35b89796c86248244eefb2ec61baa387750d01daea583fad9b"
+    },
+    {
+      "name": "utils/fingerprints.py",
+      "url": "https://raw.githubusercontent.com/BenevolentAI/guacamol/60ebe1f6a396f16e08b834dce448e9343d259feb/guacamol/utils/fingerprints.py",
+      "bytes": 1628,
+      "sha256": "55fa1b43f6c29e008bb84cc1a8d55716a5d40b62c06d401242647a968e77bfeb"
+    }
+  ]
+}

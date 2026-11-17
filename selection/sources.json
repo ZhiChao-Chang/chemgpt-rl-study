@@ -1,0 +1,47 @@
+{
+  "as_of": "2026-11-04",
+  "primary_sources": [
+    {
+      "title": "PMO",
+      "url": "https://arxiv.org/abs/2206.12411",
+      "supports": "oracle-budget benchmark framing"
+    },
+    {
+      "title": "Diverse Hits",
+      "url": "https://doi.org/10.1021/acs.jcim.4c00519",
+      "supports": "quality-diversity benchmark; original 14 generators"
+    },
+    {
+      "title": "Diverse Hits official source",
+      "url": "https://github.com/ml-jku/diverse-hits",
+      "supports": "published predictor/data assets and independent evaluation"
+    },
+    {
+      "title": "Augmented Memory",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11200228/",
+      "supports": "experience replay, augmentation and selective memory purge already exist"
+    },
+    {
+      "title": "Saturn formal version",
+      "url": "https://doi.org/10.1038/s42256-026-01200-4",
+      "supports": "memory manipulation and architecture-related efficiency; not locally reproduced"
+    },
+    {
+      "title": "GuacaMol original task implementation",
+      "url": "https://github.com/BenevolentAI/guacamol/blob/60ebe1f6a396f16e08b834dce448e9343d259feb/guacamol/standard_benchmarks.py",
+      "supports": "Fexofenadine MPO exact three components"
+    },
+    {
+      "title": "PMO public prior and implementation",
+      "url": "https://github.com/wenhao-gao/mol_opt/tree/2da631be85af8d10a2bb43f2de76a03171166190/main/reinvent",
+      "supports": "public pretrained GRU and augmented-likelihood/replay precedent"
+    }
+  ],
+  "local_evidence": [
+    "results/summary.json",
+    "pilot_results/protocol.json",
+    "pilot_results/metrics.csv",
+    "pilot_results/independent_audit.json"
+  ],
+  "claim_separation": "upstream facts vs local CPU evidence vs proposed course experiments are explicitly separated"
+}

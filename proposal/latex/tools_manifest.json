@@ -1,0 +1,14 @@
+[
+  {
+    "url": "https://media.neurips.cc/Conferences/NeurIPS2026/Formatting_Instructions_For_NeurIPS_2026.zip",
+    "bytes": 20259,
+    "sha256": "82473931e3ef710fcd3f4a8cd4119b9de32e56825f90f9e5a6d55f2d01b817d9"
+  },
+  {
+    "url": "https://github.com/tectonic-typesetting/tectonic/releases/download/tectonic%400.17.0/tectonic-0.17.0-x86_64-unknown-linux-musl.tar.gz",
+    "version": "tectonic@0.17.0",
+    "bytes": 10151914,
+    "sha256": "8533d07f9ccbd7a65824b9e0459041bca34af1eb33daba48f59215593753a3b7",
+    "api_digest": "sha256:8533d07f9ccbd7a65824b9e0459041bca34af1eb33daba48f59215593753a3b7"
+  }
+]

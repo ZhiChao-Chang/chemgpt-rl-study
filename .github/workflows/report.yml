@@ -1,0 +1,40 @@
+name: Report build
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'experiments/visual_report/**'
+      - 'tools/**'
+      - '.github/workflows/report.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: report-build
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - name: Install locked presentation dependencies
+        run: npm ci
+        working-directory: experiments/visual_report
+      - name: Build the standalone report
+        run: python3 tools/build_site.py
+      - name: Verify research evidence and artifact
+        run: python3 tools/verify_repository.py
+      - name: Save portable static report
+        uses: actions/upload-artifact@v7
+        with:
+          name: chemgpt-rl-report
+          path: docs/
+          if-no-files-found: error
+          retention-days: 7
