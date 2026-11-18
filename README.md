@@ -135,7 +135,7 @@ python3 -m http.server 8000 --bind 127.0.0.1 --directory docs
 
 Open **http://127.0.0.1:8000/**, or download `docs/index.html` and open it directly. The HTML is approximately **35 MB** because all reviewed data and molecular comparisons are embedded.
 
-The planned Pages address is **https://zhichao-chang.github.io/chemgpt-rl-study/**. GitHub identity confirmation and the initial Pages configuration must complete before this address becomes live. Subsequent `main` pushes rebuild the numeric data from the research records, verify it, and deploy the static report automatically.
+The report is deployed from this research repository to **https://zhichao-chang.github.io/chemgpt-rl-study/**. Each `main` push rebuilds numeric data from the selected research records, verifies it, and deploys the static report through GitHub Actions. The site is independent of the author's computer.
 
 ## Reproduce the presentation
 

@@ -33,7 +33,7 @@ These are maintenance steps, not permission to launch new training or GPU jobs.
 
 ## Hosting from the research repository
 
-The user has authorized making this main research repository public and using GitHub Pages. GitHub currently requests the account owner's email confirmation to finish the visibility change. Once public, choose **Settings → Pages → Source → GitHub Actions** and run **Research pipeline and Pages** once. Subsequent `main` pushes rebuild and deploy automatically.
+The main research repository is public. **Settings → Pages → Source → GitHub Actions** is the deployment source. The **Research pipeline and Pages** workflow reconstructs data, builds, verifies and deploys on each `main` push; it can also be started manually.
 
 The workflow uses Node 24 and standard Python, installs the locked browser dependencies, reconstructs data from the source records, verifies the artifact and publishes **only `docs/`** to Pages. The project itself remains a normal code/data/analysis repository. The site URL is `https://zhichao-chang.github.io/chemgpt-rl-study/` after initial deployment succeeds.
 
