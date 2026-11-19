@@ -73,6 +73,9 @@ def main():
  # Preserve authored prose, stable app identity and independent molecular assets.
  for key,value in [('runs',runs),('summary',summary),('curves',curves),('cdf',cdf)]:snap['queries'][key]['rows']=value
  snap['report']['asOf']=manifest['evidence_cutoff'];snap['study']['sourceManifest']='data/study_manifest.json';snap['study']['sourceManifestSha256']=hashlib.sha256(manifest_path.read_bytes()).hexdigest()
+ theory=json.loads((ROOT/'experiments/evidence/theory.json').read_text())
+ assert theory['status']=='PASS'
+ snap['study']['gradientCheck']={key:theory[key] for key in ['trajectory_count','independent_batches','self_including_batch_mean_gradient_ratio','loo_error']}
  (APP/'src/data.json').write_text(json.dumps(snap,ensure_ascii=False))
  for file,rs in [('run_metrics.csv',runs),('summary_metrics.csv',summary)]:
   with (ROOT/'data'/file).open('w',newline='') as f:

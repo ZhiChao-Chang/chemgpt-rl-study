@@ -108,6 +108,8 @@ The six technical development runs are preserved separately and are **not** coun
 
 ## Explore the report
 
+For the course presentation, try the [sampling-budget example](https://zhichao-chang.github.io/chemgpt-rl-study/#search-example), then follow [one molecular trajectory through a policy update](https://zhichao-chang.github.io/chemgpt-rl-study/#policy-update). The results and intervention sections show the search-AUC difference for each matched seed.
+
 | Section | What it lets you inspect |
 | :--- | :--- |
 | **Research question** | Generation quality, query efficiency and reward-rule exploitation as distinct questions. |
