@@ -17,6 +17,7 @@
   <a href="PROJECT.md"><strong>Research project</strong></a> &nbsp;·&nbsp;
   <a href="experiments/src/study.py">Training code</a> &nbsp;·&nbsp;
   <a href="data/README.md">Experiment data</a> &nbsp;·&nbsp;
+  <a href="https://github.com/ZhiChao-Chang/chemgpt-rl-study/raw/refs/heads/main/final_report/ME2502_ChemGPT_Final_Report.pdf">Download final report (PDF)</a> &nbsp;·&nbsp;
   <a href="https://zhichao-chang.github.io/chemgpt-rl-study/">Interactive report ↗</a> &nbsp;·&nbsp;
   <a href="#main-findings">Main findings</a> &nbsp;·&nbsp;
   <a href="#study-workflow">Study workflow</a> &nbsp;·&nbsp;
